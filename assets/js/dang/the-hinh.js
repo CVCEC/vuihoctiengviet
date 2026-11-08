@@ -100,7 +100,7 @@
           if (i === want) {
             stopAll(); c.classList.add('good');
             if (ex.anChu) c.querySelector('.th-tu').textContent = the[i].tu;
-            feedback(fb, true, 'Đúng rồi! Đây là ' + the[i].tu + '.');
+            feedback(fb, true, the[i].khen || ex.khenChon || ('Đúng rồi! ' + (the[i].cau || the[i].tu)));
             dots.children[k].classList.add('done'); k++;
             await wait(900);
             if (k < order.length) ask(); else finish();
