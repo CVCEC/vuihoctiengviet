@@ -55,27 +55,40 @@
   /* ---------- âm thanh ---------- */
   const player = new Audio();
   player.preload = 'auto';
-  let token = 0, playingBtn = null;
-  function stopAll() { token++; player.pause(); if (playingBtn) playingBtn.classList.remove('playing'); playingBtn = null; document.querySelectorAll('.line.on').forEach(e => e.classList.remove('on')); }
+  let pending = null; // kết thúc lượt phát đang dở (để vòng lặp "Nghe cả bài" không bị treo)
+  let gen = 0;       // tăng mỗi lần dừng – các vòng phát liên tiếp tự thoát
+  function stopAll() {
+    gen++;
+    player.pause();
+    if (pending) { const p = pending; pending = null; p(false); }
+    document.querySelectorAll('.line.on').forEach(e => e.classList.remove('on'));
+    document.querySelectorAll('.playing').forEach(e => e.classList.remove('playing'));
+    document.querySelectorAll('.who.ring').forEach(e => e.classList.remove('ring'));
+  }
   function play(src, btn) {
     return new Promise(res => {
       if (!src) { res(false); return; }
-      const my = ++token;
+      if (pending) { const p = pending; pending = null; p(false); }
       player.pause();
-      if (playingBtn) playingBtn.classList.remove('playing');
-      playingBtn = btn || null; if (btn) btn.classList.add('playing');
-      const done = ok => { player.onended = player.onerror = null; if (btn) btn.classList.remove('playing'); if (playingBtn === btn) playingBtn = null; res(ok && my === token); };
+      if (btn) btn.classList.add('playing');
+      let settled = false;
+      const done = ok => {
+        if (settled) return; settled = true;
+        if (pending === done) pending = null;
+        player.onended = player.onerror = null;
+        if (btn) btn.classList.remove('playing');
+        res(ok);
+      };
+      pending = done;
       player.onended = () => done(true);
       player.onerror = () => { toast('Chưa có file âm thanh cho phần này'); done(false); };
       player.src = src;
-      const p = player.play();
-      if (p && p.catch) p.catch(() => done(false));
+      const pr = player.play();
+      if (pr && pr.catch) pr.catch(() => done(false));
     });
   }
   async function playSeq(items) { // [{am, el}]
-    const my = token + 1;
     for (const it of items) {
-      if (token + 1 !== my && token !== my) { /* đã bị dừng */ }
       if (it.el) it.el.classList.add('on');
       const ok = await play(it.am);
       if (it.el) it.el.classList.remove('on');
@@ -174,7 +187,9 @@
   /* ---------- khung bài tập ---------- */
   function card(ex, sec) {
     const star = h('span', { class: 'star' + (store.has(ex.id) ? ' got' : ''), html: I.star, title: 'Sao hoàn thành' });
-    const head = h('div', { class: 'card-h' }, h('span', { class: 'num' }, String(ex.so)), h('h3', null, ex.lenh), star);
+    const head = h('div', { class: 'card-h' }, h('span', { class: 'num' }, String(ex.so)), h('h3', null, ex.lenh));
+    if (ex.amLenh) { const lb = h('button', { class: 'lenh', type: 'button', 'aria-label': 'Nghe yêu cầu' }, icon('spk')); lb.onclick = () => { stopAll(); play(ex.amLenh, lb); }; head.append(lb); }
+    head.append(star);
     const body = h('div');
     const c = h('section', { class: 'card', id: ex.id, style: { '--c': `var(--${sec.mau})` } }, head, body);
     const ctx = {
@@ -190,7 +205,8 @@
   function modelBox(m, color) {
     const lines = h('div', { class: 'lines' }, h('span', { class: 'm' }, 'M'));
     const rows = m.cau.map(l => {
-      const b = h('button', { class: 'line', type: 'button' }, icon('spk'), (l.ai ? '' : '– ') + l.c);
+      if (!l.am) { const d = h('div', { class: 'line quiet' }, '– ' + l.c); lines.append(d); return { am: null, el: d }; }
+      const b = h('button', { class: 'line', type: 'button' }, icon('spk'), '– ' + l.c);
       b.addEventListener('click', () => { stopAll(); b.classList.add('on'); play(l.am).then(() => b.classList.remove('on')); });
       lines.append(b); return { am: l.am, el: b };
     });
@@ -216,20 +232,31 @@
 
     function learn() {
       pane.append(h('p', { class: 'hint' }, 'Chạm vào từng người để nghe. Nghe xong, em nhắc lại thật to.'));
-      const sc = scene(ex, 'hoc', (i, who, tag) => { stopAll(); flash(who, 'pulse'); flash(tag, 'pulse'); play(ex.diem[i].am); });
-      pane.append(sc.el);
+      const cap = h('div', { class: 'cap', 'aria-live': 'polite' });
+      const sc = scene(ex, 'hoc', (i, who, tag) => { stopAll(); flash(who, 'pulse'); flash(tag, 'pulse'); cap.textContent = ex.diem[i].cau || ''; play(ex.diem[i].am); });
+      pane.append(sc.el, cap);
       if (ex.mau) {
         const mb = modelBox(ex.mau);
         pane.append(mb.el);
         const row = h('div', { class: 'mrow' });
         const all = h('button', { class: 'btn wood', type: 'button' }, icon('play'), 'Nghe cả bài');
         all.onclick = async () => {
-          if (all.classList.contains('playing')) { stopAll(); return; }
-          stopAll(); all.classList.add('playing');
-          const seq = ex.diem.map((d, i) => ({ am: d.am, el: sc.items[i].who, tag: sc.items[i].tag }));
-          for (const s of seq) { flash(s.el, 'pulse', 1100); const ok = await play(s.am); if (!ok) { all.classList.remove('playing'); return; } await wait(200); }
-          await playSeq(mb.rows);
-          all.classList.remove('playing');
+          if (all.classList.contains('playing')) { stopAll(); all.lastChild.textContent = 'Nghe cả bài'; return; }
+          stopAll(); const my = gen; all.classList.add('playing'); all.lastChild.textContent = 'Dừng';
+          const seq = ex.caBai || ex.diem.map((d, i) => ({ am: d.am, d: i, c: d.cau }));
+          for (const it of seq) {
+            sc.items.forEach(x => x.who.classList.remove('ring'));
+            if (it.d != null) sc.items[it.d].who.classList.add('ring');
+            cap.textContent = it.c || '';
+            const ok = await play(it.am);
+            if (!ok || gen !== my) break;
+            await wait(it.d != null ? 900 : 250);
+            if (gen !== my) break;
+          }
+          if (gen === my || !all.classList.contains('playing')) {
+            if (gen === my) sc.items.forEach(x => x.who.classList.remove('ring'));
+            all.classList.remove('playing'); all.lastChild.textContent = 'Nghe cả bài';
+          }
         };
         row.append(all);
         pane.append(row);
@@ -529,7 +556,7 @@
     const openPages = lightbox();
     app.append(h('div', { class: 'hero' },
       h('span', { class: 'lbl' }, 'Quyển ' + D.quyen + ' · Bài ' + D.bai),
-      h('h1', null, D.ten),
+      (() => { const t = h('h1', null, D.ten); if (D.amTen) { const b = h('button', { class: 'lenh', type: 'button', 'aria-label': 'Nghe tên bài' }, icon('spk')); b.onclick = () => { stopAll(); play(D.amTen, b); }; t.append(' ', b); } return t; })(),
       h('p', null, D.chuDe ? 'Chủ đề: ' + D.chuDe + (D.chu ? ' · Chữ: ' + D.chu : '') : '')));
     const tabbar = h('div', { class: 'tabs', role: 'tablist' });
     app.append(tabbar);

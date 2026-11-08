@@ -97,6 +97,10 @@ a{color:var(--wood-d)}
 .card-h .star.got{color:var(--straw);animation:pop .5s ease}
 @keyframes pop{0%{transform:scale(.4)}60%{transform:scale(1.25)}100%{transform:scale(1)}}
 .hint{color:var(--ink-2);font-size:16px;margin:0 0 12px}
+.lenh{flex:none;border:0;background:#F1EBE2;color:var(--wood-d);width:40px;height:40px;border-radius:50%;display:inline-grid;place-items:center;cursor:pointer;vertical-align:middle}
+.lenh.playing{background:var(--straw);color:#fff}
+.hero h1 .lenh{width:44px;height:44px}
+.cap{min-height:44px;margin-top:10px;font-size:clamp(22px,4.6vw,30px);font-weight:700;text-align:center;color:var(--ink)}
 
 /* segmented control inside a card */
 .seg{display:inline-flex;background:#F1EBE2;border-radius:999px;padding:4px;margin-bottom:14px;gap:4px;flex-wrap:wrap}
@@ -120,13 +124,15 @@ a{color:var(--wood-d)}
 @keyframes shake{20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
 
 /* ---------- Model box (M) ---------- */
-.model{display:flex;gap:14px;align-items:flex-end;margin-top:14px;flex-wrap:wrap}
+.model{display:flex;gap:14px;align-items:flex-end;margin-top:14px}
 .model .who-img{width:min(130px,30%);flex:none}
-.model .lines{flex:1;min-width:220px;border:3px dotted var(--c);border-radius:16px;padding:12px 14px 12px 46px;position:relative;background:#fff}
+.model .lines{flex:1;min-width:0;border:3px dotted var(--c);border-radius:16px;padding:12px 14px 12px 46px;position:relative;background:#fff}
 .model .lines .m{position:absolute;left:10px;top:10px;width:28px;height:28px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-weight:700;font-size:15px}
 .line{display:flex;align-items:center;gap:8px;width:100%;text-align:left;border:0;background:transparent;padding:6px 8px;border-radius:10px;
   font-size:20px;cursor:pointer;min-height:44px}
 .line:hover{background:#F7F2EA}
+.line.quiet{cursor:default;padding-left:36px}.line.quiet:hover{background:transparent}
+@media (max-width:520px){.model{gap:8px}.model .who-img{width:76px}.model .lines{padding:10px 8px 10px 40px}.line{font-size:18px;padding:5px 4px}}
 .line.on{background:#FFF1D6}
 .line .ico{color:var(--wood);width:20px;height:20px}
 .mrow{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
