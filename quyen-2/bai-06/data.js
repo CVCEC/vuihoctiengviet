@@ -175,7 +175,7 @@ const BAI_HOC = {
         },
         {
           id: 'tvv2', so: 2, loai: 'chon-cau', lenh: 'Trò chơi: Chọn tranh đúng', tronCau: true,
-          goiY: 'Từng cặp đố nhau: một bạn nói tên thời tiết (mưa, nắng, gió, sương mù, tuyết, ẩm, khô), bạn kia giơ tranh đúng. Ở đây, em nghe và chọn tranh đúng.',
+          goiY: 'Chuẩn bị một số tranh ảnh thể hiện thời tiết: mưa, nắng, gió, sương mù, tuyết, ẩm, khô. Từng cặp học sinh đố nhau. Ở đây, em nghe bạn nói và chọn tranh đúng.',
           cau: [
             doTranh('mưa', ['tuyết', 'nắng']), doTranh('nắng', ['mưa', 'sương mù']), doTranh('gió', ['khô', 'tuyết']),
             doTranh('sương mù', ['gió', 'ẩm']), doTranh('tuyết', ['sương mù', 'mưa']), doTranh('ẩm', ['khô', 'nắng']),

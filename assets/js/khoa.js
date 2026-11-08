@@ -8,7 +8,11 @@ const KHOA = (function () {
 
   function dsBai(q) { const book = MUC_LUC.find(x => x.quyen === q); return book ? book.chuong.flatMap(c => c.bai) : []; }
   function timBai(q, b) { return dsBai(q).find(x => x.so === b) || null; }
-  function truoc(q, b) { const ds = dsBai(q); const i = ds.findIndex(x => x.so === b); return i > 0 ? ds[i - 1] : null; }
+  function truoc(q, b) { // bài trước gần nhất đã có bản tương tác
+    const ds = dsBai(q); const i = ds.findIndex(x => x.so === b);
+    for (let j = i - 1; j >= 0; j--) if (ds[j].san) return ds[j];
+    return null;
+  }
   function sau(q, b) { const ds = dsBai(q); const i = ds.findIndex(x => x.so === b); return i >= 0 && i < ds.length - 1 ? ds[i + 1] : null; }
 
   function sao(q, b) {
@@ -20,6 +24,7 @@ const KHOA = (function () {
   function mo(q, b) {
     const ds = dsBai(q);
     if (!ds.length || ds[0].so === b) return true;
+    if (!truoc(q, b)) return true;
     if (moTay(q, b)) return true;
     const p = truoc(q, b);
     return p ? xong(q, p.so) : true;

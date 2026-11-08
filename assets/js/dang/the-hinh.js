@@ -52,8 +52,10 @@
       pane.append(h('p', { class: 'hint' }, ex.goiY || 'Chạm vào từng hình để nghe. Nghe xong, em nhắc lại thật to.'));
       const cap = h('div', { class: 'th-cap', 'aria-live': 'polite' });
       const { g, cards } = grid(false);
+      const daXem = new Set();
       cards.forEach((c, i) => {
         c.onclick = () => {
+          daXem.add(i); if (coAm.length < 2 && daXem.size === cards.length) ctx.win();
           stopAll(); cards.forEach(x => x.classList.remove('on'));
           c.classList.add('on'); cap.textContent = the[i].cau || the[i].tu;
           play(the[i].am).then(() => c.classList.remove('on'));

@@ -39,11 +39,11 @@ const MUC_LUC = [
         { so: 4, ten: 'Con rửa rau giúp mẹ được không?', chu: 'm, n, ư, ưa' },
         { so: 5, ten: 'Ôn tập và học chữ', chu: 'e, ê, l, y, b', on: true } ] },
       { ten: 'Thiên nhiên', bai: [
-        { so: 6, ten: 'Hôm nay thời tiết thế nào?', chu: 'h, ch, nh, k, kh' },
-        { so: 7, ten: 'Bạn thích đi du lịch chứ?', chu: 'g, gh, gi, ng, ngh' },
-        { so: 8, ten: 'Anh đã đi vịnh Hạ Long chưa?', chu: 'p, ph, t, qu, th' },
-        { so: 9, ten: 'Hè này bạn sẽ đi đâu?', chu: 'r, tr, v, s, x' },
-        { so: 10, ten: 'Ôn tập và học chữ', chu: 'am – ap', on: true } ] },
+        { so: 6, ten: 'Hôm nay thời tiết thế nào?', chu: 'h, ch, nh, k, kh', san: true },
+        { so: 7, ten: 'Bạn thích đi du lịch chứ?', chu: 'g, gh, gi, ng, ngh', san: true },
+        { so: 8, ten: 'Anh đã đi vịnh Hạ Long chưa?', chu: 'p, ph, t, qu, th', san: true },
+        { so: 9, ten: 'Hè này bạn sẽ đi đâu?', chu: 'r, tr, v, s, x', san: true },
+        { so: 10, ten: 'Ôn tập và học chữ', chu: 'am – ap', on: true, san: true } ] },
       { ten: 'Trường lớp', bai: [
         { so: 11, ten: 'Bây giờ là mấy giờ?', chu: 'an – at' },
         { so: 12, ten: 'Các em vào lớp nhé!', chu: 'ang – ac' },

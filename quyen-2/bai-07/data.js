@@ -174,7 +174,7 @@ const BAI_HOC = {
         },
         {
           id: 'tvv2', so: 2, loai: 'chon-cau', lenh: 'Trò chơi: Ai nhanh tay?', tronCau: true,
-          goiY: 'Từng cặp đố nhau với các mảnh bìa có hình: tắm biển, leo núi, đi rừng, cắm trại, bảo tàng, triển lãm, công viên, nhà hát. Bạn nói “Tớ thích đi…”, em tìm thật nhanh hình phù hợp. Bạn đưa hình, em nói đúng từ.',
+          goiY: 'Chuẩn bị các mảnh bìa có hình: 1) tắm biển, 2) leo núi, 3) đi rừng, 4) cắm trại, 5) bảo tàng, 6) triển lãm, 7) công viên, 8) nhà hát. Từng cặp học sinh đố nhau. Mẫu: Học sinh 1 nói: “Tớ thích đi…”. Học sinh 2 tìm thật nhanh mảnh bìa phù hợp. Học sinh 2 đưa mảnh bìa có hình. Học sinh 1 nói đúng từ ứng với hình trên mảnh bìa. Ở đây, em làm cả hai vai.',
           cau: [
             timBia('tắm biển', 'Tớ thích đi tắm biển.', ['leo núi', 'công viên']),
             timBia('leo núi', 'Tớ thích đi leo núi.', ['đi rừng', 'tắm biển']),

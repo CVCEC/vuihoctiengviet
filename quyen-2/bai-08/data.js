@@ -162,7 +162,8 @@ const BAI_HOC = {
           cau: [
             danhDau('sieu-thi', 'Mai', 'siêu thị', ['công viên', 'xem phim']),
             danhDau('xem-phim', 'Nam', 'xem phim', ['siêu thị', 'công viên']),
-            danhDau('cong-vien', 'Liên', 'công viên', ['xem phim', 'siêu thị'])
+            danhDau('cong-vien', 'Liên', 'công viên', ['xem phim', 'siêu thị']),
+            danhDau('svd', 'Dũng', 'sân vận động', ['công viên', 'xem phim'])
           ]
         },
         {

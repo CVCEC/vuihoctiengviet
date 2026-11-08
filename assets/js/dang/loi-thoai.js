@@ -8,7 +8,7 @@
   if (!document.getElementById('dang-loi-thoai')) {
     const st = document.createElement('style'); st.id = 'dang-loi-thoai';
     st.textContent = `
-.lt-scene{width:100%;max-width:640px;margin:0 auto 12px;border-radius:14px;border:2px solid #EFE7DC;display:block}
+.lt-scene{width:auto;max-width:min(100%,640px);max-height:440px;margin:0 auto 12px;border-radius:14px;border:2px solid #EFE7DC;display:block}
 .lt-script{display:flex;flex-direction:column;gap:6px;background:#fff;border:2px solid #EFE7DC;border-radius:16px;padding:10px}
 .lt-line{display:flex;align-items:flex-start;gap:10px;border:0;background:transparent;font:inherit;color:var(--ink);text-align:left;padding:6px 8px;border-radius:12px;min-height:44px;cursor:pointer;width:100%}
 .lt-line:hover{background:#F7F2EA}
