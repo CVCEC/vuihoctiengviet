@@ -79,8 +79,15 @@
     start();
   };
 
+  if (!document.getElementById('dang-mau-noi')) {
+    const st = document.createElement('style'); st.id = 'dang-mau-noi';
+    st.textContent = '.mn-to .noi-it img{width:72px;height:72px}.mn-to .noi-col.b .noi-it{justify-content:center;padding:6px 10px}.mn-to .noi-col.b .noi-it img{flex:1;width:auto;max-width:100%;height:84px}' +
+      '@media (max-width:520px){.mn-to .noi-col.a .noi-it{flex-direction:column;gap:2px;padding:6px 14px 6px 8px;text-align:center;font-size:16px}.mn-to .noi-col.a .noi-it img{width:64px;height:56px}.mn-to .noi-col.b .noi-it img{height:66px}}';
+    document.head.append(st);
+  }
   A.T['mau-noi'] = function (ex, ctx) {
     ctx.body.append(modelDuo(ex));
+    ctx.body.classList.add('mn-to');
     A.T['noi'](ex, ctx);
   };
 
