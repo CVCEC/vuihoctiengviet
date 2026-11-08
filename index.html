@@ -35,6 +35,7 @@
     <h2>Hướng dẫn cho bố mẹ</h2>
     <ul>
       <li>Mỗi bài đi theo đúng các phần trong sách. Em làm lần lượt từng phần, xong mỗi bài tập sẽ được một ngôi sao.</li>
+      <li>Em cần <b>đủ sao</b> ở một bài thì bài tiếp theo mới mở. Nếu đổi máy, hoặc thầy cô muốn cho học trước, bố mẹ / giáo viên bấm vào bài đang khoá và trả lời một phép tính nhỏ để mở.</li>
       <li>Hãy cho em nghe và <b>nói to theo</b>. Nút ghi âm giúp em nghe lại giọng mình để so với giọng mẫu.</li>
       <li>Bản ghi âm và ảnh gia đình chỉ nằm trên máy của bạn, không được gửi lên mạng. Tiến độ học cũng chỉ lưu trên máy này.</li>
       <li>Nếu có sách giấy, bạn có thể bấm “Xem trang sách” trong mỗi bài để đối chiếu.</li>
@@ -50,6 +51,7 @@
 </footer>
 
 <script src="assets/js/muc-luc.js"></script>
+<script src="assets/js/khoa.js"></script>
 <script>
 (function () {
   const list = document.getElementById('list');
@@ -69,14 +71,20 @@
       const h = document.createElement('h2'); h.className = 'chap'; h.textContent = ch.ten; list.append(h);
       const g = document.createElement('div'); g.className = 'grid';
       ch.bai.forEach(b => {
-        const a = document.createElement(b.san ? 'a' : 'div');
-        a.className = 'les' + (b.san ? '' : ' soon') + (b.on ? ' ont' : '');
+        const href = 'quyen-' + q + '/bai-' + String(b.so).padStart(2, '0') + '/';
+        const khoa = b.san && !KHOA.mo(q, b.so);
+        const a = document.createElement(!b.san ? 'div' : khoa ? 'button' : 'a');
+        a.className = 'les' + (b.san ? '' : ' soon') + (khoa ? ' lock' : '') + (b.on ? ' ont' : '');
         a.style.setProperty('--c', book.mau);
-        if (b.san) a.href = 'quyen-' + q + '/bai-' + String(b.so).padStart(2, '0') + '/';
+        if (b.san && !khoa) a.href = href;
+        if (khoa) { a.type = 'button'; a.addEventListener('click', () => KHOA.hoi(q, b.so, () => { location.href = href; })); }
         const st = b.san ? stars(q, b.so) : '';
         a.innerHTML = '<span class="n">' + b.so + '</span><span><span class="t"></span><br><span class="s"></span></span>';
         a.querySelector('.t').textContent = b.ten;
-        a.querySelector('.s').textContent = b.san ? (st || (b.chu ? 'Chữ: ' + b.chu : 'Bắt đầu học')) : 'Sắp có';
+        const sub = a.querySelector('.s');
+        if (!b.san) sub.textContent = 'Sắp có';
+        else if (khoa) { const p = KHOA.truoc(q, b.so); sub.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>'; sub.append('Cần đủ sao Bài ' + p.so); }
+        else sub.textContent = st || (b.chu ? 'Chữ: ' + b.chu : 'Bắt đầu học');
         g.append(a);
       });
       list.append(g);

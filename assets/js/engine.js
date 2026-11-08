@@ -26,6 +26,8 @@
   const baseLetter = ch => nfc(ch).normalize('NFD').replace(TONES, '').normalize('NFC').toLowerCase();
   const isLetter = ch => /\p{L}/u.test(ch);
   const pct = n => n + '%';
+  const pad = n => String(n).padStart(2, '0');
+  const coKhoa = typeof KHOA !== 'undefined' && typeof MUC_LUC !== 'undefined';
 
   const I = {
     spk: '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>',
@@ -39,6 +41,7 @@
     next: '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>',
     check: '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>',
     img: '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>',
+    lock: '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>',
     x: '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>'
   };
   const icon = (k) => { const s = h('span', { html: I[k] }); return s.firstChild; };
@@ -195,7 +198,10 @@
     const ctx = {
       body, sec,
       win() {
-        if (!store.has(ex.id)) { store.done(ex.id); star.classList.add('got'); updateTabs(); }
+        if (!store.has(ex.id)) {
+          store.done(ex.id); star.classList.add('got'); updateTabs();
+          if (coKhoa && KHOA.xong(D.quyen, D.bai)) { const n = KHOA.sau(D.quyen, D.bai); toast(n && n.san ? 'Giỏi quá! Em đã mở Bài ' + n.so + '.' : 'Giỏi quá! Em đã có đủ sao Bài ' + D.bai + '.'); }
+        }
         else { flash(star, 'got', 600); star.classList.add('got'); }
       }
     };
@@ -531,6 +537,13 @@
     const got = D.phan.reduce((n, p) => n + p.bt.filter(b => s[b.id]).length, 0);
     const f = $('.finish .stars'); if (f) f.textContent = 'Em đã có ' + got + '/' + all + ' sao';
     const o = store.get(); o._tong = all; store.put(o);
+    const nw = $('.finish .nextwrap');
+    if (nw && coKhoa) {
+      const n = KHOA.sau(D.quyen, D.bai);
+      nw.innerHTML = '';
+      if (n && got >= all) nw.append(n.san ? h('a', { class: 'btn green', href: '../bai-' + pad(n.so) + '/' }, 'Đã mở Bài ' + n.so + ': ' + n.ten, icon('next')) : h('p', { class: 'hint' }, 'Em giỏi lắm! Bài ' + n.so + ' sắp có.'));
+      else if (n) nw.append(h('p', { class: 'hint' }, 'Nhận đủ ' + all + ' sao để mở Bài ' + n.so + '.'));
+    }
   }
 
   function lightbox() {
@@ -553,6 +566,7 @@
 
   function render() {
     document.title = 'Bài ' + D.bai + ': ' + D.ten + ' – Vui học tiếng Việt ' + D.quyen;
+    if (coKhoa && !KHOA.mo(D.quyen, D.bai)) return renderLock();
     const openPages = lightbox();
     app.append(h('div', { class: 'hero' },
       h('span', { class: 'lbl' }, 'Quyển ' + D.quyen + ' · Bài ' + D.bai),
@@ -584,6 +598,7 @@
         sec.append(h('div', { class: 'finish' },
           h('h2', { style: { margin: '0 0 6px' } }, 'Hoàn thành Bài ' + D.bai + '!'),
           h('p', { class: 'stars' }, ''),
+          h('div', { class: 'nextwrap' }),
           h('div', { class: 'row', style: { justifyContent: 'center' } },
             h('a', { class: 'btn soft', href: '../../#quyen-' + D.quyen }, icon('back'), 'Danh sách bài'))));
       }
@@ -598,9 +613,24 @@
       if (scroll) window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     const start = Math.max(0, D.phan.findIndex(p => '#' + p.id === location.hash));
+    window.addEventListener('hashchange', () => { const k = D.phan.findIndex(p => '#' + p.id === location.hash); if (k >= 0) go(k, true); });
     go(start, false);
     updateTabs();
     window.scrollTo(0, 0); setTimeout(() => window.scrollTo(0, 0), 0);
+  }
+  function renderLock() {
+    const p = KHOA.truoc(D.quyen, D.bai), s = KHOA.sao(D.quyen, p.so);
+    const adult = h('button', { class: 'btn soft', type: 'button' }, icon('lock'), 'Bố mẹ / giáo viên mở khoá');
+    adult.onclick = () => KHOA.hoi(D.quyen, D.bai, () => location.reload());
+    app.append(
+      h('div', { class: 'hero' }, h('span', { class: 'lbl' }, 'Quyển ' + D.quyen + ' · Bài ' + D.bai), h('h1', null, D.ten)),
+      h('div', { class: 'locked' },
+        h('div', { class: 'lk-ico', html: I.lock }),
+        h('h2', null, 'Bài này chưa mở'),
+        h('p', null, 'Em hãy học xong Bài ' + p.so + ' – ' + p.ten + ' và nhận đủ sao để mở bài này nhé.'),
+        h('p', { class: 'lk-st' }, s.tong ? 'Bài ' + p.so + ': em đã có ' + s.got + '/' + s.tong + ' sao' : 'Em chưa học Bài ' + p.so + '.'),
+        h('div', { class: 'row', style: { justifyContent: 'center' } },
+          p.san ? h('a', { class: 'btn', href: '../bai-' + pad(p.so) + '/' }, icon('back'), 'Học Bài ' + p.so) : null, adult)));
   }
   render();
 })();
