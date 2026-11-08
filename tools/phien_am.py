@@ -19,3 +19,4 @@ if todo:
                 for s in segs]
         mp3.with_suffix(".json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
         print(mp3, "→", " | ".join(d["text"] for d in data))
+
