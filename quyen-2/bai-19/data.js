@@ -42,8 +42,8 @@ const ht3 = (n, benh, can) => ({
   sai: ['– Tớ cần ' + benh + '. – Cậu bị ' + can + '.', '– Tớ bị ' + can + '. – Cậu cần ' + benh + '.']
 });
 /* Hội thoại 4: bệnh nhân – bác sĩ, mỗi hình hai câu */
-const ht4 = (n, benh, nen, hoiKhong, khong) => [
-  { hinh: I + 'ht4-' + n + '.webp', hoi: 'Bệnh nhân: Cháu bị ' + benh + '.', dung: 'Cháu nên ' + nen + '.', sai: ['Cháu không nên ' + nen + '.', 'Cháu nên ' + khong + '.'] },
+const ht4 = (n, benh, nen, hoiKhong, khong, am) => [
+  { hinh: I + 'ht4-' + n + '.webp', hoi: { c: 'Bệnh nhân: Cháu bị ' + benh + '.', am }, dung: 'Cháu nên ' + nen + '.', sai: ['Cháu không nên ' + nen + '.', 'Cháu nên ' + khong + '.'] },
   { hinh: I + 'ht4-' + n + '.webp', hoi: 'Bệnh nhân: ' + hoiKhong, dung: 'Cháu không nên ' + khong + '.', sai: ['Cháu nên ' + khong + '.'] }
 ];
 
@@ -52,6 +52,12 @@ const TU_DOC = [
   ['vẽ hí hoáy', 'hi-hoay'], ['lốc xoáy', 'loc-xoay'], ['khuấy bột', 'khuay-bot'], ['đuôi ngoe nguẩy', 'ngoe-nguay']
 ];
 const hinhLD = k => ({ hinh: I + 'ld-' + k + '.webp' });
+/* Đọc các từ ngữ: nối từ ngữ với hình, mỗi lần 4 từ; tron = thứ tự hình ở cột B */
+const nhomDoc = (id, tu, lenh, tron) => {
+  const ds = TU_DOC.slice(tu, tu + 4);
+  return { id, so: 2, loai: 'noi', lenh, goiY: 'Em đọc to từng từ ngữ, rồi nối từ ngữ với hình đúng.', tenA: 'Từ ngữ', tenB: 'Hình',
+    a: ds.map(([c]) => ({ c })), b: tron.map(k => hinhLD(ds[k][1])), cap: ds.map((_, k) => [k, tron.indexOf(k)]) };
+};
 
 const BAI_HOC = {
   quyen: 2, bai: 19, ten: 'Cháu bị làm sao?', chuDe: 'Cộng đồng', chu: 'oai – oay', amTen: A + 'tn-ten.mp3',
@@ -73,8 +79,9 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'tn2', so: 2, loai: 'chon-cau', lenh: 'Nhìn hình ở bài tập 1, hỏi đáp theo mẫu',
-          goiY: 'Mẫu: – Bạn ấy (Anh ấy / Chị ấy) bị làm sao? – Bạn ấy (Anh ấy / Chị ấy) bị đau bụng. Nhìn hình, chọn câu trả lời đúng.',
+          id: 'tn2', so: 2, loai: 'chon-mau', lenh: 'Nhìn hình ở bài tập 1, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Bạn ấy (Anh ấy / Chị ấy) bị làm sao?' }, { c: 'Bạn ấy (Anh ấy / Chị ấy) bị đau bụng.' }] },
+          goiY: 'Nhìn hình, chọn câu trả lời đúng rồi hỏi đáp với bạn.',
           cau: BENH.map(([k, ai, benh], i) => {
             const b = benh.replace(' (bệnh)', '');
             return { hinh: I + 'tn-' + k + '.webp', hoi: ai + ' bị làm sao?', dung: ai + ' bị ' + b + '.',
@@ -110,8 +117,9 @@ const BAI_HOC = {
           vai: VAI, loi: HT_A.concat(HT_B)
         },
         {
-          id: 'ht3', so: 3, loai: 'chon-cau', lenh: 'Nhìn hình, đặt hội thoại theo mẫu',
-          goiY: 'Hình 1 là mẫu: – Tớ bị ốm (bệnh). – Cậu cần nghỉ ngơi. Đọc chữ dưới hình, chọn hội thoại đúng rồi nói to với bạn.',
+          id: 'ht3', so: 3, loai: 'chon-mau', lenh: 'Nhìn hình, đặt hội thoại theo mẫu',
+          mau: { cau: [{ c: 'Tớ bị ốm (bệnh).' }, { c: 'Cậu cần nghỉ ngơi.' }] },
+          goiY: 'Hình 1 là mẫu. Đọc chữ dưới hình, chọn hội thoại đúng rồi nói to với bạn.',
           cau: [
             ht3(1, 'ốm (bệnh)', 'nghỉ ngơi'),
             ht3(2, 'đau bụng', 'khám bệnh'),
@@ -122,12 +130,13 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'ht4', so: 4, loai: 'chon-cau', lenh: 'Nhìn hình, đóng vai bác sĩ – bệnh nhân, hỏi đáp theo mẫu',
-          goiY: 'Hình 1 là mẫu: – Cháu bị đau đầu. – Cháu nên nghỉ ngơi. – Cháu xem ti vi được không? – Cháu không nên xem ti vi. Em là bác sĩ: chọn câu trả lời đúng.',
+          id: 'ht4', so: 4, loai: 'chon-mau', lenh: 'Nhìn hình, đóng vai bác sĩ – bệnh nhân, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Cháu bị đau đầu.' }, { c: 'Cháu nên nghỉ ngơi.' }, { c: 'Cháu xem ti vi được không?' }, { c: 'Cháu không nên xem ti vi.' }] },
+          goiY: 'Hình 1 là mẫu. Em là bác sĩ: chọn câu trả lời đúng.',
           cau: [].concat(
             ht4(1, 'đau đầu', 'nghỉ ngơi', 'Cháu xem ti vi được không?', 'xem ti vi'),
             ht4(2, 'cảm lạnh', 'ăn cháo nóng', 'Cháu uống nước lạnh được không?', 'uống nước lạnh'),
-            ht4(3, 'đau bụng', 'uống thuốc', 'Cháu ăn nhiều được không?', 'ăn nhiều'),
+            ht4(3, 'đau bụng', 'uống thuốc', 'Cháu ăn nhiều được không?', 'ăn nhiều', A + 'a3.mp3'),
             ht4(4, 'đau răng', 'chữa răng', 'Cháu ăn nhiều được không?', 'ăn nhiều'),
             ht4(5, 'ho', 'uống thuốc', 'Cháu nói nhiều được không?', 'nói nhiều')
           )
@@ -144,11 +153,8 @@ const BAI_HOC = {
             { hinh: I + 'ld-ghe-xoay.webp', tu: 'ghế xoay', van: 'oay', phan: ['o', 'a', 'y'], doc: 'o – a – y – oay' }
           ]
         },
-        {
-          id: 'ld2', so: 2, loai: 'chon-cau', lenh: 'Đọc các từ ngữ sau',
-          goiY: 'Em đọc to từ ngữ, rồi chạm vào hình đúng.',
-          cau: TU_DOC.map(([tu, k], i) => ({ hoi: tu, dung: hinhLD(k), sai: [hinhLD(TU_DOC[(i + 3) % 8][1]), hinhLD(TU_DOC[(i + 5) % 8][1])] }))
-        },
+        nhomDoc('ld2a', 0, 'Đọc các từ ngữ sau (1–4)', [3, 1, 0, 2]),
+        nhomDoc('ld2b', 4, 'Đọc các từ ngữ sau (5–8)', [2, 0, 3, 1]),
         {
           id: 'ld3', so: 3, loai: 'doc-bai', lenh: 'Đọc bài sau',
           ten: 'Thám tử mèo', hinh: I + 'ld-bai.webp', nguon: 'Theo sách 365 chuyện kể mỗi ngày',
@@ -213,8 +219,9 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'tvv2', so: 2, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp với bạn theo mẫu',
-          goiY: 'Mẫu: – Vì sao bạn cần khám bệnh? – Vì tôi bị ốm. Nhìn hình, chọn câu trả lời hợp lí rồi hỏi đáp với bạn.',
+          id: 'tvv2', so: 2, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp với bạn theo mẫu',
+          mau: { cau: [{ c: 'Vì sao bạn cần khám bệnh?' }, { c: 'Vì tôi bị ốm.' }] },
+          goiY: 'Nhìn hình, chọn câu trả lời hợp lí rồi hỏi đáp với bạn.',
           cau: [
             { hinh: I + 'tn-kham-benh.webp', hoi: 'Vì sao bạn cần khám bệnh?', dung: 'Vì tôi bị ốm.', sai: ['Vì tôi rất khoẻ.', 'Vì tôi thích xem ti vi.'] },
             { hinh: I + 'tn-do-nhiet.webp', hoi: 'Vì sao bạn cần đo nhiệt độ?', dung: 'Vì tôi bị sốt.', sai: ['Vì tôi rất khoẻ.', 'Vì tôi thích ăn kem.'] },

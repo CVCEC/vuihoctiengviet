@@ -51,8 +51,9 @@ const BAI_HOC = {
           )
         },
         {
-          id: 'ot2', so: 2, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp với bạn',
-          goiY: 'Hình 1 là mẫu: – Từ Hà Nội đến Tokyo, đi máy bay mất bao lâu? – Từ Hà Nội đến Tokyo, đi máy bay mất 5 tiếng. (Giờ ở Tokyo nhanh hơn giờ ở Hà Nội 2 tiếng.) Nhìn đồng hồ, chọn câu trả lời đúng.',
+          id: 'ot2', so: 2, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp với bạn',
+          mau: { cau: [{ c: 'Từ Hà Nội đến Tokyo, đi máy bay mất bao lâu?' }, { c: 'Từ Hà Nội đến Tokyo, đi máy bay mất 5 tiếng.' }] },
+          goiY: 'Hình 1 là mẫu (giờ ở Tokyo nhanh hơn giờ ở Hà Nội 2 tiếng). Nhìn đồng hồ, chọn câu trả lời đúng.',
           cau: [
             thoiGian(1, 'Hà Nội đến Tokyo', 'máy bay', '5 tiếng', ['13 tiếng', '16 tiếng']),
             thoiGian(2, 'nhà đến trường', 'bộ', '15 phút', ['8 phút', '30 phút']),
@@ -62,8 +63,9 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'ot3', so: 3, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
-          goiY: 'Hình 1 là mẫu: – Bạn cho tôi hỏi, siêu thị ở đâu? – Bạn đi thẳng qua ngã tư, siêu thị ở bên trái. – Siêu thị cách đây bao xa? – Siêu thị cách đây khoảng 1 ki lô mét. Nhìn mũi tên vàng và số mét dưới hình.',
+          id: 'ot3', so: 3, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Bạn cho tôi hỏi, siêu thị ở đâu?' }, { c: 'Bạn đi thẳng qua ngã tư, siêu thị ở bên trái.' }, { c: 'Siêu thị cách đây bao xa?' }, { c: 'Siêu thị cách đây khoảng 1 ki lô mét.' }] },
+          goiY: 'Hình 1 là mẫu. Nhìn mũi tên vàng và số mét dưới hình, chọn câu trả lời đúng.',
           cau: [].concat(
             hoiDuong(1, 'siêu thị', 'Bạn đi thẳng qua ngã tư, siêu thị ở bên trái.', '1 ki lô mét', ['Bạn đi thẳng qua cầu, siêu thị ở bên phải.', 'Bạn vòng lại, siêu thị ở bên phải.'], ['1 mét', '10 ki lô mét']),
             hoiDuong(2, 'nhà sách', 'Bạn đi thẳng đến ngã ba, rẽ phải, nhà sách ở bên phải.', '500 mét', ['Bạn đi thẳng qua cầu, nhà sách ở bên trái.', 'Bạn vòng lại, nhà sách ở bên trái.'], ['400 mét', '500 ki lô mét']),
@@ -73,8 +75,9 @@ const BAI_HOC = {
           )
         },
         {
-          id: 'ot4', so: 4, loai: 'chon-cau', lenh: 'Nhìn hình, đóng vai bác sĩ – bệnh nhân, hỏi đáp theo mẫu',
-          goiY: 'Hình 1 (Thuý) là mẫu: – Cháu bị làm sao? – Cháu bị đau bụng. – Cháu nên làm gì? – Cháu nên uống thuốc. – Cháu không nên làm gì? – Cháu không nên ăn nhiều. Dấu ✓: nên làm, dấu ✗: không nên làm.',
+          id: 'ot4', so: 4, loai: 'chon-mau', lenh: 'Nhìn hình, đóng vai bác sĩ – bệnh nhân, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Cháu bị làm sao?' }, { c: 'Cháu bị đau bụng.', am: A + 'chau-bi-dau-bung.mp3' }, { c: 'Cháu nên làm gì?' }, { c: 'Cháu nên uống thuốc.' }, { c: 'Cháu không nên làm gì?' }, { c: 'Cháu không nên ăn nhiều.' }] },
+          goiY: 'Hình 1 (Thuý) là mẫu. Dấu ✓: nên làm, dấu ✗: không nên làm. Chọn câu trả lời đúng.',
           cau: [].concat(
             benhNhan(1, 'đau bụng', 'uống thuốc', 'ăn nhiều', A + 'chau-bi-dau-bung.mp3'),
             benhNhan(2, 'ho', 'uống thuốc', 'nói nhiều'),

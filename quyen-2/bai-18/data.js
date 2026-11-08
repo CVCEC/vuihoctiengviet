@@ -24,11 +24,11 @@ const HT_B = [
 const VAI = { 'Nam': { av: I + 'av-nam.webp' }, 'Yuki': { av: I + 'av-yuki.webp' } };
 
 /* Hội thoại 4: mời – đáp (✓ thích / ✗ không thích) – mỗi hình hai câu */
-const moi = (n, dong, mon, thich, viSao, saiViSao) => [
+const moi = (n, dong, mon, thich, viSao, saiViSao, am) => [
   { hinh: I + 'ht4-' + n + '.webp', hoi: 'Mời bạn ' + dong + ' ' + mon + '!',
     dung: thich ? 'Cảm ơn bạn, tôi rất thích ' + mon + '.' : 'Cảm ơn bạn, nhưng tôi không thích ' + mon + '.',
     sai: [thich ? 'Cảm ơn bạn, nhưng tôi không thích ' + mon + '.' : 'Cảm ơn bạn, tôi rất thích ' + mon + '.'] },
-  { hinh: I + 'ht4-' + n + '.webp', hoi: 'Vì sao bạn ' + (thich ? '' : 'không ') + 'thích ' + mon + '?', dung: viSao, sai: saiViSao }
+  { hinh: I + 'ht4-' + n + '.webp', hoi: { c: 'Vì sao bạn ' + (thich ? '' : 'không ') + 'thích ' + mon + '?', am: am && am[0] }, dung: viSao, sai: saiViSao, amDung: am && am[1] }
 ];
 
 const TU_DOC = [
@@ -36,6 +36,12 @@ const TU_DOC = [
   ['huênh hoang', 'huenh-hoang'], ['vẽ nguệch ngoạc', 'nguech-ngoac'], ['khuỳnh tay', 'khuynh-tay'], ['huých tay', 'huych-tay']
 ];
 const hinhLD = k => ({ hinh: I + 'ld-' + k + '.webp' });
+/* Đọc các từ ngữ: nối từ ngữ với hình, mỗi lần 4 từ; tron = thứ tự hình ở cột B */
+const nhomDoc = (id, tu, lenh, tron) => {
+  const ds = TU_DOC.slice(tu, tu + 4);
+  return { id, so: 2, loai: 'noi', lenh, goiY: 'Em đọc to từng từ ngữ, rồi nối từ ngữ với hình đúng.', tenA: 'Từ ngữ', tenB: 'Hình',
+    a: ds.map(([c]) => ({ c })), b: tron.map(k => hinhLD(ds[k][1])), cap: ds.map((_, k) => [k, tron.indexOf(k)]) };
+};
 const NUOC = [['Đức', 'duc'], ['Mỹ', 'my'], ['Nhật Bản', 'nhat'], ['Trung Quốc', 'tq'], ['Pháp', 'phap'], ['Nga', 'nga']];
 
 const BAI_HOC = {
@@ -79,8 +85,9 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'tn4', so: 4, loai: 'chon-cau', lenh: 'Nhìn hình ở bài tập 3, hỏi đáp theo mẫu',
-          goiY: 'Mẫu: – Món ăn này thế nào? – Món ăn này ngon. Nhìn nét mặt bạn nhỏ, chọn câu trả lời đúng.',
+          id: 'tn4', so: 4, loai: 'chon-mau', lenh: 'Nhìn hình ở bài tập 3, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Món ăn này thế nào?' }, { c: 'Món ăn này ngon.' }] },
+          goiY: 'Nhìn nét mặt bạn nhỏ, chọn câu trả lời đúng rồi hỏi đáp với bạn.',
           cau: [
             { hinh: I + 'tn-chua.webp', hoi: 'Món ăn này thế nào?', dung: 'Món ăn này chua.', sai: ['Món ăn này ngọt.', 'Món ăn này cay.'] },
             { hinh: I + 'tn-ngot.webp', hoi: 'Món ăn này thế nào?', dung: 'Món ăn này ngọt.', sai: ['Món ăn này chua.', 'Món ăn này cay.'] },
@@ -108,8 +115,9 @@ const BAI_HOC = {
           vai: VAI, loi: HT_A.concat(HT_B)
         },
         {
-          id: 'ht3', so: 3, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
-          goiY: 'Câu 1 là mẫu. Nhìn lá cờ, chọn câu trả lời đúng rồi nói to cả câu.',
+          id: 'ht3', so: 3, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Victor là người nước nào?' }, { c: 'Bạn ấy là người Pháp.' }] },
+          goiY: 'Hình 1 là mẫu. Nhìn lá cờ, chọn câu trả lời đúng rồi nói to cả câu.',
           cau: [
             { hinh: I + 'ht3-1.webp', hoi: 'Victor là người nước nào?', dung: 'Bạn ấy là người Pháp.', sai: ['Bạn ấy là người Nga.', 'Bạn ấy là người Mỹ.'] },
             { hinh: I + 'ht3-2.webp', hoi: 'Yuto là người nước nào?', dung: 'Bạn ấy là người Nhật Bản.', sai: ['Bạn ấy là người Trung Quốc.', 'Bạn ấy là người Pháp.'] },
@@ -120,11 +128,12 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'ht4', so: 4, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
-          goiY: 'Hình 1 là mẫu: – Mời bạn uống sữa! – Cảm ơn bạn, tôi rất thích sữa. – Vì sao bạn thích sữa? – Vì sữa rất ngon. Dấu ✓: bạn thích, dấu ✗: bạn không thích.',
+          id: 'ht4', so: 4, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Mời bạn uống sữa!' }, { c: 'Cảm ơn bạn, tôi rất thích sữa.' }, { c: 'Vì sao bạn thích sữa?' }, { c: 'Vì sữa rất ngon.' }] },
+          goiY: 'Hình 1 là mẫu. Dấu ✓: bạn thích, dấu ✗: bạn không thích. Chọn câu trả lời đúng.',
           cau: [].concat(
             moi(1, 'uống', 'sữa', true, 'Vì sữa rất ngon.', ['Vì sữa rất cay.', 'Vì sữa rất chua.']),
-            moi(2, 'uống', 'nước chanh', false, 'Vì nước chanh rất chua.', ['Vì nước chanh rất ngon.', 'Vì nước chanh rất ngọt.']),
+            moi(2, 'uống', 'nước chanh', false, 'Vì nước chanh rất chua.', ['Vì nước chanh rất ngon.', 'Vì nước chanh rất ngọt.'], [A + 'b3.mp3', A + 'b4.mp3']),
             moi(3, 'uống', 'nước dừa', true, 'Vì nước dừa rất ngọt.', ['Vì nước dừa rất cay.', 'Vì nước dừa không ngon.']),
             moi(4, 'ăn', 'kem', true, 'Vì kem rất ngọt.', ['Vì kem rất cay.', 'Vì kem không ngon.']),
             moi(5, 'ăn', 'ớt', false, 'Vì ớt rất cay.', ['Vì ớt rất ngọt.', 'Vì ớt rất ngon.']),
@@ -146,11 +155,8 @@ const BAI_HOC = {
             { hinh: I + 'ld-thu-hoach.webp', tu: 'thu hoạch', van: 'oach', phan: ['o', 'a', 'ch'], doc: 'o – a – chờ – oach' }
           ]
         },
-        {
-          id: 'ld2', so: 2, loai: 'chon-cau', lenh: 'Đọc các từ ngữ sau',
-          goiY: 'Em đọc to từ ngữ, rồi chạm vào hình đúng.',
-          cau: TU_DOC.map(([tu, k], i) => ({ hoi: tu, dung: hinhLD(k), sai: [hinhLD(TU_DOC[(i + 3) % 8][1]), hinhLD(TU_DOC[(i + 5) % 8][1])] }))
-        },
+        nhomDoc('ld2a', 0, 'Đọc các từ ngữ sau (1–4)', [2, 0, 3, 1]),
+        nhomDoc('ld2b', 4, 'Đọc các từ ngữ sau (5–8)', [1, 3, 0, 2]),
         {
           id: 'ld3', so: 3, loai: 'doc-bai', lenh: 'Đọc bài sau',
           ten: 'Hà mã bay', hinh: I + 'ld-bai.webp', nguon: 'Theo sách 365 chuyện kể mỗi ngày',
@@ -200,8 +206,9 @@ const BAI_HOC = {
       id: 'tieng-viet-vui', ten: 'Tiếng Việt vui', mau: 'tvv', trang: [122, 123],
       bt: [
         {
-          id: 'tvv1', so: 1, loai: 'chon-cau', lenh: 'Trò chơi: Bạn là người nước nào?',
-          goiY: 'Mẫu: Học sinh 1 (chỉ vào hình cờ, hỏi): – Bạn là người nước nào? Học sinh 2: – Tôi là người Nhật Bản. Đi theo đường trong sách: từ mũi tên đến dấu ✓.',
+          id: 'tvv1', so: 1, loai: 'chon-mau', lenh: 'Trò chơi: Bạn là người nước nào?',
+          mau: { cau: [{ c: 'Bạn là người nước nào?' }, { c: 'Tôi là người Nhật Bản.' }] },
+          goiY: 'Học sinh 1 (chỉ vào hình cờ, hỏi), học sinh 2 trả lời như mẫu. Đi theo đường trong sách: từ mũi tên đến dấu ✓.',
           cau: NUOC.map(([ten, k], i) => ({
             hinh: I + 'tn-' + k + '.webp', hoi: 'Bạn là người nước nào?', dung: 'Tôi là người ' + ten + '.',
             sai: [NUOC[(i + 2) % 6][0], NUOC[(i + 4) % 6][0]].map(t => 'Tôi là người ' + t + '.')
