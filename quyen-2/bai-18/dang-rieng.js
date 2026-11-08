@@ -1,7 +1,8 @@
 /* Dạng bài riêng của Quyển 2, Bài 16–20 (cùng một tệp, chép giống nhau vào từng bài):
    1) "vong-quay-hinh" – vòng quay hình như trong sách.
    2) "ghep-van" – đánh vần vần nhiều chữ cái như bảng màu trong sách: o | a | n → oan, "o – a – nờ – oan".
-   3) "doc-tho" – đọc bài thơ: giữ nguyên từng dòng, từng khổ thơ (doc-bai gộp câu thành một đoạn văn). */
+   3) "doc-tho" – đọc bài thơ: giữ nguyên từng dòng, từng khổ thơ (doc-bai gộp câu thành một đoạn văn).
+   4) "chon-mau" – như "chon-cau", thêm khung mẫu M như sách ở trên (ex.mau = { nv?: 'ảnh', cau: [{ c, am? }] }). */
 /* Dạng bài riêng "vong-quay-hinh": vòng quay hình như trong sách. Bấm “Quay” → dừng ở một hình → hiện to hình và chữ, em nói câu.
    ex.muc: [{ hinh, c, am? }]   ex.can: số lượt quay để được sao (mặc định 5)
    ex.muc[i].cau?: câu gợi ý riêng cho ô đó ('Mời bạn ăn kem!')
@@ -291,5 +292,15 @@
       row.append(open);
       ctx.body.append(qbox);
     }
+  };
+});
+
+/* "chon-mau": chon-cau + khung mẫu (M) như trong sách. */
+(window.VHTV_DANG = window.VHTV_DANG || []).push(function (A) {
+  'use strict';
+  if (A.T['chon-mau']) return;
+  A.T['chon-mau'] = function (ex, ctx) {
+    if (ex.mau) { const m = A.modelBox(ex.mau).el; m.style.margin = '0 0 14px'; ctx.body.append(m); }
+    A.T['chon-cau'](ex, ctx);
   };
 });

@@ -71,8 +71,9 @@ const BAI_HOC = {
           vai: VAI, loi: HT_A.concat(HT_B)
         },
         {
-          id: 'ht3', so: 3, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
-          goiY: 'Câu 1 là mẫu. Nhìn hình, đọc câu hỏi, chọn câu trả lời đúng rồi nói to cả câu.',
+          id: 'ht3', so: 3, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Chị Mây đi du lịch bằng gì?' }, { c: 'Chị Mây đi du lịch bằng máy bay.' }] },
+          goiY: 'Hình 1 là mẫu. Nhìn hình, đọc câu hỏi, chọn câu trả lời đúng rồi nói to cả câu.',
           cau: [
             { hinh: I + 'ht3-1.webp', hoi: 'Chị Mây đi du lịch bằng gì?', dung: 'Chị Mây đi du lịch bằng máy bay.', sai: ['Chị Mây đi du lịch bằng xe máy.', 'Chị Mây đi du lịch bằng tàu hoả.'] },
             { hinh: I + 'ht3-2.webp', hoi: 'Hương và Sơn đi học bằng gì?', dung: 'Hương và Sơn đi học bằng xe buýt.', sai: ['Hương và Sơn đi học bằng xe đạp.', 'Hương và Sơn đi học bằng ô tô.'] },
@@ -82,8 +83,9 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'ht4', so: 4, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
-          goiY: 'Câu 1 là mẫu. Nhìn đồng hồ lúc đi và lúc đến, chọn câu trả lời đúng rồi nói to cả câu. Hình 5: giờ ở Tokyo nhanh hơn giờ ở Hà Nội 2 tiếng.',
+          id: 'ht4', so: 4, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất bao lâu?' }, { c: 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất khoảng 8 tiếng.' }] },
+          goiY: 'Hình 1 là mẫu. Nhìn đồng hồ lúc đi và lúc đến, chọn câu trả lời đúng rồi nói to cả câu. Hình 5: giờ ở Tokyo nhanh hơn giờ ở Hà Nội 2 tiếng.',
           cau: [
             { hinh: I + 'ht4-1.webp', hoi: 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất bao lâu?', dung: 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất khoảng 8 tiếng.', sai: ['Từ Hà Nội đến Lào Cai, đi tàu hoả mất khoảng 6 tiếng.', 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất khoảng 16 tiếng.'] },
             { hinh: I + 'ht4-2.webp', hoi: 'Từ nhà đến trường, đi xe đạp mất bao lâu?', dung: 'Từ nhà đến trường, đi xe đạp mất khoảng 30 phút.', sai: ['Từ nhà đến trường, đi xe đạp mất khoảng 8 tiếng.', 'Từ nhà đến trường, đi xe đạp mất khoảng 3 tiếng.'] },
@@ -106,15 +108,11 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'ld2', so: 2, loai: 'chon-cau', lenh: 'Đọc các từ ngữ sau',
-          goiY: 'Em đọc to từ ngữ, rồi chạm vào hình đúng.',
-          cau: [
-            { hoi: 'khoá', dung: hinh(LD.khoa), sai: [hinh(LD.khoe), hinh(LD.tau)] },
-            { hoi: 'Huế', dung: hinh(LD.hue), sai: [hinh(LD.huo), hinh(LD.khoa)] },
-            { hoi: 'khoẻ', dung: hinh(LD.khoe), sai: [hinh(LD.hue), hinh(LD.huo)] },
-            { hoi: 'huơ tay', dung: hinh(LD.huo), sai: [hinh(LD.khoe), hinh(LD.tau)] },
-            { hoi: 'tàu thuỷ', dung: hinh(LD.tau), sai: [hinh(LD.hue), hinh(LD.khoa)] }
-          ]
+          id: 'ld2', so: 2, loai: 'noi', lenh: 'Đọc các từ ngữ sau',
+          goiY: 'Em đọc to từng từ ngữ, rồi nối từ ngữ với hình đúng.', tenA: 'Từ ngữ', tenB: 'Hình',
+          a: [{ c: 'khoá' }, { c: 'Huế' }, { c: 'khoẻ' }, { c: 'huơ tay' }, { c: 'tàu thuỷ' }],
+          b: [hinh(LD.huo), hinh(LD.khoa), hinh(LD.tau), hinh(LD.hue), hinh(LD.khoe)],
+          cap: [[0, 1], [1, 3], [2, 4], [3, 0], [4, 2]]
         },
         {
           id: 'ld3', so: 3, loai: 'doc-bai', lenh: 'Đọc bài sau',
