@@ -14,12 +14,12 @@ const MUC_LUC = [
         { so: 7, ten: 'Kia là cây cam, phải không?', chu: 'h, i, y', san: true },
         { so: 8, ten: 'Cây cam có mấy quả?', chu: 'k, kh', san: true },
         { so: 9, ten: 'Con hổ đang làm gì?', chu: 'l, m', san: true },
-        { so: 10, ten: 'Ôn tập', on: true } ] },
+        { so: 10, ten: 'Ôn tập', on: true, san: true } ] },
       { ten: 'Trường lớp', bai: [
-        { so: 11, ten: 'Em có biết vẽ không?', chu: 'n, nh' },
-        { so: 12, ten: 'Hình này là hình gì?', chu: 'ng, ngh' },
-        { so: 13, ten: 'Cái ghế này có nặng không?', chu: 'o, ô, ơ' },
-        { so: 14, ten: 'Hôm nay là thứ mấy?', chu: 'u, ư' },
+        { so: 11, ten: 'Em có biết vẽ không?', chu: 'n, nh', san: true },
+        { so: 12, ten: 'Hình này là hình gì?', chu: 'ng, ngh', san: true },
+        { so: 13, ten: 'Cái ghế này có nặng không?', chu: 'o, ô, ơ', san: true },
+        { so: 14, ten: 'Hôm nay là thứ mấy?', chu: 'u, ư', san: true },
         { so: 15, ten: 'Ôn tập', on: true } ] },
       { ten: 'Cộng đồng', bai: [
         { so: 16, ten: 'Cô ấy làm nghề gì?', chu: 'p, qu' },
