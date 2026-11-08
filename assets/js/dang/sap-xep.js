@@ -18,6 +18,7 @@
 .sx-bank{display:flex;flex-wrap:wrap;gap:8px}
 .sx-bank .opt{font-size:clamp(17px,3.8vw,20px);text-align:left;min-height:52px}
 .sx-bank:empty::before{content:'Đã xếp hết – bấm “Kiểm tra”.';color:var(--ink-2);font-size:15px}
+.sx.solved .sx-bank:empty::before{content:none}
 `;
   if (!document.getElementById('dang-sap-xep')) { const s = document.createElement('style'); s.id = 'dang-sap-xep'; s.textContent = CSS; document.head.append(s); }
 
@@ -70,7 +71,7 @@
       const same = (v, i) => v >= 0 && ex.muc[v] === ex.muc[i];
       slots.forEach((s, i) => { const g = same(s.v, i); s.el.classList.add(g ? 'good' : 'bad'); if (g) ok++; });
       if (ok === n) {
-        solved = true; check.disabled = true; feedback(fb, true, 'Đúng rồi! Em đã xếp đúng thứ tự.'); ctx.win();
+        solved = true; box.classList.add('solved'); check.disabled = true; feedback(fb, true, 'Đúng rồi! Em đã xếp đúng thứ tự.'); ctx.win();
         if (ex.am && ex.am.some(Boolean)) { const my = A.gen(); for (let i = 0; i < n && A.gen() === my; i++) { slots[i].el.classList.add('arm'); if (ex.am[i]) await play(ex.am[i]); slots[i].el.classList.remove('arm'); } }
       } else {
         feedback(fb, false, 'Có ' + (n - ok) + ' chỗ chưa đúng. Các ô đỏ sẽ trở về để em xếp lại.');
@@ -81,7 +82,7 @@
       }
     };
     const again = h('button', { class: 'btn soft', type: 'button' }, icon('redo'), 'Làm lại');
-    again.onclick = () => { solved = false; slots.forEach(s => { if (s.v >= 0) { const v = s.v; s.v = -1; addBank(v); } }); render(); };
+    again.onclick = () => { solved = false; box.classList.remove('solved'); slots.forEach(s => { if (s.v >= 0) { const v = s.v; s.v = -1; addBank(v); } }); render(); };
     box.append(slotsEl, bank);
     ctx.body.append(box, h('div', { class: 'mrow' }, check, again), fb);
     render();
