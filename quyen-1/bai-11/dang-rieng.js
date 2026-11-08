@@ -31,7 +31,7 @@
 .bs-row .w{padding:0 8px;font-size:19px;border-right:1px solid #CFE6D2;display:flex;align-items:center}
 .bs-row .l{display:flex;flex-wrap:wrap;align-content:center;gap:1px 2px;padding:4px 6px}
 .bs-row .l img{width:20px;height:auto}
-@media (max-width:520px){.bs-row .l img{width:14px}.bs-row .w{font-size:17px}}
+@media (max-width:520px){.bs-row .l{display:grid;grid-template-columns:repeat(10,minmax(0,13px));gap:3px 1px}.bs-row .l img{width:13px}.bs-row .w{font-size:17px}}
 .bs.an .bs-row .w{color:transparent}
 .bs-row.on{background:#FFF1D6 !important;box-shadow:inset 0 0 0 3px var(--straw)}
 .bs-row.heard .n{color:var(--ok)}

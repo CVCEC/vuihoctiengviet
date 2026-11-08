@@ -112,6 +112,7 @@ const BAI_HOC = {
         },
         {
           id: 'ld3', so: 3, loai: 'noi', lenh: 'Đọc và nối từ với hình', tenA: 'Từ', tenB: 'Hình',
+          goiY: 'Em đọc to từng từ, rồi chạm vào từ và hình đúng để nối.',
           a: [{ c: 'đỗ' }, { c: 'đỏ' }, { c: 'đỡ' }, { c: 'độ' }],
           b: [{ hinh: 'img/do-gia.webp' }, { hinh: 'img/do.webp' }, { hinh: 'img/nhiet-ke.webp' }, { hinh: 'img/dau-do.webp' }],
           cap: [[0, 3], [1, 1], [2, 0], [3, 2]]

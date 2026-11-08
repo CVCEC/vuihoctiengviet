@@ -128,6 +128,7 @@ const BAI_HOC = {
         },
         {
           id: 'ld4', so: 4, loai: 'noi', lenh: 'Đọc và nối các từ ngữ với hình', tenA: 'Từ ngữ', tenB: 'Hình',
+          goiY: 'Em đọc to từng từ ngữ, rồi chạm vào từ ngữ và hình đúng để nối.',
           a: [{ c: 'cá đĩa' }, { c: 'đũa' }, { c: 'dì' }, { c: 'đĩa' }, { c: 'dù đỏ' }, { c: 'đu đủ' }],
           b: [{ hinh: 'img/di.webp' }, { hinh: 'img/dia2.webp' }, { hinh: 'img/ca-dia.webp' }, { hinh: 'img/du-do.webp' }, { hinh: 'img/du-du.webp' }, { hinh: 'img/dua.webp' }],
           cap: [[0, 2], [1, 5], [2, 0], [3, 1], [4, 3], [5, 4]]
