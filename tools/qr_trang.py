@@ -1,6 +1,10 @@
 import cv2, subprocess, sys, os
 pdf = sys.argv[1]; pages = [int(x) for x in sys.argv[2].split(',')]
 det = cv2.QRCodeDetector()
+try:
+    wechat = cv2.wechat_qrcode_WeChatQRCode()  # đọc tốt mã QR nhỏ/mờ trên bản scan
+except Exception:
+    wechat = None
 for p in pages:
     import tempfile; base = os.path.join(tempfile.gettempdir(), f'qr-{p}')
     subprocess.run(['pdftoppm', '-r', '300', '-png', '-f', str(p), '-l', str(p), '-singlefile', pdf, base], check=True)
@@ -14,5 +18,13 @@ for p in pages:
             try: v, _, _ = det.detectAndDecode(r)
             except Exception: v = ''
             if v: found.add(v)
+    if wechat is not None and not found:
+        for t in tiles:
+            for s2 in [1.0, 2.0]:
+                try:
+                    vals, _ = wechat.detectAndDecode(cv2.resize(t, None, fx=s2, fy=s2))
+                    found.update(v for v in vals if v)
+                except Exception:
+                    pass
     os.remove(base + '.png')
     print(p, sorted(found), flush=True)

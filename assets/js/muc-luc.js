@@ -6,9 +6,9 @@ const MUC_LUC = [
       { ten: 'Gia đình', bai: [
         { so: 1, ten: 'Đây là ai?', chu: 'a, ă, â', san: true },
         { so: 2, ten: 'Con chào mẹ ạ.', chu: 'b, c, ch', san: true },
-        { so: 3, ten: 'Em làm gì đó?', chu: 'd, đ' },
-        { so: 4, ten: 'Bố mẹ em thế nào?', chu: 'e, ê' },
-        { so: 5, ten: 'Ôn tập', on: true } ] },
+        { so: 3, ten: 'Em làm gì đó?', chu: 'd, đ', san: true },
+        { so: 4, ten: 'Bố mẹ em thế nào?', chu: 'e, ê', san: true },
+        { so: 5, ten: 'Ôn tập', on: true, san: true } ] },
       { ten: 'Thiên nhiên', bai: [
         { so: 6, ten: 'Kia là con gì?', chu: 'g, gh, gi' },
         { so: 7, ten: 'Kia là cây cam, phải không?', chu: 'h, i, y' },

@@ -7,6 +7,7 @@
     const st = document.createElement('style'); st.id = 'dang-the-hinh';
     st.textContent = `
 .th-grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+@media (min-width:421px){.th-grid.th-cot{grid-template-columns:repeat(var(--cot),1fr)}}
 @media (max-width:420px){.th-grid{grid-template-columns:repeat(2,1fr)}}
 .th-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;border:2px solid #EFE7DC;background:#fff;border-radius:16px;padding:8px;cursor:pointer;font:inherit;color:var(--ink);touch-action:manipulation;min-height:44px}
 .th-card img{width:100%;aspect-ratio:4/3;object-fit:contain;border-radius:10px;pointer-events:none}
@@ -36,7 +37,7 @@
 
     function grid(hideWords) {
       const g = h('div', { class: 'th-grid' });
-      if (ex.cot) g.style.gridTemplateColumns = 'repeat(' + ex.cot + ',1fr)';
+      if (ex.cot) { g.classList.add('th-cot'); g.style.setProperty('--cot', ex.cot); }
       const cards = the.map((t, i) => {
         const c = h('button', { class: 'th-card', type: 'button', 'aria-label': t.tu },
           ex.danhSo ? h('span', { class: 'th-so' }, String(i + 1)) : null,

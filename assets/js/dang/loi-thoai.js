@@ -79,7 +79,7 @@
           await wait(300);
           if (A.gen() !== my) break;
         }
-        if (A.gen() === my) s.rows.forEach(r => r.classList.remove('on'));
+        if (A.gen() === my) { s.rows.forEach(r => r.classList.remove('on')); ctx.win(); }
         if (A.gen() === my || !all.classList.contains('playing')) { all.classList.remove('playing'); all.lastChild.textContent = 'Nghe cả bài'; }
       };
       const sc = scene(); if (sc) pane.append(sc);

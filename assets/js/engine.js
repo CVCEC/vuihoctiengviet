@@ -280,7 +280,7 @@
       const sc = scene(ex, 'luyen', async (i, who, tag) => {
         if (k >= order.length) return;
         const want = order[k];
-        if (i === want) {
+        if (i === want || ex.diem[i].tu === ex.diem[want].tu) {
           stopAll(); feedback(fb, true, 'Đúng rồi! Đây là ' + (ex.diem[i].goi || ex.diem[i].tu) + '.');
           who.classList.add('good'); if (tag) { tag.textContent = ex.diem[i].tu; tag.classList.add('reveal'); }
           dots.children[k].classList.add('done'); k++;
@@ -642,7 +642,7 @@
           ps[i].el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
           for (const x of [['a', ps[i].a], ['b', ps[i].b]]) {
             x[1].classList.add('on'); const ok = await play(ex.tranh[i][x[0]].am); x[1].classList.remove('on');
-            if (!ok || gen !== my) break; await wait(300);
+            if (gen !== my) break; await wait(ok ? 300 : 1200);
           }
         }
         if (gen === my || !all.classList.contains('playing')) { all.classList.remove('playing'); all.lastChild.textContent = 'Nghe cả bài'; }
