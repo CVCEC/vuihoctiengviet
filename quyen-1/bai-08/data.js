@@ -27,7 +27,7 @@ const BAI_HOC = {
         {
           id: 'tn1', so: 1, loai: 'the-hinh', lenh: 'Nhìn hình, nghe và đếm', amLenh: A + 'tn1-lenh.mp3',
           goiY: 'Chạm vào từng thẻ để nghe. Em đếm số bông hoa rồi nói to số đó.',
-          tenChoi: 'Trò chơi: Nghe và chọn số hoa', goiYChoi: 'Nghe số, rồi chạm vào thẻ có đúng chừng ấy bông hoa.', anChu: true,
+          tenChoi: 'Trò chơi: Nghe và chọn số hoa', goiYChoi: 'Nghe số, rồi chạm vào thẻ có đúng chừng ấy bông hoa.', anChu: true, cot: 5,
           khen: 'Giỏi quá! Em đã đếm đúng từ 1 đến 10.',
           the: SO.map((_, i) => ({ hinh: 'img/hoa-' + (i + 1) + '.webp', tu: NHAN(i + 1), am: AM_SO(i + 1) }))
         },
@@ -74,7 +74,7 @@ const BAI_HOC = {
         {
           id: 'tvv1a', so: 1, loai: 'the-hinh', lenh: 'Đố em – Chỉ vào hình, đếm.',
           goiY: 'Chạm vào từng số để nghe, rồi đếm to theo: một, hai, ba… mười.',
-          tenChoi: 'Trò chơi: Nghe và chọn số', goiYChoi: 'Nghe số, rồi chạm vào số đúng.', anChu: true,
+          tenChoi: 'Trò chơi: Nghe và chọn số', goiYChoi: 'Nghe số, rồi chạm vào số đúng.', anChu: true, cot: 5,
           khen: 'Giỏi quá! Em đã biết các số từ 1 đến 10.',
           the: SO.map((tu, i) => ({ hinh: 'img/so-' + (i + 1) + '.webp', tu, am: AM_SO(i + 1) }))
         },

@@ -36,7 +36,7 @@ const BAI_HOC = {
       bt: [
         {
           id: 'tn1', so: 1, loai: 'the-hinh', lenh: 'Nhìn hình, nghe và nhắc lại', amLenh: A + 'tn-lenh.mp3',
-          danhSo: true, anChu: true, khen: 'Giỏi quá! Em đã biết tên 12 con vật.',
+          danhSo: true, anChu: true, cot: 4, khen: 'Giỏi quá! Em đã biết tên 12 con vật.',
           the: CON_VAT.map(([tu, f]) => ({ hinh: 'img/the-' + f + '.webp', tu, am: AM[tu] }))
         },
         {

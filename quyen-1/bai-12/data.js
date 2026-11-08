@@ -41,7 +41,7 @@ const BAI_HOC = {
       id: 'tu-ngu', ten: 'Từ ngữ', mau: 'tn', trang: [48, 49],
       bt: [
         {
-          id: 'tn1', so: 1, loai: 'the-hinh', lenh: 'Nghe, chỉ vào hình và nhắc lại', amLenh: A + 'tn1-lenh.mp3', danhSo: true,
+          id: 'tn1', so: 1, loai: 'the-hinh', lenh: 'Nghe, chỉ vào hình và nhắc lại', amLenh: A + 'tn1-lenh.mp3', danhSo: true, cot: 4,
           the: [
             { hinh: 'img/h-tron.webp', tu: 'hình tròn', am: A + 'tn-tron.mp3' },
             { hinh: 'img/h-vuong.webp', tu: 'hình vuông', am: A + 'tn-vuong.mp3' },
