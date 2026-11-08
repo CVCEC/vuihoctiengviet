@@ -16,13 +16,14 @@
 .dv-am{background:#FBD9DE;color:#C2185B}
 .dv-van{background:#D8EEDB;color:#2E7D4F}
 .dv-tieng{grid-column:1 / -1;background:#DCE7FA;color:#C2185B}
-.dv-tab .lit{box-shadow:inset 0 0 0 3px var(--straw);transform:scale(1.03)}
+.dv-tab .lit{box-shadow:inset 0 0 0 3px var(--straw);transform:scale(1.03);position:relative;z-index:1}
 .dv-tab .muted{color:transparent}
 .dv-doc{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:2px;border:2px solid #E9B8C7;border-radius:10px;padding:6px}
 .dv-doc button{border:0;background:transparent;font:inherit;font-size:19px;padding:4px 6px;border-radius:8px;cursor:pointer;color:#B7AC9E;min-height:36px}
 .dv-doc button.done{color:var(--ink)}
 .dv-doc button.lit{background:#FFF1D6;color:var(--ink)}
-.dv-doc i{font-style:normal;color:#B7AC9E}
+.dv-doc i{font-style:normal;color:#B7AC9E;margin-right:2px}
+.dv-st{display:inline-flex;align-items:center;white-space:nowrap}
 .dv-go{align-self:center}
 .dv-card.ok{border-style:solid;border-color:var(--ok)}
 `;
@@ -55,10 +56,9 @@
       const docBtns = [];
       const doc = h('div', { class: 'dv-doc' });
       steps.forEach((s, i) => {
-        if (i) doc.append(h('i', null, '–'));
         const b = h('button', { type: 'button' }, s);
         b.onclick = () => { stopAll(); show(i); if (w.am && i === steps.length - 1) play(w.am); };
-        docBtns.push(b); doc.append(b);
+        docBtns.push(b); doc.append(h('span', { class: 'dv-st' }, i ? h('i', null, '–') : null, b));
       });
       const go = h('button', { class: 'btn wood small dv-go', type: 'button' }, icon('play'), 'Đánh vần');
       const card = h('div', { class: 'dv-card' }, pic, tab, doc, go);
@@ -83,6 +83,7 @@
         else toneR.parentNode.classList.remove('lit');
         if (st === 'final') {
           cTieng.classList.remove('muted'); cTieng.classList.add('lit'); cTieng.textContent = tieng;
+          clearTimeout(card._t); card._t = setTimeout(() => cTieng.classList.remove('lit'), 1200);
           if (hasTone || mark) toneR.textContent = ' ' + mark;
           if (!opened.has(wi)) { opened.add(wi); card.classList.add('ok'); if (opened.size === ex.tu.length) ctx.win(); }
         }

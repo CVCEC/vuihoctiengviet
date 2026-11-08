@@ -10,9 +10,11 @@
 .db-txt{background:#FFF7E6;border-radius:16px;padding:14px 16px;box-shadow:inset 0 0 0 2px #F6E3B8}
 .db-txt h4{margin:0 0 8px;text-align:center;font-size:22px;color:#2E7D4F}
 .db-p{font-size:clamp(21px,4.4vw,26px);line-height:1.65;margin:0;text-indent:1.4em}
-.db-s{border:0;background:transparent;font:inherit;color:inherit;padding:1px 2px;border-radius:8px;cursor:pointer;display:inline;text-align:left;line-height:inherit}
+.db-s{padding:2px 1px;border-radius:6px;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone;outline:none}
+.db-s:focus-visible{box-shadow:0 0 0 2px var(--straw)}
 .db-s.on{background:#FFE08A}
-.db-s.read{background:#E6F1E4}
+.db-s.read{box-shadow:inset 0 -3px 0 #CFE6D2}
+.db-s.on.read{box-shadow:none}
 .db-src{text-align:right;font-size:14px;color:var(--ink-2);margin:8px 0 0;font-style:italic}
 .db-q{margin-top:16px;border-top:1px dashed var(--line);padding-top:12px}
 .db-q h4{margin:0 0 8px;font-size:18px}
@@ -27,7 +29,8 @@
     const read = new Set();
     let doneRead = false;
     const sents = ex.cau.map((c, i) => {
-      const b = h('button', { class: 'db-s', type: 'button' }, c.c);
+      const b = h('span', { class: 'db-s', role: 'button', tabindex: '0' }, c.c);
+      b.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); b.click(); } });
       b.onclick = async () => {
         stopAll(); sents.forEach(x => x.classList.remove('on')); b.classList.add('on'); mark(i);
         if (c.am) { await play(c.am); b.classList.remove('on'); }
@@ -36,7 +39,7 @@
       return b;
     });
     function mark(i) { read.add(i); sents[i].classList.add('read'); if (read.size === sents.length) finishedReading(); }
-    function finishedReading() { if (doneRead) return; doneRead = true; if (!ex.hoi || !ex.hoi.length) ctx.win(); else if (qbox) qbox.hidden = false; }
+    function finishedReading() { if (doneRead) return; doneRead = true; if (!ex.hoi || !ex.hoi.length) ctx.win(); else if (qbox) { qbox.hidden = false; if (openBtn) openBtn.remove(); } }
     const txt = h('div', { class: 'db-txt' }, ex.ten ? h('h4', null, ex.ten) : null, p, ex.nguon ? h('p', { class: 'db-src' }, ex.nguon) : null);
     ctx.body.append(ex.hinh ? h('div', { class: 'db' }, h('img', { class: 'db-img', src: ex.hinh, alt: ex.ten || '' }), txt) : txt);
 
@@ -73,7 +76,7 @@
     ctx.body.append(row, recorder({ label: 'Ghi âm em đọc bài', max: 40 }));
 
     // câu hỏi hiểu bài
-    let qbox = null;
+    let qbox = null, openBtn = null;
     if (ex.hoi && ex.hoi.length) {
       qbox = h('div', { class: 'db-q' }); qbox.hidden = true;
       const dots = h('div', { class: 'dots' }, ex.hoi.map(() => h('i')));
@@ -94,9 +97,11 @@
       };
       next();
       ctx.body.append(qbox);
-      const open = h('button', { class: 'btn green', type: 'button' }, 'Trả lời câu hỏi');
-      open.onclick = () => { qbox.hidden = false; open.remove(); qbox.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); };
-      row.append(open);
+      if (!doneRead) {
+        openBtn = h('button', { class: 'btn green', type: 'button' }, 'Trả lời câu hỏi');
+        openBtn.onclick = () => { qbox.hidden = false; openBtn.remove(); openBtn = null; qbox.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); };
+        row.insertBefore(openBtn, row.lastChild.nextSibling);
+      }
     }
   };
 });

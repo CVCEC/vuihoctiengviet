@@ -32,13 +32,17 @@
     const pt = (a, r) => [C + r * Math.cos(rad(a)), C + r * Math.sin(rad(a))];
     const longest = Math.max(...muc.map(m => Array.from(m.c).length));
     const fs = Math.max(14, Math.min(46, (n <= 6 ? 46 : 300 / n) * (longest > 3 ? 3.2 / longest : 1)));
+    const labels = [];
     muc.forEach((m, i) => {
       const a0 = i * step, a1 = a0 + step;
       const [x0, y0] = pt(a0, R), [x1, y1] = pt(a1, R);
       const large = step > 180 ? 1 : 0;
       rot.append(svgEl('path', { d: `M${C},${C} L${x0.toFixed(2)},${y0.toFixed(2)} A${R},${R} 0 ${large} 1 ${x1.toFixed(2)},${y1.toFixed(2)} Z`, fill: MAU[i % MAU.length], stroke: '#fff', 'stroke-width': 3 }));
       const am = a0 + step / 2, [tx, ty] = pt(am, R * (n <= 4 ? 0.58 : 0.7));
-      rot.append(svgEl('text', { x: tx.toFixed(2), y: ty.toFixed(2), 'text-anchor': 'middle', 'dominant-baseline': 'central', 'font-size': fs.toFixed(1), 'font-weight': 700, fill: '#3A3B3C', 'font-family': 'Andika, sans-serif', transform: `rotate(${am.toFixed(2)} ${tx.toFixed(2)} ${ty.toFixed(2)})` }, m.c));
+      // chữ luôn đứng thẳng (b không thành q khi nằm dưới đáy vòng quay)
+      const t = svgEl('text', { x: tx.toFixed(2), y: ty.toFixed(2), 'text-anchor': 'middle', 'dominant-baseline': 'central', 'font-size': fs.toFixed(1), 'font-weight': 700, fill: '#3A3B3C', 'font-family': 'Andika, sans-serif' }, m.c);
+      labels.push({ t, x: tx.toFixed(2), y: ty.toFixed(2) });
+      rot.append(t);
     });
     rot.append(svgEl('circle', { cx: C, cy: C, r: 26, fill: '#fff', stroke: '#E4DBCF', 'stroke-width': 4 }));
     rot.append(svgEl('circle', { cx: C, cy: C, r: 9, fill: '#C68B59' }));
@@ -72,7 +76,9 @@
       const ease = t => 1 - Math.pow(1 - t, 4);
       const frame = now => {
         const t = Math.min(1, (now - t0) / dur);
-        rot.setAttribute('transform', `rotate(${(from + (next - from) * ease(t)).toFixed(2)} ${C} ${C})`);
+        const a = from + (next - from) * ease(t);
+        rot.setAttribute('transform', `rotate(${a.toFixed(2)} ${C} ${C})`);
+        labels.forEach(l => l.t.setAttribute('transform', `rotate(${(-a).toFixed(2)} ${l.x} ${l.y})`));
         if (t < 1) requestAnimationFrame(frame); else done();
       };
       requestAnimationFrame(frame);

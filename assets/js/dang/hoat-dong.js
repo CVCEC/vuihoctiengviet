@@ -65,9 +65,10 @@
       ctx.win();
       btn.disabled = true;
       note.textContent = '';
-      ctx.body.append(h('div', { class: 'done-box' }, h('b', null, ex.khen || 'Giỏi lắm! Em đã hoàn thành hoạt động.')));
+      act.after(h('div', { class: 'done-box' }, h('b', null, ex.khen || 'Giỏi lắm! Em đã hoàn thành hoạt động.')));
     };
-    ctx.body.append(h('div', { class: 'hd-act' }, btn, note));
+    const act = h('div', { class: 'hd-act' }, btn, note);
+    ctx.body.append(act);
     if (ex.ghiAm) ctx.body.append(recorder({ label: typeof ex.ghiAm === 'string' ? ex.ghiAm : 'Ghi âm phần em nói' }));
     update();
   };
