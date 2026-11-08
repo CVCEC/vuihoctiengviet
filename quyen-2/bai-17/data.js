@@ -26,9 +26,9 @@ const DUONG = {
   sang: 'Cháu đi sang đường, rẽ trái.',
   quaTu: 'Cháu đi thẳng đường này, qua ngã tư.'
 };
-const hoiDuong = (n, noi, di, xa, saiDi, saiXa) => [
-  { hinh: I + 'ht4-' + n + '.webp', hoi: 'Bác cho cháu hỏi, ' + noi + ' ở đâu ạ?', dung: di, sai: saiDi },
-  { hinh: I + 'ht4-' + n + '.webp', hoi: noi.charAt(0).toUpperCase() + noi.slice(1) + ' cách đây bao xa ạ?', dung: noi.charAt(0).toUpperCase() + noi.slice(1) + ' cách đây khoảng ' + xa + '.', sai: saiXa.map(x => noi.charAt(0).toUpperCase() + noi.slice(1) + ' cách đây khoảng ' + x + '.') }
+const hoiDuong = (n, noi, di, xa, saiDi, saiXa, am) => [
+  { hinh: I + 'ht4-' + n + '.webp', hoi: { c: 'Bác cho cháu hỏi, ' + noi + ' ở đâu ạ?', am: am && am[0] }, dung: di, sai: saiDi, amDung: am && am[1] },
+  { hinh: I + 'ht4-' + n + '.webp', hoi: { c: noi.charAt(0).toUpperCase() + noi.slice(1) + ' cách đây bao xa ạ?', am: am && am[2] }, dung: noi.charAt(0).toUpperCase() + noi.slice(1) + ' cách đây khoảng ' + xa + '.', sai: saiXa.map(x => noi.charAt(0).toUpperCase() + noi.slice(1) + ' cách đây khoảng ' + x + '.') }
 ];
 
 /* Luyện đọc 2: đọc từ, chọn hình */
@@ -38,6 +38,12 @@ const TU_DOC = [
   ['thuyền buồm', 'thuyen-buom'], ['trượt tuyết', 'truot-tuyet'], ['quyển truyện', 'quyen-truyen'], ['ngoạm', 'ngoam'], ['mỏ khoằm', 'mo-khoam']
 ];
 const hinhLD = k => ({ hinh: I + 'ld-' + k + '.webp' });
+/* Đọc các từ ngữ: nối từ ngữ với hình, mỗi lần 5 từ; tron = thứ tự hình ở cột B */
+const nhomDoc = (id, tu, lenh, tron) => {
+  const ds = TU_DOC.slice(tu, tu + 5);
+  return { id, so: 2, loai: 'noi', lenh, goiY: 'Em đọc to từng từ ngữ, rồi nối từ ngữ với hình đúng.', tenA: 'Từ ngữ', tenB: 'Hình',
+    a: ds.map(([c]) => ({ c })), b: tron.map(k => hinhLD(ds[k][1])), cap: ds.map((_, k) => [k, tron.indexOf(k)]) };
+};
 
 const BAI_HOC = {
   quyen: 2, bai: 17, ten: 'Bác cho cháu hỏi, siêu thị ở đâu ạ?', chuDe: 'Cộng đồng', chu: 'oan – oat, oam – oăm', amTen: A + 'tn-ten.mp3',
@@ -100,8 +106,9 @@ const BAI_HOC = {
           vai: VAI_A, loi: HT_A.concat(HT_B)
         },
         {
-          id: 'ht3', so: 3, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
-          goiY: 'Câu 1 là mẫu. Nhìn hình, đọc câu hỏi, chọn câu trả lời đúng rồi nói to cả câu.',
+          id: 'ht3', so: 3, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          mau: { cau: [{ c: 'Nhà cách trường bao xa?' }, { c: 'Nhà cách trường khoảng 900 mét.' }] },
+          goiY: 'Hình 1 là mẫu. Nhìn hình, đọc câu hỏi, chọn câu trả lời đúng rồi nói to cả câu.',
           cau: [
             { hinh: I + 'ht3-1.webp', hoi: 'Nhà cách trường bao xa?', dung: 'Nhà cách trường khoảng 900 mét.', sai: ['Nhà cách trường khoảng 900 ki lô mét.', 'Nhà cách trường khoảng 300 mét.'] },
             { hinh: I + 'ht3-2.webp', hoi: 'Huế cách Đà Nẵng bao xa?', dung: 'Huế cách Đà Nẵng khoảng 100 ki lô mét.', sai: ['Huế cách Đà Nẵng khoảng 100 mét.', 'Huế cách Đà Nẵng khoảng 230 ki lô mét.'] },
@@ -111,10 +118,16 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'ht4', so: 4, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          id: 'ht4', so: 4, loai: 'chon-mau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
+          mau: { cau: [
+            { c: 'Bác cho cháu hỏi, siêu thị ở đâu ạ?', am: A + 'm1.mp3' },
+            { c: 'Cháu đi thẳng đường này, đến ngã tư, rẽ phải.', am: A + 'm2.mp3' },
+            { c: 'Siêu thị cách đây bao xa ạ?', am: A + 'b3.mp3' },
+            { c: 'Siêu thị cách đây khoảng 1 ki lô mét.' }
+          ] },
           goiY: 'Hình 1 là mẫu. Em hỏi đường, rồi chọn câu người đi đường trả lời. Nhìn mũi tên vàng và số mét dưới hình.',
           cau: [].concat(
-            hoiDuong(1, 'siêu thị', DUONG.thang, '1 ki lô mét', [DUONG.baTrai, DUONG.cau], ['100 mét', '10 ki lô mét']),
+            hoiDuong(1, 'siêu thị', DUONG.thang, '1 ki lô mét', [DUONG.baTrai, DUONG.cau], ['100 mét', '10 ki lô mét'], [A + 'm1.mp3', A + 'm2.mp3', A + 'b3.mp3']),
             hoiDuong(2, 'công viên', DUONG.baTrai, '800 mét', [DUONG.thang, DUONG.cau], ['200 mét', '800 ki lô mét']),
             hoiDuong(3, 'bảo tàng', DUONG.cau, '200 mét', [DUONG.thang, DUONG.sang], ['300 mét', '200 ki lô mét']),
             hoiDuong(4, 'nhà sách', DUONG.sang, '300 mét', [DUONG.cau, DUONG.quaTu], ['400 mét', '800 mét']),
@@ -133,11 +146,9 @@ const BAI_HOC = {
             { hinh: I + 'ld-hoat-hinh.webp', tu: 'phim hoạt hình', van: 'oat', phan: ['o', 'a', 't'], doc: 'o – a – tờ – oat' }
           ]
         },
-        {
-          id: 'ld2', so: 2, loai: 'chon-cau', lenh: 'Đọc các từ ngữ sau',
-          goiY: 'Em đọc to từ ngữ, rồi chạm vào hình đúng.',
-          cau: TU_DOC.map(([tu, k], i) => ({ hoi: tu, dung: hinhLD(k), sai: [hinhLD(TU_DOC[(i + 4) % 15][1]), hinhLD(TU_DOC[(i + 9) % 15][1])] }))
-        },
+        nhomDoc('ld2a', 0, 'Đọc các từ ngữ sau (1–5)', [3, 0, 4, 1, 2]),
+        nhomDoc('ld2b', 5, 'Đọc các từ ngữ sau (6–10)', [2, 4, 0, 3, 1]),
+        nhomDoc('ld2c', 10, 'Đọc các từ ngữ sau (11–15)', [4, 2, 0, 1, 3]),
         {
           id: 'ld3', so: 3, loai: 'doc-bai', lenh: 'Đọc bài sau',
           ten: 'Hai chị em', hinh: I + 'ld-bai.webp',
@@ -202,8 +213,9 @@ const BAI_HOC = {
       id: 'tieng-viet-vui', ten: 'Tiếng Việt vui', mau: 'tvv', trang: [115],
       bt: [
         {
-          id: 'tvv1a', so: 1, loai: 'chon-cau', lenh: 'Trò chơi: Ai nhanh? Ai đúng? – a) Chỉ vào hình, hỏi đáp tên người, vật.',
-          goiY: 'Mẫu: – Đây là ai? / Đây là gì? – Đây là hai bạn học sinh. / Đây là đèn giao thông. Nhìn số trên hình, chọn câu đúng thật nhanh!',
+          id: 'tvv1a', so: 1, loai: 'chon-mau', lenh: 'Trò chơi: Ai nhanh? Ai đúng? – a) Chỉ vào hình, hỏi đáp tên người, vật.',
+          mau: { cau: [{ c: 'Đây là ai? / Đây là gì?' }, { c: 'Đây là hai bạn học sinh. / Đây là đèn giao thông.' }] },
+          goiY: 'Nhìn số trên hình, chọn câu đúng thật nhanh!',
           cau: [
             { hinh: I + 'v1.webp', hoi: 'Số 1: Đây là gì?', dung: 'Đây là đường.', sai: ['Đây là cầu.', 'Đây là xe buýt.'] },
             { hinh: I + 'v2.webp', hoi: 'Số 2: Đây là gì?', dung: 'Đây là đèn giao thông.', sai: ['Đây là xe đạp.', 'Đây là cầu.'] },
@@ -216,8 +228,9 @@ const BAI_HOC = {
           ]
         },
         {
-          id: 'tvv1b', so: 1, loai: 'chon-cau', lenh: 'Trò chơi: Ai nhanh? Ai đúng? – b) Chỉ vào hình, hỏi đáp hoạt động của người, vật.',
-          goiY: 'Mẫu: – Hai bạn này đang làm gì? – Hai bạn ấy đang qua đường.',
+          id: 'tvv1b', so: 1, loai: 'chon-mau', lenh: 'Trò chơi: Ai nhanh? Ai đúng? – b) Chỉ vào hình, hỏi đáp hoạt động của người, vật.',
+          mau: { cau: [{ c: 'Hai bạn này đang làm gì?' }, { c: 'Hai bạn ấy đang qua đường.' }] },
+          goiY: 'Nhìn hình, chọn câu đúng thật nhanh!',
           cau: [
             { hinh: I + 'v7.webp', hoi: 'Hai bạn này đang làm gì?', dung: 'Hai bạn ấy đang qua đường.', sai: ['Hai bạn ấy đang đi xe đạp.', 'Hai bạn ấy đang đi máy bay.'] },
             { hinh: I + 'v8.webp', hoi: 'Hai mẹ con này đang làm gì?', dung: 'Hai mẹ con ấy đang đi bộ.', sai: ['Hai mẹ con ấy đang đi xe buýt.', 'Hai mẹ con ấy đang đi xe đạp.'] },
