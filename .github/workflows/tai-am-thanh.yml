@@ -1,0 +1,40 @@
+name: Tải file thu âm từ Google Drive
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['nguon-am-thanh/danh-sach.tsv']
+
+permissions:
+  contents: write
+
+jobs:
+  tai:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tải các file còn thiếu
+        run: |
+          set -e
+          n=0
+          while IFS=$'\t' read -r id path; do
+            case "$id" in ''|\#*) continue;; esac
+            out="nguon-am-thanh/$path"
+            if [ -s "$out" ]; then echo "Đã có: $path"; continue; fi
+            mkdir -p "$(dirname "$out")"
+            curl -sSL --retry 3 -o "$out" "https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t"
+            kind=$(file -b "$out")
+            echo "$path -> $kind"
+            case "$kind" in
+              *Audio*|*MPEG*|*ID3*) n=$((n+1));;
+              *) echo "::error::$path không phải file âm thanh (có thể Drive đã đổi quyền chia sẻ)"; rm -f "$out"; exit 1;;
+            esac
+          done < nguon-am-thanh/danh-sach.tsv
+          echo "Đã tải $n file mới"
+      - name: Lưu vào kho
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nguon-am-thanh
+          if git diff --cached --quiet; then echo "Không có gì mới"; else git commit -m "Tải file thu âm từ Google Drive" && git push; fi

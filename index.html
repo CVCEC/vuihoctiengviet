@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vui học tiếng Việt – Trường Tiếng Việt Của Em</title>
+<meta name="description" content="Bộ sách Vui học tiếng Việt (Quyển 1, 2) phiên bản tương tác: nghe, nói, đóng vai, đọc và viết – miễn phí cho các gia đình.">
+<meta name="theme-color" content="#F4F0EA">
+<link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/andika-vietnamese-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="https://truongtiengvietcuaem.cvcec.org/" aria-label="Trường Tiếng Việt Của Em – trang chủ"><b>Trường Tiếng Việt</b><span>Của Em</span></a>
+    <nav class="crumb"><a class="pill" href="https://truongtiengvietcuaem.cvcec.org/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>Về Trường</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="home-hero">
+    <h1>Vui học <span>tiếng Việt</span></h1>
+    <p>Bộ sách tương tác cho các em mới bắt đầu học tiếng Việt: nghe, nói theo, đóng vai, tô chữ – học cùng bố mẹ trên điện thoại, máy tính bảng hoặc máy tính.</p>
+  </section>
+
+  <div class="books" role="group" aria-label="Chọn quyển">
+    <button class="book q1" type="button" data-q="1" aria-pressed="true"><b>Quyển 1</b><small>Nghe – nói, làm quen mặt chữ · 20 bài</small></button>
+    <button class="book q2" type="button" data-q="2" aria-pressed="false"><b>Quyển 2</b><small>Luyện nói, bắt đầu đọc – viết · 20 bài</small></button>
+  </div>
+
+  <div id="list"></div>
+
+  <section class="guide">
+    <h2>Hướng dẫn cho bố mẹ</h2>
+    <ul>
+      <li>Mỗi bài đi theo đúng các phần trong sách. Em làm lần lượt từng phần, xong mỗi bài tập sẽ được một ngôi sao.</li>
+      <li>Hãy cho em nghe và <b>nói to theo</b>. Nút ghi âm giúp em nghe lại giọng mình để so với giọng mẫu.</li>
+      <li>Bản ghi âm và ảnh gia đình chỉ nằm trên máy của bạn, không được gửi lên mạng. Tiến độ học cũng chỉ lưu trên máy này.</li>
+      <li>Nếu có sách giấy, bạn có thể bấm “Xem trang sách” trong mỗi bài để đối chiếu.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Nội dung: <b>Vui học tiếng Việt</b> (Quyển 1, 2) · Nhóm tác giả Nguyễn Minh Thuyết, Nguyễn Khánh Hà, Hoàng Hoà Bình, Phùng Thị Thanh Lâm, Trịnh Cẩm Lan, Hoàng Anh Thi · Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh. Bộ sách do Mạng lưới Giảng dạy tiếng Việt và văn hoá Việt Nam toàn cầu (Vietnamese Network), đại diện là Hội Người Việt Nam tại Fukuoka, liên kết với Nhà xuất bản biên soạn và xuất bản.</p>
+    <p>Bản số hoá tương tác: CVCEC – Trường Tiếng Việt Của Em, với sự đồng ý của Nhà xuất bản. Sử dụng miễn phí cho mục đích học tập.</p>
+  </div>
+</footer>
+
+<script src="assets/js/muc-luc.js"></script>
+<script>
+(function () {
+  const list = document.getElementById('list');
+  const btns = document.querySelectorAll('.book');
+  function stars(q, b) {
+    try {
+      const s = JSON.parse(localStorage.getItem('vhtv:q' + q + ':b' + String(b).padStart(2, '0'))) || {};
+      const got = Object.keys(s).filter(k => k[0] !== '_').length;
+      return s._tong ? got + '/' + s._tong + ' sao' : '';
+    } catch (e) { return ''; }
+  }
+  function show(q) {
+    const book = MUC_LUC.find(x => x.quyen === q);
+    btns.forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.q === q)));
+    list.innerHTML = '';
+    book.chuong.forEach(ch => {
+      const h = document.createElement('h2'); h.className = 'chap'; h.textContent = ch.ten; list.append(h);
+      const g = document.createElement('div'); g.className = 'grid';
+      ch.bai.forEach(b => {
+        const a = document.createElement(b.san ? 'a' : 'div');
+        a.className = 'les' + (b.san ? '' : ' soon') + (b.on ? ' ont' : '');
+        a.style.setProperty('--c', book.mau);
+        if (b.san) a.href = 'quyen-' + q + '/bai-' + String(b.so).padStart(2, '0') + '/';
+        const st = b.san ? stars(q, b.so) : '';
+        a.innerHTML = '<span class="n">' + b.so + '</span><span><span class="t"></span><br><span class="s"></span></span>';
+        a.querySelector('.t').textContent = b.ten;
+        a.querySelector('.s').textContent = b.san ? (st || (b.chu ? 'Chữ: ' + b.chu : 'Bắt đầu học')) : 'Sắp có';
+        g.append(a);
+      });
+      list.append(g);
+    });
+    try { history.replaceState(null, '', '#quyen-' + q); } catch (e) {}
+  }
+  btns.forEach(b => b.addEventListener('click', () => show(+b.dataset.q)));
+  show(location.hash === '#quyen-2' ? 2 : 1);
+})();
+</script>
+</body>
+</html>
