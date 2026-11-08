@@ -12,7 +12,7 @@
       '.dc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}' +
       '.dc-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;background:#fff;border:2px solid var(--line);border-radius:16px;padding:10px 8px 12px;cursor:pointer;font:inherit;color:var(--ink);touch-action:manipulation}' +
       '.dc-card img{height:84px;width:auto;max-width:100%;object-fit:contain}' +
-      '.dc-card .dc-w{font-size:34px;font-weight:700;line-height:1.25;min-height:44px;letter-spacing:.02em}' +
+      '.dc-card .dc-w{font-size:clamp(24px,7vw,34px);font-weight:700;line-height:1.25;min-height:44px;letter-spacing:.02em}' +
       '.dc-card .dc-w .bl{color:var(--c);border-bottom:3px dashed var(--c);padding:0 2px;min-width:.9em;display:inline-block;text-align:center}' +
       '.dc-card .dc-w .bl.trong{color:#C9BFB2}' +
       '.dc-card.sel{border-color:var(--straw);box-shadow:0 0 0 4px rgba(221,170,85,.35)}' +

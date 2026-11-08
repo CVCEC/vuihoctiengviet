@@ -282,7 +282,7 @@
         const want = order[k];
         if (i === want || ex.diem[i].tu === ex.diem[want].tu) {
           stopAll(); feedback(fb, true, 'Đúng rồi! Đây là ' + (ex.diem[i].goi || ex.diem[i].tu) + '.');
-          who.classList.add('good'); if (tag) { tag.textContent = ex.diem[i].tu; tag.classList.add('reveal'); }
+          who.classList.add('good'); if (tag) { tag.textContent = ex.diem[i].tu; tag.classList.add('reveal'); if (/\s/.test(ex.diem[i].tu) || ex.diem[i].tu.length > 6) tag.classList.add('dai'); }
           dots.children[k].classList.add('done'); k++;
           await wait(900); who.classList.remove('good');
           if (k < order.length) ask(); else finish();

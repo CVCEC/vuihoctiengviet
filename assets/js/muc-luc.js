@@ -33,11 +33,11 @@ const MUC_LUC = [
     quyen: 2, ten: 'Quyển 2', moTa: 'Luyện nói, bắt đầu đọc – viết', mau: '#3E9B5F',
     chuong: [
       { ten: 'Gia đình', bai: [
-        { so: 1, ten: 'Đây là em họ của em à?', chu: 'a, ă, â, c' },
-        { so: 2, ten: 'Ai chăm nhất nhà?', chu: 'o, ô, ơ, d, đ' },
-        { so: 3, ten: 'Trong phòng khách có gì?', chu: 'i, ia, u, ua' },
-        { so: 4, ten: 'Con rửa rau giúp mẹ được không?', chu: 'm, n, ư, ưa' },
-        { so: 5, ten: 'Ôn tập và học chữ', chu: 'e, ê, l, y, b', on: true } ] },
+        { so: 1, ten: 'Đây là em họ của em à?', chu: 'a, ă, â, c', san: true },
+        { so: 2, ten: 'Ai chăm nhất nhà?', chu: 'o, ô, ơ, d, đ', san: true },
+        { so: 3, ten: 'Trong phòng khách có gì?', chu: 'i, ia, u, ua', san: true },
+        { so: 4, ten: 'Con rửa rau giúp mẹ được không?', chu: 'm, n, ư, ưa', san: true },
+        { so: 5, ten: 'Ôn tập và học chữ', chu: 'e, ê, l, y, b', on: true, san: true } ] },
       { ten: 'Thiên nhiên', bai: [
         { so: 6, ten: 'Hôm nay thời tiết thế nào?', chu: 'h, ch, nh, k, kh', san: true },
         { so: 7, ten: 'Bạn thích đi du lịch chứ?', chu: 'g, gh, gi, ng, ngh', san: true },
@@ -51,11 +51,11 @@ const MUC_LUC = [
         { so: 14, ten: 'Giờ nghỉ, cậu thường làm gì?', chu: 'ai – ay', san: true },
         { so: 15, ten: 'Ôn tập và học chữ', chu: 'ao – au', on: true, san: true } ] },
       { ten: 'Cộng đồng', bai: [
-        { so: 16, ten: 'Em đến trường bằng gì?', chu: 'oa – uê' },
-        { so: 17, ten: 'Bác cho cháu hỏi, siêu thị ở đâu ạ?', chu: 'oan – oat, oam – oăm' },
-        { so: 18, ten: 'Bạn là người nước nào?', chu: 'oang – oac, oanh – oach' },
-        { so: 19, ten: 'Cháu bị làm sao?', chu: 'oai – oay' },
-        { so: 20, ten: 'Ôn tập', on: true } ] }
+        { so: 16, ten: 'Em đến trường bằng gì?', chu: 'oa – uê', san: true },
+        { so: 17, ten: 'Bác cho cháu hỏi, siêu thị ở đâu ạ?', chu: 'oan – oat, oam – oăm', san: true },
+        { so: 18, ten: 'Bạn là người nước nào?', chu: 'oang – oac, oanh – oach', san: true },
+        { so: 19, ten: 'Cháu bị làm sao?', chu: 'oai – oay', san: true },
+        { so: 20, ten: 'Ôn tập', on: true, san: true } ] }
     ]
   }
 ];

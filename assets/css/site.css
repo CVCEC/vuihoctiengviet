@@ -119,6 +119,7 @@ a{color:var(--wood-d)}
 .tag{position:absolute;border:0;padding:0;background:transparent;cursor:pointer;border-radius:50%}
 .tag.cover{background:#fff;border:3px solid var(--pink);display:grid;place-items:center;font-weight:700;color:var(--pink);font-size:clamp(16px,3.4vw,28px)}
 .tag.cover.reveal{color:var(--ink)}
+.tag.cover.dai{font-size:clamp(11px,2.3vw,20px);line-height:1.05;text-align:center;padding:0 3px}
 .tag.pulse{animation:tagpulse .8s ease}
 @keyframes tagpulse{50%{transform:scale(1.15)}}
 @keyframes shake{20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
