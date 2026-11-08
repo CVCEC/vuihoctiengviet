@@ -10,10 +10,10 @@ const MUC_LUC = [
         { so: 4, ten: 'Bố mẹ em thế nào?', chu: 'e, ê', san: true },
         { so: 5, ten: 'Ôn tập', on: true, san: true } ] },
       { ten: 'Thiên nhiên', bai: [
-        { so: 6, ten: 'Kia là con gì?', chu: 'g, gh, gi' },
-        { so: 7, ten: 'Kia là cây cam, phải không?', chu: 'h, i, y' },
-        { so: 8, ten: 'Cây cam có mấy quả?', chu: 'k, kh' },
-        { so: 9, ten: 'Con hổ đang làm gì?', chu: 'l, m' },
+        { so: 6, ten: 'Kia là con gì?', chu: 'g, gh, gi', san: true },
+        { so: 7, ten: 'Kia là cây cam, phải không?', chu: 'h, i, y', san: true },
+        { so: 8, ten: 'Cây cam có mấy quả?', chu: 'k, kh', san: true },
+        { so: 9, ten: 'Con hổ đang làm gì?', chu: 'l, m', san: true },
         { so: 10, ten: 'Ôn tập', on: true } ] },
       { ten: 'Trường lớp', bai: [
         { so: 11, ten: 'Em có biết vẽ không?', chu: 'n, nh' },
@@ -45,11 +45,11 @@ const MUC_LUC = [
         { so: 9, ten: 'Hè này bạn sẽ đi đâu?', chu: 'r, tr, v, s, x', san: true },
         { so: 10, ten: 'Ôn tập và học chữ', chu: 'am – ap', on: true, san: true } ] },
       { ten: 'Trường lớp', bai: [
-        { so: 11, ten: 'Bây giờ là mấy giờ?', chu: 'an – at' },
-        { so: 12, ten: 'Các em vào lớp nhé!', chu: 'ang – ac' },
-        { so: 13, ten: 'Các em đừng hái hoa nhé!', chu: 'anh – ach' },
-        { so: 14, ten: 'Giờ nghỉ, cậu thường làm gì?', chu: 'ai – ay' },
-        { so: 15, ten: 'Ôn tập và học chữ', chu: 'ao – au', on: true } ] },
+        { so: 11, ten: 'Bây giờ là mấy giờ?', chu: 'an – at', san: true },
+        { so: 12, ten: 'Các em vào lớp nhé!', chu: 'ang – ac', san: true },
+        { so: 13, ten: 'Các em đừng hái hoa nhé!', chu: 'anh – ach', san: true },
+        { so: 14, ten: 'Giờ nghỉ, cậu thường làm gì?', chu: 'ai – ay', san: true },
+        { so: 15, ten: 'Ôn tập và học chữ', chu: 'ao – au', on: true, san: true } ] },
       { ten: 'Cộng đồng', bai: [
         { so: 16, ten: 'Em đến trường bằng gì?', chu: 'oa – uê' },
         { so: 17, ten: 'Bác cho cháu hỏi, siêu thị ở đâu ạ?', chu: 'oan – oat, oam – oăm' },

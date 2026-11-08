@@ -6,7 +6,7 @@ try:
 except Exception:
     wechat = None
 for p in pages:
-    import tempfile; base = os.path.join(tempfile.gettempdir(), f'qr-{p}')
+    import tempfile; base = os.path.join(tempfile.mkdtemp(prefix='qr-'), f'trang-{p}')
     subprocess.run(['pdftoppm', '-r', '300', '-png', '-f', str(p), '-l', str(p), '-singlefile', pdf, base], check=True)
     g = cv2.cvtColor(cv2.imread(base + '.png'), cv2.COLOR_BGR2GRAY); h, w = g.shape
     found = set()

@@ -68,7 +68,7 @@
           };
           opts.append(b);
         });
-        if (hoi.am) setTimeout(() => play(hoi.am, holder.querySelector('.cc-hoi .lenh')), 250);
+        if (hoi.am) { const my = A.gen(); setTimeout(() => { if (A.gen() === my && !opts.querySelector('.opt.good')) play(hoi.am, holder.querySelector('.cc-hoi .lenh')); }, 250); }
       }
       function finish() {
         opts.innerHTML = ''; holder.innerHTML = ''; dem.textContent = '';

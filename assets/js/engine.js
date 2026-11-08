@@ -229,7 +229,7 @@
   T['nghe-hinh'] = function (ex, ctx) {
     const seg = h('div', { class: 'seg', role: 'group' });
     const bA = h('button', { type: 'button', 'aria-pressed': 'true' }, 'Nghe và nhắc lại');
-    const bB = h('button', { type: 'button', 'aria-pressed': 'false' }, 'Trò chơi: Ai đây?');
+    const bB = h('button', { type: 'button', 'aria-pressed': 'false' }, ex.tenChoi || 'Trò chơi: Ai đây?');
     seg.append(bA, bB);
     const pane = h('div');
     ctx.body.append(seg, pane);
@@ -237,7 +237,7 @@
     bA.onclick = () => show('hoc'); bB.onclick = () => show('luyen');
 
     function learn() {
-      pane.append(h('p', { class: 'hint' }, 'Chạm vào từng người để nghe. Nghe xong, em nhắc lại thật to.'));
+      pane.append(h('p', { class: 'hint' }, ex.goiY || 'Chạm vào từng người để nghe. Nghe xong, em nhắc lại thật to.'));
       const cap = h('div', { class: 'phude', 'aria-live': 'polite' });
       const sc = scene(ex, 'hoc', (i, who, tag) => { stopAll(); flash(who, 'pulse'); flash(tag, 'pulse'); cap.textContent = ex.diem[i].cau || ex.diem[i].tu; play(ex.diem[i].am); });
       pane.append(sc.el, cap);
@@ -275,7 +275,7 @@
       let k = 0, tries = 0;
       const again = h('button', { class: 'btn wood', type: 'button' }, icon('spk'), 'Nghe lại');
       const dots = h('div', { class: 'dots' }, order.map(() => h('i')));
-      pane.append(h('p', { class: 'hint' }, 'Nghe và chạm vào người đúng.'), h('div', { class: 'game-bar' }, again, dots));
+      pane.append(h('p', { class: 'hint' }, ex.goiYChoi || 'Nghe và chạm vào người đúng.'), h('div', { class: 'game-bar' }, again, dots));
       const fb = h('div', { class: 'fb', 'aria-live': 'polite' });
       const sc = scene(ex, 'luyen', async (i, who, tag) => {
         if (k >= order.length) return;
@@ -295,7 +295,7 @@
         ctx.win();
         const r = h('button', { class: 'btn soft', type: 'button' }, icon('redo'), 'Chơi lại');
         r.onclick = () => show('luyen');
-        pane.append(h('div', { class: 'done-box' }, h('b', null, 'Giỏi quá! Em đã tìm đúng cả nhà.'), r));
+        pane.append(h('div', { class: 'done-box' }, h('b', null, ex.khen || 'Giỏi quá! Em đã tìm đúng cả nhà.'), r));
       }
       setTimeout(ask, 350);
     }

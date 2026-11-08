@@ -16,6 +16,7 @@
 .lt-line.mine{background:#F0F7EE}
 .lt-line.mine.on{background:#FFF1D6}
 .lt-ai{flex:none;display:inline-flex;align-items:center;gap:6px;font-weight:700;min-width:64px}
+@media (max-width:420px){.lt-line{flex-wrap:wrap;row-gap:2px}.lt-ai{min-width:0}.lt-line .lt-c{flex:1 1 calc(100% - 32px)}}
 .lt-ai img{width:34px;height:34px;border-radius:50%;object-fit:cover;object-position:center 40%;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.15)}
 .lt-c{font-size:19px;line-height:1.4;padding-top:4px}
 .lt-line .ico{width:18px;height:18px;color:var(--wood);flex:none;margin-top:6px}
