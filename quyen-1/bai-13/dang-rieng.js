@@ -4,7 +4,9 @@
                     ex.baiHat = [{ baiHat, tacGia, youtube, bai }], ex.goiY?, ex.ghiAm?
    'hoi-co-khong' : hỏi đáp về bản thân theo mẫu (không có đáp án sai) – em chọn "Có" hoặc "Không", máy hiện câu trả lời đầy đủ
                     để em nói to. ex.mau? (khung M), ex.cau = [{ hinh?, hoi: 'chuỗi' | { c, am? }, co: 'Có. …', khong: 'Không. …' }]
-   'bang-so'      : bảng số như trong sách (số – chữ – hình chiếc lá): nghe và nhắc lại, trò chơi nghe và chọn số */
+   'bang-so'      : bảng số như trong sách (số – chữ – hình chiếc lá): nghe và nhắc lại, trò chơi nghe và chọn số
+   'sinh-nhat'    : trả lời về sinh nhật và tuổi của em (chọn ngày, tháng, tuổi → câu trả lời đầy đủ)
+   'hoi-ngay'     : hỏi đáp về thứ, ngày, tháng của hôm nay (đáp án tính theo lịch của máy) */
 (window.VHTV_DANG = window.VHTV_DANG || []).push(function (A) {
   'use strict';
   const { h, icon, play, stopAll, sfx, recorder } = A;
@@ -38,6 +40,20 @@
 .bs-row.good{background:var(--ok-bg) !important}
 .bs-row.bad{animation:shake .4s}
 .bs-dem{font-weight:700;color:var(--ink-2);margin-top:8px}
+.bs.kl{max-width:460px}
+.bs.kl .bs-row{grid-template-columns:56px 1fr}
+.bs.kl .bs-row .w{border-right:0}
+.sn{display:grid;gap:14px;grid-template-columns:minmax(0,220px) 1fr;align-items:start}
+@media (max-width:560px){.sn{grid-template-columns:1fr}.sn .sn-img{max-width:200px;margin:0 auto}}
+.sn-img{width:100%;border-radius:12px;border:2px solid #EFE7DC;background:#fff}
+.sn-q{background:#fff;border:2px solid #EFE7DC;border-radius:16px;padding:12px;margin-bottom:12px}
+.sn-q .cc-hoi{justify-content:flex-start;font-size:clamp(19px,4vw,23px);margin-bottom:8px}
+.sn-pick{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:19px}
+.sn-pick select{font:inherit;font-size:20px;font-weight:700;padding:6px 10px;border-radius:12px;border:2px solid var(--line);background:#fff;min-height:48px;color:var(--ink)}
+.sn-ages{display:flex;flex-wrap:wrap;gap:8px}
+.sn-ages .opt{min-width:52px;min-height:48px;padding:6px 10px;font-size:20px}
+.sn-say{margin-top:10px;font-size:clamp(20px,4.4vw,25px);font-weight:700;min-height:32px}
+.sn-say.wait{color:#B7AC9E;font-weight:400;font-size:17px}
 `;
     document.head.append(st);
   }
@@ -75,11 +91,11 @@
       const tab = h('div', { class: 'bs-tab' });
       const rows = ex.bang.map(r => {
         const leaves = h('span', { class: 'l', 'aria-hidden': 'true' });
-        for (let i = 0; i < r.so; i++) leaves.append(h('img', { src: ex.la, alt: '' }));
-        const b = h('button', { class: 'bs-row', type: 'button', 'aria-label': String(r.so) }, h('span', { class: 'n' }, String(r.so)), h('span', { class: 'w' }, r.chu), leaves);
+        if (ex.la) for (let i = 0; i < r.so; i++) leaves.append(h('img', { src: ex.la, alt: '' }));
+        const b = h('button', { class: 'bs-row', type: 'button', 'aria-label': String(r.so) }, h('span', { class: 'n' }, String(r.so)), h('span', { class: 'w' }, r.chu), ex.la ? leaves : null);
         tab.append(b); return b;
       });
-      return { el: h('div', { class: 'bs' + (an ? ' an' : '') }, tab), rows };
+      return { el: h('div', { class: 'bs' + (an ? ' an' : '') + (ex.la ? '' : ' kl') }, tab), rows };
     }
     function learn() {
       pane.append(h('p', { class: 'hint' }, 'Chạm vào từng hàng để nghe số. Nghe xong, em nhắc lại thật to.'));
@@ -137,6 +153,53 @@
       setTimeout(ask, 350);
     }
     show('hoc');
+  };
+
+  const THANG = ['Một', 'Hai', 'Ba', 'Tư', 'Năm', 'Sáu', 'Bảy', 'Tám', 'Chín', 'Mười', 'Mười một', 'Mười hai'];
+  const THU = ['Chủ nhật', 'thứ Hai', 'thứ Ba', 'thứ Tư', 'thứ Năm', 'thứ Sáu', 'thứ Bảy'];
+
+  // 'sinh-nhat': trả lời về bản thân – "Sinh nhật em là ngày nào?" (chọn ngày, tháng) và "Năm nay em mấy tuổi?" (chọn tuổi).
+  // ex.hinh?, ex.hoi1 = { c, am? }, ex.hoi2 = { c, am? }. Chọn xong cả hai câu thì được sao.
+  A.T['sinh-nhat'] = function (ex, ctx) {
+    if (ex.goiY) ctx.body.append(h('p', { class: 'hint' }, ex.goiY));
+    const qline = q => { const l = h('div', { class: 'cc-hoi' }); if (q.am) { const b = h('button', { class: 'lenh', type: 'button', 'aria-label': 'Nghe câu hỏi' }, icon('spk')); b.onclick = () => { stopAll(); play(q.am, b); }; l.append(b); } l.append(h('span', null, q.c)); return l; };
+    let ngay = 0, thang = 0, tuoi = 0, won = false;
+    const say1 = h('div', { class: 'sn-say wait', 'aria-live': 'polite' }, 'Em chọn ngày và tháng sinh của em.');
+    const say2 = h('div', { class: 'sn-say wait', 'aria-live': 'polite' }, 'Em chọn số tuổi của em.');
+    const sNgay = h('select', { 'aria-label': 'Ngày' }, h('option', { value: '0' }, 'ngày …'), Array.from({ length: 31 }, (_, i) => h('option', { value: String(i + 1) }, String(i + 1))));
+    const sThang = h('select', { 'aria-label': 'Tháng' }, h('option', { value: '0' }, 'tháng …'), THANG.map((t, i) => h('option', { value: String(i + 1) }, t)));
+    const check = () => { if (!won && ngay && thang && tuoi) { won = true; sfx(true); ctx.win(); } };
+    const upd1 = () => {
+      ngay = +sNgay.value; thang = +sThang.value;
+      if (ngay && thang) { say1.className = 'sn-say'; say1.textContent = 'Sinh nhật em là ngày ' + ngay + ' tháng ' + THANG[thang - 1] + '.'; check(); }
+    };
+    sNgay.onchange = upd1; sThang.onchange = upd1;
+    const ages = h('div', { class: 'sn-ages' });
+    for (let a = 3; a <= 12; a++) {
+      const b = h('button', { class: 'opt', type: 'button' }, String(a));
+      b.onclick = () => { tuoi = a; ages.querySelectorAll('.opt').forEach(x => x.classList.toggle('good', x === b)); say2.className = 'sn-say'; say2.textContent = 'Năm nay em ' + a + ' tuổi.'; check(); };
+      ages.append(b);
+    }
+    const right = h('div', null,
+      h('div', { class: 'sn-q' }, qline(ex.hoi1), h('div', { class: 'sn-pick' }, sNgay, sThang), say1),
+      h('div', { class: 'sn-q' }, qline(ex.hoi2), ages, say2));
+    ctx.body.append(h('div', { class: 'sn' }, ex.hinh ? h('img', { class: 'sn-img', src: ex.hinh, alt: ex.moTa || '' }) : h('span'), right),
+      recorder({ label: ex.ghiAm || 'Em trả lời to – ghi âm giọng em' }));
+  };
+
+  // 'hoi-ngay': hỏi đáp về thứ, ngày, tháng của HÔM NAY (lấy theo lịch của máy) – như 'hoi-mau', câu đúng tính từ ngày hôm nay.
+  // ex.hoiThu, ex.hoiNgay, ex.hoiThang = { c, am? }
+  A.T['hoi-ngay'] = function (ex, ctx) {
+    const d = new Date(), w = d.getDay(), n = d.getDate(), m = d.getMonth();
+    const thu = i => 'Hôm nay là ' + THU[(i + 7) % 7] + '.';
+    const ngay = (dd, mm) => 'Hôm nay là ngày ' + dd + ' tháng ' + THANG[(mm + 12) % 12] + '.';
+    const nn = n > 1 ? n - 1 : n + 2;
+    ex.cau = [
+      { hoi: ex.hoiThu, dung: thu(w), sai: [thu(w + 1), thu(w + 3)] },
+      { hoi: ex.hoiNgay, dung: ngay(n, m), sai: [ngay(nn, m), ngay(n, m + 1)] },
+      { hoi: ex.hoiThang, dung: 'Tháng này là tháng ' + THANG[m] + '.', sai: ['Tháng này là tháng ' + THANG[(m + 1) % 12] + '.', 'Tháng này là tháng ' + THANG[(m + 11) % 12] + '.'] }
+    ];
+    A.T['hoi-mau'](ex, ctx);
   };
 
   A.T['hoi-co-khong'] = function (ex, ctx) {

@@ -1,6 +1,7 @@
 /* Dạng bài riêng của Quyển 2, Bài 16–20 (cùng một tệp, chép giống nhau vào từng bài):
    1) "vong-quay-hinh" – vòng quay hình như trong sách.
-   2) "ghep-van" – đánh vần vần nhiều chữ cái như bảng màu trong sách: o | a | n → oan, "o – a – nờ – oan". */
+   2) "ghep-van" – đánh vần vần nhiều chữ cái như bảng màu trong sách: o | a | n → oan, "o – a – nờ – oan".
+   3) "doc-tho" – đọc bài thơ: giữ nguyên từng dòng, từng khổ thơ (doc-bai gộp câu thành một đoạn văn). */
 /* Dạng bài riêng "vong-quay-hinh": vòng quay hình như trong sách. Bấm “Quay” → dừng ở một hình → hiện to hình và chữ, em nói câu.
    ex.muc: [{ hinh, c, am? }]   ex.can: số lượt quay để được sao (mặc định 5)
    ex.muc[i].cau?: câu gợi ý riêng cho ô đó ('Mời bạn ăn kem!')
@@ -203,5 +204,92 @@
       grid.append(card);
     });
     ctx.body.append(grid);
+  };
+});
+
+/* "doc-tho": đọc bài thơ theo dòng, theo khổ.
+   ex.ten, ex.trich? ('(Trích)'), ex.tacGia?, ex.hinh?: ['ảnh', …] (dải ảnh trang trí phía trên),
+   ex.kho: [['dòng 1', 'dòng 2', …], …] (mỗi khổ một mảng), ex.cot?: [[0, 1, 2], [3]] (khổ nào ở cột nào khi màn hình rộng),
+   ex.hoi?: [{ hoi, dung, sai: [...] }] – câu hỏi hiện ra sau khi em đọc hết các dòng. */
+(window.VHTV_DANG = window.VHTV_DANG || []).push(function (A) {
+  'use strict';
+  if (A.T['doc-tho']) return;
+  const { h, icon, stopAll, wait, shuffle, feedback, recorder, flash } = A;
+  if (!document.getElementById('dang-doc-tho')) {
+    const st = document.createElement('style'); st.id = 'dang-doc-tho';
+    st.textContent = `
+.dt-imgs{display:flex;justify-content:center;gap:12px;margin:0 0 10px}
+.dt-imgs img{height:96px;width:auto;max-width:30%;object-fit:contain}
+.dt{background:#FFF7E6;border-radius:16px;padding:14px 16px;box-shadow:inset 0 0 0 2px #F6E3B8}
+.dt h4{margin:0;text-align:center;font-size:22px;color:#2E7D4F}
+.dt .dt-trich{text-align:center;margin:0 0 8px;color:var(--ink-2)}
+.dt-cols{display:grid;grid-template-columns:1fr;gap:0 24px;justify-content:center}
+@media (min-width:560px){.dt-cols.hai{grid-template-columns:auto auto}}
+.dt-kho{margin:0 0 14px}
+.dt-l{display:block;width:max-content;max-width:100%;font-size:clamp(21px,4.4vw,25px);line-height:1.55;padding:0 6px;border-radius:6px;cursor:pointer;outline:none}
+.dt-l:focus-visible{box-shadow:0 0 0 2px var(--straw)}
+.dt-l.on{background:#FFE08A}
+.dt-l.read{box-shadow:inset 0 -3px 0 #CFE6D2}
+.dt-tg{text-align:right;font-size:18px;margin:4px 0 0}
+`;
+    document.head.append(st);
+  }
+
+  A.T['doc-tho'] = function (ex, ctx) {
+    ctx.body.append(h('p', { class: 'hint' }, ex.goiY || 'Em đọc to từng dòng thơ. Chạm vào dòng em đang đọc, hoặc bấm “Dòng tiếp theo”.'));
+    if (ex.hinh) ctx.body.append(h('div', { class: 'dt-imgs' }, [].concat(ex.hinh).map(s => h('img', { src: s, alt: '' }))));
+    const lines = [];
+    const khoEl = ex.kho.map(k => {
+      const d = h('div', { class: 'dt-kho' });
+      k.forEach(c => {
+        const i = lines.length;
+        const l = h('span', { class: 'dt-l', role: 'button', tabindex: '0', lang: 'vi' }, c);
+        l.onclick = () => { stopAll(); lines.forEach(x => x.classList.remove('on')); l.classList.add('on'); k0 = i; mark(i); };
+        l.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); l.click(); } });
+        lines.push(l); d.append(l);
+      });
+      return d;
+    });
+    const cot = ex.cot || [ex.kho.map((_, i) => i)];
+    const cols = h('div', { class: 'dt-cols' + (cot.length > 1 ? ' hai' : '') }, cot.map(ds => h('div', null, ds.map(i => khoEl[i]))));
+    ctx.body.append(h('div', { class: 'dt' }, h('h4', null, ex.ten || ''), ex.trich ? h('p', { class: 'dt-trich' }, ex.trich) : null, cols,
+      ex.tacGia ? h('p', { class: 'dt-tg' }, ex.tacGia) : null));
+
+    const read = new Set();
+    let k0 = -1, doneRead = false, qbox = null;
+    function mark(i) { read.add(i); lines[i].classList.add('read'); if (read.size === lines.length && !doneRead) { doneRead = true; if (qbox) { qbox.hidden = false; } else ctx.win(); } }
+    const nx = h('button', { class: 'btn soft', type: 'button' }, 'Dòng tiếp theo', icon('next'));
+    nx.onclick = () => {
+      stopAll(); lines.forEach(x => x.classList.remove('on'));
+      k0 = (k0 + 1) % lines.length; lines[k0].classList.add('on'); mark(k0);
+      lines[k0].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    };
+    const row = h('div', { class: 'mrow' }, nx);
+    ctx.body.append(row, recorder({ label: 'Ghi âm em đọc bài thơ', max: 60 }));
+
+    if (ex.hoi && ex.hoi.length) {
+      qbox = h('div', { class: 'db-q' }); qbox.hidden = true;
+      const dots = h('div', { class: 'dots' }, ex.hoi.map(() => h('i')));
+      const qt = h('div', { class: 'db-qt' }), opts = h('div', { class: 'opts' }), fb = h('div', { class: 'fb', 'aria-live': 'polite' });
+      qbox.append(h('div', { class: 'game-bar' }, h('h4', null, 'Trả lời câu hỏi'), dots), qt, opts, fb);
+      let qi = 0;
+      const next = () => {
+        if (qi >= ex.hoi.length) { opts.innerHTML = ''; qt.textContent = ''; ctx.win(); qbox.append(h('div', { class: 'done-box' }, h('b', null, 'Em đọc hiểu bài thơ rất tốt!'))); return; }
+        const q = ex.hoi[qi]; qt.textContent = q.hoi; opts.innerHTML = ''; fb.textContent = ''; fb.className = 'fb';
+        shuffle([q.dung, ...(q.sai || [])]).forEach(cx => {
+          const b = h('button', { class: 'opt', type: 'button' }, cx);
+          b.onclick = async () => {
+            if (cx === q.dung) { b.classList.add('good'); opts.querySelectorAll('.opt').forEach(o => o.disabled = true); feedback(fb, true); dots.children[qi].classList.add('done'); qi++; await wait(900); next(); }
+            else { flash(b, 'bad', 450); b.classList.add('bad'); feedback(fb, false); }
+          };
+          opts.append(b);
+        });
+      };
+      next();
+      const open = h('button', { class: 'btn green', type: 'button' }, 'Trả lời câu hỏi');
+      open.onclick = () => { qbox.hidden = false; open.remove(); qbox.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); };
+      row.append(open);
+      ctx.body.append(qbox);
+    }
   };
 });

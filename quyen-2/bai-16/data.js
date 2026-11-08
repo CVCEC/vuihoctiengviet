@@ -83,13 +83,13 @@ const BAI_HOC = {
         },
         {
           id: 'ht4', so: 4, loai: 'chon-cau', lenh: 'Nhìn hình, hỏi đáp theo mẫu',
-          goiY: 'Câu 1 là mẫu. Nhìn đồng hồ lúc đi và lúc đến, chọn câu trả lời đúng rồi nói to cả câu.',
+          goiY: 'Câu 1 là mẫu. Nhìn đồng hồ lúc đi và lúc đến, chọn câu trả lời đúng rồi nói to cả câu. Hình 5: giờ ở Tokyo nhanh hơn giờ ở Hà Nội 2 tiếng.',
           cau: [
             { hinh: I + 'ht4-1.webp', hoi: 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất bao lâu?', dung: 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất khoảng 8 tiếng.', sai: ['Từ Hà Nội đến Lào Cai, đi tàu hoả mất khoảng 6 tiếng.', 'Từ Hà Nội đến Lào Cai, đi tàu hoả mất khoảng 16 tiếng.'] },
             { hinh: I + 'ht4-2.webp', hoi: 'Từ nhà đến trường, đi xe đạp mất bao lâu?', dung: 'Từ nhà đến trường, đi xe đạp mất khoảng 30 phút.', sai: ['Từ nhà đến trường, đi xe đạp mất khoảng 8 tiếng.', 'Từ nhà đến trường, đi xe đạp mất khoảng 3 tiếng.'] },
             { hinh: I + 'ht4-3.webp', hoi: 'Từ Huế đến Đà Nẵng, đi ô tô mất bao lâu?', dung: 'Từ Huế đến Đà Nẵng, đi ô tô mất khoảng 3 tiếng.', sai: ['Từ Huế đến Đà Nẵng, đi ô tô mất khoảng 9 tiếng.', 'Từ Huế đến Đà Nẵng, đi ô tô mất khoảng 12 tiếng.'] },
             { hinh: I + 'ht4-4.webp', hoi: 'Từ Thành phố Hồ Chí Minh đến Côn Đảo, đi tàu thuỷ mất bao lâu?', dung: 'Từ Thành phố Hồ Chí Minh đến Côn Đảo, đi tàu thuỷ mất khoảng 6 tiếng.', sai: ['Từ Thành phố Hồ Chí Minh đến Côn Đảo, đi tàu thuỷ mất khoảng 7 tiếng.', 'Từ Thành phố Hồ Chí Minh đến Côn Đảo, đi tàu thuỷ mất khoảng 13 tiếng.'] },
-            { hinh: I + 'ht4-5.webp', hoi: 'Từ Hà Nội đến Tokyo, đi máy bay mất bao lâu?', dung: 'Từ Hà Nội đến Tokyo, đi máy bay mất khoảng 3 tiếng.', sai: ['Từ Hà Nội đến Tokyo, đi máy bay mất khoảng 13 tiếng.', 'Từ Hà Nội đến Tokyo, đi máy bay mất khoảng 16 tiếng.'] }
+            { hinh: I + 'ht4-5.webp', hoi: 'Từ Hà Nội đến Tokyo, đi máy bay mất bao lâu?', dung: 'Từ Hà Nội đến Tokyo, đi máy bay mất khoảng 5 tiếng.', sai: ['Từ Hà Nội đến Tokyo, đi máy bay mất khoảng 13 tiếng.', 'Từ Hà Nội đến Tokyo, đi máy bay mất khoảng 16 tiếng.'] }
           ]
         }
       ]
