@@ -5,7 +5,7 @@ const MUC_LUC = [
     chuong: [
       { ten: 'Gia đình', bai: [
         { so: 1, ten: 'Đây là ai?', chu: 'a, ă, â', san: true },
-        { so: 2, ten: 'Con chào mẹ ạ.', chu: 'b, c, ch' },
+        { so: 2, ten: 'Con chào mẹ ạ.', chu: 'b, c, ch', san: true },
         { so: 3, ten: 'Em làm gì đó?', chu: 'd, đ' },
         { so: 4, ten: 'Bố mẹ em thế nào?', chu: 'e, ê' },
         { so: 5, ten: 'Ôn tập', on: true } ] },

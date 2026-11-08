@@ -177,15 +177,15 @@
     const wrap = h('div', { class: 'scene' }, h('img', { src: ex.hinh, alt: ex.moTa || '', width: ex.co[0], height: ex.co[1] }));
     const items = ex.diem.map((d, i) => {
       const who = h('button', { class: 'who', type: 'button', 'aria-label': d.tu, style: { left: pct(d.nguoi[0]), top: pct(d.nguoi[1]), width: pct(d.nguoi[2]), height: pct(d.nguoi[3]), zIndex: 2 + (d.z || 0) } });
-      const tag = h('button', { class: 'tag' + (mode === 'luyen' ? ' cover' : ''), type: 'button', 'aria-label': d.tu, style: { left: pct(d.nhan[0]), top: pct(d.nhan[1]), width: pct(d.nhan[2]), height: pct(d.nhan[3]), zIndex: 10 } }, mode === 'luyen' ? '?' : '');
+      const tag = d.nhan ? h('button', { class: 'tag' + (mode === 'luyen' ? ' cover' : ''), type: 'button', 'aria-label': d.tu, style: { left: pct(d.nhan[0]), top: pct(d.nhan[1]), width: pct(d.nhan[2]), height: pct(d.nhan[3]), zIndex: 10 } }, mode === 'luyen' ? '?' : '') : null;
       const pick = () => onPick(i, who, tag);
-      who.addEventListener('click', pick); tag.addEventListener('click', pick);
-      wrap.append(who, tag);
+      who.addEventListener('click', pick); wrap.append(who);
+      if (tag) { tag.addEventListener('click', pick); wrap.append(tag); }
       return { who, tag };
     });
     return { el: wrap, items };
   }
-  function flash(el, cls, ms) { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); setTimeout(() => el.classList.remove(cls), ms || 900); }
+  function flash(el, cls, ms) { if (!el) return; el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); setTimeout(() => el.classList.remove(cls), ms || 900); }
 
   /* ---------- khung bài tập ---------- */
   function card(ex, sec) {
@@ -238,12 +238,12 @@
 
     function learn() {
       pane.append(h('p', { class: 'hint' }, 'Chạm vào từng người để nghe. Nghe xong, em nhắc lại thật to.'));
-      const cap = h('div', { class: 'cap', 'aria-live': 'polite' });
-      const sc = scene(ex, 'hoc', (i, who, tag) => { stopAll(); flash(who, 'pulse'); flash(tag, 'pulse'); cap.textContent = ex.diem[i].cau || ''; play(ex.diem[i].am); });
+      const cap = h('div', { class: 'phude', 'aria-live': 'polite' });
+      const sc = scene(ex, 'hoc', (i, who, tag) => { stopAll(); flash(who, 'pulse'); flash(tag, 'pulse'); cap.textContent = ex.diem[i].cau || ex.diem[i].tu; play(ex.diem[i].am); });
       pane.append(sc.el, cap);
-      if (ex.mau) {
-        const mb = modelBox(ex.mau);
-        pane.append(mb.el);
+      if (ex.nv) pane.append(h('div', { class: 'nv-row' }, h('img', { src: ex.nv.hinh, alt: ex.nv.ten || '' }), h('span', null, ex.nv.loi || '')));
+      if (ex.mau) pane.append(modelBox(ex.mau).el);
+      if (ex.mau || ex.caBai) {
         const row = h('div', { class: 'mrow' });
         const all = h('button', { class: 'btn wood', type: 'button' }, icon('play'), 'Nghe cả bài');
         all.onclick = async () => {
@@ -282,7 +282,7 @@
         const want = order[k];
         if (i === want) {
           stopAll(); feedback(fb, true, 'Đúng rồi! Đây là ' + (ex.diem[i].goi || ex.diem[i].tu) + '.');
-          who.classList.add('good'); tag.textContent = ex.diem[i].tu; tag.classList.add('reveal');
+          who.classList.add('good'); if (tag) { tag.textContent = ex.diem[i].tu; tag.classList.add('reveal'); }
           dots.children[k].classList.add('done'); k++;
           await wait(900); who.classList.remove('good');
           if (k < order.length) ask(); else finish();
@@ -302,37 +302,59 @@
     show('hoc');
   };
 
-  // 2) Đóng vai, giới thiệu gia đình
+  // Câu theo mẫu: 'Cháu chào {tu} ạ.' → 'Cháu chào bác ạ.'
+  const fill = (tpl, d) => tpl.split('{tu}').join(d.tu);
+  function sayParts(el, tpl, word) { // in đậm từ thay vào mẫu
+    const parts = tpl.split('{tu}');
+    el.innerHTML = '';
+    parts.forEach((p, i) => { el.append(p); if (i < parts.length - 1) el.append(h('em', null, word)); });
+  }
+  function bubble(av, cls, text, wait) {
+    return h('div', { class: 'bub' + (cls ? ' ' + cls : '') }, av ? h('img', { src: av, alt: '' }) : h('span', { class: 'av0', html: I.spk }), h('div', { class: 't' + (wait ? ' wait' : '') }, text));
+  }
+
+  // 2) Chạm vào người trong tranh → câu mẫu (giới thiệu "Đây là … tôi." hoặc lời chào "Cháu chào … ạ.")
   T['gioi-thieu'] = function (ex, ctx) {
     const base = ex.nguon;
+    const tpl = ex.mauCau || 'Đây là {tu} tôi.', tplToi = ex.mauToi || 'Đây là tôi.';
+    const cauOf = d => d.toi ? tplToi : fill(tpl, d);
     ctx.body.append(h('p', { class: 'hint' }, ex.goiY || 'Chạm vào từng người, rồi nói câu giới thiệu.'));
     if (ex.mau) ctx.body.append(modelBox(ex.mau).el);
     const say = h('div', { class: 'say', 'aria-live': 'polite' }, h('span', { style: { color: '#B7AC9E', fontWeight: 400, fontSize: '20px' } }, 'Chạm vào một người trong tranh…'));
+    const rep = ex.traLoi ? bubble(ex.traLoi.av, '', '…', true) : null;
     const seen = new Set();
     const chips = h('div', { class: 'chips' }, base.diem.map(d => h('span', { class: 'chip' }, d.tu)));
-    const sc = scene(base, 'hoc', (i, who) => {
+    const sc = scene(base, 'hoc', async (i, who) => {
       stopAll(); flash(who, 'pulse');
-      const d = base.diem[i];
-      say.innerHTML = '';
-      if (d.toi) say.append('Đây là ', h('em', null, 'tôi'), '.');
-      else say.append('Đây là ', h('em', null, d.tu), ' tôi.');
-      const cau = d.toi ? 'Đây là tôi.' : 'Đây là ' + d.tu + ' tôi.';
-      const am = (ex.amCau || {})[cau];
-      if (am) play(am);
+      const my = gen, d = base.diem[i], cau = cauOf(d);
+      if (d.toi) { say.textContent = tplToi; } else sayParts(say, tpl, d.tu);
+      if (rep) { rep.lastChild.className = 't wait'; rep.lastChild.textContent = '…'; }
       seen.add(i); chips.children[i].classList.add('done');
-      if (seen.size === base.diem.length) { ctx.win(); toast('Em đã giới thiệu cả nhà!'); }
+      if (seen.size === base.diem.length) { ctx.win(); toast(ex.xong || 'Giỏi lắm! Em đã nói với cả nhà.'); }
+      const am = (ex.amCau || {})[cau];
+      if (am) await play(am); else if (ex.goiYTu && d.am) await play(d.am);
+      if (rep && gen === my) {
+        await wait(ex.traLoi.cho || 900); if (gen !== my) return;
+        rep.lastChild.className = 't'; rep.lastChild.textContent = ex.traLoi.c;
+        play(ex.traLoi.am);
+      }
     });
-    ctx.body.append(sc.el, say, chips, recorder({ label: 'Ghi âm câu giới thiệu của em' }));
+    ctx.body.append(sc.el, say);
+    if (rep) ctx.body.append(h('div', { class: 'duo' }, rep));
+    ctx.body.append(chips, recorder({ label: ex.ghiAm || 'Ghi âm câu của em' }));
   };
 
-  // 3) Đóng vai, hỏi – đáp
+  // 3) Đóng vai, hỏi – đáp / chọn lời chào: khoanh một người, em chọn câu đúng
   T['hoi-dap'] = function (ex, ctx) {
     const base = ex.nguon;
+    const tpl = ex.mauCau || 'Đây là {tu} tôi.', tplToi = ex.mauToi || 'Đây là tôi.';
+    const cauOf = d => d.toi ? tplToi : fill(tpl, d);
+    const avL = (ex.mauAv || [])[0] || (ex.hoi && ex.hoi.av), avR = (ex.mauAv || [])[1] || ex.dap.av;
     if (ex.mau) {
       const m = h('div', { class: 'duo' });
       ex.mau.forEach(p => {
-        const q = h('div', { class: 'bub' }, h('img', { src: ex.hoi.av, alt: '' }), h('button', { class: 'line t', type: 'button' }, p[0].c));
-        const a = h('div', { class: 'bub r' }, h('img', { src: ex.dap.av, alt: '' }), h('button', { class: 'line t', type: 'button' }, p[1].c));
+        const q = h('div', { class: 'bub' }, avL ? h('img', { src: avL, alt: '' }) : null, h('button', { class: 'line t', type: 'button' }, p[0].c));
+        const a = h('div', { class: 'bub r' }, avR ? h('img', { src: avR, alt: '' }) : null, h('button', { class: 'line t', type: 'button' }, p[1].c));
         q.lastChild.onclick = () => { stopAll(); play(p[0].am); };
         a.lastChild.onclick = () => { stopAll(); play(p[1].am); };
         m.append(q, a);
@@ -349,21 +371,28 @@
       area.append(h('div', { class: 'game-bar' }, h('b', null, ex.goiY || 'Em là ' + ex.dap.ten + '. Bạn hỏi, em trả lời.'), dots));
       const sc = scene(base, 'hoc', () => {});
       sc.el.style.pointerEvents = 'none';
-      const qb = h('div', { class: 'bub' }, h('img', { src: ex.hoi.av, alt: '' }), h('div', { class: 't' }, ex.hoi.c));
-      const ab = h('div', { class: 'bub r' }, h('img', { src: ex.dap.av, alt: '' }), h('div', { class: 't wait' }, '…'));
+      const qb = ex.hoi ? bubble(ex.hoi.av, '', ex.hoi.c) : null;
+      const ab = bubble(ex.dap.av, 'r', '…', true);
+      const rb = ex.traLoi ? bubble(ex.traLoi.av, '', '…', true) : null;
       const opts = h('div', { class: 'opts' });
       const fb = h('div', { class: 'fb', 'aria-live': 'polite' });
-      area.append(sc.el, h('div', { class: 'duo' }, qb, ab), opts, fb);
-      const cauOf = d => d.toi ? 'Đây là tôi.' : 'Đây là ' + d.tu + ' tôi.';
+      const tools = h('div', { class: 'row' });
+      let hintBtn = null;
+      if (ex.goiYTu) { hintBtn = h('button', { class: 'btn soft small', type: 'button' }, icon('spk'), 'Gợi ý: người này là ai?'); tools.append(hintBtn); }
+      area.append(sc.el, h('div', { class: 'duo' }, qb, ab, rb), opts, fb, tools);
       function next() {
         if (k >= order.length) return done();
         const i = order[k], d = base.diem[i];
         sc.items.forEach(it => it.who.classList.remove('ring'));
         sc.items[i].who.classList.add('ring');
         ab.lastChild.className = 't wait'; ab.lastChild.textContent = '…';
+        if (rb) { rb.lastChild.className = 't wait'; rb.lastChild.textContent = '…'; }
+        if (hintBtn) hintBtn.onclick = () => { stopAll(); sc.items[i].who.classList.add('ring'); play(d.am); toast('Đây là ' + d.tu + '.'); };
         const right = cauOf(d);
-        const others = shuffle(base.diem.filter((_, j) => j !== i)).slice(0, 2).map(cauOf);
-        const choices = shuffle([right, ...others]);
+        const wrongOwn = (ex.mauSai || []).map(t => fill(t, d));
+        const others = shuffle(base.diem.filter((_, j) => j !== i)).map(cauOf).filter(c => c !== right);
+        const pool = wrongOwn.length ? [shuffle(wrongOwn)[0], others[0]] : others.slice(0, 2);
+        const choices = shuffle([right, ...pool]);
         opts.innerHTML = ''; fb.textContent = ''; fb.className = 'fb';
         choices.forEach(cx => {
           const b = h('button', { class: 'opt', type: 'button' }, cx);
@@ -373,13 +402,15 @@
               ab.lastChild.className = 't'; ab.lastChild.textContent = right;
               opts.querySelectorAll('.opt').forEach(o => o.disabled = true);
               dots.children[k].classList.add('done'); k++;
+              const my = gen;
               const am = (ex.amCau || {})[right]; if (am) await play(am); else await wait(1400);
-              await wait(500); next();
+              if (rb && gen === my) { rb.lastChild.className = 't'; rb.lastChild.textContent = ex.traLoi.c; await play(ex.traLoi.am); }
+              await wait(500); if (gen === my) next();
             } else { flash(b, 'bad', 450); b.classList.add('bad'); feedback(fb, false); }
           };
           opts.append(b);
         });
-        play(ex.hoi.am);
+        if (ex.hoi) play(ex.hoi.am);
       }
       function done() {
         sc.items.forEach(it => it.who.classList.remove('ring'));
@@ -490,6 +521,22 @@
     ctx.body.append(h('p', { class: 'hint' }, 'Chạm vào thẻ chữ để nghe và nhắc lại. Rồi chọn màu và chạm vào chữ to để tô.'), chips, cr.el, big);
   };
 
+  // Tách một tiếng thành các chữ cái, giữ nguyên chữ ghép: "Cháu" → Ch|á|u, "nghỉ" → ngh|ỉ
+  const CHU_GHEP = ['ngh', 'ng', 'gh', 'kh', 'nh', 'ph', 'th', 'tr', 'ch', 'qu', 'gi'];
+  function tachChu(word, dich) {
+    const list = CHU_GHEP.filter(g => g !== 'gi' || (dich || []).includes('gi'));
+    const cs = Array.from(word), out = [];
+    for (let i = 0; i < cs.length;) {
+      let m = null;
+      if (isLetter(cs[i])) for (const g of list) {
+        const seg = cs.slice(i, i + g.length);
+        if (seg.length === g.length && seg.every(isLetter) && baseLetter(seg.join('')) === g) { m = seg.join(''); break; }
+      }
+      if (m) { out.push(m); i += Array.from(m).length; } else { out.push(cs[i]); i++; }
+    }
+    return out;
+  }
+
   // 7) Tìm và tô màu các chữ vừa học
   T['tim-chu'] = function (ex, ctx) {
     const targets = new Set(ex.dich.map(baseLetter));
@@ -501,7 +548,7 @@
       const box = h('div', { class: 'sentbox', lang: 'vi' });
       nfc(s).split(' ').forEach(word => {
         const w = h('span', { class: 'w' });
-        Array.from(word).forEach(ch => {
+        tachChu(word, ex.dich).forEach(ch => {
           const letter = isLetter(ch);
           const hit = letter && targets.has(baseLetter(ch));
           if (hit) total++;
@@ -523,6 +570,173 @@
     count.textContent = 'Đã tìm được 0/' + total + ' chữ';
     ctx.body.append(h('p', { class: 'hint' }, 'Tìm các chữ ' + ex.dich.join(', ') + ' trong câu và chạm để tô màu (cả chữ có dấu thanh như à, á).'), cr.el, count, ...boxes, fb);
   };
+
+  // 8) Xưng hô: chạm từng người, chọn từ em tự xưng (mẹ – con, ông – cháu, chị – em…)
+  T['xung-ho'] = function (ex, ctx) {
+    ctx.body.append(h('p', { class: 'hint' }, ex.goiY || ('Chạm vào từng người, rồi chọn từ ' + ex.giua.ten + ' tự xưng khi nói với người đó.')));
+    const L = h('div', { class: 'xh-col' }), R = h('div', { class: 'xh-col' });
+    const mid = h('div', { class: 'xh-mid' }, h('div', { class: 'xh-card me' }, h('img', { src: ex.giua.hinh, alt: ex.giua.ten }), h('b', null, ex.giua.ten)));
+    const grid = h('div', { class: 'xh' }, L, mid, R);
+    const chips = h('div', { class: 'xh-chips' });
+    const fb = h('div', { class: 'fb', 'aria-live': 'polite' });
+    let cur = -1; const done = new Set(); const cards = [];
+    ex.nguoi.forEach((p, i) => {
+      const ans = h('span', { class: 'xh-ans' }, '– ?');
+      const c = h('button', { class: 'xh-card', type: 'button' }, h('span', { class: 'xh-n' }, '(' + (i + 1) + ')'), h('img', { src: p.hinh, alt: p.tu }), h('b', null, p.tu), ans);
+      c.onclick = () => select(i);
+      cards.push({ c, ans });
+      (i % 2 === 0 ? L : R).append(c);
+      if (ex.mau === i) { done.add(i); c.classList.add('ok', 'model'); ans.textContent = '– ' + p.dung; c.prepend(h('span', { class: 'm' }, 'M')); }
+    });
+    const need = ex.nguoi.length;
+    function select(i) {
+      if (done.has(i)) { stopAll(); if (ex.nguoi[i].am) play(ex.nguoi[i].am); return; }
+      cur = i; cards.forEach((x, j) => x.c.classList.toggle('sel', j === i));
+      chips.querySelectorAll('button').forEach(b => b.disabled = false);
+      fb.textContent = ''; fb.className = 'fb';
+      stopAll(); if (ex.nguoi[i].am) play(ex.nguoi[i].am);
+    }
+    ex.chon.forEach(w => {
+      const b = h('button', { class: 'opt', type: 'button', disabled: true }, w);
+      b.onclick = () => {
+        if (cur < 0) return;
+        const p = ex.nguoi[cur];
+        if (w === p.dung) {
+          done.add(cur); cards[cur].c.classList.remove('sel'); cards[cur].c.classList.add('ok'); cards[cur].ans.textContent = '– ' + w;
+          feedback(fb, true, p.tu + ' – ' + w + '. Đúng rồi!');
+          const nxt = ex.nguoi.findIndex((_, j) => !done.has(j));
+          if (done.size >= need) { ctx.win(); chips.querySelectorAll('button').forEach(x => x.disabled = true); cur = -1; }
+          else if (nxt >= 0) select(nxt);
+        } else { flash(b, 'bad', 450); feedback(fb, false, ex.giua.ten + ' không xưng “' + w + '” với ' + p.tu + '. Thử lại nhé!'); }
+      };
+      chips.append(b);
+    });
+    ctx.body.append(grid, h('div', { class: 'xh-pick' }, h('span', null, ex.giua.ten + ' xưng là:'), chips), fb);
+    const first = ex.nguoi.findIndex((_, j) => !done.has(j)); if (first >= 0) setTimeout(() => select(first), 0);
+  };
+
+  // 9) Tranh hội thoại: nghe từng cặp lời; trò chơi chọn câu đúng cho bạn nhỏ
+  T['tranh-thoai'] = function (ex, ctx) {
+    const seg = h('div', { class: 'seg', role: 'group' });
+    const bA = h('button', { type: 'button', 'aria-pressed': 'true' }, 'Nghe và nhắc lại');
+    const bB = h('button', { type: 'button', 'aria-pressed': 'false' }, ex.troChoi || 'Trò chơi: Chọn câu đúng');
+    seg.append(bA, bB);
+    const pane = h('div'); ctx.body.append(seg, pane);
+    const show = w => { stopAll(); bA.setAttribute('aria-pressed', w === 'hoc'); bB.setAttribute('aria-pressed', w === 'luyen'); pane.innerHTML = ''; (w === 'hoc' ? learn : game)(); };
+    bA.onclick = () => show('hoc'); bB.onclick = () => show('luyen');
+    function panel(t, n, hideA) {
+      const a = h('button', { class: 'pb a' + (hideA ? ' wait' : ''), type: 'button' }, hideA ? '?' : t.a.c);
+      const b = h('button', { class: 'pb b', type: 'button' }, t.b.c);
+      if (!hideA) a.onclick = () => { stopAll(); play(t.a.am, a); };
+      b.onclick = () => { stopAll(); play(t.b.am, b); };
+      return { el: h('div', { class: 'panel' }, h('span', { class: 'pn' }, String(n)), h('div', { class: 'pbs' }, a, b), h('img', { src: t.hinh, alt: '' })), a, b };
+    }
+    function learn() {
+      pane.append(h('p', { class: 'hint' }, 'Chạm vào lời nói để nghe, rồi nhắc lại thật to.'));
+      const g = h('div', { class: 'panels' }); const ps = ex.tranh.map((t, i) => panel(t, i + 1)); ps.forEach(p => g.append(p.el));
+      const all = h('button', { class: 'btn wood', type: 'button' }, icon('play'), 'Nghe cả bài');
+      all.onclick = async () => {
+        if (all.classList.contains('playing')) { stopAll(); all.lastChild.textContent = 'Nghe cả bài'; return; }
+        stopAll(); const my = gen; all.classList.add('playing'); all.lastChild.textContent = 'Dừng';
+        for (let i = 0; i < ps.length && gen === my; i++) {
+          ps[i].el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+          for (const x of [['a', ps[i].a], ['b', ps[i].b]]) {
+            x[1].classList.add('on'); const ok = await play(ex.tranh[i][x[0]].am); x[1].classList.remove('on');
+            if (!ok || gen !== my) break; await wait(300);
+          }
+        }
+        if (gen === my || !all.classList.contains('playing')) { all.classList.remove('playing'); all.lastChild.textContent = 'Nghe cả bài'; }
+      };
+      pane.append(g, h('div', { class: 'mrow' }, all), recorder({ label: 'Em nói theo – ghi âm giọng em' }));
+    }
+    function game() {
+      let k = 0;
+      const dots = h('div', { class: 'dots' }, ex.tranh.map(() => h('i')));
+      const holder = h('div'), opts = h('div', { class: 'opts' }), fb = h('div', { class: 'fb', 'aria-live': 'polite' });
+      pane.append(h('div', { class: 'game-bar' }, h('b', null, ex.goiYChoi || 'Bạn nhỏ sẽ nói gì? Chọn câu đúng.'), dots), holder, opts, fb);
+      function next() {
+        if (k >= ex.tranh.length) {
+          opts.innerHTML = ''; ctx.win();
+          const r = h('button', { class: 'btn soft', type: 'button' }, icon('redo'), 'Chơi lại'); r.onclick = () => show('luyen');
+          pane.append(h('div', { class: 'done-box' }, h('b', null, 'Giỏi quá! Em đã chọn đúng hết.'), r)); return;
+        }
+        const t = ex.tranh[k], p = panel(t, k + 1, true);
+        holder.innerHTML = ''; holder.append(p.el); opts.innerHTML = ''; fb.textContent = ''; fb.className = 'fb';
+        shuffle([t.a.c, ...t.a.sai]).forEach(cx => {
+          const b = h('button', { class: 'opt', type: 'button' }, cx);
+          b.onclick = async () => {
+            if (cx === t.a.c) {
+              b.classList.add('good'); opts.querySelectorAll('.opt').forEach(o => o.disabled = true);
+              p.a.classList.remove('wait'); p.a.textContent = t.a.c; feedback(fb, true);
+              dots.children[k].classList.add('done'); k++;
+              const my = gen; await play(t.a.am, p.a); if (gen !== my) return; await wait(200); await play(t.b.am, p.b); if (gen !== my) return; await wait(500); next();
+            } else { flash(b, 'bad', 450); b.classList.add('bad'); feedback(fb, false); }
+          };
+          opts.append(b);
+        });
+      }
+      next();
+    }
+    show('hoc');
+  };
+
+  // 10) Ai đúng, ai nhanh? – bạn giới thiệu người thân, em chọn lời chào nhanh nhất
+  T['ai-nhanh'] = function (ex, ctx) {
+    if (ex.mau) {
+      ctx.body.append(h('div', { class: 'model' }, h('div', { class: 'lines', style: { paddingTop: '14px' } }, h('span', { class: 'm' }, 'M'),
+        h('div', { class: 'duo' }, bubble(ex.ban.av, '', ex.mau[0]), bubble(ex.em.av, 'r', ex.mau[1])))));
+    }
+    const area = h('div', { style: { marginTop: '14px' } }); ctx.body.append(area);
+    const bestKey = KEY + ':' + ex.id + ':nhanh';
+    const best = () => { try { return parseFloat(localStorage.getItem(bestKey)) || 0; } catch (e) { return 0; } };
+    function start() {
+      area.innerHTML = '';
+      const order = shuffle(ex.nguoi.map((_, i) => i)); let k = 0, total = 0, t0 = 0, timer = null;
+      const clock = h('b', { class: 'clock' }, '0,0 giây');
+      const dots = h('div', { class: 'dots' }, order.map(() => h('i')));
+      const img = h('img', { class: 'an-img', alt: '' });
+      const qb = bubble(ex.ban.av, '', '…'), ab = bubble(ex.em.av, 'r', '…', true);
+      const opts = h('div', { class: 'opts' }), fb = h('div', { class: 'fb', 'aria-live': 'polite' });
+      area.append(h('div', { class: 'game-bar' }, clock, dots), h('div', { class: 'an' }, img, h('div', { class: 'duo' }, qb, ab)), opts, fb);
+      const tick = () => { clock.textContent = ((total + (performance.now() - t0) / 1000)).toFixed(1).replace('.', ',') + ' giây'; };
+      function next() {
+        if (k >= order.length) return finish();
+        const p = ex.nguoi[order[k]];
+        img.src = p.hinh; qb.lastChild.textContent = 'Đây là ' + p.tu + ' tôi.';
+        ab.lastChild.className = 't wait'; ab.lastChild.textContent = '…';
+        opts.innerHTML = ''; fb.textContent = ''; fb.className = 'fb';
+        shuffle([p.dung, ...p.sai]).forEach(cx => {
+          const b = h('button', { class: 'opt', type: 'button' }, cx);
+          b.onclick = async () => {
+            if (cx === p.dung) {
+              total += (performance.now() - t0) / 1000; clearInterval(timer);
+              b.classList.add('good'); opts.querySelectorAll('.opt').forEach(o => o.disabled = true);
+              ab.lastChild.className = 't'; ab.lastChild.textContent = p.dung; feedback(fb, true);
+              dots.children[k].classList.add('done'); k++;
+              const am = (ex.amCau || {})[p.dung]; if (am) await play(am); else await wait(700);
+              await wait(300); t0 = performance.now(); timer = setInterval(tick, 100); next();
+            } else { total += 2; flash(b, 'bad', 450); b.classList.add('bad'); feedback(fb, false, 'Chưa đúng! Cộng thêm 2 giây.'); }
+          };
+          opts.append(b);
+        });
+      }
+      function finish() {
+        clearInterval(timer); opts.innerHTML = ''; ctx.win();
+        const t = Math.round(total * 10) / 10, b = best(), rec = !b || t < b;
+        if (rec) { try { localStorage.setItem(bestKey, String(t)); } catch (e) { /* bỏ qua */ } }
+        const r = h('button', { class: 'btn soft', type: 'button' }, icon('redo'), 'Chơi lại'); r.onclick = start;
+        area.append(h('div', { class: 'done-box' }, h('b', null, 'Em hoàn thành trong ' + String(t).replace('.', ',') + ' giây!'),
+          h('p', null, rec ? 'Kỉ lục mới của em!' : 'Kỉ lục của em: ' + String(b).replace('.', ',') + ' giây.'), r));
+      }
+      t0 = performance.now(); timer = setInterval(tick, 100); next();
+    }
+    const b0 = h('button', { class: 'btn green', type: 'button' }, icon('play'), 'Bắt đầu');
+    b0.onclick = start;
+    area.append(h('p', { class: 'hint' }, ex.goiY || 'Bạn giới thiệu người thân, em chọn lời chào đúng thật nhanh. Chọn sai bị cộng 2 giây.'), b0);
+  };
+
+  /* ---------- dạng bài bổ sung (assets/js/dang/*.js) ---------- */
+  (window.VHTV_DANG || []).forEach(f => f({ T, h, icon, I, play, stopAll, wait, shuffle, feedback, recorder, scene, flash, toast, sfx, crayons, fill, bubble, sayParts, modelBox, baseLetter, tachChu, nfc, isLetter, store, KEY, gen: () => gen }));
 
   /* ======================= DỰNG TRANG ======================= */
   const app = document.getElementById('app');
