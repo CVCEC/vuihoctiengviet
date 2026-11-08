@@ -5,7 +5,10 @@ import pathlib
 from faster_whisper import WhisperModel
 
 root = pathlib.Path("nguon-am-thanh")
+import os
+shard, n = int(os.environ.get("SHARD", 0)), int(os.environ.get("NSHARD", 1))
 todo = [p for p in sorted(root.rglob("*.mp3")) if not p.with_suffix(".json").exists()]
+todo = [p for i, p in enumerate(todo) if i % n == shard]
 print(f"Cần phiên âm: {len(todo)} file")
 if todo:
     model = WhisperModel("medium", device="cpu", compute_type="int8")
@@ -13,7 +16,7 @@ if todo:
         segs, info = model.transcribe(
             str(mp3), language="vi", word_timestamps=True, vad_filter=False,
             beam_size=5, condition_on_previous_text=False,
-            initial_prompt="Vui học tiếng Việt. Bài 1. Đây là ai? Từ ngữ. Hội thoại. Học chữ. Nhìn hình, nghe và nhắc lại.")
+            initial_prompt="Vui học tiếng Việt. Từ ngữ. Hội thoại. Học chữ. Luyện đọc. Nhìn hình, nghe và nhắc lại.")
         data = [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
                  "words": [{"w": w.word.strip(), "s": round(w.start, 2), "e": round(w.end, 2), "p": round(w.probability, 2)} for w in (s.words or [])]}
                 for s in segs]

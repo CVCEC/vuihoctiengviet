@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['nguon-am-thanh/danh-sach.tsv']
+    paths: ['nguon-am-thanh/danh-sach.tsv', 'nguon-am-thanh/thu-muc.tsv']
 
 permissions:
   contents: write
@@ -32,6 +32,19 @@ jobs:
             esac
           done < nguon-am-thanh/danh-sach.tsv
           echo "Đã tải $n file mới"
+      - name: Tải cả thư mục (thu-muc.tsv)
+        run: |
+          set -e
+          pip install -q gdown==5.2.0
+          while IFS=$'\t' read -r id path; do
+            case "$id" in ''|\#*) continue;; esac
+            out="nguon-am-thanh/$path"
+            if ls "$out"/*.mp3 >/dev/null 2>&1; then echo "Đã có: $path"; continue; fi
+            tmp=$(mktemp -d)
+            for i in 1 2 3; do gdown --folder "https://drive.google.com/drive/folders/$id" -O "$tmp" --quiet && break || sleep 10; done
+            python3 tools/chuan_ten.py "$tmp" "$out"
+            rm -rf "$tmp"
+          done < nguon-am-thanh/thu-muc.tsv
       - name: Lưu vào kho
         run: |
           git config user.name "github-actions[bot]"
