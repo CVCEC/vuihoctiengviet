@@ -1,0 +1,16 @@
+/* Giọng đọc AI (Google Gemini) cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
+const AM_AI = {"Kore|bà nội":"../../am-ai/a70e9cd7b51c.mp3",
+"Kore|chị":"../../am-ai/bc2bda9d7913.mp3",
+"Kore|ông nội":"../../am-ai/58f638a6a5f1.mp3",
+"Kore|anh":"../../am-ai/768cb132f57f.mp3",
+"Kore|Cháu chào bà ạ.":"../../am-ai/2edff3853b7e.mp3",
+"Kore|Cháu chào dượng ạ.":"../../am-ai/756956b4af73.mp3",
+"Kore|Cháu chào dì ạ.":"../../am-ai/93f05b662684.mp3",
+"Kore|Cháu chào mợ ạ.":"../../am-ai/02f5372188f2.mp3",
+"Kore|Cháu chào cậu ạ.":"../../am-ai/98dc9aea9985.mp3",
+"Kore|Cháu chào bác ạ.":"../../am-ai/7b6de64155b2.mp3",
+"Kore|Cháu chào thím ạ.":"../../am-ai/b7e106a145b7.mp3",
+"Kore|Cháu chào cô ạ.":"../../am-ai/49616bae7250.mp3",
+"Kore|Cháu chào ông ạ.":"../../am-ai/3fa4d3e13fdf.mp3",
+"Kore|chú":"../../am-ai/1e8de607f64f.mp3",
+"Kore|Em chào chị.":"../../am-ai/308eb3faf0cf.mp3"};
