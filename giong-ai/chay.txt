@@ -1,6 +1,6 @@
 # Cài đặt cho lần chạy giọng đọc AI (sửa file này để chạy lại – xem tools/giong_ai.py)
-# Đợt chạy thử: chỉ Quyển 1 Bài 1–2, mỗi lượt gọi đọc 25 câu.
+# Chạy thử lần 2: Quyển 1 Bài 1–3, mỗi lượt gọi đọc 20 câu.
 GIONG_VUNG=bac
-LO=25
-TOI_DA_LUOT=3
+LO=20
+TOI_DA_LUOT=4
 CHI_BAI=quyen-1/bai-01,quyen-1/bai-02,quyen-1/bai-03

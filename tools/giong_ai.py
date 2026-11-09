@@ -267,16 +267,25 @@ def main():
                 ghi_chu = 'Dừng vì đủ thời gian / số lượt của lần chạy này – lần sau làm tiếp.'; break
             nhom = hang.pop(0)
             cau = [doc_cho_may(r['chu']) for r in nhom]
-            try:
-                pcm, rate = goi(loi_nhac(cau), nhom[0]['giong'])
-            except ValueError as e:
+            pcm, loi_goi = None, None
+            for thu in range(2):            # Gemini đôi khi không trả tiếng ("audio stream could not be completed"): gọi lại một lần
+                if luot >= TOI_DA: break
+                luot += 1                   # mỗi lần gọi đều tính vào lượt trong ngày, kể cả lần hỏng
+                try:
+                    pcm, rate = goi(loi_nhac(cau), nhom[0]['giong']); break
+                except ValueError as e:
+                    loi_goi = e; print(f'Lô {len(nhom)} câu: {str(e)[:160]}', flush=True)
+            if pcm is None:
+                if loi_goi is None:
+                    hang.insert(0, nhom); continue   # hết lượt của lần chạy – vòng lặp sẽ dừng
                 for r in nhom:
                     n = int((loi.get(r['ma']) or ['0'])[0] or 0) + (1 if len(nhom) == 1 else 0)
-                    loi[r['ma']] = [str(n), str(e)[:200].replace('\t', ' ').replace('\n', ' ')]
+                    loi[r['ma']] = [str(n), str(loi_goi)[:200].replace('\t', ' ').replace('\n', ' ')]
                 if len(nhom) > 1:   # thử lại từng nửa
                     h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 ghi_tsv(LOI, 'ma\tlan\tly_do', loi); continue
-            luot += 1
+            for r in nhom:
+                loi.pop(r['ma'], None)
             raw = tmp / 'lo.pcm'; raw.write_bytes(pcm)
             wav = tmp / 'lo.wav'
             ff('-f', 's16le', '-ar', str(rate), '-ac', '1', '-i', str(raw), str(wav))
@@ -312,7 +321,7 @@ def main():
         ghi_chu = 'Lỗi khi chạy: ' + repr(e)[:400].replace('\n', ' ')
     finally:
         ghi_tsv(KT, 'ma\tnghe\tdiem', kt)
-        if loi: ghi_tsv(LOI, 'ma\tlan\tly_do', loi)
+        if loi or LOI.exists(): ghi_tsv(LOI, 'ma\tlan\tly_do', loi)
         if not ghi_chu and not con_lai():
             ghi_chu = 'Đã đọc xong mọi câu.'
         luu(tom_tat())
