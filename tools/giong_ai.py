@@ -307,6 +307,9 @@ def main():
                 luu(tom_tat())
     except Dung as e:
         ghi_chu = str(e)
+    except Exception as e:  # ghi lỗi vào trang-thai.md để xem được mà không cần mở GitHub Actions
+        import traceback; traceback.print_exc()
+        ghi_chu = 'Lỗi khi chạy: ' + repr(e)[:400].replace('\n', ' ')
     finally:
         ghi_tsv(KT, 'ma\tnghe\tdiem', kt)
         if loi: ghi_tsv(LOI, 'ma\tlan\tly_do', loi)
