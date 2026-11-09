@@ -1,6 +1,6 @@
 # Cài đặt cho lần chạy giọng đọc AI (sửa file này để chạy lại – xem tools/giong_ai.py)
-# Chạy thử lần 2: Quyển 1 Bài 1–3, mỗi lượt gọi đọc 20 câu.
+# Chạy cả 2 quyển theo gói miễn phí: mỗi ngày tối đa 10 lượt gọi, mỗi lượt đọc 20 câu.
+# GitHub tự chạy tiếp mỗi ngày (giong-ai.yml) cho đến khi đủ.
 GIONG_VUNG=bac
 LO=20
-TOI_DA_LUOT=4
-CHI_BAI=quyen-1/bai-01,quyen-1/bai-02,quyen-1/bai-03
+TOI_DA_LUOT=10

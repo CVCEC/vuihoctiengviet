@@ -37,6 +37,14 @@ CHI = [x.strip() for x in (os.environ.get('CHI_BAI') or '').split(',') if x.stri
 GIONG_VN = {'bac': 'a standard Northern Vietnamese (Hà Nội) accent', 'nam': 'a standard Southern Vietnamese (Sài Gòn) accent'}
 
 
+NK = []  # nhật ký lần chạy → giong-ai/nhat-ky.txt
+
+
+def ghi(*a):
+    l = ' '.join(str(x) for x in a)
+    print(l, flush=True); NK.append(l)
+
+
 class Dung(Exception):
     """Dừng cả lần chạy (hết lượt, sai khoá…)."""
 
@@ -164,6 +172,48 @@ def cat_lo(wav, n):
     return [(max(0.0, bien[2 * i] - (0.10 if i else 0)), min(dur, bien[2 * i + 1] + 0.15)) for i in range(n)]
 
 
+def cat_theo_chu(wav, cau):
+    """Dùng mốc thời gian từng chữ của Whisper để tìm chỗ chuyển câu, rồi cắt ở khoảng lặng gần đó."""
+    nap_whisper()
+    segs, _ = _whisper.transcribe(str(wav), language='vi', beam_size=5, word_timestamps=True, condition_on_previous_text=False)
+    rec = []  # (chữ, đầu, cuối)
+    for sg in segs:
+        for w in (sg.words or []):
+            for t in chuan(w.word):
+                rec.append((t, w.start, w.end))
+    exp, dong = [], []
+    for i, c in enumerate(cau):
+        for t in chuan(c):
+            exp.append(t); dong.append(i)
+    if not rec or not exp:
+        return None
+    sm = difflib.SequenceMatcher(None, exp, [r[0] for r in rec], autojunk=False)
+    dau, cuoi = [None] * len(cau), [None] * len(cau)
+    for blk in sm.get_matching_blocks():
+        for k in range(blk.size):
+            i = dong[blk.a + k]; t0, t1 = rec[blk.b + k][1], rec[blk.b + k][2]
+            dau[i] = t0 if dau[i] is None else min(dau[i], t0)
+            cuoi[i] = t1 if cuoi[i] is None else max(cuoi[i], t1)
+    if any(x is None for x in dau):
+        return None
+    ls, dur = khoang_lang(wav, d='0.15')
+    doan = []
+    for i in range(len(cau)):
+        a = 0.0 if i == 0 else doan[-1][2]
+        if i == len(cau) - 1:
+            doan.append((a, dur, dur)); break
+        if dau[i + 1] <= cuoi[i]:
+            return None
+        gan = [(x, y) for x, y in ls if y > cuoi[i] - 0.3 and x < dau[i + 1] + 0.3]
+        if gan:
+            x, y = max(gan, key=lambda z: z[1] - z[0])
+            ket, bat = x + 0.15, max(x, y - 0.10)
+        else:
+            m = (cuoi[i] + dau[i + 1]) / 2; ket, bat = m, m
+        doan.append((a, ket, bat))
+    return [(a, b) for a, b, _ in doan]
+
+
 def xuat_mp3(wav, a, b, out):
     ff('-ss', f'{a:.3f}', '-to', f'{b:.3f}', '-i', str(wav), '-af',
        'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,'
@@ -176,11 +226,15 @@ def xuat_mp3(wav, a, b, out):
 _whisper = None
 
 
-def nghe(mp3):
+def nap_whisper():
     global _whisper
     if _whisper is None:
         from faster_whisper import WhisperModel
         _whisper = WhisperModel('medium', device='cpu', compute_type='int8')
+
+
+def nghe(mp3):
+    nap_whisper()
     segs, _ = _whisper.transcribe(str(mp3), language='vi', beam_size=5, vad_filter=False, condition_on_previous_text=False)
     return ' '.join(s.text.strip() for s in segs).strip()
 
@@ -198,6 +252,7 @@ def giong_nhau(a, b):
 # ---------- lưu lên GitHub ----------
 def luu(tom_tat):
     TT.write_text(tom_tat, encoding='utf-8')
+    (OUT / 'nhat-ky.txt').write_text('\n'.join(NK[-600:]) + '\n', encoding='utf-8')
     subprocess.run(['node', 'tools/thieu_tieng.js', '--gan'], cwd=ROOT, check=True)
     subprocess.run([sys.executable, 'tools/tao_trang.py'], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
     subprocess.run(['git', 'add', 'am-ai', 'giong-ai', 'quyen-1', 'quyen-2'], cwd=ROOT, check=True)
@@ -274,7 +329,7 @@ def main():
                 try:
                     pcm, rate = goi(loi_nhac(cau), nhom[0]['giong']); break
                 except ValueError as e:
-                    loi_goi = e; print(f'Lô {len(nhom)} câu: {str(e)[:160]}', flush=True)
+                    loi_goi = e; ghi(f'Lô {len(nhom)} câu – Gemini không trả tiếng: {str(e)[:160]}')
             if pcm is None:
                 if loi_goi is None:
                     hang.insert(0, nhom); continue   # hết lượt của lần chạy – vòng lặp sẽ dừng
@@ -290,8 +345,11 @@ def main():
             wav = tmp / 'lo.wav'
             ff('-f', 's16le', '-ar', str(rate), '-ac', '1', '-i', str(raw), str(wav))
             doan = cat_lo(wav, len(nhom))
+            if doan is None and len(nhom) > 1:
+                doan = cat_theo_chu(wav, cau)
+                ghi(f'Lô {len(nhom)} câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper' + ('' if doan else ' – không được'))
             if doan is None:
-                print(f'Lô {len(nhom)} câu không cắt được, chia đôi để đọc lại', flush=True)
+                ghi(f'Lô {len(nhom)} câu không cắt được, chia đôi để đọc lại')
                 if len(nhom) > 1:
                     h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 continue
@@ -303,14 +361,14 @@ def main():
                 kq.append((r, out, nghe_duoc, giong_nhau(doc_cho_may(r['chu']), nghe_duoc)))
             kem = sum(1 for x in kq if x[3] < 0.5)
             if len(nhom) > 1 and kem > max(2, len(nhom) * 0.3):
-                print(f'Lô {len(nhom)} câu có {kem} câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại', flush=True)
+                ghi(f'Lô {len(nhom)} câu có {kem} câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại')
                 h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 continue
             for r, out, nghe_duoc, diem in kq:
                 out.replace(AM / (r['ma'] + '.mp3'))
                 kt[r['ma']] = [nghe_duoc.replace('\t', ' '), str(diem)]
                 moi += 1
-                print(f"{diem:.2f}  {r['chu']}  |  {nghe_duoc}", flush=True)
+                ghi(f"{diem:.2f}  {r['chu']}  |  {nghe_duoc}")
             ghi_tsv(KT, 'ma\tnghe\tdiem', kt)
             if luot % 4 == 0:
                 luu(tom_tat())
