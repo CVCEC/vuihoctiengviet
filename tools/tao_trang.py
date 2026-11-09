@@ -69,7 +69,7 @@ KHUON = '''<!doctype html>
 <script src="../../assets/js/muc-luc.js"></script>
 <script src="../../assets/js/khoa.js"></script>
 {plugins}
-<script src="data.js"></script>
+<script src="data.js"></script>{giong_ai}
 <script src="../../assets/js/engine.js"></script>
 </body>
 </html>
@@ -86,7 +86,9 @@ def main():
         q = int(d.parent.name.split('-')[1]); b = int(d.name.split('-')[1])
         ten, chu = ml.get((q, b), ('', ''))
         rieng = '\n<script src="dang-rieng.js"></script>' if (d / 'dang-rieng.js').exists() else ''
-        page = KHUON.format(q=q, b=b, ten=html.escape(ten), tac_gia=TAC_GIA[q], plugins=plugins + rieng,
+        giong_ai = ('\n<script src="am-ai.js"></script>\n<script src="../../assets/js/giong-ai.js"></script>'
+                    if (d / 'am-ai.js').exists() else '')
+        page = KHUON.format(q=q, b=b, ten=html.escape(ten), tac_gia=TAC_GIA[q], plugins=plugins + rieng, giong_ai=giong_ai,
                             chu_mo_ta=(', học chữ ' + html.escape(chu)) if chu and '–' not in chu else '')
         (d / 'index.html').write_text(page, encoding='utf-8')
         if xuat_trang:
