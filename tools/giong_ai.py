@@ -59,12 +59,19 @@ def doc_tsv(p, n):
         for l in p.read_text(encoding='utf-8').splitlines()[1:]:
             f = l.split('\t')
             if f and f[0]:
-                d[f[0]] = (f + [''] * n)[1:n]
+                d[f[0]] = (f + [''] * n)[1:n + 1]
     return d
 
 
 def ghi_tsv(p, dau, d):
     p.write_text(dau + '\n' + ''.join('\t'.join([k] + [str(x) for x in v]) + '\n' for k, v in sorted(d.items())), encoding='utf-8')
+
+
+def diem_cua(v):
+    try:
+        return float(v[1])
+    except (IndexError, ValueError, TypeError):
+        return 1.0
 
 
 def bai_key(b):
@@ -239,8 +246,24 @@ def nghe(mp3):
     return ' '.join(s.text.strip() for s in segs).strip()
 
 
+SO = ['không', 'một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín']
+
+
+def doc_so(n):
+    if n < 10: return SO[n]
+    if n < 20: return 'mười' + ('' if n == 10 else ' ' + ('lăm' if n % 10 == 5 else SO[n % 10]))
+    if n < 100:
+        c, d = divmod(n, 10)
+        return SO[c] + ' mươi' + ('' if d == 0 else ' ' + {1: 'mốt', 4: 'tư', 5: 'lăm'}.get(d, SO[d]))
+    if n < 1000:
+        t, r = divmod(n, 100)
+        return SO[t] + ' trăm' + ('' if r == 0 else (' linh ' + SO[r] if r < 10 else ' ' + doc_so(r)))
+    return str(n)
+
+
 def chuan(t):
-    t = nfc(t).lower()
+    t = re.sub(r'\d+', lambda m: ' ' + doc_so(int(m.group())) + ' ', nfc(t))
+    t = t.lower()
     t = re.sub(r'[^\w\s]', ' ', t)
     return t.split()
 
@@ -292,7 +315,7 @@ def main():
 
     def tom_tat():
         xong = sum(1 for r in rows if (AM / (r['ma'] + '.mp3')).exists())
-        can = sum(1 for k, v in kt.items() if (AM / (k + '.mp3')).exists() and float(v[1] or 0) < 0.75)
+        can = sum(1 for k, v in kt.items() if (AM / (k + '.mp3')).exists() and diem_cua(v) < 0.75)
         return (f"# Giọng đọc AI – trạng thái\n\n"
                 f"- Lần chạy gần nhất: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC\n"
                 f"- Mô hình: {model_dung or '(chưa gọi được)'} · giọng {'miền Nam' if VUNG == 'nam' else 'miền Bắc'}\n"
@@ -370,8 +393,7 @@ def main():
                 moi += 1
                 ghi(f"{diem:.2f}  {r['chu']}  |  {nghe_duoc}")
             ghi_tsv(KT, 'ma\tnghe\tdiem', kt)
-            if luot % 4 == 0:
-                luu(tom_tat())
+            luu(tom_tat())   # lưu ngay sau mỗi lô để không mất tiếng đã đọc
     except Dung as e:
         ghi_chu = str(e)
     except Exception as e:  # ghi lỗi vào trang-thai.md để xem được mà không cần mở GitHub Actions
