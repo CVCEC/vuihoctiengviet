@@ -246,6 +246,10 @@ def nghe(mp3):
     return ' '.join(s.text.strip() for s in segs).strip()
 
 
+DAU_CU = {a + b: c for a, b, c in [
+    ('o', 'à', 'òa'), ('o', 'á', 'óa'), ('o', 'ả', 'ỏa'), ('o', 'ã', 'õa'), ('o', 'ạ', 'ọa'),
+    ('o', 'è', 'òe'), ('o', 'é', 'óe'), ('o', 'ẻ', 'ỏe'), ('o', 'ẽ', 'õe'), ('o', 'ẹ', 'ọe'),
+    ('u', 'ỳ', 'ùy'), ('u', 'ý', 'úy'), ('u', 'ỷ', 'ủy'), ('u', 'ỹ', 'ũy'), ('u', 'ỵ', 'ụy')]}
 SO = ['không', 'một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín']
 
 
@@ -263,6 +267,8 @@ def doc_so(n):
 
 def chuan(t):
     t = re.sub(r'\d+', lambda m: ' ' + doc_so(int(m.group())) + ' ', nfc(t))
+    for cu, moi in DAU_CU.items():   # khoẻ / khỏe, hoà / hòa… là cùng một chữ
+        t = t.replace(cu, moi)
     t = t.lower()
     t = re.sub(r'[^\w\s]', ' ', t)
     return t.split()

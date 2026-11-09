@@ -82,7 +82,9 @@ for (const b of dsBai) {
 // Trang nghe thử
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const TEN_GIONG = { Leda: 'nữ trẻ', Puck: 'nam trẻ', Kore: 'nữ lớn', Charon: 'nam lớn' };
-const soLoi = Object.keys(loi).filter(m => [...cau.values()].some(c => c.ma === m && coFile(c))).length;
+const khac = m => loi[m] && loi[m].diem < 1 ? (loi[m].diem < 0.75 ? 'can' : 'nhe') : '';
+const daCo = [...cau.values()].filter(coFile);
+const soCan = daCo.filter(c => khac(c.ma) === 'can').length, soNhe = daCo.filter(c => khac(c.ma) === 'nhe').length;
 const html = `<!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nghe thử giọng đọc AI – Vui học tiếng Việt</title><meta name="robots" content="noindex">
@@ -95,6 +97,7 @@ body{background:var(--bg,#F4F0EA)}
 .gw .note{background:#fff;border:2px solid #EFE7DC;border-radius:14px;padding:12px 14px;font-size:16px;line-height:1.5}
 .gw .row{display:flex;align-items:center;gap:10px;background:#fff;border:2px solid #EFE7DC;border-radius:12px;padding:6px 10px;margin:6px 0}
 .gw .row.can{border-color:#E0A23C;background:#FFF7E6}
+.gw .row.nhe{border-color:#EAD58A;background:#FFFCEB}
 .gw button{flex:none;width:44px;height:44px;border-radius:50%;border:0;background:#C68B59;color:#fff;font-size:18px;cursor:pointer}
 .gw .t{flex:1;font-size:18px}
 .gw .m{font:12px ui-monospace,monospace;color:#8a7f72}
@@ -104,15 +107,15 @@ body{background:var(--bg,#F4F0EA)}
 </style></head><body><div class="gw">
 <h1>Nghe thử giọng đọc AI</h1>
 <p class="note">Đây là những câu trong sách không có file thu âm của Nhà xuất bản, được đọc bằng giọng AI (Google Gemini). Trên trang bài học, các bài tập có giọng AI mang nhãn «Giọng đọc AI».<br>
-Đã có <b>${tong}</b> chỗ dùng giọng AI trong <b>${nhom.length}</b> bài. ${soLoi ? `<b>${soLoi}</b> câu có viền cam: máy nghe lại thấy hơi khác chữ trong sách – nên nghe kỹ.` : ''}<br>
+Đã có <b>${tong}</b> chỗ dùng giọng AI trong <b>${nhom.length}</b> bài. Máy (Whisper) nghe lại từng câu: <b>${soCan}</b> câu viền cam (khác nhiều – nên nghe kỹ), <b>${soNhe}</b> câu viền vàng (khác một chữ, thường là dấu thanh – nghe lại xem máy đọc sai hay máy nghe nhầm).<br>
 Câu nào đọc sai: ghi lại <b>mã</b> (chữ số nhỏ bên phải) và gửi cho người phụ trách, câu đó sẽ được bỏ hoặc đọc lại.</p>
-<label class="loc"><input type="checkbox" id="chiCan"> Chỉ hiện câu cần nghe kỹ</label>
-${nhom.map(n => `<h2>${esc(n.tieuDe)} <a href="../${n.ten}/">↗</a></h2>\n` + n.ds.map(c => `<div class="row${loi[c.ma] ? ' can' : ''}"><button type="button" data-a="../am-ai/${c.ma}.mp3" aria-label="Nghe">▶</button><span class="t">${esc(c.chu)}${loi[c.ma] ? `<span class="w">Máy nghe thành: ${esc(loi[c.ma].nghe)}</span>` : ''}</span><span class="g">${TEN_GIONG[c.giong] || c.giong}</span><span class="m">${c.ma}</span></div>`).join('\n')).join('\n')}
+<label class="loc"><input type="checkbox" id="chiCan"> Chỉ hiện câu viền cam / vàng</label>
+${nhom.map(n => `<h2>${esc(n.tieuDe)} <a href="../${n.ten}/">↗</a></h2>\n` + n.ds.map(c => `<div class="row ${khac(c.ma)}"><button type="button" data-a="../am-ai/${c.ma}.mp3" aria-label="Nghe">▶</button><span class="t">${esc(c.chu)}${khac(c.ma) ? `<span class="w">Máy nghe thành: ${esc(loi[c.ma].nghe)}</span>` : ''}</span><span class="g">${TEN_GIONG[c.giong] || c.giong}</span><span class="m">${c.ma}</span></div>`).join('\n')).join('\n')}
 </div>
 <script>
 const a=new Audio();let nut=null;
 document.addEventListener('click',e=>{const b=e.target.closest('button[data-a]');if(!b)return;if(nut)nut.textContent='▶';a.src=b.dataset.a;a.play();nut=b;b.textContent='■';a.onended=()=>{b.textContent='▶'};});
-document.getElementById('chiCan').onchange=e=>{document.querySelectorAll('.gw .row').forEach(r=>{r.style.display=e.target.checked&&!r.classList.contains('can')?'none':''});};
+document.getElementById('chiCan').onchange=e=>{document.querySelectorAll('.gw .row').forEach(r=>{r.style.display=e.target.checked&&!(r.classList.contains('can')||r.classList.contains('nhe'))?'none':''});};
 </script></body></html>
 `;
 fs.writeFileSync(path.join(OUT, 'index.html'), html);
