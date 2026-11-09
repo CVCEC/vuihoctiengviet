@@ -1,0 +1,20 @@
+1.00  ông  |  Ông
+0.00  cậu  |  Go!
+0.50  Cháu chào chú ạ.  |  Chào chào chú à!
+0.50  ông ngoại  |  Ân ngoại
+0.44  Em xem ti vi ạ.  |  Em xem TV à!
+1.00  Làm gì đó?  |  Làm gì đó?
+0.67  Em hát ạ.  |  Em hát à
+1.00  Em ăn cơm ạ.  |  Em ăn cơm ạ
+1.00  Em đi học ạ.  |  Em đi học ạ
+0.57  Em chơi ạ.  |  Em chú ý ạ
+1.00  Đây là bác tôi.  |  Đây là bác tôi
+1.00  Đây là cậu tôi.  |  Đây là cậu tôi
+0.00  tôi  |  Tối
+1.00  Đây là cô tôi.  |  Đây là cô tôi
+0.75  Đây là dì tôi.  |  Đây là gì tôi?
+1.00  Chú tôi trẻ lắm.  |  Chú tôi trẻ lắm
+0.75  Bố tôi rất khoẻ.  |  Bố tôi rất khỏe
+1.00  Đây là chú tôi.  |  Đây là chú tôi.
+1.00  Đây là con mèo.  |  Đây là con mèo
+0.75  Đây là con hổ.  |  Đây là con hồ

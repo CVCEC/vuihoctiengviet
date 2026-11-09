@@ -1,7 +1,15 @@
 /* Giọng đọc AI (Google Gemini) cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
-const AM_AI = {"Kore|Đây là bố tôi.":"../../am-ai/4f494e7a9ae1.mp3",
+const AM_AI = {"Kore|tôi":"../../am-ai/66cea064023a.mp3",
+"Kore|Đây là bố tôi.":"../../am-ai/4f494e7a9ae1.mp3",
+"Kore|Bố tôi rất khoẻ.":"../../am-ai/eb3a824a4da0.mp3",
+"Kore|Đây là chú tôi.":"../../am-ai/f2cf85e97c3c.mp3",
+"Kore|Chú tôi trẻ lắm.":"../../am-ai/c512b4811351.mp3",
+"Kore|Đây là bác tôi.":"../../am-ai/01eefa5cc8cb.mp3",
+"Kore|Đây là cô tôi.":"../../am-ai/88d5f04e5038.mp3",
 "Kore|Đây là anh tôi.":"../../am-ai/2ded6a9a7c4a.mp3",
 "Kore|Đây là chị tôi.":"../../am-ai/8d97869a1879.mp3",
 "Kore|Đây là em tôi.":"../../am-ai/3e1905e73c74.mp3",
 "Kore|Đây là mẹ tôi.":"../../am-ai/9d5b6aea8607.mp3",
+"Kore|Đây là cậu tôi.":"../../am-ai/5bff7baceccf.mp3",
+"Kore|Đây là dì tôi.":"../../am-ai/b1edcaa1c0f6.mp3",
 "Kore|Đây là tôi.":"../../am-ai/cbb28a11956a.mp3"};
