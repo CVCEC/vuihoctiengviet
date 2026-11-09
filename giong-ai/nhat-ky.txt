@@ -18,3 +18,15 @@
 1.00  Đây là chú tôi.  |  Đây là chú tôi.
 1.00  Đây là con mèo.  |  Đây là con mèo
 0.75  Đây là con hổ.  |  Đây là con hồ
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 20 câu không cắt được, chia đôi để đọc lại
+0.75  Con hổ thế nào?  |  Con hồ thế nào?
+0.75  Kia là con hổ.  |  Kia là con hộ
+0.50  Con hổ khoẻ lắm.  |  Con hồ khỏe lắm
+1.00  Đây là con thỏ.  |  Đây là con thỏ
+1.00  Đây là con voi.  |  Đây là con voi
+1.00  Đây là con gà.  |  Đây là con gà
+1.00  Đây là cây gì?  |  Đây là cây gì?
+1.00  Đây là cây cam, phải không?  |  Đây là cây cam phải không?
+1.00  Đây là cây na, phải không?  |  Đây là cây na phải không?
+1.00  Không phải. Đây là cây chuối.  |  Không phải, đây là cây chuối
