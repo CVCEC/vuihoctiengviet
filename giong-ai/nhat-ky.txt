@@ -30,3 +30,13 @@ Lô 20 câu không cắt được, chia đôi để đọc lại
 1.00  Đây là cây cam, phải không?  |  Đây là cây cam phải không?
 1.00  Đây là cây na, phải không?  |  Đây là cây na phải không?
 1.00  Không phải. Đây là cây chuối.  |  Không phải, đây là cây chuối
+1.00  Phải. Đây là cây khế.  |  Phải, đây là cây khế
+1.00  Đây là cây mít, phải không?  |  Đây là cây mít, phải không?
+1.00  Đây là cây táo, phải không?  |  Đây là cây táo, phải không?
+1.00  Đây là cây dừa, phải không?  |  Đây là cây dừa, phải không?
+1.00  Đây là gì?  |  Đây là gì?
+1.00  Phải. Đây là cây cam.  |  Phải, đây là cây cam
+1.00  Không phải. Đây là cây dứa.  |  Không phải, đây là cây dứa
+1.00  Đây là cây khế, phải không?  |  Đây là cây khế phải không?
+1.00  Không phải. Đây là cây bưởi.  |  Không phải. Đây là cây bưởi.
+1.00  Phải. Đây là cây mít.  |  Phải. Đây là cây mít.

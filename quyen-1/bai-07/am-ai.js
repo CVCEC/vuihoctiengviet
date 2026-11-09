@@ -1,5 +1,15 @@
 /* Giọng đọc AI (Google Gemini) cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
 const AM_AI = {"Kore|Đây là cây gì?":"../../am-ai/157986bead89.mp3",
+"Kore|Đây là gì?":"../../am-ai/7d22f7334b27.mp3",
+"Kore|Phải. Đây là cây mít.":"../../am-ai/ff347a5ee3ef.mp3",
+"Kore|Đây là cây mít, phải không?":"../../am-ai/5e9d70a97026.mp3",
 "Kore|Không phải. Đây là cây chuối.":"../../am-ai/2f9988c92997.mp3",
+"Kore|Đây là cây dừa, phải không?":"../../am-ai/62645c2a3b35.mp3",
+"Kore|Phải. Đây là cây cam.":"../../am-ai/8c14182e534a.mp3",
 "Kore|Đây là cây cam, phải không?":"../../am-ai/2369b27bbb5b.mp3",
+"Kore|Không phải. Đây là cây bưởi.":"../../am-ai/be4a49bb0c3d.mp3",
+"Kore|Đây là cây táo, phải không?":"../../am-ai/5ec870c71a0a.mp3",
+"Kore|Phải. Đây là cây khế.":"../../am-ai/41936af84d54.mp3",
+"Kore|Đây là cây khế, phải không?":"../../am-ai/aabf48009f26.mp3",
+"Kore|Không phải. Đây là cây dứa.":"../../am-ai/a756e8a54abd.mp3",
 "Kore|Đây là cây na, phải không?":"../../am-ai/2c5ef27d5bb3.mp3"};
