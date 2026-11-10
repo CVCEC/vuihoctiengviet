@@ -29,3 +29,8 @@ Lô 10 câu không cắt được, chia đôi để đọc lại
 1.00  Con mèo có mấy chân?  |  Con mèo có mấy chân?
 0.80  Con mèo có mấy tai?  |  Con mèo có mỉ tai
 0.60  Cây na có mấy quả?  |  cây na, cổ, mỷ, quả
+1.00  Con hổ có 2 chân, phải không?  |  Con hổ có hai chân, phải không?
+1.00  Phải (Không phải). Đây là quả táo (cam).  |  phải không phải Đây là quả táo cam
+0.80  Cây na có 7 quả.  |  cây na có bậy quả
+1.00  Cây dừa có 6 quả.  |  cây dừa có 6 quả.
+1.00  Đây là con vịt.  |  Đây là con vịt
