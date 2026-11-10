@@ -10,3 +10,13 @@ Lô 20 câu không cắt được, chia đôi để đọc lại
 0.60  Con khỉ có 2 tai.  |  Còn khi có hai tai
 0.17  Phải. Con khỉ có 2 tay.  |  Phải, Còn Kỳ, Cỡ Hái Tái
 0.50  Có mấy quả táo?  |  Có mỹ quà táo
+1.00  Đếm nhanh.  |  Đếm nhanh
+0.50  Có mấy bông hoa?  |  Của Mỹ Bông Hoa
+1.00  Con cua có mấy chân?  |  Con cua có mấy chân?
+1.00  Con khỉ có 2 tay, phải không?  |  Con khỉ có hai tay, phải không?
+1.00  Con khỉ có 4 tai, phải không?  |  Con khỉ có 4 tai, phải không?
+1.00  Con khỉ có mấy tai?  |  Con khỉ có mấy tai?
+0.50  Có 6 bông hoa.  |  Của sầu bông hoa
+0.80  Con mèo có hai tai.  |  Còn mèo có hai tai?
+1.00  Đây là con gì?  |  Đây là con gì?
+1.00  Con mèo có mấy mắt?  |  Con mèo có mấy mắt
