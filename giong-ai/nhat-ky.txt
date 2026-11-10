@@ -41,3 +41,8 @@ Lô 10 câu không cắt được, chia đôi để đọc lại
 0.75  Kia là con khỉ.  |  Kia là con khì.
 1.00  Đây là quả cam, phải không?  |  Đây là quả cam, phải không?
 1.00  Đây là quả chuối, phải không?  |  Đây là quả chuối, phải không?
+1.00  Phải. Đây là quả cam.  |  Phải Đây là quả cam
+1.00  Phải. Con gà có 2 chân.  |  Phải Con gà có hai chân
+0.80  Cây mít có mấy quả?  |  cây mít có mấy quà
+1.00  Đây là quả dứa, phải không?  |  Đây là quả dứa, phải không?
+1.00  Con khỉ đang làm gì?  |  Con khỉ, đang làm gì?
