@@ -1,42 +1,12 @@
-1.00  ông  |  Ông
-0.00  cậu  |  Go!
-0.50  Cháu chào chú ạ.  |  Chào chào chú à!
-0.50  ông ngoại  |  Ân ngoại
-0.44  Em xem ti vi ạ.  |  Em xem TV à!
-1.00  Làm gì đó?  |  Làm gì đó?
-0.67  Em hát ạ.  |  Em hát à
-1.00  Em ăn cơm ạ.  |  Em ăn cơm ạ
-1.00  Em đi học ạ.  |  Em đi học ạ
-0.57  Em chơi ạ.  |  Em chú ý ạ
-1.00  Đây là bác tôi.  |  Đây là bác tôi
-1.00  Đây là cậu tôi.  |  Đây là cậu tôi
-0.00  tôi  |  Tối
-1.00  Đây là cô tôi.  |  Đây là cô tôi
-0.75  Đây là dì tôi.  |  Đây là gì tôi?
-1.00  Chú tôi trẻ lắm.  |  Chú tôi trẻ lắm
-0.75  Bố tôi rất khoẻ.  |  Bố tôi rất khỏe
-1.00  Đây là chú tôi.  |  Đây là chú tôi.
-1.00  Đây là con mèo.  |  Đây là con mèo
-0.75  Đây là con hổ.  |  Đây là con hồ
 Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
 Lô 20 câu không cắt được, chia đôi để đọc lại
-0.75  Con hổ thế nào?  |  Con hồ thế nào?
-0.75  Kia là con hổ.  |  Kia là con hộ
-0.50  Con hổ khoẻ lắm.  |  Con hồ khỏe lắm
-1.00  Đây là con thỏ.  |  Đây là con thỏ
-1.00  Đây là con voi.  |  Đây là con voi
-1.00  Đây là con gà.  |  Đây là con gà
-1.00  Đây là cây gì?  |  Đây là cây gì?
-1.00  Đây là cây cam, phải không?  |  Đây là cây cam phải không?
-1.00  Đây là cây na, phải không?  |  Đây là cây na phải không?
-1.00  Không phải. Đây là cây chuối.  |  Không phải, đây là cây chuối
-1.00  Phải. Đây là cây khế.  |  Phải, đây là cây khế
-1.00  Đây là cây mít, phải không?  |  Đây là cây mít, phải không?
-1.00  Đây là cây táo, phải không?  |  Đây là cây táo, phải không?
-1.00  Đây là cây dừa, phải không?  |  Đây là cây dừa, phải không?
-1.00  Đây là gì?  |  Đây là gì?
-1.00  Phải. Đây là cây cam.  |  Phải, đây là cây cam
-1.00  Không phải. Đây là cây dứa.  |  Không phải, đây là cây dứa
-1.00  Đây là cây khế, phải không?  |  Đây là cây khế phải không?
-1.00  Không phải. Đây là cây bưởi.  |  Không phải. Đây là cây bưởi.
-1.00  Phải. Đây là cây mít.  |  Phải. Đây là cây mít.
+1.00  Con thỏ có mấy chân?  |  Con thỏ có mấy chân?
+1.00  Có mấy con gà?  |  Có mấy con gà
+1.00  Không phải. Con khỉ có 2 tai.  |  Không phải, con khỉ có hai tai
+1.00  Con cua có 10 chân.  |  Con cua có 10 chân
+1.00  Không phải. Cây cam có 10 quả.  |  Không phải, cây cam có 10 quả
+0.86  Cây cam có 8 quả, phải không?  |  Cây cam có 8 quà, phải không?
+0.50  Có mấy con mèo?  |  Của Mỹ con mèo
+0.60  Con khỉ có 2 tai.  |  Còn khi có hai tai
+0.17  Phải. Con khỉ có 2 tay.  |  Phải, Còn Kỳ, Cỡ Hái Tái
+0.50  Có mấy quả táo?  |  Có mỹ quà táo
