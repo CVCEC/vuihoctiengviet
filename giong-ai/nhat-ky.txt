@@ -46,3 +46,15 @@ Lô 10 câu không cắt được, chia đôi để đọc lại
 0.80  Cây mít có mấy quả?  |  cây mít có mấy quà
 1.00  Đây là quả dứa, phải không?  |  Đây là quả dứa, phải không?
 1.00  Con khỉ đang làm gì?  |  Con khỉ, đang làm gì?
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 20 câu không cắt được, chia đôi để đọc lại
+0.86  Con thỏ có 2 tai, phải không?  |  Còn thỏ có hai tai, phải không?
+1.00  Kia là con gà.  |  Kia là con gà
+1.00  Đây (Kia) là con gì?  |  Đây, kia là con gì?
+0.80  Cây mít có 3 quả.  |  Cây mít có 3 quà
+1.00  Không phải. Đây là quả khế.  |  Không phải, đây là quả khế.
+1.00  Con vịt đang đi.  |  Con vịt đang đi
+0.33  Phải. Con thỏ có 2 tai.  |  Phải, con thò, gõ hái đai
+1.00  Đây (Kia) là con mèo.  |  Đây, kia là con mèo
+1.00  Kia là con ngựa.  |  kia là con ngựa.
+1.00  Phải. Đây là quả dứa.  |  Phải, đây là quả dứa.
