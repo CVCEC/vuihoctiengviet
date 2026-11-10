@@ -20,3 +20,12 @@ Lô 20 câu không cắt được, chia đôi để đọc lại
 0.80  Con mèo có hai tai.  |  Còn mèo có hai tai?
 1.00  Đây là con gì?  |  Đây là con gì?
 1.00  Con mèo có mấy mắt?  |  Con mèo có mấy mắt
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 20 câu không cắt được, chia đôi để đọc lại
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 10 câu không cắt được, chia đôi để đọc lại
+1.00  Con mèo có bốn chân.  |  Con mèo có 4 chân
+1.00  Con mèo có hai mắt.  |  Con mèo có hai mắt
+1.00  Con mèo có mấy chân?  |  Con mèo có mấy chân?
+0.80  Con mèo có mấy tai?  |  Con mèo có mỉ tai
+0.60  Cây na có mấy quả?  |  cây na, cổ, mỷ, quả
