@@ -34,3 +34,10 @@ Lô 10 câu không cắt được, chia đôi để đọc lại
 0.80  Cây na có 7 quả.  |  cây na có bậy quả
 1.00  Cây dừa có 6 quả.  |  cây dừa có 6 quả.
 1.00  Đây là con vịt.  |  Đây là con vịt
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 10 câu không cắt được, chia đôi để đọc lại
+0.60  Cây cam có 8 quả.  |  cây cam có tảm quà
+0.83  Đây là quả bưởi, phải không?  |  Đây là quả bười, phải không?
+0.75  Kia là con khỉ.  |  Kia là con khì.
+1.00  Đây là quả cam, phải không?  |  Đây là quả cam, phải không?
+1.00  Đây là quả chuối, phải không?  |  Đây là quả chuối, phải không?
