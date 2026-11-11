@@ -1,4 +1,4 @@
-/* Giọng đọc AI (Google Gemini) cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
+/* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
 const AM_AI = {"Kore|Con khỉ có 2 tai.":"../../am-ai/6b0f7ad8a576.mp3",
 "Kore|Con khỉ có mấy tai?":"../../am-ai/e181c1c9fc5d.mp3",
 "Kore|Không phải. Con khỉ có 2 tai.":"../../am-ai/526604351a03.mp3",

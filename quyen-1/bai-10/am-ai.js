@@ -1,4 +1,4 @@
-/* Giọng đọc AI (Google Gemini) cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
+/* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
 const AM_AI = {"Kore|Đây (Kia) là con gì?":"../../am-ai/6d9c06f4e003.mp3",
 "Kore|Đây (Kia) là con mèo.":"../../am-ai/921885226e9b.mp3",
 "Kore|Con mèo đang ngủ.":"../../am-ai/bb5c930d386d.mp3",

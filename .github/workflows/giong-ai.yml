@@ -1,6 +1,6 @@
 name: Giọng đọc AI
 
-# Đọc bằng Google Gemini những câu sách không có file thu âm (tools/giong_ai.py).
+# Đọc những câu sách không có file thu âm: Google Gemini (tools/giong_ai.py) hoặc giọng nhân bản Vbee (tools/giong_vbee.py, MAY=vbee trong chay.txt).
 # Chạy khi giong-ai/chay.txt thay đổi, khi bấm tay, và mỗi ngày một lần để làm tiếp phần còn lại
 # (gói miễn phí chỉ có vài lượt gọi mỗi ngày).
 on:
@@ -35,13 +35,25 @@ jobs:
           key: whisper-medium
       - run: pip install faster-whisper==1.1.1 requests
       - name: Cài ffmpeg (cắt và nén tiếng)
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg
+        timeout-minutes: 12
+        env:
+          DEBIAN_FRONTEND: noninteractive
+          NEEDRESTART_MODE: a
+        run: |
+          which ffmpeg && exit 0
+          for i in 1 2 3; do
+            timeout 240 sudo -E apt-get update -qq && timeout 300 sudo -E apt-get install -y -qq --no-install-recommends -o Dpkg::Options::=--force-confnew ffmpeg && exit 0
+            echo "apt chưa được, thử lại ($i)"; sleep 20
+          done
+          exit 1
       - name: Cài đặt cho lần chạy (giong-ai/chay.txt)
         run: grep -E '^[A-Z_]+=' giong-ai/chay.txt >> "$GITHUB_ENV" || true
       - name: Đọc các câu còn thiếu tiếng
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          VBEE_APP_ID: ${{ secrets.VBEE_APP_ID }}
+          VBEE_TOKEN: ${{ secrets.VBEE_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python tools/giong_ai.py
+          if [ "${MAY:-gemini}" = "vbee" ]; then python tools/giong_vbee.py; else python tools/giong_ai.py; fi

@@ -199,7 +199,7 @@
     head.append(star);
     const body = h('div');
     const c = h('section', { class: 'card', id: ex.id, style: { '--c': `var(--${sec.mau})` } }, head, body);
-    if (ex._ai) c.append(h('p', { class: 'ai-ghi' }, icon('spk'), 'Một số câu trong bài tập này được đọc bằng giọng AI (Google Gemini), vì sách không có file thu âm.'));
+    if (ex._ai) c.append(h('p', { class: 'ai-ghi' }, icon('spk'), typeof AM_AI_GHI === 'string' ? AM_AI_GHI : 'Một số câu trong bài tập này được đọc bằng giọng AI (Google Gemini), vì sách không có file thu âm.'));
     const ctx = {
       body, sec,
       win() {

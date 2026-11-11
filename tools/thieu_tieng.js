@@ -56,6 +56,14 @@ const coFile = c => fs.existsSync(path.join(AM, c.ma + '.mp3'));
 const loi = {}; // ma → ghi chú kiểm tra (Whisper nghe khác chữ)
 const fLoi = path.join(OUT, 'kiem-tra.tsv');
 if (fs.existsSync(fLoi)) fs.readFileSync(fLoi, 'utf8').split('\n').slice(1).filter(Boolean).forEach(l => { const [m, nghe, diem] = l.split('\t'); loi[m] = { nghe, diem: +diem }; });
+// máy đã đọc từng câu (giong-ai/nguon.tsv: mã → gemini | vbee); thiếu dòng = gemini
+const may = {};
+const fNguon = path.join(OUT, 'nguon.tsv');
+if (fs.existsSync(fNguon)) fs.readFileSync(fNguon, 'utf8').split('\n').slice(1).filter(Boolean).forEach(l => { const [m, x] = l.split('\t'); may[m] = x; });
+const mayCua = m => may[m] || 'gemini';
+const fGhi = path.join(OUT, 'ghi-chu.txt');   // lời ghi chú cho câu đọc bằng giọng nhân bản (Vbee)
+const GHI_VBEE = fs.existsSync(fGhi) ? fs.readFileSync(fGhi, 'utf8').trim()
+  : 'Một số câu trong bài tập này được đọc bằng giọng cô giáo CVCEC, tạo bằng AI (Vbee), vì sách không có file thu âm.';
 const tat = new Set(); // câu bố mẹ / giáo viên bảo bỏ (giong-ai/bo.txt, mỗi dòng một mã)
 const fBo = path.join(OUT, 'bo.txt');
 if (fs.existsSync(fBo)) fs.readFileSync(fBo, 'utf8').split(/\s+/).filter(Boolean).forEach(m => tat.add(m));
@@ -73,7 +81,9 @@ for (const b of dsBai) {
   });
   const f = path.join(b.thuMuc, 'am-ai.js');
   if (ds.length) {
-    fs.writeFileSync(f, '/* Giọng đọc AI (Google Gemini) cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */\nconst AM_AI = ' + JSON.stringify(map, null, 0).replace(/","/g, '",\n"') + ';\n');
+    const toanVbee = ds.every(c => mayCua(c.ma) === 'vbee');
+    fs.writeFileSync(f, '/* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */\nconst AM_AI = ' + JSON.stringify(map, null, 0).replace(/","/g, '",\n"') + ';\n'
+      + (toanVbee ? 'const AM_AI_GHI = ' + JSON.stringify(GHI_VBEE) + ';\n' : ''));
     tong += ds.length;
     nhom.push({ ten: b.ten, tieuDe: 'Quyển ' + D.quyen + ' – Bài ' + D.bai + ': ' + D.ten, ds });
   } else if (fs.existsSync(f)) fs.unlinkSync(f);
@@ -110,7 +120,7 @@ body{background:var(--bg,#F4F0EA)}
 Đã có <b>${tong}</b> chỗ dùng giọng AI trong <b>${nhom.length}</b> bài. Máy (Whisper) nghe lại từng câu: <b>${soCan}</b> câu viền cam (khác nhiều – nên nghe kỹ), <b>${soNhe}</b> câu viền vàng (khác một chữ, thường là dấu thanh – nghe lại xem máy đọc sai hay máy nghe nhầm).<br>
 Câu nào đọc sai: ghi lại <b>mã</b> (chữ số nhỏ bên phải) và gửi cho người phụ trách, câu đó sẽ được bỏ hoặc đọc lại.</p>
 <label class="loc"><input type="checkbox" id="chiCan"> Chỉ hiện câu viền cam / vàng</label>
-${nhom.map(n => `<h2>${esc(n.tieuDe)} <a href="../${n.ten}/">↗</a></h2>\n` + n.ds.map(c => `<div class="row ${khac(c.ma)}"><button type="button" data-a="../am-ai/${c.ma}.mp3" aria-label="Nghe">▶</button><span class="t">${esc(c.chu)}${khac(c.ma) ? `<span class="w">Máy nghe thành: ${esc(loi[c.ma].nghe)}</span>` : ''}</span><span class="g">${TEN_GIONG[c.giong] || c.giong}</span><span class="m">${c.ma}</span></div>`).join('\n')).join('\n')}
+${nhom.map(n => `<h2>${esc(n.tieuDe)} <a href="../${n.ten}/">↗</a></h2>\n` + n.ds.map(c => `<div class="row ${khac(c.ma)}"><button type="button" data-a="../am-ai/${c.ma}.mp3" aria-label="Nghe">▶</button><span class="t">${esc(c.chu)}${khac(c.ma) ? `<span class="w">Máy nghe thành: ${esc(loi[c.ma].nghe)}</span>` : ''}</span><span class="g">${mayCua(c.ma) === 'vbee' ? 'Vbee' : 'Gemini · ' + (TEN_GIONG[c.giong] || c.giong)}</span><span class="m">${c.ma}</span></div>`).join('\n')).join('\n')}
 </div>
 <script>
 const a=new Audio();let nut=null;
