@@ -18,3 +18,6 @@
 1.00  Anh Dũng đang bơi.  |  Anh Dũng đang bơi
 1.00  Con sóc đang làm gì?  |  Con sóc đang làm gì?
 1.00  Em Hoàng đang viết.  |  Em Hoàng đang viết
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
