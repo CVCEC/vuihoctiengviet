@@ -1,60 +1,20 @@
-Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 20 câu không cắt được, chia đôi để đọc lại
-1.00  Con thỏ có mấy chân?  |  Con thỏ có mấy chân?
-1.00  Có mấy con gà?  |  Có mấy con gà
-1.00  Không phải. Con khỉ có 2 tai.  |  Không phải, con khỉ có hai tai
-1.00  Con cua có 10 chân.  |  Con cua có 10 chân
-1.00  Không phải. Cây cam có 10 quả.  |  Không phải, cây cam có 10 quả
-0.86  Cây cam có 8 quả, phải không?  |  Cây cam có 8 quà, phải không?
-0.50  Có mấy con mèo?  |  Của Mỹ con mèo
-0.60  Con khỉ có 2 tai.  |  Còn khi có hai tai
-0.17  Phải. Con khỉ có 2 tay.  |  Phải, Còn Kỳ, Cỡ Hái Tái
-0.50  Có mấy quả táo?  |  Có mỹ quà táo
-1.00  Đếm nhanh.  |  Đếm nhanh
-0.50  Có mấy bông hoa?  |  Của Mỹ Bông Hoa
-1.00  Con cua có mấy chân?  |  Con cua có mấy chân?
-1.00  Con khỉ có 2 tay, phải không?  |  Con khỉ có hai tay, phải không?
-1.00  Con khỉ có 4 tai, phải không?  |  Con khỉ có 4 tai, phải không?
-1.00  Con khỉ có mấy tai?  |  Con khỉ có mấy tai?
-0.50  Có 6 bông hoa.  |  Của sầu bông hoa
-0.80  Con mèo có hai tai.  |  Còn mèo có hai tai?
-1.00  Đây là con gì?  |  Đây là con gì?
-1.00  Con mèo có mấy mắt?  |  Con mèo có mấy mắt
-Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 20 câu không cắt được, chia đôi để đọc lại
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 10 câu không cắt được, chia đôi để đọc lại
-1.00  Con mèo có bốn chân.  |  Con mèo có 4 chân
-1.00  Con mèo có hai mắt.  |  Con mèo có hai mắt
-1.00  Con mèo có mấy chân?  |  Con mèo có mấy chân?
-0.80  Con mèo có mấy tai?  |  Con mèo có mỉ tai
-0.60  Cây na có mấy quả?  |  cây na, cổ, mỷ, quả
-1.00  Con hổ có 2 chân, phải không?  |  Con hổ có hai chân, phải không?
-1.00  Phải (Không phải). Đây là quả táo (cam).  |  phải không phải Đây là quả táo cam
-0.80  Cây na có 7 quả.  |  cây na có bậy quả
-1.00  Cây dừa có 6 quả.  |  cây dừa có 6 quả.
-1.00  Đây là con vịt.  |  Đây là con vịt
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 10 câu không cắt được, chia đôi để đọc lại
-0.60  Cây cam có 8 quả.  |  cây cam có tảm quà
-0.83  Đây là quả bưởi, phải không?  |  Đây là quả bười, phải không?
-0.75  Kia là con khỉ.  |  Kia là con khì.
-1.00  Đây là quả cam, phải không?  |  Đây là quả cam, phải không?
-1.00  Đây là quả chuối, phải không?  |  Đây là quả chuối, phải không?
-1.00  Phải. Đây là quả cam.  |  Phải Đây là quả cam
-1.00  Phải. Con gà có 2 chân.  |  Phải Con gà có hai chân
-0.80  Cây mít có mấy quả?  |  cây mít có mấy quà
-1.00  Đây là quả dứa, phải không?  |  Đây là quả dứa, phải không?
-1.00  Con khỉ đang làm gì?  |  Con khỉ, đang làm gì?
-Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 20 câu không cắt được, chia đôi để đọc lại
-0.86  Con thỏ có 2 tai, phải không?  |  Còn thỏ có hai tai, phải không?
-1.00  Kia là con gà.  |  Kia là con gà
-1.00  Đây (Kia) là con gì?  |  Đây, kia là con gì?
-0.80  Cây mít có 3 quả.  |  Cây mít có 3 quà
-1.00  Không phải. Đây là quả khế.  |  Không phải, đây là quả khế.
-1.00  Con vịt đang đi.  |  Con vịt đang đi
-0.33  Phải. Con thỏ có 2 tai.  |  Phải, con thò, gõ hái đai
-1.00  Đây (Kia) là con mèo.  |  Đây, kia là con mèo
-1.00  Kia là con ngựa.  |  kia là con ngựa.
-1.00  Phải. Đây là quả dứa.  |  Phải, đây là quả dứa.
+1.00  Con gà có 2 chân, phải không?  |  Con gà có hai chân, phải không?
+1.00  Đây là quả táo, phải không?  |  Đây là quả táo, phải không?
+1.00  Con gà đang làm gì?  |  Con gà đang làm gì?
+1.00  Không phải. Đây là quả dừa.  |  Không phải! Đây là quả dừa!
+1.00  Phải. Đây là quả bưởi.  |  Phải, đây là quả bưởi
+1.00  Không phải. Con hổ có 4 chân.  |  không phải con hổ có bốn chân
+1.00  Phải (Không phải). Cây cam có 8 (10) quả.  |  phải, không phải, cây cam có 8, 10 quả
+1.00  Con mèo đang ngủ.  |  Con mèo đang ngủ
+1.00  Không phải. Đây là quả mít.  |  Không phải, đây là quả mít.
+1.00  Cây dừa có mấy quả?  |  Cây dừa có mấy quả
+1.00  Con gà đang chạy.  |  Con gà đang chạy
+1.00  Kia là con mèo.  |  Kia là con mèo
+1.00  Không phải. Đây là quả táo.  |  Không phải, đây là quả táo
+1.00  Con khỉ đang chơi.  |  Con khỉ đang chơi
+1.00  Con ngựa đang đi.  |  Con ngựa đang đi
+1.00  Con vịt đang làm gì?  |  Con vịt đang làm gì?
+1.00  Phải. Đây là quả chuối.  |  Phải, đây là quả chuối
+1.00  Anh Dũng đang bơi.  |  Anh Dũng đang bơi
+1.00  Con sóc đang làm gì?  |  Con sóc đang làm gì?
+1.00  Em Hoàng đang viết.  |  Em Hoàng đang viết
