@@ -90,8 +90,8 @@ def loi_nhac(cau):
             "pronouncing every tone carefully. Read each line exactly as written, once, in order, without adding, "
             "skipping or explaining anything.")
     if len(cau) > 1:
-        head += " After each line, stay completely silent for two full seconds before reading the next line."
-    return head + "\n\n" + "\n".join(cau)
+        head += " Pause between lines."
+    return head + "\n\n" + " [long pause] [long pause]\n".join(cau)
 
 
 # ---------- gọi Gemini ----------
@@ -179,6 +179,26 @@ def cat_lo(wav, n):
     return [(max(0.0, bien[2 * i] - (0.10 if i else 0)), min(dur, bien[2 * i + 1] + 0.15)) for i in range(n)]
 
 
+def dong_hang(exp, rec):
+    """Dóng hàng hai dãy chữ (sửa–xoá–chèn, chi phí 1). Trả về vị trí trong rec cho từng chữ của exp (None nếu bị bỏ)."""
+    n, m = len(exp), len(rec)
+    D = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(1, n + 1): D[i][0] = i
+    for j in range(1, m + 1): D[0][j] = j
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            D[i][j] = min(D[i - 1][j - 1] + (0 if exp[i - 1] == rec[j - 1] else 1), D[i - 1][j] + 1, D[i][j - 1] + 1)
+    vt, i, j = [None] * n, n, m
+    while i > 0 and j > 0:
+        if D[i][j] == D[i - 1][j - 1] + (0 if exp[i - 1] == rec[j - 1] else 1):
+            vt[i - 1] = j - 1; i -= 1; j -= 1
+        elif D[i][j] == D[i - 1][j] + 1:
+            i -= 1
+        else:
+            j -= 1
+    return vt
+
+
 def cat_theo_chu(wav, cau):
     """Dùng mốc thời gian từng chữ của Whisper để tìm chỗ chuyển câu, rồi cắt ở khoảng lặng gần đó."""
     nap_whisper()
@@ -194,13 +214,13 @@ def cat_theo_chu(wav, cau):
             exp.append(t); dong.append(i)
     if not rec or not exp:
         return None
-    sm = difflib.SequenceMatcher(None, exp, [r[0] for r in rec], autojunk=False)
+    vt = dong_hang(exp, [r[0] for r in rec])
     dau, cuoi = [None] * len(cau), [None] * len(cau)
-    for blk in sm.get_matching_blocks():
-        for k in range(blk.size):
-            i = dong[blk.a + k]; t0, t1 = rec[blk.b + k][1], rec[blk.b + k][2]
-            dau[i] = t0 if dau[i] is None else min(dau[i], t0)
-            cuoi[i] = t1 if cuoi[i] is None else max(cuoi[i], t1)
+    for k, j in enumerate(vt):
+        if j is None: continue
+        i = dong[k]
+        dau[i] = rec[j][1] if dau[i] is None else min(dau[i], rec[j][1])
+        cuoi[i] = rec[j][2] if cuoi[i] is None else max(cuoi[i], rec[j][2])
     if any(x is None for x in dau):
         return None
     ls, dur = khoang_lang(wav, d='0.15')
@@ -209,14 +229,14 @@ def cat_theo_chu(wav, cau):
         a = 0.0 if i == 0 else doan[-1][2]
         if i == len(cau) - 1:
             doan.append((a, dur, dur)); break
-        if dau[i + 1] <= cuoi[i]:
+        if dau[i + 1] <= cuoi[i] - 0.05:
             return None
         gan = [(x, y) for x, y in ls if y > cuoi[i] - 0.3 and x < dau[i + 1] + 0.3]
         if gan:
             x, y = max(gan, key=lambda z: z[1] - z[0])
             ket, bat = x + 0.15, max(x, y - 0.10)
         else:
-            m = (cuoi[i] + dau[i + 1]) / 2; ket, bat = m, m
+            mid = (cuoi[i] + dau[i + 1]) / 2; ket, bat = mid, mid
         doan.append((a, ket, bat))
     return [(a, b) for a, b, _ in doan]
 
@@ -382,12 +402,21 @@ def main():
                 if len(nhom) > 1:
                     h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 continue
-            kq = []
+            kq, hong = [], None
             for r, (a, b) in zip(nhom, doan):
                 out = tmp / (r['ma'] + '.mp3')
-                xuat_mp3(wav, a, b, out)
-                nghe_duoc = nghe(out)
+                try:
+                    if b - a < 0.25: raise ValueError('đoạn quá ngắn')
+                    xuat_mp3(wav, a, b, out)
+                    nghe_duoc = nghe(out)
+                except Exception as e:   # đoạn cắt hỏng (rỗng, quá ngắn…)
+                    hong = f'{r["chu"]}: {str(e)[:120]}'; break
                 kq.append((r, out, nghe_duoc, giong_nhau(doc_cho_may(r['chu']), nghe_duoc)))
+            if hong:
+                ghi(f'Lô {len(nhom)} câu có đoạn cắt hỏng ({hong})' + (' – chia đôi để đọc lại' if len(nhom) > 1 else ''))
+                if len(nhom) > 1:
+                    h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
+                continue
             kem = sum(1 for x in kq if x[3] < 0.5)
             if len(nhom) > 1 and kem > max(2, len(nhom) * 0.3):
                 ghi(f'Lô {len(nhom)} câu có {kem} câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại')
