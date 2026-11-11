@@ -175,9 +175,13 @@
   /* ---------- tranh có điểm chạm ---------- */
   function scene(ex, mode, onPick) {
     const wrap = h('div', { class: 'scene' }, h('img', { src: ex.hinh, alt: ex.moTa || '', width: ex.co[0], height: ex.co[1] }));
+    // bề rộng tranh (px) cho cỡ chữ trên nhãn che: chữ luôn vừa nhãn dù tranh to hay nhỏ
+    const doRong = () => wrap.style.setProperty('--sw', (wrap.clientWidth || 600) + 'px');
+    if (window.ResizeObserver) new ResizeObserver(doRong).observe(wrap); else setTimeout(doRong, 0);
     const items = ex.diem.map((d, i) => {
       const who = h('button', { class: 'who', type: 'button', 'aria-label': d.tu, style: { left: pct(d.nguoi[0]), top: pct(d.nguoi[1]), width: pct(d.nguoi[2]), height: pct(d.nguoi[3]), zIndex: 2 + (d.z || 0) } });
-      const tag = d.nhan ? h('button', { class: 'tag' + (mode === 'luyen' ? ' cover' : ''), type: 'button', 'aria-label': d.tu, style: { left: pct(d.nhan[0]), top: pct(d.nhan[1]), width: pct(d.nhan[2]), height: pct(d.nhan[3]), zIndex: 10 } }, mode === 'luyen' ? '?' : '') : null;
+      const tag = d.nhan ? h('button', { class: 'tag' + (mode === 'luyen' ? ' cover' : ''), type: 'button', 'aria-label': d.tu, style: { left: pct(d.nhan[0]), top: pct(d.nhan[1]), width: pct(d.nhan[2]), height: pct(d.nhan[3]), zIndex: 10,
+        '--hf': (d.nhan[3] * ex.co[1] / ex.co[0] / 100).toFixed(4), '--wf': (d.nhan[2] / 100).toFixed(4), '--n': Math.max(2, Array.from(d.tu).length) } }, mode === 'luyen' ? '?' : '') : null;
       const pick = () => onPick(i, who, tag);
       who.addEventListener('click', pick); wrap.append(who);
       if (tag) { tag.addEventListener('click', pick); wrap.append(tag); }
@@ -497,12 +501,13 @@
   };
 
   // 6) Nghe, nhắc lại tên chữ và tô màu
-  const CRAYONS = ['#E8738E', '#F2A541', '#F4D35E', '#5E9E6E', '#3C78C8', '#8A5CC2'];
+  const CRAYONS = ['#D9443C', '#E8738E', '#F2A541', '#F4D35E', '#5E9E6E', '#3C78C8', '#8A5CC2', '#8B5A2B', '#3A3B3C'];
+  const TEN_MAU = ['đỏ', 'hồng', 'cam', 'vàng', 'xanh lá cây', 'xanh da trời', 'tím', 'nâu', 'đen'];
   function crayons(onPick) {
     let cur = CRAYONS[0];
     const row = h('div', { class: 'crayons' }, h('b', { style: { fontSize: '16px' } }, 'Chọn màu:'));
     CRAYONS.forEach((c, i) => {
-      const b = h('button', { class: 'crayon', type: 'button', 'aria-pressed': i === 0 ? 'true' : 'false', 'aria-label': 'Màu ' + (i + 1), style: { background: c } });
+      const b = h('button', { class: 'crayon', type: 'button', 'aria-pressed': i === 0 ? 'true' : 'false', 'aria-label': 'Màu ' + (TEN_MAU[i] || i + 1), title: TEN_MAU[i] || '', style: { background: c } });
       b.onclick = () => { cur = c; row.querySelectorAll('.crayon').forEach(x => x.setAttribute('aria-pressed', x === b)); if (onPick) onPick(c); };
       row.append(b);
     });
@@ -510,16 +515,20 @@
   }
   T['the-chu'] = function (ex, ctx) {
     const chips = h('div', { class: 'lchips' });
-    ex.chu.forEach(c => { const b = h('button', { class: 'lchip', type: 'button' }, c.hoa + ' ' + c.thuong); b.onclick = () => { stopAll(); play(c.am, b); }; chips.append(b); });
+    const colored = new Set();
+    const coTo = /tô/i.test(ex.lenh || '');
+    const da = i => { colored.add(i); if (colored.size === ex.chu.length) ctx.win(); };
+    ex.chu.forEach((c, i) => { const b = h('button', { class: 'lchip', type: 'button' }, c.hoa + ' ' + c.thuong); b.onclick = () => { stopAll(); play(c.am, b); if (!coTo) da(i); }; chips.append(b); });
     const cr = crayons();
     const big = h('div', { class: 'bigl' });
-    const colored = new Set();
     ex.chu.forEach((c, i) => {
       const b = h('button', { class: 'hollow', type: 'button', 'aria-label': 'Tô màu chữ ' + c.thuong }, c.thuong);
-      b.onclick = () => { b.style.color = cr.get(); stopAll(); play(c.am); colored.add(i); if (colored.size === ex.chu.length) ctx.win(); };
+      b.onclick = () => { b.style.color = cr.get(); stopAll(); play(c.am); da(i); };
       big.append(b);
     });
-    ctx.body.append(h('p', { class: 'hint' }, 'Chạm vào thẻ chữ để nghe và nhắc lại. Rồi chọn màu và chạm vào chữ to để tô.'), chips, cr.el, big);
+    ctx.body.append(h('p', { class: 'hint' }, ex.goiY || (coTo
+      ? 'Chạm vào thẻ chữ để nghe và nhắc lại. Rồi chọn màu và chạm vào chữ to để tô.'
+      : 'Chạm vào từng thẻ chữ để nghe, rồi nhắc lại thật to. Em có thể chọn màu và chạm vào chữ to để tô cho vui.')), chips, cr.el, big);
   };
 
   // Tách một tiếng thành các chữ cái, giữ nguyên chữ ghép: "Cháu" → Ch|á|u, "nghỉ" → ngh|ỉ

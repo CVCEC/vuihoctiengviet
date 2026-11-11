@@ -119,9 +119,11 @@ a{color:var(--wood-d)}
 .who.good{box-shadow:0 0 0 5px var(--ok) inset}
 .who.bad{animation:shake .4s}
 .tag{position:absolute;border:0;padding:0;background:transparent;cursor:pointer;border-radius:50%}
-.tag.cover{background:#fff;border:3px solid var(--pink);display:grid;place-items:center;font-weight:700;color:var(--pink);font-size:clamp(16px,3.4vw,28px)}
+.tag.cover{background:#fff;border:3px solid var(--pink);border-radius:999px;display:grid;place-items:center;font-weight:700;color:var(--pink);font-size:clamp(16px,3.4vw,28px)}
 .tag.cover.reveal{color:var(--ink)}
-.tag.cover.dai{font-size:clamp(11px,2.3vw,20px);line-height:1.05;text-align:center;padding:0 3px}
+.tag.cover{font-size:min(28px,calc(var(--hf) * var(--sw,600px) * .62));border-width:min(3px,max(1.5px,calc(var(--hf) * var(--sw,600px) * .07)))}
+.tag.cover.reveal{font-size:min(26px,calc(var(--hf) * var(--sw,600px) * .55),calc(var(--wf) * var(--sw,600px) * 1.6 / var(--n)));line-height:1.05;text-align:center;padding:0 2px;white-space:nowrap;overflow:hidden}
+.tag.cover.dai{line-height:1.05;text-align:center;padding:0 2px}
 .tag.pulse{animation:tagpulse .8s ease}
 @keyframes tagpulse{50%{transform:scale(1.15)}}
 @keyframes shake{20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}

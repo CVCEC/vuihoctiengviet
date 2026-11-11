@@ -9,14 +9,14 @@ const PHONG = [
 const NHA = {
   hinh: 'img/nha.webp', co: [1100, 560], moTa: 'Ngôi nhà: bếp, bàn ăn, tủ lạnh, ti vi, bàn ghế, tranh, giường, tủ quần áo',
   diem: [
-    { tu: 'bếp', am: A + 'tn-bep.mp3', nguoi: [9.5, 45, 10.5, 18], z: 1 },
-    { tu: 'bàn ăn', am: A + 'tn-ban-an.mp3', nguoi: [0, 63, 18, 19] },
-    { tu: 'tủ lạnh', am: A + 'tn-tu-lanh.mp3', nguoi: [19.5, 26, 12, 36], z: 1 },
-    { tu: 'ti vi', am: A + 'tn-ti-vi.mp3', nguoi: [35.5, 44, 21.5, 14.5], z: 1 },
-    { tu: 'bàn ghế', am: A + 'tn-ban-ghe.mp3', nguoi: [24, 58.5, 51, 24] },
-    { tu: 'tranh', am: A + 'tn-tranh.mp3', nguoi: [43, 20, 21.5, 23] },
-    { tu: 'giường', am: A + 'tn-giuong.mp3', nguoi: [75, 54, 20, 23] },
-    { tu: 'tủ quần áo', am: A + 'tn-tu-quan-ao.mp3', nguoi: [80, 27, 17, 27] }
+    { tu: 'bếp', am: A + 'tn-bep.mp3', nguoi: [9.5, 45, 10.5, 18], z: 1, nhan: [9.1, 47.0, 7.3, 7.1] },
+    { tu: 'bàn ăn', am: A + 'tn-ban-an.mp3', nguoi: [0, 63, 18, 19], nhan: [9.4, 63.6, 12.0, 7.5] },
+    { tu: 'tủ lạnh', am: A + 'tn-tu-lanh.mp3', nguoi: [19.5, 26, 12, 36], z: 1, nhan: [19.6, 26.8, 11.3, 7.5] },
+    { tu: 'ti vi', am: A + 'tn-ti-vi.mp3', nguoi: [35.5, 44, 21.5, 14.5], z: 1, nhan: [35.2, 47.0, 10.0, 7.5] },
+    { tu: 'bàn ghế', am: A + 'tn-ban-ghe.mp3', nguoi: [24, 58.5, 51, 24], nhan: [35.3, 74.1, 13.5, 7.5] },
+    { tu: 'tranh', am: A + 'tn-tranh.mp3', nguoi: [43, 20, 21.5, 23], nhan: [54.5, 20.7, 10.2, 7.5] },
+    { tu: 'giường', am: A + 'tn-giuong.mp3', nguoi: [75, 54, 20, 23], nhan: [78.8, 68.6, 10.7, 7.1] },
+    { tu: 'tủ quần áo', am: A + 'tn-tu-quan-ao.mp3', nguoi: [80, 27, 17, 27], nhan: [79.9, 26.8, 17.1, 7.5] }
   ]
 };
 const cau = (hinh, hoi, dung, sai) => ({ hinh: 'img/' + hinh + '.webp', hoi, dung, sai });

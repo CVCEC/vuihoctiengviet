@@ -71,7 +71,7 @@
         if (hoi.am) { const my = A.gen(); setTimeout(() => { if (A.gen() === my && !opts.querySelector('.opt.good')) play(hoi.am, holder.querySelector('.cc-hoi .lenh')); }, 250); }
       }
       function finish() {
-        opts.innerHTML = ''; holder.innerHTML = ''; dem.textContent = '';
+        opts.innerHTML = ''; holder.innerHTML = ''; dem.textContent = ''; fb.textContent = ''; fb.className = 'fb';
         ctx.win();
         const r = h('button', { class: 'btn soft', type: 'button' }, icon('redo'), 'Làm lại');
         r.onclick = start;

@@ -5,21 +5,21 @@ const A = 'audio/';
 const HO_HANG = {
   hinh: 'img/ho-hang.webp', co: [1100, 772], moTa: 'Sơ đồ họ hàng của Nam: ông bà nội, ông bà ngoại, bác, bố mẹ, dì dượng, anh chị họ, Liên, Nam và em họ',
   diem: [
-    { tu: 'ông nội', am: A + 'tn-ong-noi.mp3', nguoi: [16, 0.5, 15, 26.5] },
-    { tu: 'bà nội', am: A + 'tn-ba-noi.mp3', nguoi: [34, 0.5, 15, 26.5] },
-    { tu: 'ông ngoại', am: A + 'tn-ong-ngoai.mp3', nguoi: [52, 0.5, 15, 26.5] },
-    { tu: 'bà ngoại', am: A + 'tn-ba-ngoai.mp3', nguoi: [70, 0.5, 15, 26.5] },
-    { tu: 'bác gái', am: A + 'tn-bac-gai.mp3', nguoi: [1.5, 35, 15.5, 26.5] },
-    { tu: 'bác trai', am: A + 'tn-bac-trai.mp3', nguoi: [18, 35, 15.5, 26.5] },
-    { tu: 'bố', am: A + 'tn-bo.mp3', nguoi: [34.5, 35, 15.5, 26.5] },
-    { tu: 'mẹ', am: A + 'tn-me.mp3', nguoi: [51.5, 35, 15.5, 26.5] },
-    { tu: 'dì', am: A + 'tn-di.mp3', nguoi: [67.5, 35, 15.5, 26.5] },
-    { tu: 'dượng', am: A + 'tn-duong.mp3', nguoi: [83.5, 35, 15.5, 26.5] },
-    { tu: 'anh họ', am: A + 'tn-anh-ho.mp3', nguoi: [1.5, 72, 15.5, 25.5] },
-    { tu: 'chị họ', am: A + 'tn-chi-ho.mp3', nguoi: [18, 72, 15.5, 25.5] },
-    { tu: 'Liên', am: A + 'tn-lien.mp3', nguoi: [34.5, 72, 15.5, 25.5] },
-    { tu: 'Nam', am: A + 'tn-nam.mp3', nguoi: [51, 72, 15.5, 25.5] },
-    { tu: 'em họ', am: A + 'tn-em-ho.mp3', nguoi: [75, 72, 15.5, 25.5] }
+    { tu: 'ông nội', am: A + 'tn-ong-noi.mp3', nguoi: [16, 0.5, 15, 26.5], nhan: [16.6, 19.8, 13.6, 5.7] },
+    { tu: 'bà nội', am: A + 'tn-ba-noi.mp3', nguoi: [34, 0.5, 15, 26.5], nhan: [33.6, 19.8, 13.6, 5.7] },
+    { tu: 'ông ngoại', am: A + 'tn-ong-ngoai.mp3', nguoi: [52, 0.5, 15, 26.5], nhan: [51.2, 19.8, 14.5, 5.7] },
+    { tu: 'bà ngoại', am: A + 'tn-ba-ngoai.mp3', nguoi: [70, 0.5, 15, 26.5], nhan: [68.6, 19.8, 14.5, 5.7] },
+    { tu: 'bác gái', am: A + 'tn-bac-gai.mp3', nguoi: [1.5, 35, 15.5, 26.5], nhan: [2.6, 55.3, 13.8, 6.0] },
+    { tu: 'bác trai', am: A + 'tn-bac-trai.mp3', nguoi: [18, 35, 15.5, 26.5], nhan: [18.4, 55.3, 14.1, 6.0] },
+    { tu: 'bố', am: A + 'tn-bo.mp3', nguoi: [34.5, 35, 15.5, 26.5], nhan: [35.2, 55.3, 13.6, 6.0] },
+    { tu: 'mẹ', am: A + 'tn-me.mp3', nguoi: [51.5, 35, 15.5, 26.5], nhan: [51.1, 55.3, 13.6, 6.0] },
+    { tu: 'dì', am: A + 'tn-di.mp3', nguoi: [67.5, 35, 15.5, 26.5], nhan: [67.9, 55.3, 13.6, 6.0] },
+    { tu: 'dượng', am: A + 'tn-duong.mp3', nguoi: [83.5, 35, 15.5, 26.5], nhan: [84.3, 55.3, 13.8, 6.0] },
+    { tu: 'anh họ', am: A + 'tn-anh-ho.mp3', nguoi: [1.5, 72, 15.5, 25.5], nhan: [2.6, 90.8, 13.8, 6.0] },
+    { tu: 'chị họ', am: A + 'tn-chi-ho.mp3', nguoi: [18, 72, 15.5, 25.5], nhan: [18.5, 90.8, 13.8, 6.0] },
+    { tu: 'Liên', am: A + 'tn-lien.mp3', nguoi: [34.5, 72, 15.5, 25.5], nhan: [35.0, 90.8, 13.6, 6.0] },
+    { tu: 'Nam', am: A + 'tn-nam.mp3', nguoi: [51, 72, 15.5, 25.5], nhan: [51.4, 90.8, 13.6, 6.0] },
+    { tu: 'em họ', am: A + 'tn-em-ho.mp3', nguoi: [75, 72, 15.5, 25.5], nhan: [74.9, 90.8, 13.8, 6.0] }
   ]
 };
 // Hỏi đáp "Đây là … của Nam." – họ hàng của Nam (không tính Liên và Nam)

@@ -26,7 +26,7 @@
   const NS = 'http://www.w3.org/2000/svg';
 
   A.T['noi'] = function (ex, ctx) {
-    ctx.body.append(h('p', { class: 'hint' }, ex.goiY || 'Chạm vào một ô ở cột A, rồi chạm vào ô phù hợp ở cột B để nối.'));
+    ctx.body.append(h('p', { class: 'hint' }, ex.goiY || ('Chạm vào một ô ở cột ' + (ex.tenA || 'A') + ', rồi chạm vào ô phù hợp ở cột ' + (ex.tenB || 'B') + ' để nối.')));
     const wrap = h('div', { class: 'noi' });
     const svg = document.createElementNS(NS, 'svg'); svg.setAttribute('class', 'lines');
     const colA = h('div', { class: 'noi-col a' }, h('div', { class: 'noi-h' }, h('span', null, ex.tenA || 'A')));
