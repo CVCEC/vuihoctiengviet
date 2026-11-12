@@ -79,3 +79,23 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.50  a) Hình vuông màu gì?  |  Hình vuông mưu zi
 1.00  b) Có bao nhiêu hình tròn?  |  Có bao nhiêu hình tròn?
 1.00  a) Có bao nhiêu hình vuông?  |  có bao nhiêu hình vuông?
+1.00  Bạn biết làm gì?  |  Bạn biết làm gì?
+1.00  Không. Cái bàn nhỏ thấp.  |  Không, cái bàn nhỏ thấp
+1.00  d) Có bao nhiêu hình tam giác?  |  Có bao nhiêu hình tam giác?
+0.67  Tôi biết múa.  |  Tôi biết mua
+0.40  Hai cái ghế màu xanh.  |  Hi! Cảy gỡ màu xanh!
+1.00  Có mấy cái bàn?  |  Có mấy cái bàn
+1.00  Bạn có biết viết không?  |  Bạn có biết viết không?
+1.00  Tôi biết hát.  |  Tôi biết hát
+1.00  Có mấy cái ghế?  |  Có mấy cái ghế
+1.00  Bạn có biết vẽ không?  |  Bạn có biết vẽ không?
+1.00  c) Có bao nhiêu hình chữ nhật?  |  có bao nhiêu hình chữ nhật?
+1.00  Có. Tôi thích bơi.  |  Có! Tôi thích bơi!
+1.00  Bạn có biết đọc không?  |  Bạn có biết đọc không?
+0.80  Hai quyển vở màu gì?  |  hay quyển vở màu gì?
+1.00  Quyển sách màu đỏ có nặng không?  |  quyển sách màu đỏ có nặng không?
+0.83  Không. Quyển vở màu vàng nhỏ.  |  Không, quyển vỡ màu vàng nhỏ
+1.00  Có. Tôi biết viết.  |  Có, tôi biết viết
+1.00  Bạn có thích hát không?  |  Bạn có thích hát không?
+0.86  Quyển vở màu vàng có to không?  |  Quyền vở màu vàng có to không?
+1.00  Có hai cái bàn.  |  có hai cái bàn

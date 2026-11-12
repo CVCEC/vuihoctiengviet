@@ -30,6 +30,7 @@ ma	nghe	diem
 1f2d7e7b57a4	Đây là quả bười, phải không?	0.83
 2036eed8e65f	Còn mèo có hai tai?	0.8
 21426d72f53c	Đây là cái gì?	1.0
+2227a69cb94f	Bạn biết làm gì?	1.0
 2369b27bbb5b	Đây là cây cam phải không?	1.0
 2489892a6452	Kia là con khì.	0.75
 2b93c3934ffc	Hình này là hình tròn	1.0
@@ -38,10 +39,13 @@ ma	nghe	diem
 2cb31e7c53a3	có 3 hình chữ nhật	1.0
 2ded6a9a7c4a	Đây là anh tôi.	1.0
 2edff3853b7e	Cháu chào bà à!	0.75
+2f1c0dfd7252	Không, cái bàn nhỏ thấp	1.0
 2f95b582bfec	Hình này là hình tam giác.	1.0
 2f9988c92997	Không phải, đây là cây chuối	1.0
 308eb3faf0cf	Em chào chị.	1.0
 30d9c0309eb5	Con thỏ có mấy chân?	1.0
+33a54c5a2349	Có bao nhiêu hình tam giác?	1.0
+352a48396809	Tôi biết mua	0.67
 356c8e4bb935	Cái bàn này dài, phải không?	1.0
 362ccb9685ff	Đây là quả cam, phải không?	1.0
 382d98a1e242	Đây là con hồ	0.75
@@ -56,6 +60,7 @@ ma	nghe	diem
 4485ea32625a	Phải Đây là quả cam	1.0
 45c039b4dd19	hình chữ nhật màu gì?	1.0
 45cc5c879363	Phải Con gà có hai chân	1.0
+4655b45aa458	Hi! Cảy gỡ màu xanh!	0.4
 46c69c0c941c	Con hồ thế nào?	0.75
 47451b281b9d	Hình tròn, màu đỏ	1.0
 48ddf7a2d487	có sẩu hình tam giác.	0.8
@@ -63,6 +68,7 @@ ma	nghe	diem
 49c2b80f7f87	Con mèo đang làm gì?	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
 4f494e7a9ae1	Đây là bố tôi.	1.0
+4f56e84e97a3	Có mấy cái bàn	1.0
 50c9a5667343	Hôm nay là thứ 3	1.0
 519f2f18afa3	Con mèo đang hát	1.0
 5222abf70ffb	Đây là con gì?	1.0
@@ -79,6 +85,7 @@ ma	nghe	diem
 5bff7baceccf	Đây là cậu tôi	1.0
 5c74cb098c5e	Cái gì?	0.5
 5d04e75f8ba7	Em ăn cơm ạ	1.0
+5e56f64b88ef	Bạn có biết viết không?	1.0
 5e9d70a97026	Đây là cây mít, phải không?	1.0
 5ec870c71a0a	Đây là cây táo, phải không?	1.0
 5f66420f5fb8	Không phải, cây cam có 10 quả	1.0
@@ -88,29 +95,42 @@ ma	nghe	diem
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
 6324be59dc97	Con khỉ, đang làm gì?	1.0
+63b12025984f	Tôi biết hát	1.0
 66cea064023a	Tối	0.0
 67314beb3f19	Của Mỹ con mèo	0.5
 6757c4b2ec4d	Còn thỏ có hai tai, phải không?	0.86
+675c4ffea0c4	Có mấy cái ghế	1.0
 67b68a0de997	Con mèo có mấy mắt	1.0
 67fd42d847d4	Đây là mả tôi	0.75
+6994e2ef746f	Bạn có biết vẽ không?	1.0
 6b0f7ad8a576	Còn khi có hai tai	0.6
+6b40f453c7a8	có bao nhiêu hình chữ nhật?	1.0
+6b59f5b0bdb1	Có! Tôi thích bơi!	1.0
 6b788951dc3a	Con mèo có 4 chân	1.0
 6ba2673fae03	có 3 hình tam giác.	1.0
 6c5bb7edc878	Phải, Còn Kỳ, Cỡ Hái Tái	0.17
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
 6e8eaeed6f3a	Em Tùng, Đáng Đọc	0.75
+6ff230f07ef5	Bạn có biết đọc không?	1.0
+7140e32e3d0e	hay quyển vở màu gì?	0.8
 721f1d345df9	Em đi học ạ	1.0
 73b9dbe2a3dc	Cây mít có 3 quà	0.8
+73bb2a4c9f66	quyển sách màu đỏ có nặng không?	1.0
+746968986dae	Không, quyển vỡ màu vàng nhỏ	0.83
 756956b4af73	cháu chào dụng ạ	0.75
 75db4a5da700	Con mèo có hai mắt	1.0
 75f26494d6b1	Có mỹ quà táo	0.5
+762207d30f4c	Có, tôi biết viết	1.0
 768cb132f57f	Anh	1.0
 78e5c5a283ac	Con sóc đang múa	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
 7bf7b17c4dc9	Không phải cái bàn này ngắn.	1.0
 7d22f7334b27	Đây là gì?	1.0
+7f6e14cd8951	Bạn có thích hát không?	1.0
 7fd4d0e4f377	Gãi đủ	0.0
+83bf83b925b6	Quyền vở màu vàng có to không?	0.86
+840c6b15b15a	có hai cái bàn	1.0
 871456548398	Không phải, đây là quả khế.	1.0
 87c1746354a6	Đếm nhanh	1.0
 88d5f04e5038	Đây là cô tôi	1.0
