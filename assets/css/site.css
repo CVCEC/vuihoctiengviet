@@ -331,3 +331,16 @@ a{color:var(--wood-d)}
 .av0{width:58px;height:58px;border-radius:50%;background:#F1EBE2;color:var(--wood-d);display:grid;place-items:center;flex:none}
 
 .nv-row{display:flex;align-items:flex-end;gap:10px;margin-top:10px}.nv-row img{width:90px;height:auto}.nv-row span{font-weight:700;color:var(--ink-2);padding-bottom:8px}
+
+/* In trang: chỉ để xem trực tuyến */
+@media print{
+  body>*{display:none!important}
+  body{background:#fff!important}
+  body::before{content:"Tài liệu này chỉ để xem trực tuyến tại vuihoctiengviet.cvcec.org · This material is for online viewing only.";display:block;padding:40px 20px;font:700 18px/1.5 Andika,system-ui,sans-serif;color:#3A3B3C;text-align:center}
+}
+.foot .dk{margin-top:6px}
+.foot .dk a{color:inherit}
+.terms{background:#fff;border:2px solid #EFE7DC;border-radius:16px;padding:14px 18px;margin:18px 0;font-size:15px;line-height:1.55;color:var(--ink-2,#5a5148)}
+.terms h2{font-size:18px;margin:0 0 8px;color:var(--ink,#3A3B3C)}
+.terms p{margin:0 0 10px}
+.terms .en{color:#7a7065}

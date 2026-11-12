@@ -97,7 +97,7 @@ const daCo = [...cau.values()].filter(coFile);
 const soCan = daCo.filter(c => khac(c.ma) === 'can').length, soNhe = daCo.filter(c => khac(c.ma) === 'nhe').length;
 const html = `<!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nghe thử giọng đọc AI – Vui học tiếng Việt</title><meta name="robots" content="noindex">
+<title>Nghe thử giọng đọc AI – Vui học tiếng Việt</title><meta name="robots" content="noindex, noimageindex, noai, noimageai">
 <link rel="stylesheet" href="../assets/css/site.css">
 <style>
 body{background:var(--bg,#F4F0EA)}
@@ -122,6 +122,7 @@ Câu nào đọc sai: ghi lại <b>mã</b> (chữ số nhỏ bên phải) và g�
 <label class="loc"><input type="checkbox" id="chiCan"> Chỉ hiện câu viền cam / vàng</label>
 ${nhom.map(n => `<h2>${esc(n.tieuDe)} <a href="../${n.ten}/">↗</a></h2>\n` + n.ds.map(c => `<div class="row ${khac(c.ma)}"><button type="button" data-a="../am-ai/${c.ma}.mp3" aria-label="Nghe">▶</button><span class="t">${esc(c.chu)}${khac(c.ma) ? `<span class="w">Máy nghe thành: ${esc(loi[c.ma].nghe)}</span>` : ''}</span><span class="g">${mayCua(c.ma) === 'vbee' ? 'Vbee' : 'Gemini · ' + (TEN_GIONG[c.giong] || c.giong)}</span><span class="m">${c.ma}</span></div>`).join('\n')).join('\n')}
 </div>
+<script src="../assets/js/bao-ve.js"></script>
 <script>
 const a=new Audio();let nut=null;
 document.addEventListener('click',e=>{const b=e.target.closest('button[data-a]');if(!b)return;if(nut)nut.textContent='▶';a.src=b.dataset.a;a.play();nut=b;b.textContent='■';a.onended=()=>{b.textContent='▶'};});

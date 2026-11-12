@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nghe thử giọng đọc AI – Vui học tiếng Việt</title><meta name="robots" content="noindex">
+<title>Nghe thử giọng đọc AI – Vui học tiếng Việt</title><meta name="robots" content="noindex, noimageindex, noai, noimageai">
 <link rel="stylesheet" href="../assets/css/site.css">
 <style>
 body{background:var(--bg,#F4F0EA)}
@@ -304,6 +304,7 @@ Câu nào đọc sai: ghi lại <b>mã</b> (chữ số nhỏ bên phải) và g�
 <div class="row can"><button type="button" data-a="../am-ai/4655b45aa458.mp3" aria-label="Nghe">▶</button><span class="t">Hai cái ghế màu xanh.<span class="w">Máy nghe thành: Hi! Cảy gỡ màu xanh!</span></span><span class="g">Gemini · nữ lớn</span><span class="m">4655b45aa458</span></div>
 <div class="row "><button type="button" data-a="../am-ai/97e007f1c8f4.mp3" aria-label="Nghe">▶</button><span class="t">Hai cái ghế màu gì?</span><span class="g">Gemini · nữ lớn</span><span class="m">97e007f1c8f4</span></div>
 </div>
+<script src="../assets/js/bao-ve.js"></script>
 <script>
 const a=new Audio();let nut=null;
 document.addEventListener('click',e=>{const b=e.target.closest('button[data-a]');if(!b)return;if(nut)nut.textContent='▶';a.src=b.dataset.a;a.play();nut=b;b.textContent='■';a.onended=()=>{b.textContent='▶'};});

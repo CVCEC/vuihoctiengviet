@@ -24,11 +24,10 @@
     const wrap = h('div', { class: 'tmt-wrap' }, canvas, loading);
     const bUndo = h('button', { class: 'btn soft small', type: 'button', disabled: true }, icon('redo'), 'Hoàn tác');
     const bReset = h('button', { class: 'btn soft small', type: 'button' }, icon('x'), 'Làm lại');
-    const bSave = h('button', { class: 'btn soft small', type: 'button' }, icon('img'), 'Lưu tranh');
     const count = h('span', { class: 'count' }, '');
     ctx.body.append(
       h('p', { class: 'hint' }, ex.goiY || 'Chọn màu, rồi chạm vào từng vùng trong tranh để tô.'),
-      cr.el, wrap, h('div', { class: 'tmt-bar' }, bUndo, bReset, bSave, count));
+      cr.el, wrap, h('div', { class: 'tmt-bar' }, bUndo, bReset, count));
 
     let W = 0, H = 0, g = null, base = null, out = null, label = null, lum = null, regionColor = [], history = [], fills = 0, won = false;
     const used = new Set();
@@ -128,14 +127,6 @@
       if (!out) return;
       out.data.set(base.data); regionColor.fill(null); history = []; bUndo.disabled = true; redraw();
       used.clear(); fills = 0; setCount();
-    };
-    bSave.onclick = () => {
-      if (!out) return;
-      canvas.toBlob(b => {
-        if (!b) return;
-        const a = h('a', { href: URL.createObjectURL(b), download: 'tranh-to-mau.png' });
-        document.body.append(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
-      }, 'image/png');
     };
   };
 });

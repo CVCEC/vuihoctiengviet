@@ -3,7 +3,8 @@
 - Lấy tên bài và chữ học từ assets/js/muc-luc.js
 - Gắn tất cả dạng bài bổ sung trong assets/js/dang/*.js
 - Chạy: python3 tools/tao_trang.py            (mọi bài đang có data.js)
-        python3 tools/tao_trang.py --trang     (xuất thêm ảnh trang sách img/trang-N.jpg, cần pdftoppm + file PDF)
+        python3 tools/tao_trang.py --trang     (xuất thêm ảnh trang sách img/trang-N.jpg, cần pdftoppm + file PDF + Pillow)
+        python3 tools/tao_trang.py --trang-lai (xuất lại mọi ảnh trang; ảnh luôn có dấu chìm – tools/dau_anh.py)
 """
 import html
 import pathlib
@@ -45,6 +46,8 @@ KHUON = '''<!doctype html>
 <title>Bài {b}: {ten} – Vui học tiếng Việt {q}</title>
 <meta name="description" content="Vui học tiếng Việt – Quyển {q}, Bài {b} «{ten}» – bài học tương tác: nghe, nói, đóng vai{chu_mo_ta}.">
 <meta name="theme-color" content="#F4F0EA">
+<meta name="robots" content="noimageindex, noai, noimageai">
+<meta name="googlebot" content="noimageindex">
 <link rel="icon" href="../../assets/img/icon.svg" type="image/svg+xml">
 <link rel="preload" href="../../assets/fonts/andika-vietnamese-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../../assets/css/site.css">
@@ -64,8 +67,10 @@ KHUON = '''<!doctype html>
     <p>Nội dung: <b>Vui học tiếng Việt – Quyển {q}</b> · {tac_gia} · Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh.</p>
     <p>Bản số hoá tương tác: CVCEC – Trường Tiếng Việt Của Em, với sự đồng ý của Nhà xuất bản. Sử dụng miễn phí cho mục đích học tập.</p>
     <p class="cp">Bài hát được nhúng từ YouTube và thuộc bản quyền của tác giả, người biểu diễn.</p>
+    <p class="dk"><a href="../../#dieu-khoan">Lưu ý về sử dụng tài liệu · Terms of use</a></p>
   </div>
 </footer>
+<script src="../../assets/js/bao-ve.js"></script>
 <script src="../../assets/js/muc-luc.js"></script>
 <script src="../../assets/js/khoa.js"></script>
 {plugins}
@@ -80,7 +85,11 @@ def main():
     ml = muc_luc()
     plugins = '\n'.join(f'<script src="../../assets/js/dang/{p.name}"></script>'
                         for p in sorted((ROOT / 'assets/js/dang').glob('*.js')))
-    xuat_trang = '--trang' in sys.argv
+    lam_lai = '--trang-lai' in sys.argv          # xuất lại mọi ảnh trang (vd. khi đổi dấu chìm)
+    xuat_trang = '--trang' in sys.argv or lam_lai
+    if xuat_trang:
+        sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+        from dau_anh import dong_dau
     for data in sorted(ROOT.glob('quyen-*/bai-*/data.js')):
         d = data.parent
         q = int(d.parent.name.split('-')[1]); b = int(d.name.split('-')[1])
@@ -95,9 +104,12 @@ def main():
             (d / 'img').mkdir(exist_ok=True)
             for t in trang_bai(q, b):
                 out = d / 'img' / f'trang-{t}'
-                if not out.with_suffix('.jpg').exists():
-                    subprocess.run(['pdftoppm', '-r', '170', '-jpeg', '-jpegopt', 'quality=78', '-f', str(t + LECH), '-l', str(t + LECH),
-                                    '-singlefile', PDF[q], str(out)], check=True)
+                if lam_lai or not out.with_suffix('.jpg').exists():
+                    tam = d / 'img' / f'.tam-{t}'
+                    subprocess.run(['pdftoppm', '-r', '170', '-jpeg', '-jpegopt', 'quality=92', '-f', str(t + LECH), '-l', str(t + LECH),
+                                    '-singlefile', PDF[q], str(tam)], check=True)
+                    dong_dau(tam.with_suffix('.jpg'), out.with_suffix('.jpg'))   # dấu chìm + giảm độ phân giải
+                    tam.with_suffix('.jpg').unlink()
         print('ok', d.relative_to(ROOT), ten)
 
 
