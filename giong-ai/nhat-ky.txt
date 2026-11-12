@@ -111,3 +111,14 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Có 8 hình chữ nhật.  |  có 8 hình chữ nhật
 1.00  Có (Không). Tôi biết (không biết) đọc.  |  Có, không, tôi biết, không biết, đọc
 1.00  Có 10 hình tròn.  |  Có 10 hình tròn
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Bạn có thích bơi không?  |  Bạn có thích bơi không?
+1.00  b) Hình tròn màu gì?  |  Hình tròn màu gì?
+1.00  c) Hình chữ nhật màu gì?  |  Hình chữ nhật màu gì?
+0.91  Hình chữ nhật màu nâu.  |  hình chữ nhật màu nâu Có
+0.91  Có. Quyển sách màu đỏ nặng.  |  quyển sách màu đỏ nặng
+0.50  Có hai cái ghế.  |  Có hai cài gửi
+1.00  Có. Tôi biết vẽ.  |  Có, tôi biết vẽ
+0.83  Không. Bút chì màu vàng ngắn.  |  Không, bút chỉ màu vàng ngắn
+0.86  Quyển vở màu trắng có to không?  |  Quyền vở màu trắng có to không?
+1.00  Một quyển màu trắng, một quyển màu vàng.  |  một quyển màu trắng, một quyển màu vàng.
