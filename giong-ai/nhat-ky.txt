@@ -19,3 +19,23 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Hình này là hình chữ nhật.  |  Hình này là hình chữ nhật.
 1.00  Hình này là hình tròn.  |  Hình này là hình tròn
 1.00  Có 3 hình chữ nhật.  |  có 3 hình chữ nhật
+1.00  Hình này là hình tam giác.  |  Hình này là hình tam giác.
+1.00  Hình chữ nhật màu gì?  |  hình chữ nhật màu gì?
+1.00  Hình tròn màu đỏ.  |  Hình tròn, màu đỏ
+0.80  Có 6 hình tam giác.  |  có sẩu hình tam giác.
+1.00  Có mấy hình chữ nhật?  |  có mấy hình chữ nhật.
+1.00  Có 3 hình tam giác.  |  có 3 hình tam giác.
+1.00  Có mấy hình vuông?  |  có mấy hình vuông.
+1.00  Hình vuông màu tím.  |  Hình vuông màu tím
+1.00  Vật này có hình gì?  |  Vật này có hình gì?
+0.75  Hình tròn màu gì?  |  hình tròn, màu dí.
+0.80  Hình tam giác màu gì?  |  Hình tam rác, màu gì?
+1.00  Có 5 hình tam giác.  |  có 5 hình tam giác
+1.00  Hình vuông màu gì?  |  Hình vuông, màu gì?
+1.00  Có 1 hình chữ nhật.  |  có một hình chữ nhật.
+1.00  Hình tam giác màu vàng.  |  hình tam giác màu vàng.
+1.00  Hình chữ nhật màu xanh.  |  hình chữ nhật, màu xanh
+1.00  Có 2 hình tam giác.  |  Có hai hình tam giác
+1.00  Hình này là hình vuông.  |  Hình này là hình vuông
+1.00  Có 2 hình tròn.  |  có hai hình tròn
+0.80  Có mấy hình tam giác?  |  Còn mấy hình tam giác
