@@ -122,3 +122,4 @@ Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.83  Không. Bút chì màu vàng ngắn.  |  Không, bút chỉ màu vàng ngắn
 0.86  Quyển vở màu trắng có to không?  |  Quyền vở màu trắng có to không?
 1.00  Một quyển màu trắng, một quyển màu vàng.  |  một quyển màu trắng, một quyển màu vàng.
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
