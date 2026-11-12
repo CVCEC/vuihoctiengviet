@@ -59,3 +59,23 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Phải (Không phải). Cái bàn này cao (thấp).  |  phải, không phải, cái bàn này cao, thấp
 1.00  Cái bàn này thấp.  |  Cái bàn này thấp
 1.00  Cái bàn này dài.  |  Cái bàn này dài!
+1.00  cái bàn  |  Cái bàn
+1.00  Con thỏ này to, phải không?  |  Con thỏ này to, phải không?
+1.00  Cái ghế này nặng, phải không?  |  Cái ghế này nặng, phải không?
+1.00  Cái bàn này thế nào?  |  Cái bàn này thế nào?
+1.00  Hôm nay là ngày 19.  |  Hôm nay là ngày 19.
+1.00  Hôm nay là Chủ nhật.  |  Hôm nay là chủ nhật
+1.00  Hôm nay là thứ Ba.  |  Hôm nay là thứ 3
+1.00  Tháng này là tháng Ba.  |  Tháng này là tháng 3
+0.60  Tháng này là tháng Sáu.  |  Thẳng này là thẳng 6
+0.40  Tháng này là tháng Tám.  |  thẳng này là thẳng tảm
+1.00  Hôm nay là ngày 12 tháng Năm.  |  Hôm nay là ngày 12 tháng 5.
+1.00  Hôm nay là thứ Tư.  |  Hôm nay là thứ tư
+1.00  Hôm nay là ngày 8.  |  Hôm nay là ngày 8
+0.80  Hôm nay là thứ Năm.  |  Hôm nay là ngày 5
+1.00  Hôm nay là ngày 1.  |  Hôm nay là ngày 1.
+0.83  Có. Quyển vở màu trắng to.  |  Có, quyền vở màu trắng to
+0.50  Có 9 hình vuông.  |  có chiến hình vua
+0.50  a) Hình vuông màu gì?  |  Hình vuông mưu zi
+1.00  b) Có bao nhiêu hình tròn?  |  Có bao nhiêu hình tròn?
+1.00  a) Có bao nhiêu hình vuông?  |  có bao nhiêu hình vuông?

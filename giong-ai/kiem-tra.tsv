@@ -3,11 +3,16 @@ ma	nghe	diem
 00d5551bc6e4	cây na, cổ, mỷ, quả	0.6
 013423fa7f4a	Phải, cây dừa này cao	1.0
 01eefa5cc8cb	Đây là bác tôi	1.0
+02b85836afb0	Có, quyền vở màu trắng to	0.83
 02f5313005b9	Con hổ có hai chân, phải không?	1.0
 02f5372188f2	Chào chào mọi người!	0.25
 052d2ebd54d6	Đây là con mèo	1.0
+06a0ed4d7bfb	có chiến hình vua	0.5
 06f7295177df	phải không phải Đây là quả táo cam	1.0
 070ab109b3d7	cây na có bậy quả	0.8
+0a74a26df9f7	Hình vuông mưu zi	0.5
+0f402eb38217	Có bao nhiêu hình tròn?	1.0
+0ff478a35225	Hôm nay là ngày 19.	1.0
 11805554308d	cây dừa có 6 quả.	1.0
 12f2d0828712	Cây dừa này cao, phải không?	1.0
 144d64080a58	Con sóc đang làm gì?	1.0
@@ -18,6 +23,7 @@ ma	nghe	diem
 17009479cafb	có một hình tròn.	1.0
 17a1d35ced7a	Em xem TV à!	0.44
 1851a9bff959	có một hình vuông.	1.0
+1b11dafa89b3	có bao nhiêu hình vuông?	1.0
 1c7decab7d4a	Làm gì đó?	1.0
 1e8de607f64f	Chú	1.0
 1ee09d01aa18	Hình này là hình chữ nhật.	1.0
@@ -46,6 +52,7 @@ ma	nghe	diem
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
 40cd199287bc	Con gấu đang làm gì?	1.0
 41936af84d54	Phải, đây là cây khế	1.0
+42ab0798242a	Hôm nay là chủ nhật	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
 45c039b4dd19	hình chữ nhật màu gì?	1.0
 45cc5c879363	Phải Con gà có hai chân	1.0
@@ -56,9 +63,11 @@ ma	nghe	diem
 49c2b80f7f87	Con mèo đang làm gì?	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
 4f494e7a9ae1	Đây là bố tôi.	1.0
+50c9a5667343	Hôm nay là thứ 3	1.0
 519f2f18afa3	Con mèo đang hát	1.0
 5222abf70ffb	Đây là con gì?	1.0
 526604351a03	Không phải, con khỉ có hai tai	1.0
+5277c0e87cbb	Tháng này là tháng 3	1.0
 52b7b8e0e864	có mấy hình chữ nhật.	1.0
 52ea94daa8c7	cây mít có mấy quà	0.8
 56325a5ee7c4	Con cua có 10 chân	1.0
@@ -75,6 +84,7 @@ ma	nghe	diem
 5f66420f5fb8	Không phải, cây cam có 10 quả	1.0
 60a4553ad77a	Cái bàn này cao, phải không?	1.0
 60f0ddc57a16	Con hồ khỏe lắm	0.75
+620fa5cfc633	Thẳng này là thẳng 6	0.6
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
 6324be59dc97	Con khỉ, đang làm gì?	1.0
@@ -104,10 +114,12 @@ ma	nghe	diem
 871456548398	Không phải, đây là quả khế.	1.0
 87c1746354a6	Đếm nhanh	1.0
 88d5f04e5038	Đây là cô tôi	1.0
+897fac6ca0b1	thẳng này là thẳng tảm	0.4
 8a4d4cdfe320	có mấy hình vuông.	1.0
 8a7ba398c7b2	Cây giữa này thấp	0.75
 8bf5eb032c3c	Con vịt đang đi	1.0
 8c14182e534a	Phải, đây là cây cam	1.0
+8cb162dac2d8	Hôm nay là ngày 12 tháng 5.	1.0
 8d97869a1879	Đây là chị tôi	1.0
 8e23111bf4cf	Phải, con thò, gõ hái đai	0.33
 8fe23893483d	Con thỏ đang ăn	1.0
@@ -130,6 +142,7 @@ ma	nghe	diem
 9d7df1980a5c	Cảy khuyến này nhé!	0.25
 9d99752cb652	Đây là ba tôi	1.0
 9e97c768a16d	Đây là quả táo, phải không?	1.0
+a1c0b5ada72f	Hôm nay là thứ tư	1.0
 a23f8e623d5f	Hình vuông, màu gì?	1.0
 a375c9785824	Con gà đang làm gì?	1.0
 a4c6e2323320	Phải, gãy hủy này nâng	0.4
@@ -147,6 +160,7 @@ adf5a734912f	Không phải! Đây là quả dừa!	1.0
 aee03c915f9f	Phải, đây là quả bưởi	1.0
 b1edcaa1c0f6	Đây là gì tôi?	0.75
 b2e299ff439c	Đây là con voi	1.0
+b3ef5e8a292a	Hôm nay là ngày 8	1.0
 b5d728b3167e	không phải con hổ có bốn chân	1.0
 b7e07b63157f	Cái bàn này thấp	1.0
 b7e106a145b7	Chào chào tí mạc!	0.25
@@ -159,16 +173,21 @@ be4a49bb0c3d	Không phải. Đây là cây bưởi.	1.0
 beacc60162fd	Không phải, đây là quả mít.	1.0
 c028cf03cc31	Ông	1.0
 c1541c460b34	Go!	0.0
+c15540325eb9	Cái bàn	1.0
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
 c512b4811351	Chú tôi trẻ lắm	1.0
 c5444e59c095	hình chữ nhật, màu xanh	1.0
+c6d0c317cd6a	Con thỏ này to, phải không?	1.0
+c6df7f97f14b	Cái ghế này nặng, phải không?	1.0
 c9506ef3c12c	Con khỉ có 4 tai, phải không?	1.0
 cbb28a11956a	Đây là tôi	1.0
 cce8a6bfffaf	Cây dừa có mấy quả	1.0
+d0c1e5558324	Hôm nay là ngày 5	0.8
 d2927f33876e	Con gà đang chạy	1.0
 d346de20174c	Kia là con mèo	1.0
 d3ef61ed89a2	Cậu có thích mua không?	0.8
 d52628c9e3d9	Không phải, đây là quả táo	1.0
+d815269b50f5	Hôm nay là ngày 1.	1.0
 d86fa6892e78	Chị Liên đang hát	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e88060b61be2	Có hai hình tam giác	1.0
@@ -182,6 +201,7 @@ ed32a0f94977	Em chú ý ạ	0.57
 edecd070ebf1	Của sầu bông hoa	0.5
 f0429362a5d3	Con gấu đang đọc sách	1.0
 f17f03958c35	có hai hình tròn	1.0
+f2637556a7b5	Cái bàn này thế nào?	1.0
 f2cf85e97c3c	Đây là chú tôi.	1.0
 f3d7ea5c0264	Con mèo có mỉ tai	0.8
 f3fc9461ae35	Của Không Tự thích Không thích mua	0.57
