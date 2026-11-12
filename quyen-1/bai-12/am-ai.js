@@ -13,6 +13,7 @@ const AM_AI = {"Kore|Hình này là hình tròn.":"../../am-ai/2b93c3934ffc.mp3"
 "Kore|Hình vuông màu gì?":"../../am-ai/a23f8e623d5f.mp3",
 "Kore|Vật này có hình gì?":"../../am-ai/9572ad27a050.mp3",
 "Kore|Có 2 hình tròn.":"../../am-ai/f17f03958c35.mp3",
+"Kore|Có mấy hình tròn?":"../../am-ai/fcaa14e2034f.mp3",
 "Kore|Có 2 hình tam giác.":"../../am-ai/e88060b61be2.mp3",
 "Kore|Có mấy hình tam giác?":"../../am-ai/fa19e9e9f7d1.mp3",
 "Kore|Có 1 hình chữ nhật.":"../../am-ai/ac5f31fd34e8.mp3",

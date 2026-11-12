@@ -39,3 +39,23 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Hình này là hình vuông.  |  Hình này là hình vuông
 1.00  Có 2 hình tròn.  |  có hai hình tròn
 0.80  Có mấy hình tam giác?  |  Còn mấy hình tam giác
+1.00  Có mấy hình tròn?  |  Có mấy hình tròn
+1.00  Phải. Cây dừa này cao.  |  Phải, cây dừa này cao
+1.00  Cây dừa này cao, phải không?  |  Cây dừa này cao, phải không?
+0.80  Cây dứa này thế nào?  |  cây rứa này thế nào?
+1.00  Đây là cái gì?  |  Đây là cái gì?
+1.00  Cái bàn này dài, phải không?  |  Cái bàn này dài, phải không?
+0.60  Cái ghế này thế nào?  |  Cảnh hưởng này thế nào?
+0.75  Con voi này to.  |  con voi này tớ
+0.50  cái ghế  |  Cái gì?
+1.00  Cái bàn này cao, phải không?  |  Cái bàn này cao, phải không?
+1.00  Không phải. Cái bàn này ngắn.  |  Không phải cái bàn này ngắn.
+0.00  cái tủ  |  Gãi đủ
+0.75  Cây dứa này thấp.  |  Cây giữa này thấp
+1.00  Không phải. Con thỏ này nhỏ.  |  Không phải, con thỏ này nhỏ
+0.25  Cái ghế này nhẹ.  |  Cảy khuyến này nhé!
+0.40  Phải. Cái ghế này nặng.  |  Phải, gãy hủy này nâng
+0.80  Con voi này thế nào?  |  Còn voi này thế nào?
+1.00  Phải (Không phải). Cái bàn này cao (thấp).  |  phải, không phải, cái bàn này cao, thấp
+1.00  Cái bàn này thấp.  |  Cái bàn này thấp
+1.00  Cái bàn này dài.  |  Cái bàn này dài!

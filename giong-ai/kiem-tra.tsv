@@ -1,6 +1,7 @@
 ma	nghe	diem
 0028372d64b2	Anh Dũng đang bơi	1.0
 00d5551bc6e4	cây na, cổ, mỷ, quả	0.6
+013423fa7f4a	Phải, cây dừa này cao	1.0
 01eefa5cc8cb	Đây là bác tôi	1.0
 02f5313005b9	Con hổ có hai chân, phải không?	1.0
 02f5372188f2	Chào chào mọi người!	0.25
@@ -8,8 +9,10 @@ ma	nghe	diem
 06f7295177df	phải không phải Đây là quả táo cam	1.0
 070ab109b3d7	cây na có bậy quả	0.8
 11805554308d	cây dừa có 6 quả.	1.0
+12f2d0828712	Cây dừa này cao, phải không?	1.0
 144d64080a58	Con sóc đang làm gì?	1.0
 146a64d8b165	Đây là con vịt	1.0
+150cad42a9ed	cây rứa này thế nào?	0.8
 157986bead89	Đây là cây gì?	1.0
 15aae83310a6	cây cam có tảm quà	0.6
 17009479cafb	có một hình tròn.	1.0
@@ -20,6 +23,7 @@ ma	nghe	diem
 1ee09d01aa18	Hình này là hình chữ nhật.	1.0
 1f2d7e7b57a4	Đây là quả bười, phải không?	0.83
 2036eed8e65f	Còn mèo có hai tai?	0.8
+21426d72f53c	Đây là cái gì?	1.0
 2369b27bbb5b	Đây là cây cam phải không?	1.0
 2489892a6452	Kia là con khì.	0.75
 2b93c3934ffc	Hình này là hình tròn	1.0
@@ -32,8 +36,11 @@ ma	nghe	diem
 2f9988c92997	Không phải, đây là cây chuối	1.0
 308eb3faf0cf	Em chào chị.	1.0
 30d9c0309eb5	Con thỏ có mấy chân?	1.0
+356c8e4bb935	Cái bàn này dài, phải không?	1.0
 362ccb9685ff	Đây là quả cam, phải không?	1.0
 382d98a1e242	Đây là con hồ	0.75
+38f1bed0611b	Cảnh hưởng này thế nào?	0.6
+39038095bf6a	con voi này tớ	0.75
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
 3e1905e73c74	Đây là em tôi	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
@@ -61,10 +68,12 @@ ma	nghe	diem
 5b4aacad473f	Kia là con hộ	0.75
 5b56104b5462	Đây là quả dứa, phải không?	1.0
 5bff7baceccf	Đây là cậu tôi	1.0
+5c74cb098c5e	Cái gì?	0.5
 5d04e75f8ba7	Em ăn cơm ạ	1.0
 5e9d70a97026	Đây là cây mít, phải không?	1.0
 5ec870c71a0a	Đây là cây táo, phải không?	1.0
 5f66420f5fb8	Không phải, cây cam có 10 quả	1.0
+60a4553ad77a	Cái bàn này cao, phải không?	1.0
 60f0ddc57a16	Con hồ khỏe lắm	0.75
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
@@ -89,11 +98,14 @@ ma	nghe	diem
 768cb132f57f	Anh	1.0
 78e5c5a283ac	Con sóc đang múa	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
+7bf7b17c4dc9	Không phải cái bàn này ngắn.	1.0
 7d22f7334b27	Đây là gì?	1.0
+7fd4d0e4f377	Gãi đủ	0.0
 871456548398	Không phải, đây là quả khế.	1.0
 87c1746354a6	Đếm nhanh	1.0
 88d5f04e5038	Đây là cô tôi	1.0
 8a4d4cdfe320	có mấy hình vuông.	1.0
+8a7ba398c7b2	Cây giữa này thấp	0.75
 8bf5eb032c3c	Con vịt đang đi	1.0
 8c14182e534a	Phải, đây là cây cam	1.0
 8d97869a1879	Đây là chị tôi	1.0
@@ -106,6 +118,7 @@ ma	nghe	diem
 93f05b662684	Chào chào dì ạ!	0.75
 9572ad27a050	Vật này có hình gì?	1.0
 95f5606a4459	kia là con ngựa.	1.0
+96280f286688	Không phải, con thỏ này nhỏ	1.0
 97405c76c543	Phải, đây là quả dứa.	1.0
 98dc9aea9985	cháu chào cộng ạ!	0.75
 9a223004323a	hình tròn, màu dí.	0.75
@@ -114,27 +127,33 @@ ma	nghe	diem
 9ca87d4940a6	Hình tam rác, màu gì?	0.8
 9cb783d58900	có 5 hình tam giác	1.0
 9d5b6aea8607	Đây là mẹ tôi	1.0
+9d7df1980a5c	Cảy khuyến này nhé!	0.25
 9d99752cb652	Đây là ba tôi	1.0
 9e97c768a16d	Đây là quả táo, phải không?	1.0
 a23f8e623d5f	Hình vuông, màu gì?	1.0
 a375c9785824	Con gà đang làm gì?	1.0
+a4c6e2323320	Phải, gãy hủy này nâng	0.4
 a547b0f32ff0	Con mèo có mấy chân?	1.0
 a56365589016	Các chị ấy đang vẽ	1.0
 a70e9cd7b51c	bà nội	1.0
 a756e8a54abd	Không phải, đây là cây dứa	1.0
 a778f2f606f4	Có Không Tớ biết Không biết phải	0.86
+a8d2a479887d	Còn voi này thế nào?	0.8
 aabf48009f26	Đây là cây khế phải không?	1.0
 ac5f31fd34e8	có một hình chữ nhật.	1.0
 ad56fe578c69	Con cua có mấy chân?	1.0
+ade282c7c765	phải, không phải, cái bàn này cao, thấp	1.0
 adf5a734912f	Không phải! Đây là quả dừa!	1.0
 aee03c915f9f	Phải, đây là quả bưởi	1.0
 b1edcaa1c0f6	Đây là gì tôi?	0.75
 b2e299ff439c	Đây là con voi	1.0
 b5d728b3167e	không phải con hổ có bốn chân	1.0
+b7e07b63157f	Cái bàn này thấp	1.0
 b7e106a145b7	Chào chào tí mạc!	0.25
 b9d38f777050	phải, không phải, cây cam có 8, 10 quả	1.0
 bb5c930d386d	Con mèo đang ngủ	1.0
 bc2bda9d7913	chi	0.0
+bc68b3dfbefa	Cái bàn này dài!	1.0
 bcf2272b4ac6	hình tam giác màu vàng.	1.0
 be4a49bb0c3d	Không phải. Đây là cây bưởi.	1.0
 beacc60162fd	Không phải, đây là quả mít.	1.0
@@ -171,4 +190,5 @@ f981aea15dfe	Ân ngoại	0.5
 fa19e9e9f7d1	Còn mấy hình tam giác	0.8
 fc63f0c31fd6	Con vịt đang làm gì?	1.0
 fc7c3fd8baa3	Phải, đây là quả chuối	1.0
+fcaa14e2034f	Có mấy hình tròn	1.0
 ff347a5ee3ef	Phải. Đây là cây mít.	1.0
