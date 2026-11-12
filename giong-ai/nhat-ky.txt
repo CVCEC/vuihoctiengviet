@@ -1,23 +1,21 @@
-1.00  Con gà có 2 chân, phải không?  |  Con gà có hai chân, phải không?
-1.00  Đây là quả táo, phải không?  |  Đây là quả táo, phải không?
-1.00  Con gà đang làm gì?  |  Con gà đang làm gì?
-1.00  Không phải. Đây là quả dừa.  |  Không phải! Đây là quả dừa!
-1.00  Phải. Đây là quả bưởi.  |  Phải, đây là quả bưởi
-1.00  Không phải. Con hổ có 4 chân.  |  không phải con hổ có bốn chân
-1.00  Phải (Không phải). Cây cam có 8 (10) quả.  |  phải, không phải, cây cam có 8, 10 quả
-1.00  Con mèo đang ngủ.  |  Con mèo đang ngủ
-1.00  Không phải. Đây là quả mít.  |  Không phải, đây là quả mít.
-1.00  Cây dừa có mấy quả?  |  Cây dừa có mấy quả
-1.00  Con gà đang chạy.  |  Con gà đang chạy
-1.00  Kia là con mèo.  |  Kia là con mèo
-1.00  Không phải. Đây là quả táo.  |  Không phải, đây là quả táo
-1.00  Con khỉ đang chơi.  |  Con khỉ đang chơi
-1.00  Con ngựa đang đi.  |  Con ngựa đang đi
-1.00  Con vịt đang làm gì?  |  Con vịt đang làm gì?
-1.00  Phải. Đây là quả chuối.  |  Phải, đây là quả chuối
-1.00  Anh Dũng đang bơi.  |  Anh Dũng đang bơi
-1.00  Con sóc đang làm gì?  |  Con sóc đang làm gì?
-1.00  Em Hoàng đang viết.  |  Em Hoàng đang viết
 Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Con gấu đang làm gì?  |  Con gấu đang làm gì?
+1.00  Con mèo đang làm gì?  |  Con mèo đang làm gì?
+1.00  Con mèo đang hát.  |  Con mèo đang hát
+1.00  Con vịt đang bơi.  |  Con vịt đang bơi
+0.75  Em Tùng đang đọc.  |  Em Tùng, Đáng Đọc
+1.00  Con sóc đang múa.  |  Con sóc đang múa
+1.00  Con thỏ đang ăn.  |  Con thỏ đang ăn
+1.00  Con thỏ đang làm gì?  |  Con thỏ đang làm gì?
+1.00  Các chị ấy đang vẽ.  |  Các chị ấy đang vẽ
+0.86  Có (Không). Tớ biết (không biết) vẽ.  |  Có Không Tớ biết Không biết phải
+0.80  Cậu có thích múa không?  |  Cậu có thích mua không?
+1.00  Chị Liên đang hát.  |  Chị Liên đang hát
+0.80  Các bạn ấy đang múa.  |  Các bạn ấy đang mua
+1.00  Con gấu đang đọc sách.  |  Con gấu đang đọc sách
+0.57  Có (Không). Tớ thích (không thích) múa.  |  Của Không Tự thích Không thích mua
+1.00  Có 1 hình tròn.  |  có một hình tròn.
+1.00  Có 1 hình vuông.  |  có một hình vuông.
+1.00  Hình này là hình chữ nhật.  |  Hình này là hình chữ nhật.
+1.00  Hình này là hình tròn.  |  Hình này là hình tròn
+1.00  Có 3 hình chữ nhật.  |  có 3 hình chữ nhật

@@ -12,15 +12,20 @@ ma	nghe	diem
 146a64d8b165	Đây là con vịt	1.0
 157986bead89	Đây là cây gì?	1.0
 15aae83310a6	cây cam có tảm quà	0.6
+17009479cafb	có một hình tròn.	1.0
 17a1d35ced7a	Em xem TV à!	0.44
+1851a9bff959	có một hình vuông.	1.0
 1c7decab7d4a	Làm gì đó?	1.0
 1e8de607f64f	Chú	1.0
+1ee09d01aa18	Hình này là hình chữ nhật.	1.0
 1f2d7e7b57a4	Đây là quả bười, phải không?	0.83
 2036eed8e65f	Còn mèo có hai tai?	0.8
 2369b27bbb5b	Đây là cây cam phải không?	1.0
 2489892a6452	Kia là con khì.	0.75
+2b93c3934ffc	Hình này là hình tròn	1.0
 2c5ef27d5bb3	Đây là cây na phải không?	1.0
 2c718c645886	Em Hoàng đang viết	1.0
+2cb31e7c53a3	có 3 hình chữ nhật	1.0
 2ded6a9a7c4a	Đây là anh tôi.	1.0
 2edff3853b7e	Cháu chào bà à!	0.75
 2f9988c92997	Không phải, đây là cây chuối	1.0
@@ -31,17 +36,21 @@ ma	nghe	diem
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
 3e1905e73c74	Đây là em tôi	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
+40cd199287bc	Con gấu đang làm gì?	1.0
 41936af84d54	Phải, đây là cây khế	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
 45cc5c879363	Phải Con gà có hai chân	1.0
 46c69c0c941c	Con hồ thế nào?	0.75
 49616bae7250	Chẩu chào cô ạ!	0.75
+49c2b80f7f87	Con mèo đang làm gì?	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
 4f494e7a9ae1	Đây là bố tôi.	1.0
+519f2f18afa3	Con mèo đang hát	1.0
 5222abf70ffb	Đây là con gì?	1.0
 526604351a03	Không phải, con khỉ có hai tai	1.0
 52ea94daa8c7	cây mít có mấy quà	0.8
 56325a5ee7c4	Con cua có 10 chân	1.0
+5672256aa956	Con vịt đang bơi	1.0
 586f5ef0a877	Em hát à	0.67
 58f638a6a5f1	Ông Nội	1.0
 5b4aacad473f	Kia là con hộ	0.75
@@ -65,12 +74,14 @@ ma	nghe	diem
 6c5bb7edc878	Phải, Còn Kỳ, Cỡ Hái Tái	0.17
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
+6e8eaeed6f3a	Em Tùng, Đáng Đọc	0.75
 721f1d345df9	Em đi học ạ	1.0
 73b9dbe2a3dc	Cây mít có 3 quà	0.8
 756956b4af73	cháu chào dụng ạ	0.75
 75db4a5da700	Con mèo có hai mắt	1.0
 75f26494d6b1	Có mỹ quà táo	0.5
 768cb132f57f	Anh	1.0
+78e5c5a283ac	Con sóc đang múa	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
 7d22f7334b27	Đây là gì?	1.0
 871456548398	Không phải, đây là quả khế.	1.0
@@ -80,6 +91,7 @@ ma	nghe	diem
 8c14182e534a	Phải, đây là cây cam	1.0
 8d97869a1879	Đây là chị tôi	1.0
 8e23111bf4cf	Phải, con thò, gõ hái đai	0.33
+8fe23893483d	Con thỏ đang ăn	1.0
 921885226e9b	Đây, kia là con mèo	1.0
 923645654f44	Của Mỹ Bông Hoa	0.5
 93b253c0be67	Đây là con thỏ	1.0
@@ -87,14 +99,17 @@ ma	nghe	diem
 95f5606a4459	kia là con ngựa.	1.0
 97405c76c543	Phải, đây là quả dứa.	1.0
 98dc9aea9985	cháu chào cộng ạ!	0.75
+9b55a93c94f0	Con thỏ đang làm gì?	1.0
 9bf49424cb1b	Con gà có hai chân, phải không?	1.0
 9d5b6aea8607	Đây là mẹ tôi	1.0
 9d99752cb652	Đây là ba tôi	1.0
 9e97c768a16d	Đây là quả táo, phải không?	1.0
 a375c9785824	Con gà đang làm gì?	1.0
 a547b0f32ff0	Con mèo có mấy chân?	1.0
+a56365589016	Các chị ấy đang vẽ	1.0
 a70e9cd7b51c	bà nội	1.0
 a756e8a54abd	Không phải, đây là cây dứa	1.0
+a778f2f606f4	Có Không Tớ biết Không biết phải	0.86
 aabf48009f26	Đây là cây khế phải không?	1.0
 ad56fe578c69	Con cua có mấy chân?	1.0
 adf5a734912f	Không phải! Đây là quả dừa!	1.0
@@ -117,16 +132,21 @@ cbb28a11956a	Đây là tôi	1.0
 cce8a6bfffaf	Cây dừa có mấy quả	1.0
 d2927f33876e	Con gà đang chạy	1.0
 d346de20174c	Kia là con mèo	1.0
+d3ef61ed89a2	Cậu có thích mua không?	0.8
 d52628c9e3d9	Không phải, đây là quả táo	1.0
+d86fa6892e78	Chị Liên đang hát	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 ea3b931bb78c	Chào chào chú à!	0.5
 eb3a824a4da0	Bố tôi rất khỏe	1.0
+ebbf07f9816c	Các bạn ấy đang mua	0.8
 ec23a05bd41b	Con khỉ đang chơi	1.0
 ecd85b323d54	Con ngựa đang đi	1.0
 ed32a0f94977	Em chú ý ạ	0.57
 edecd070ebf1	Của sầu bông hoa	0.5
+f0429362a5d3	Con gấu đang đọc sách	1.0
 f2cf85e97c3c	Đây là chú tôi.	1.0
 f3d7ea5c0264	Con mèo có mỉ tai	0.8
+f3fc9461ae35	Của Không Tự thích Không thích mua	0.57
 f4297c64667a	Đây là con gà	1.0
 f981aea15dfe	Ân ngoại	0.5
 fc63f0c31fd6	Con vịt đang làm gì?	1.0
