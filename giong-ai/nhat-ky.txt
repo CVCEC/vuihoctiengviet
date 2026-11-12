@@ -99,3 +99,15 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Bạn có thích hát không?  |  Bạn có thích hát không?
 0.86  Quyển vở màu vàng có to không?  |  Quyền vở màu vàng có to không?
 1.00  Có hai cái bàn.  |  có hai cái bàn
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.40  d) Hình tam giác màu gì?  |  hình tâm giác mô di
+1.00  Có hai quyển sách.  |  có hai quyển sách
+0.50  Có mấy quyển vở?  |  Có mấy quyền vỡ
+1.00  Có. Bút chì màu xanh dài.  |  Có bút chì màu xanh dài
+1.00  Có. Tôi thích hát.  |  Có Tôi thích hát
+1.00  Hai cái ghế màu gì?  |  Hai cái ghế màu gì?
+0.50  Có hai quyển vở.  |  Có hai quyền vợ
+1.00  Có 8 hình chữ nhật.  |  có 8 hình chữ nhật
+1.00  Có (Không). Tôi biết (không biết) đọc.  |  Có, không, tôi biết, không biết, đọc
+1.00  Có 10 hình tròn.  |  Có 10 hình tròn
