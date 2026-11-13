@@ -1,125 +1,21 @@
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-1.00  Con gấu đang làm gì?  |  Con gấu đang làm gì?
-1.00  Con mèo đang làm gì?  |  Con mèo đang làm gì?
-1.00  Con mèo đang hát.  |  Con mèo đang hát
-1.00  Con vịt đang bơi.  |  Con vịt đang bơi
-0.75  Em Tùng đang đọc.  |  Em Tùng, Đáng Đọc
-1.00  Con sóc đang múa.  |  Con sóc đang múa
-1.00  Con thỏ đang ăn.  |  Con thỏ đang ăn
-1.00  Con thỏ đang làm gì?  |  Con thỏ đang làm gì?
-1.00  Các chị ấy đang vẽ.  |  Các chị ấy đang vẽ
-0.86  Có (Không). Tớ biết (không biết) vẽ.  |  Có Không Tớ biết Không biết phải
-0.80  Cậu có thích múa không?  |  Cậu có thích mua không?
-1.00  Chị Liên đang hát.  |  Chị Liên đang hát
-0.80  Các bạn ấy đang múa.  |  Các bạn ấy đang mua
-1.00  Con gấu đang đọc sách.  |  Con gấu đang đọc sách
-0.57  Có (Không). Tớ thích (không thích) múa.  |  Của Không Tự thích Không thích mua
-1.00  Có 1 hình tròn.  |  có một hình tròn.
-1.00  Có 1 hình vuông.  |  có một hình vuông.
-1.00  Hình này là hình chữ nhật.  |  Hình này là hình chữ nhật.
-1.00  Hình này là hình tròn.  |  Hình này là hình tròn
-1.00  Có 3 hình chữ nhật.  |  có 3 hình chữ nhật
-1.00  Hình này là hình tam giác.  |  Hình này là hình tam giác.
-1.00  Hình chữ nhật màu gì?  |  hình chữ nhật màu gì?
-1.00  Hình tròn màu đỏ.  |  Hình tròn, màu đỏ
-0.80  Có 6 hình tam giác.  |  có sẩu hình tam giác.
-1.00  Có mấy hình chữ nhật?  |  có mấy hình chữ nhật.
-1.00  Có 3 hình tam giác.  |  có 3 hình tam giác.
-1.00  Có mấy hình vuông?  |  có mấy hình vuông.
-1.00  Hình vuông màu tím.  |  Hình vuông màu tím
-1.00  Vật này có hình gì?  |  Vật này có hình gì?
-0.75  Hình tròn màu gì?  |  hình tròn, màu dí.
-0.80  Hình tam giác màu gì?  |  Hình tam rác, màu gì?
-1.00  Có 5 hình tam giác.  |  có 5 hình tam giác
-1.00  Hình vuông màu gì?  |  Hình vuông, màu gì?
-1.00  Có 1 hình chữ nhật.  |  có một hình chữ nhật.
-1.00  Hình tam giác màu vàng.  |  hình tam giác màu vàng.
-1.00  Hình chữ nhật màu xanh.  |  hình chữ nhật, màu xanh
-1.00  Có 2 hình tam giác.  |  Có hai hình tam giác
-1.00  Hình này là hình vuông.  |  Hình này là hình vuông
-1.00  Có 2 hình tròn.  |  có hai hình tròn
-0.80  Có mấy hình tam giác?  |  Còn mấy hình tam giác
-1.00  Có mấy hình tròn?  |  Có mấy hình tròn
-1.00  Phải. Cây dừa này cao.  |  Phải, cây dừa này cao
-1.00  Cây dừa này cao, phải không?  |  Cây dừa này cao, phải không?
-0.80  Cây dứa này thế nào?  |  cây rứa này thế nào?
-1.00  Đây là cái gì?  |  Đây là cái gì?
-1.00  Cái bàn này dài, phải không?  |  Cái bàn này dài, phải không?
-0.60  Cái ghế này thế nào?  |  Cảnh hưởng này thế nào?
-0.75  Con voi này to.  |  con voi này tớ
-0.50  cái ghế  |  Cái gì?
-1.00  Cái bàn này cao, phải không?  |  Cái bàn này cao, phải không?
-1.00  Không phải. Cái bàn này ngắn.  |  Không phải cái bàn này ngắn.
-0.00  cái tủ  |  Gãi đủ
-0.75  Cây dứa này thấp.  |  Cây giữa này thấp
-1.00  Không phải. Con thỏ này nhỏ.  |  Không phải, con thỏ này nhỏ
-0.25  Cái ghế này nhẹ.  |  Cảy khuyến này nhé!
-0.40  Phải. Cái ghế này nặng.  |  Phải, gãy hủy này nâng
-0.80  Con voi này thế nào?  |  Còn voi này thế nào?
-1.00  Phải (Không phải). Cái bàn này cao (thấp).  |  phải, không phải, cái bàn này cao, thấp
-1.00  Cái bàn này thấp.  |  Cái bàn này thấp
-1.00  Cái bàn này dài.  |  Cái bàn này dài!
-1.00  cái bàn  |  Cái bàn
-1.00  Con thỏ này to, phải không?  |  Con thỏ này to, phải không?
-1.00  Cái ghế này nặng, phải không?  |  Cái ghế này nặng, phải không?
-1.00  Cái bàn này thế nào?  |  Cái bàn này thế nào?
-1.00  Hôm nay là ngày 19.  |  Hôm nay là ngày 19.
-1.00  Hôm nay là Chủ nhật.  |  Hôm nay là chủ nhật
-1.00  Hôm nay là thứ Ba.  |  Hôm nay là thứ 3
-1.00  Tháng này là tháng Ba.  |  Tháng này là tháng 3
-0.60  Tháng này là tháng Sáu.  |  Thẳng này là thẳng 6
-0.40  Tháng này là tháng Tám.  |  thẳng này là thẳng tảm
-1.00  Hôm nay là ngày 12 tháng Năm.  |  Hôm nay là ngày 12 tháng 5.
-1.00  Hôm nay là thứ Tư.  |  Hôm nay là thứ tư
-1.00  Hôm nay là ngày 8.  |  Hôm nay là ngày 8
-0.80  Hôm nay là thứ Năm.  |  Hôm nay là ngày 5
-1.00  Hôm nay là ngày 1.  |  Hôm nay là ngày 1.
-0.83  Có. Quyển vở màu trắng to.  |  Có, quyền vở màu trắng to
-0.50  Có 9 hình vuông.  |  có chiến hình vua
-0.50  a) Hình vuông màu gì?  |  Hình vuông mưu zi
-1.00  b) Có bao nhiêu hình tròn?  |  Có bao nhiêu hình tròn?
-1.00  a) Có bao nhiêu hình vuông?  |  có bao nhiêu hình vuông?
-1.00  Bạn biết làm gì?  |  Bạn biết làm gì?
-1.00  Không. Cái bàn nhỏ thấp.  |  Không, cái bàn nhỏ thấp
-1.00  d) Có bao nhiêu hình tam giác?  |  Có bao nhiêu hình tam giác?
-0.67  Tôi biết múa.  |  Tôi biết mua
-0.40  Hai cái ghế màu xanh.  |  Hi! Cảy gỡ màu xanh!
-1.00  Có mấy cái bàn?  |  Có mấy cái bàn
-1.00  Bạn có biết viết không?  |  Bạn có biết viết không?
-1.00  Tôi biết hát.  |  Tôi biết hát
-1.00  Có mấy cái ghế?  |  Có mấy cái ghế
-1.00  Bạn có biết vẽ không?  |  Bạn có biết vẽ không?
-1.00  c) Có bao nhiêu hình chữ nhật?  |  có bao nhiêu hình chữ nhật?
-1.00  Có. Tôi thích bơi.  |  Có! Tôi thích bơi!
-1.00  Bạn có biết đọc không?  |  Bạn có biết đọc không?
-0.80  Hai quyển vở màu gì?  |  hay quyển vở màu gì?
-1.00  Quyển sách màu đỏ có nặng không?  |  quyển sách màu đỏ có nặng không?
-0.83  Không. Quyển vở màu vàng nhỏ.  |  Không, quyển vỡ màu vàng nhỏ
-1.00  Có. Tôi biết viết.  |  Có, tôi biết viết
-1.00  Bạn có thích hát không?  |  Bạn có thích hát không?
-0.86  Quyển vở màu vàng có to không?  |  Quyền vở màu vàng có to không?
-1.00  Có hai cái bàn.  |  có hai cái bàn
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.40  d) Hình tam giác màu gì?  |  hình tâm giác mô di
-1.00  Có hai quyển sách.  |  có hai quyển sách
-0.50  Có mấy quyển vở?  |  Có mấy quyền vỡ
-1.00  Có. Bút chì màu xanh dài.  |  Có bút chì màu xanh dài
-1.00  Có. Tôi thích hát.  |  Có Tôi thích hát
-1.00  Hai cái ghế màu gì?  |  Hai cái ghế màu gì?
-0.50  Có hai quyển vở.  |  Có hai quyền vợ
-1.00  Có 8 hình chữ nhật.  |  có 8 hình chữ nhật
-1.00  Có (Không). Tôi biết (không biết) đọc.  |  Có, không, tôi biết, không biết, đọc
-1.00  Có 10 hình tròn.  |  Có 10 hình tròn
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-1.00  Bạn có thích bơi không?  |  Bạn có thích bơi không?
-1.00  b) Hình tròn màu gì?  |  Hình tròn màu gì?
-1.00  c) Hình chữ nhật màu gì?  |  Hình chữ nhật màu gì?
-0.91  Hình chữ nhật màu nâu.  |  hình chữ nhật màu nâu Có
-0.91  Có. Quyển sách màu đỏ nặng.  |  quyển sách màu đỏ nặng
-0.50  Có hai cái ghế.  |  Có hai cài gửi
-1.00  Có. Tôi biết vẽ.  |  Có, tôi biết vẽ
-0.83  Không. Bút chì màu vàng ngắn.  |  Không, bút chỉ màu vàng ngắn
-0.86  Quyển vở màu trắng có to không?  |  Quyền vở màu trắng có to không?
-1.00  Một quyển màu trắng, một quyển màu vàng.  |  một quyển màu trắng, một quyển màu vàng.
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Cái bàn nhỏ có cao không?  |  Cái bàn nhỏ có cao không?
+0.86  Bút chì màu xanh có dài không?  |  Bút chỉ màu xanh có dài không?
+1.00  Bạn có thích chạy không?  |  Bạn có thích chạy không?
+0.50  Có mấy quyển sách?  |  Có mỹ quyền sách
+1.00  Có (Không). Tôi thích (không thích) chạy.  |  Có, không, tôi thích, không thích, chạy
+1.00  Tôi biết đọc.  |  Tôi biết đọc
+0.71  Bút chì màu vàng có dài không?  |  Bút chỉ màu vàng có dai không?
+1.00  Bà ấy có phải là thợ may không?  |  Bà ấy có phải là thợ may không?
+1.00  Bạn ấy có phải là học sinh không?  |  Bạn ấy có phải là học sinh không?
+1.00  Đúng. Cô ấy là giáo viên.  |  Đúng, cô ấy là giáo viên
+1.00  Cô ấy có phải là học sinh không?  |  Cô ấy có phải là học sinh không?
+1.00  Không. Cô ấy không phải là học sinh.  |  Không, cô ấy không phải là học sinh
+1.00  Đúng. Bạn ấy là học sinh.  |  Đúng, bạn ấy là học sinh
+1.00  Cô ấy có phải là giáo viên không?  |  Cô ấy có phải là giáo viên không?
+0.83  Các chú ấy là kĩ sư.  |  Các chú ấy là kỹ sư
+1.00  Không. Bà ấy không phải là thợ may.  |  Không, bà ấy không phải là thợ may.
+1.00  Bà ấy là người bán hàng.  |  Bà ấy là người bán hàng.
+1.00  Ông Minh làm nghề gì?  |  Ông Minh làm nghề gì?
+1.00  Cô ấy là giáo viên.  |  Cô ấy là giáo viên.
+1.00  Cô ấy là cảnh sát.  |  Cô ấy là cảnh sát

@@ -13,8 +13,10 @@ ma	nghe	diem
 0a74a26df9f7	Hình vuông mưu zi	0.5
 0f402eb38217	Có bao nhiêu hình tròn?	1.0
 0ff478a35225	Hôm nay là ngày 19.	1.0
+10e5ecb4f7ee	Bà ấy có phải là thợ may không?	1.0
 11805554308d	cây dừa có 6 quả.	1.0
 12f2d0828712	Cây dừa này cao, phải không?	1.0
+1318f4221267	Bạn ấy có phải là học sinh không?	1.0
 144d64080a58	Con sóc đang làm gì?	1.0
 146a64d8b165	Đây là con vịt	1.0
 150cad42a9ed	cây rứa này thế nào?	0.8
@@ -23,11 +25,14 @@ ma	nghe	diem
 17009479cafb	có một hình tròn.	1.0
 17a1d35ced7a	Em xem TV à!	0.44
 1851a9bff959	có một hình vuông.	1.0
+18fc6c440d4f	Đúng, cô ấy là giáo viên	1.0
 1b11dafa89b3	có bao nhiêu hình vuông?	1.0
 1c7decab7d4a	Làm gì đó?	1.0
+1d8c973650d4	Cô ấy có phải là học sinh không?	1.0
 1e8de607f64f	Chú	1.0
 1ee09d01aa18	Hình này là hình chữ nhật.	1.0
 1f2d7e7b57a4	Đây là quả bười, phải không?	0.83
+1fe87b03db95	Không, cô ấy không phải là học sinh	1.0
 2036eed8e65f	Còn mèo có hai tai?	0.8
 21426d72f53c	Đây là cái gì?	1.0
 2227a69cb94f	Bạn biết làm gì?	1.0
@@ -54,10 +59,13 @@ ma	nghe	diem
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
 3e1905e73c74	Đây là em tôi	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
+40451f61bdac	Đúng, bạn ấy là học sinh	1.0
 40cd199287bc	Con gấu đang làm gì?	1.0
 41936af84d54	Phải, đây là cây khế	1.0
+424258feb195	Cô ấy có phải là giáo viên không?	1.0
 42ab0798242a	Hôm nay là chủ nhật	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
+44da7ba22c89	Các chú ấy là kỹ sư	0.83
 45c039b4dd19	hình chữ nhật màu gì?	1.0
 45cc5c879363	Phải Con gà có hai chân	1.0
 4655b45aa458	Hi! Cảy gỡ màu xanh!	0.4
@@ -67,6 +75,7 @@ ma	nghe	diem
 49616bae7250	Chẩu chào cô ạ!	0.75
 49c2b80f7f87	Con mèo đang làm gì?	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
+4db93ff26b03	Không, bà ấy không phải là thợ may.	1.0
 4f494e7a9ae1	Đây là bố tôi.	1.0
 4f56e84e97a3	Có mấy cái bàn	1.0
 50c9a5667343	Hôm nay là thứ 3	1.0
@@ -132,13 +141,16 @@ ma	nghe	diem
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
 840c6b15b15a	có hai cái bàn	1.0
 843ed9d781a7	hình tâm giác mô di	0.4
+84b8168ba6de	Bà ấy là người bán hàng.	1.0
 871456548398	Không phải, đây là quả khế.	1.0
 878fdc7ce5ff	có hai quyển sách	1.0
 87c1746354a6	Đếm nhanh	1.0
 8813c26a35f7	Có mấy quyền vỡ	0.5
 88d5f04e5038	Đây là cô tôi	1.0
+892e2de3044a	Ông Minh làm nghề gì?	1.0
 897fac6ca0b1	thẳng này là thẳng tảm	0.4
 8a4d4cdfe320	có mấy hình vuông.	1.0
+8a635a797f7c	Cô ấy là giáo viên.	1.0
 8a7ba398c7b2	Cây giữa này thấp	0.75
 8bf5eb032c3c	Con vịt đang đi	1.0
 8c14182e534a	Phải, đây là cây cam	1.0
@@ -151,6 +163,7 @@ ma	nghe	diem
 923645654f44	Của Mỹ Bông Hoa	0.5
 93928f0626d5	Hình vuông màu tím	1.0
 93b253c0be67	Đây là con thỏ	1.0
+93b42ca6f73a	Cô ấy là cảnh sát	1.0
 93f05b662684	Chào chào dì ạ!	0.75
 9572ad27a050	Vật này có hình gì?	1.0
 95d23f6bac1f	Có Tôi thích hát	1.0
@@ -229,7 +242,11 @@ d86fa6892e78	Chị Liên đang hát	1.0
 d885cc1e50c1	Không, bút chỉ màu vàng ngắn	0.83
 dc945415cb52	Quyền vở màu trắng có to không?	0.86
 dd752297ff44	một quyển màu trắng, một quyển màu vàng.	1.0
+de449d320a61	Cái bàn nhỏ có cao không?	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
+e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
+e60e4b921d42	Bạn có thích chạy không?	1.0
+e739627fcc94	Có mỹ quyền sách	0.5
 e88060b61be2	Có hai hình tam giác	1.0
 ea329e061429	Hình này là hình vuông	1.0
 ea3b931bb78c	Chào chào chú à!	0.5
@@ -239,7 +256,10 @@ ec23a05bd41b	Con khỉ đang chơi	1.0
 ecd85b323d54	Con ngựa đang đi	1.0
 ed32a0f94977	Em chú ý ạ	0.57
 edecd070ebf1	Của sầu bông hoa	0.5
+eeedae5985a4	Có, không, tôi thích, không thích, chạy	1.0
+ef8df959a24c	Tôi biết đọc	1.0
 f0429362a5d3	Con gấu đang đọc sách	1.0
+f12c0eec3df7	Bút chỉ màu vàng có dai không?	0.71
 f17f03958c35	có hai hình tròn	1.0
 f2637556a7b5	Cái bàn này thế nào?	1.0
 f2cf85e97c3c	Đây là chú tôi.	1.0
