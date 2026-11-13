@@ -190,6 +190,7 @@ ma	nghe	diem
 88c9829ffe18	Người bán hàng ở trong cửa hàng	1.0
 88d5f04e5038	Đây là cô tôi	1.0
 892e2de3044a	Ông Minh làm nghề gì?	1.0
+897e6248cb8f	Con mèo ở trước cửa	1.0
 897fac6ca0b1	thẳng này là thẳng tảm	0.4
 8a4d4cdfe320	có mấy hình vuông.	1.0
 8a635a797f7c	Cô ấy là giáo viên.	1.0
@@ -220,6 +221,7 @@ ma	nghe	diem
 9a223004323a	hình tròn, màu dí.	0.75
 9b4ada25e948	ô tô con nhanh hơn xe buýt	1.0
 9b55a93c94f0	Con thỏ đang làm gì?	1.0
+9bbd31545e44	Mê Chô và Tàu Hòa. Tàu nào cũ hơn?	0.78
 9bf49424cb1b	Con gà có hai chân, phải không?	1.0
 9ca87d4940a6	Hình tam rác, màu gì?	0.8
 9cb783d58900	có 5 hình tam giác	1.0
@@ -230,8 +232,10 @@ ma	nghe	diem
 9e97c768a16d	Đây là quả táo, phải không?	1.0
 a1c0b5ada72f	Hôm nay là thứ tư	1.0
 a23f8e623d5f	Hình vuông, màu gì?	1.0
+a2cea2b67660	Bạn thích đi tất màu gì?	1.0
 a2cf0cfc51eb	Có hai quyền vợ	0.5
 a375c9785824	Con gà đang làm gì?	1.0
+a491ae514efe	Bạn thích đi giày màu gì?	1.0
 a4c6e2323320	Phải, gãy hủy này nâng	0.4
 a547b0f32ff0	Con mèo có mấy chân?	1.0
 a56365589016	Các chị ấy đang vẽ	1.0
@@ -239,9 +243,12 @@ a70e9cd7b51c	bà nội	1.0
 a74bb00baf93	có 8 hình chữ nhật	1.0
 a756e8a54abd	Không phải, đây là cây dứa	1.0
 a778f2f606f4	Có Không Tớ biết Không biết phải	0.86
+a860f3e00bbf	Tôi thích mặc áo màu xanh.	1.0
 a8d2a479887d	Còn voi này thế nào?	0.8
 a8d6d389810e	Có, không, tôi biết, không biết, đọc	1.0
 a8df083954e2	Tủ màu xanh hay tủ màu nâu nặng hơn	1.0
+a8ef680dfdaa	Bệnh viện ở đâu?	1.0
+a9c9b5877b9c	xe buýt và ô tô con xe nào to hơn	1.0
 a9d5f8f78414	Đồng hồ ở đâu?	1.0
 aabf48009f26	Đây là cây khế phải không?	1.0
 aae4cecc783d	con mèo ở bên cạnh cái ghế.	1.0
@@ -255,12 +262,15 @@ b1edcaa1c0f6	Đây là gì tôi?	0.75
 b22730b39559	Ông ấy là bác sĩ	1.0
 b2c7e0dd0d34	tủ màu xanh hay tủ màu nâu cao hơn?	1.0
 b2e299ff439c	Đây là con voi	1.0
+b329c6fd2419	Xe đạp ở đâu?	1.0
 b3902deecf21	quyền sách ở đâu?	0.75
 b3c1c05670fc	Bạn có thích bơi không?	1.0
 b3ef5e8a292a	Hôm nay là ngày 8	1.0
 b54efaa83334	Anh ấy làm nghề gì?	1.0
 b5d728b3167e	không phải con hổ có bốn chân	1.0
+b612110ed4de	Tôi thích đội mũ màu trắng.	1.0
 b658160e8b05	Không! Ông ấy không phải là kỹ sư.	0.88
+b6d97a51e28a	xe buýt và ô tô con xe nào nhỏ hơn	1.0
 b7e07b63157f	Cái bàn này thấp	1.0
 b7e106a145b7	Chào chào tí mạc!	0.25
 b9d38f777050	phải, không phải, cây cam có 8, 10 quả	1.0
@@ -274,6 +284,7 @@ bc68b3dfbefa	Cái bàn này dài!	1.0
 bcf2272b4ac6	hình tam giác màu vàng.	1.0
 bd359725801e	Anh ấy là bác sĩ.	1.0
 be4a49bb0c3d	Không phải. Đây là cây bưởi.	1.0
+be83859384ec	Bạn thích mặc áo màu gì?	1.0
 beacc60162fd	Không phải, đây là quả mít.	1.0
 bf31721e08ef	hình chữ nhật màu nâu Có	0.91
 c028cf03cc31	Ông	1.0
@@ -287,6 +298,7 @@ c517fad6aa86	Thuyền của cậu to hơn thuyền của tớ	1.0
 c5444e59c095	hình chữ nhật, màu xanh	1.0
 c5d04041620e	Cô Hoa làm nghề gì?	1.0
 c6c7bf634859	quyển sách màu đỏ nặng	0.91
+c6c8f63a500b	Tôi thích đội mũ màu đỏ	1.0
 c6d0c317cd6a	Con thỏ này to, phải không?	1.0
 c6df7f97f14b	Cái ghế này nặng, phải không?	1.0
 c8f8a4b6942b	Có hai cài gửi	0.5
@@ -298,6 +310,7 @@ cce8a6bfffaf	Cây dừa có mấy quả	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
 d0c1e5558324	Hôm nay là ngày 5	0.8
 d2927f33876e	Con gà đang chạy	1.0
+d2a24d5cb701	cửa hàng ở bên cạnh bệnh viện.	1.0
 d2ffb15c4ca4	Quyền	0.0
 d346de20174c	Kia là con mèo	1.0
 d3ef61ed89a2	Cậu có thích mua không?	0.8
@@ -306,7 +319,9 @@ d52628c9e3d9	Không phải, đây là quả táo	1.0
 d815269b50f5	Hôm nay là ngày 1.	1.0
 d86fa6892e78	Chị Liên đang hát	1.0
 d885cc1e50c1	Không, bút chỉ màu vàng ngắn	0.83
+d8a96fe83d05	Cái ghĩ ở sau bàn	0.8
 d90262cff195	Đúng, cô ấy là cảnh sát	1.0
+da82d0d294f5	Bạn thích quảng khăn màu gì?	0.83
 dac0f241439a	Các chú ấy có phải là thợ xây không?	1.0
 dc945415cb52	Quyền vở màu trắng có to không?	0.86
 dd1aacf6d4f5	Mai thích mặc váy màu cam, đội mũ màu vàng	0.4
@@ -318,7 +333,9 @@ e042fcd0781a	ô tô màu vàng hay ô tô màu đỏ rẻ hơn.	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
 e60e4b921d42	Bạn có thích chạy không?	1.0
+e612ccdb63a8	Tôi thích mặc quần màu tím	1.0
 e6d09eeec7ce	Mũ mù vàng hay mũ mù xanh đẹp hơn.	0.78
+e70c8010123d	Quả dứa ở đâu?	1.0
 e739627fcc94	Có mỹ quyền sách	0.5
 e782827f30b3	Ông ấy có phải là kỹ sư không?	0.88
 e88060b61be2	Có hai hình tam giác	1.0
@@ -342,8 +359,11 @@ f3d7ea5c0264	Con mèo có mỉ tai	0.8
 f3fc9461ae35	Của Không Tự thích Không thích mua	0.57
 f4297c64667a	Đây là con gà	1.0
 f5635c5fcee4	Quả bóng ở đâu?	1.0
+f6646e55eb5c	Tôi thích mặc ảo màu cam	0.83
+f86ee2b517b5	Con chó ở dưới bàn	1.0
 f981aea15dfe	Ân ngoại	0.5
 fa19e9e9f7d1	Còn mấy hình tam giác	0.8
+fa4ef1e6cdfa	Bạn thích mặc váy màu gì?	1.0
 fc4b89ccf628	mũ mù vàng hay mũ mù xanh đắt hơn.	0.78
 fc63f0c31fd6	Con vịt đang làm gì?	1.0
 fc7c3fd8baa3	Phải, đây là quả chuối	1.0

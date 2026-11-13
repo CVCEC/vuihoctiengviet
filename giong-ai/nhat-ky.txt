@@ -101,3 +101,24 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Tôi thích mặc áo màu vàng.  |  Tôi thích mặc áo màu vàng
 0.83  Tôi thích đi giày màu nâu.  |  Tôi thích mặc giày màu nâu
 1.00  Người bán hàng ở trong cửa hàng.  |  Người bán hàng ở trong cửa hàng
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  Con mèo ở trước cửa.  |  Con mèo ở trước cửa
+0.78  Mê trô và tàu hoả, tàu nào cũ hơn?  |  Mê Chô và Tàu Hòa. Tàu nào cũ hơn?
+1.00  Bạn thích đi tất màu gì?  |  Bạn thích đi tất màu gì?
+1.00  Bạn thích đi giày màu gì?  |  Bạn thích đi giày màu gì?
+1.00  Tôi thích mặc áo màu xanh.  |  Tôi thích mặc áo màu xanh.
+1.00  Bệnh viện ở đâu?  |  Bệnh viện ở đâu?
+1.00  Xe buýt và ô tô con, xe nào to hơn?  |  xe buýt và ô tô con xe nào to hơn
+1.00  Xe đạp ở đâu?  |  Xe đạp ở đâu?
+1.00  Tôi thích đội mũ màu trắng.  |  Tôi thích đội mũ màu trắng.
+1.00  Xe buýt và ô tô con, xe nào nhỏ hơn?  |  xe buýt và ô tô con xe nào nhỏ hơn
+1.00  Bạn thích mặc áo màu gì?  |  Bạn thích mặc áo màu gì?
+1.00  Tôi thích đội mũ màu đỏ.  |  Tôi thích đội mũ màu đỏ
+1.00  Cửa hàng ở bên cạnh bệnh viện.  |  cửa hàng ở bên cạnh bệnh viện.
+0.80  Cái ghế ở sau bàn.  |  Cái ghĩ ở sau bàn
+0.83  Bạn thích quàng khăn màu gì?  |  Bạn thích quảng khăn màu gì?
+1.00  Tôi thích mặc quần màu tím.  |  Tôi thích mặc quần màu tím
+1.00  Quả dứa ở đâu?  |  Quả dứa ở đâu?
+0.83  Tôi thích mặc áo màu cam.  |  Tôi thích mặc ảo màu cam
+1.00  Con chó ở dưới bàn.  |  Con chó ở dưới bàn
+1.00  Bạn thích mặc váy màu gì?  |  Bạn thích mặc váy màu gì?
