@@ -19,3 +19,24 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Ông Minh làm nghề gì?  |  Ông Minh làm nghề gì?
 1.00  Cô ấy là giáo viên.  |  Cô ấy là giáo viên.
 1.00  Cô ấy là cảnh sát.  |  Cô ấy là cảnh sát
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Cô Hằng làm nghề gì?  |  Cô Hằng làm nghề gì?
+1.00  Ông ấy là bác sĩ.  |  Ông ấy là bác sĩ
+1.00  Anh ấy làm nghề gì?  |  Anh ấy làm nghề gì?
+0.88  Không. Ông ấy không phải là kĩ sư.  |  Không! Ông ấy không phải là kỹ sư.
+1.00  Cô ấy có phải là cảnh sát không?  |  Cô ấy có phải là cảnh sát không?
+1.00  Anh ấy là bác sĩ.  |  Anh ấy là bác sĩ.
+0.80  Bà Huyền làm nghề gì?  |  Ba huyền làm nghề gì?
+1.00  Cô Hoa làm nghề gì?  |  Cô Hoa làm nghề gì?
+1.00  Đúng. Cô ấy là cảnh sát.  |  Đúng, cô ấy là cảnh sát
+1.00  Các chú ấy có phải là thợ xây không?  |  Các chú ấy có phải là thợ xây không?
+0.88  Ông ấy có phải là kĩ sư không?  |  Ông ấy có phải là kỹ sư không?
+1.00  Cô ấy là thợ may.  |  Cô ấy là thợ may.
+1.00  Không. Các chú ấy không phải là thợ xây.  |  Không! Các chú ấy không phải là thợ xây.
+1.00  Các chú ấy làm nghề gì?  |  Các chú ấy làm nghề gì?
+1.00  Cái đèn ở trên cái bàn.  |  cái đèn ở trên cái bàn.
+1.00  Trường Ngôi Sao ở đâu?  |  Trường ngôi sao ở đâu?
+1.00  Lọ hoa ở trên cái bàn.  |  Lọ hoa ở trên cái bàn
+1.00  Cái đèn ở đâu?  |  Cái đèn ở đâu?
+1.00  Quả bóng ở dưới cái bàn.  |  quả bóng ở dưới cái bàn.
+1.00  Không phải, Trường Ngôi Sao bên cạnh Bệnh viện Mắt.  |  không phải trường ngôi sao bên cạnh bệnh viện mắt.
