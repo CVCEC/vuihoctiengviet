@@ -60,3 +60,23 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.40  Lan thích mặc màu gì?  |  Mai thích mặc váy màu cam, đội mũ màu vàng
 0.60  Mai thích mặc màu gì?  |  Lan thích mặt màu gì?
 0.67  Lan thích mặc váy màu hồng hoặc màu tím.  |  Mai thích mặc phẩy màu hồng hoặc màu điểm
+1.00  Tàu thuỷ hay thuyền nặng hơn?  |  Tàu thủy hay thuyền nặng hơn
+1.00  Tàu thuỷ nhanh hơn thuyền.  |  Tàu thủy nhanh hơn thuyền
+0.81  Ô tô màu vàng đẹp hơn ô tô màu đỏ. Nhưng ô tô màu đỏ rẻ hơn ô tô màu vàng.  |  O tô màu vàng đẹp hơn o tô màu đỏ, nhưng o tô màu đỏ rẻ hơn o tô màu vàng
+1.00  Ô tô con hay xe buýt nhanh hơn?  |  ô tô con hay xe buýt nhanh hơn.
+1.00  Tàu thuỷ hay thuyền nhanh hơn?  |  tàu thủy hay thuyền nhanh hơn.
+1.00  Ô tô con nhanh hơn xe buýt.  |  ô tô con nhanh hơn xe buýt
+1.00  Thuyền của tớ hay thuyền của cậu to hơn?  |  thuyền của tớ hay thuyền của cậu to hơn
+1.00  Tủ màu xanh hay tủ màu nâu nặng hơn?  |  Tủ màu xanh hay tủ màu nâu nặng hơn
+1.00  Tủ màu xanh hay tủ màu nâu cao hơn?  |  tủ màu xanh hay tủ màu nâu cao hơn?
+1.00  Thuyền của cậu to hơn thuyền của tớ.  |  Thuyền của cậu to hơn thuyền của tớ
+1.00  Ô tô con hay xe buýt to hơn?  |  ô tô con hay xe buýt to hơn
+0.25  Tủ màu xanh cao hơn tủ màu nâu.  |  Tù mù xanh, cao hôn tù mù nấu
+1.00  Ô tô màu vàng hay ô tô màu đỏ rẻ hơn?  |  ô tô màu vàng hay ô tô màu đỏ rẻ hơn.
+0.78  Mũ màu vàng hay mũ màu xanh đẹp hơn?  |  Mũ mù vàng hay mũ mù xanh đẹp hơn.
+0.78  Mũ màu vàng hay mũ màu xanh đắt hơn?  |  mũ mù vàng hay mũ mù xanh đắt hơn.
+1.00  Xe đạp rẻ hơn ô tô.  |  Xe đạp rẻ hơn ô tô
+1.00  Tàu thuỷ và thuyền, cái nào nặng hơn?  |  tàu thủy và thuyền, cái nào nặng hơn?
+1.00  Bạn thích đội mũ màu gì?  |  Bạn thích đội mũ màu gì?
+0.83  Bạn thích mặc quần màu gì?  |  Bạn thích mặc quần mù gì?
+1.00  Tôi thích đội mũ màu vàng.  |  Tôi thích đội mũ màu vàng.

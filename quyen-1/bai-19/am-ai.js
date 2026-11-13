@@ -1,0 +1,16 @@
+/* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
+const AM_AI = {"Kore|Ô tô màu vàng đẹp hơn ô tô màu đỏ. Nhưng ô tô màu đỏ rẻ hơn ô tô màu vàng.":"../../am-ai/62bce3a338d7.mp3",
+"Kore|Ô tô màu vàng hay ô tô màu đỏ rẻ hơn?":"../../am-ai/e042fcd0781a.mp3",
+"Kore|Ô tô con hay xe buýt to hơn?":"../../am-ai/ca0dd79f6419.mp3",
+"Kore|Ô tô con nhanh hơn xe buýt.":"../../am-ai/9b4ada25e948.mp3",
+"Kore|Ô tô con hay xe buýt nhanh hơn?":"../../am-ai/6381326eaba4.mp3",
+"Kore|Tàu thuỷ hay thuyền nặng hơn?":"../../am-ai/00c335d4c04c.mp3",
+"Kore|Tàu thuỷ nhanh hơn thuyền.":"../../am-ai/4404a17a0f62.mp3",
+"Kore|Tàu thuỷ hay thuyền nhanh hơn?":"../../am-ai/7303339ad695.mp3",
+"Kore|Mũ màu vàng hay mũ màu xanh đẹp hơn?":"../../am-ai/e6d09eeec7ce.mp3",
+"Kore|Mũ màu vàng hay mũ màu xanh đắt hơn?":"../../am-ai/fc4b89ccf628.mp3",
+"Kore|Tủ màu xanh cao hơn tủ màu nâu.":"../../am-ai/e03cf83bee4a.mp3",
+"Kore|Tủ màu xanh hay tủ màu nâu cao hơn?":"../../am-ai/b2c7e0dd0d34.mp3",
+"Kore|Tủ màu xanh hay tủ màu nâu nặng hơn?":"../../am-ai/a8df083954e2.mp3",
+"Kore|Thuyền của tớ hay thuyền của cậu to hơn?":"../../am-ai/9d90c3d700d5.mp3",
+"Kore|Thuyền của cậu to hơn thuyền của tớ.":"../../am-ai/c517fad6aa86.mp3"};

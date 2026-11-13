@@ -1,19 +1,25 @@
 ma	nghe	diem
 0028372d64b2	Anh Dũng đang bơi	1.0
+00c335d4c04c	Tàu thủy hay thuyền nặng hơn	1.0
 00d5551bc6e4	cây na, cổ, mỷ, quả	0.6
 013423fa7f4a	Phải, cây dừa này cao	1.0
 01eefa5cc8cb	Đây là bác tôi	1.0
 02b85836afb0	Có, quyền vở màu trắng to	0.83
 02f5313005b9	Con hổ có hai chân, phải không?	1.0
 02f5372188f2	Chào chào mọi người!	0.25
+044cdea3ac33	Xe đạp rẻ hơn ô tô	1.0
 052d2ebd54d6	Đây là con mèo	1.0
+063595077320	tàu thủy và thuyền, cái nào nặng hơn?	1.0
 06a0ed4d7bfb	có chiến hình vua	0.5
 06f7295177df	phải không phải Đây là quả táo cam	1.0
 070ab109b3d7	cây na có bậy quả	0.8
+077ed8f8aca7	Bạn thích đội mũ màu gì?	1.0
+087759336691	Bạn thích mặc quần mù gì?	0.83
 0a74a26df9f7	Hình vuông mưu zi	0.5
 0f402eb38217	Có bao nhiêu hình tròn?	1.0
 0ff478a35225	Hôm nay là ngày 19.	1.0
 10e5ecb4f7ee	Bà ấy có phải là thợ may không?	1.0
+111c252c0cde	Tôi thích đội mũ màu vàng.	1.0
 11805554308d	cây dừa có 6 quả.	1.0
 12f2d0828712	Cây dừa này cao, phải không?	1.0
 1318f4221267	Bạn ấy có phải là học sinh không?	1.0
@@ -66,6 +72,7 @@ ma	nghe	diem
 41936af84d54	Phải, đây là cây khế	1.0
 424258feb195	Cô ấy có phải là giáo viên không?	1.0
 42ab0798242a	Hôm nay là chủ nhật	1.0
+4404a17a0f62	Tàu thủy nhanh hơn thuyền	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
 44da7ba22c89	Các chú ấy là kỹ sư	0.83
 45c039b4dd19	hình chữ nhật màu gì?	1.0
@@ -108,7 +115,9 @@ ma	nghe	diem
 620fa5cfc633	Thẳng này là thẳng 6	0.6
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
+62bce3a338d7	O tô màu vàng đẹp hơn o tô màu đỏ, nhưng o tô màu đỏ rẻ hơn o tô màu vàng	0.81
 6324be59dc97	Con khỉ, đang làm gì?	1.0
+6381326eaba4	ô tô con hay xe buýt nhanh hơn.	1.0
 63b12025984f	Tôi biết hát	1.0
 6667c253403c	quả bóng ở dưới cái bàn.	1.0
 66cea064023a	Tối	0.0
@@ -132,6 +141,7 @@ ma	nghe	diem
 6ff230f07ef5	Bạn có biết đọc không?	1.0
 7140e32e3d0e	hay quyển vở màu gì?	0.8
 721f1d345df9	Em đi học ạ	1.0
+7303339ad695	tàu thủy hay thuyền nhanh hơn.	1.0
 73b9dbe2a3dc	Cây mít có 3 quà	0.8
 73bb2a4c9f66	quyển sách màu đỏ có nặng không?	1.0
 746968986dae	Không, quyển vỡ màu vàng nhỏ	0.83
@@ -188,12 +198,14 @@ ma	nghe	diem
 97e007f1c8f4	Hai cái ghế màu gì?	1.0
 98dc9aea9985	cháu chào cộng ạ!	0.75
 9a223004323a	hình tròn, màu dí.	0.75
+9b4ada25e948	ô tô con nhanh hơn xe buýt	1.0
 9b55a93c94f0	Con thỏ đang làm gì?	1.0
 9bf49424cb1b	Con gà có hai chân, phải không?	1.0
 9ca87d4940a6	Hình tam rác, màu gì?	0.8
 9cb783d58900	có 5 hình tam giác	1.0
 9d5b6aea8607	Đây là mẹ tôi	1.0
 9d7df1980a5c	Cảy khuyến này nhé!	0.25
+9d90c3d700d5	thuyền của tớ hay thuyền của cậu to hơn	1.0
 9d99752cb652	Đây là ba tôi	1.0
 9e97c768a16d	Đây là quả táo, phải không?	1.0
 a1c0b5ada72f	Hôm nay là thứ tư	1.0
@@ -209,6 +221,7 @@ a756e8a54abd	Không phải, đây là cây dứa	1.0
 a778f2f606f4	Có Không Tớ biết Không biết phải	0.86
 a8d2a479887d	Còn voi này thế nào?	0.8
 a8d6d389810e	Có, không, tôi biết, không biết, đọc	1.0
+a8df083954e2	Tủ màu xanh hay tủ màu nâu nặng hơn	1.0
 a9d5f8f78414	Đồng hồ ở đâu?	1.0
 aabf48009f26	Đây là cây khế phải không?	1.0
 aae4cecc783d	con mèo ở bên cạnh cái ghế.	1.0
@@ -220,6 +233,7 @@ aee03c915f9f	Phải, đây là quả bưởi	1.0
 af3e06fcc655	Có 10 hình tròn	1.0
 b1edcaa1c0f6	Đây là gì tôi?	0.75
 b22730b39559	Ông ấy là bác sĩ	1.0
+b2c7e0dd0d34	tủ màu xanh hay tủ màu nâu cao hơn?	1.0
 b2e299ff439c	Đây là con voi	1.0
 b3902deecf21	quyền sách ở đâu?	0.75
 b3c1c05670fc	Bạn có thích bơi không?	1.0
@@ -249,6 +263,7 @@ c1efb79b2caa	Ba huyền làm nghề gì?	0.8
 c312c8804887	quyền sách ở trên cái bàn.	0.83
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
 c512b4811351	Chú tôi trẻ lắm	1.0
+c517fad6aa86	Thuyền của cậu to hơn thuyền của tớ	1.0
 c5444e59c095	hình chữ nhật, màu xanh	1.0
 c5d04041620e	Cô Hoa làm nghề gì?	1.0
 c6c7bf634859	quyển sách màu đỏ nặng	0.91
@@ -256,6 +271,7 @@ c6d0c317cd6a	Con thỏ này to, phải không?	1.0
 c6df7f97f14b	Cái ghế này nặng, phải không?	1.0
 c8f8a4b6942b	Có hai cài gửi	0.5
 c9506ef3c12c	Con khỉ có 4 tai, phải không?	1.0
+ca0dd79f6419	ô tô con hay xe buýt to hơn	1.0
 ca1dae4b02f4	Nam thích mặt màu gì?	0.0
 cbb28a11956a	Đây là tôi	1.0
 cce8a6bfffaf	Cây dừa có mấy quả	1.0
@@ -277,9 +293,12 @@ dd1aacf6d4f5	Mai thích mặc váy màu cam, đội mũ màu vàng	0.4
 dd752297ff44	một quyển màu trắng, một quyển màu vàng.	1.0
 de449d320a61	Cái bàn nhỏ có cao không?	1.0
 e00c46cf3b0a	Lan thích mặt màu gì?	0.6
+e03cf83bee4a	Tù mù xanh, cao hôn tù mù nấu	0.25
+e042fcd0781a	ô tô màu vàng hay ô tô màu đỏ rẻ hơn.	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
 e60e4b921d42	Bạn có thích chạy không?	1.0
+e6d09eeec7ce	Mũ mù vàng hay mũ mù xanh đẹp hơn.	0.78
 e739627fcc94	Có mỹ quyền sách	0.5
 e782827f30b3	Ông ấy có phải là kỹ sư không?	0.88
 e88060b61be2	Có hai hình tam giác	1.0
@@ -305,6 +324,7 @@ f4297c64667a	Đây là con gà	1.0
 f5635c5fcee4	Quả bóng ở đâu?	1.0
 f981aea15dfe	Ân ngoại	0.5
 fa19e9e9f7d1	Còn mấy hình tam giác	0.8
+fc4b89ccf628	mũ mù vàng hay mũ mù xanh đắt hơn.	0.78
 fc63f0c31fd6	Con vịt đang làm gì?	1.0
 fc7c3fd8baa3	Phải, đây là quả chuối	1.0
 fcaa14e2034f	Có mấy hình tròn	1.0
