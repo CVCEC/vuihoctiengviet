@@ -7,6 +7,7 @@ ma	nghe	diem
 02b85836afb0	Có, quyền vở màu trắng to	0.83
 02f5313005b9	Con hổ có hai chân, phải không?	1.0
 02f5372188f2	Chào chào mọi người!	0.25
+02ff407d7355	Chú Thanh rất thân thiện.	1.0
 044cdea3ac33	Xe đạp rẻ hơn ô tô	1.0
 052d2ebd54d6	Đây là con mèo	1.0
 063595077320	tàu thủy và thuyền, cái nào nặng hơn?	1.0
@@ -18,14 +19,17 @@ ma	nghe	diem
 087759336691	Bạn thích mặc quần mù gì?	0.83
 0a74a26df9f7	Hình vuông mưu zi	0.5
 0f402eb38217	Có bao nhiêu hình tròn?	1.0
+0fe4e46add9a	Chị gái em rất chăm chỉ	1.0
 0ff478a35225	Hôm nay là ngày 19.	1.0
 10e5ecb4f7ee	Bà ấy có phải là thợ may không?	1.0
 111c252c0cde	Tôi thích đội mũ màu vàng.	1.0
 11805554308d	cây dừa có 6 quả.	1.0
 121451a5e433	xe đạp ở trước cửa hàng	1.0
+12679bb4b4a5	Cô Na thì nào?	0.75
 12f2d0828712	Cây dừa này cao, phải không?	1.0
 1302321750f3	Đây là anh họ của Nam	1.0
 1318f4221267	Bạn ấy có phải là học sinh không?	1.0
+140060b955f8	Bạn hùng khá cao	1.0
 14425462c847	Cái ghế ở đâu?	1.0
 144d64080a58	Con sóc đang làm gì?	1.0
 146a64d8b165	Đây là con vịt	1.0
@@ -37,6 +41,7 @@ ma	nghe	diem
 17a1d35ced7a	Em xem TV à!	0.44
 1851a9bff959	có một hình vuông.	1.0
 18a6799147ee	Nam thích mặc áo màu trắng	0.86
+18d19bd39901	Còn em hà	1.0
 18f99717eb25	Quả dứa ở trên bàn	1.0
 18fc6c440d4f	Đúng, cô ấy là giáo viên	1.0
 1944864b6753	xe máy và xe đạp Xe nào nhanh hơn?	1.0
@@ -57,12 +62,16 @@ ma	nghe	diem
 2489892a6452	Kia là con khì.	0.75
 25c8428a9895	Chú ấy làm việc ở đâu?	1.0
 26106a699db2	Đây là ông nội của Nam.	1.0
+26253ffa5a9b	con cơm mì	0.0
+27579af1c4eb	Em Linh thế nào?	1.0
 2a44ce4f9d61	Bác ấy làm việc ở đâu?	1.0
+2a66b3148fd1	Bạn Liên hơi gầy, ốm	1.0
 2b93c3934ffc	Hình này là hình tròn	1.0
 2c5ef27d5bb3	Đây là cây na phải không?	1.0
 2c718c645886	Em Hoàng đang viết	1.0
 2cb31e7c53a3	có 3 hình chữ nhật	1.0
 2ded6a9a7c4a	Đây là anh tôi.	1.0
+2e4b6c7c2b73	Em học em thì nào?	0.6
 2e6ef5278b58	Bác tử là bác sĩ	0.8
 2edff3853b7e	Cháu chào bà à!	0.75
 2ee4ac1aa7a8	Đây là bác của tớ	1.0
@@ -77,11 +86,13 @@ ma	nghe	diem
 352a48396809	Tôi biết mua	0.67
 356c8e4bb935	Cái bàn này dài, phải không?	1.0
 362ccb9685ff	Đây là quả cam, phải không?	1.0
+37d9f979371d	Anh trai em rất vui vẻ	1.0
 382d98a1e242	Đây là con hồ	0.75
 38f1bed0611b	Cảnh hưởng này thế nào?	0.6
 39038095bf6a	con voi này tớ	0.75
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
 3e1905e73c74	Đây là em tôi	1.0
+3e741c3897da	Chú em, rất thân thiện	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
 40451f61bdac	Đúng, bạn ấy là học sinh	1.0
 40cd199287bc	Con gấu đang làm gì?	1.0
@@ -228,8 +239,10 @@ ma	nghe	diem
 93928f0626d5	Hình vuông màu tím	1.0
 93b253c0be67	Đây là con thỏ	1.0
 93b42ca6f73a	Cô ấy là cảnh sát	1.0
+93ce7fee32c3	Chú của cậu làm nghề gì?	1.0
 93f05b662684	Chào chào dì ạ!	0.75
 94bde15a2ada	Cô Hằng làm nghề gì?	1.0
+951d453c0885	Đây là gì của Nam?	0.8
 9572ad27a050	Vật này có hình gì?	1.0
 95d23f6bac1f	Có Tôi thích hát	1.0
 95f5606a4459	kia là con ngựa.	1.0
@@ -241,6 +254,7 @@ ma	nghe	diem
 9a223004323a	hình tròn, màu dí.	0.75
 9b4ada25e948	ô tô con nhanh hơn xe buýt	1.0
 9b55a93c94f0	Con thỏ đang làm gì?	1.0
+9b7e3249317e	Chị họ của cậu, làm nghề gì?	1.0
 9bbd31545e44	Mê Chô và Tàu Hòa. Tàu nào cũ hơn?	0.78
 9bf49424cb1b	Con gà có hai chân, phải không?	1.0
 9ca87d4940a6	Hình tam rác, màu gì?	0.8
@@ -250,6 +264,7 @@ ma	nghe	diem
 9d90c3d700d5	thuyền của tớ hay thuyền của cậu to hơn	1.0
 9d99752cb652	Đây là ba tôi	1.0
 9e97c768a16d	Đây là quả táo, phải không?	1.0
+a0fdef0ab71d	Chú ấy làm việc ở công trường.	1.0
 a1c0b5ada72f	Hôm nay là thứ tư	1.0
 a23f8e623d5f	Hình vuông, màu gì?	1.0
 a2cea2b67660	Bạn thích đi tất màu gì?	1.0
@@ -287,6 +302,7 @@ b3902deecf21	quyền sách ở đâu?	0.75
 b3c1c05670fc	Bạn có thích bơi không?	1.0
 b3ef5e8a292a	Hôm nay là ngày 8	1.0
 b54efaa83334	Anh ấy làm nghề gì?	1.0
+b56c04d59dc5	Đây là chị họ của Nam.	1.0
 b5d728b3167e	không phải con hổ có bốn chân	1.0
 b612110ed4de	Tôi thích đội mũ màu trắng.	1.0
 b658160e8b05	Không! Ông ấy không phải là kỹ sư.	0.88
@@ -327,7 +343,9 @@ ca0dd79f6419	ô tô con hay xe buýt to hơn	1.0
 ca1dae4b02f4	Nam thích mặt màu gì?	0.0
 cbb28a11956a	Đây là tôi	1.0
 cce8a6bfffaf	Cây dừa có mấy quả	1.0
+cdf96d9a1966	Chị ấy làm việc ở đâu?	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
+cf09f5bc5ad9	Đây là em họ của Nam.	1.0
 d0c1e5558324	Hôm nay là ngày 5	0.8
 d2927f33876e	Con gà đang chạy	1.0
 d2a24d5cb701	cửa hàng ở bên cạnh bệnh viện.	1.0
@@ -336,6 +354,7 @@ d346de20174c	Kia là con mèo	1.0
 d3ef61ed89a2	Cậu có thích mua không?	0.8
 d4de7cb6ec9a	Lọ hoa ở đâu?	1.0
 d52628c9e3d9	Không phải, đây là quả táo	1.0
+d5a21dd6a3d0	Bác ấy làm việc ở bệnh viện.	1.0
 d815269b50f5	Hôm nay là ngày 1.	1.0
 d86fa6892e78	Chị Liên đang hát	1.0
 d885cc1e50c1	Không, bút chỉ màu vàng ngắn	0.83
@@ -352,6 +371,7 @@ e03cf83bee4a	Tù mù xanh, cao hôn tù mù nấu	0.25
 e042fcd0781a	ô tô màu vàng hay ô tô màu đỏ rẻ hơn.	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
+e2aa7d1d85eb	Đây là mẹ của Nam.	1.0
 e60e4b921d42	Bạn có thích chạy không?	1.0
 e612ccdb63a8	Tôi thích mặc quần màu tím	1.0
 e6d09eeec7ce	Mũ mù vàng hay mũ mù xanh đẹp hơn.	0.78

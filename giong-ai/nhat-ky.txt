@@ -142,3 +142,23 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.80  Đây là dượng của Nam.  |  Đây là dưỡng của Nam
 1.00  Chú tớ là thợ xây.  |  Chú Tớ là thợ xây.
 1.00  Đây là bác trai của Nam.  |  Đây là bác trai của Nam.
+1.00  Chú của cậu làm nghề gì?  |  Chú của cậu làm nghề gì?
+0.80  Đây là dì của Nam.  |  Đây là gì của Nam?
+1.00  Chị họ của cậu làm nghề gì?  |  Chị họ của cậu, làm nghề gì?
+1.00  Chú ấy làm việc ở công trường.  |  Chú ấy làm việc ở công trường.
+1.00  Đây là chị họ của Nam.  |  Đây là chị họ của Nam.
+1.00  Chị ấy làm việc ở đâu?  |  Chị ấy làm việc ở đâu?
+1.00  Đây là em họ của Nam.  |  Đây là em họ của Nam.
+1.00  Bác ấy làm việc ở bệnh viện.  |  Bác ấy làm việc ở bệnh viện.
+1.00  Đây là mẹ của Nam.  |  Đây là mẹ của Nam.
+1.00  Chú Thanh rất thân thiện.  |  Chú Thanh rất thân thiện.
+1.00  Chị gái em rất chăm chỉ.  |  Chị gái em rất chăm chỉ
+0.75  Cô Na thế nào?  |  Cô Na thì nào?
+1.00  Bạn Hùng khá cao.  |  Bạn hùng khá cao
+1.00  Còn em Hà?  |  Còn em hà
+0.00  Còn cô My?  |  con cơm mì
+1.00  Em Linh thế nào?  |  Em Linh thế nào?
+1.00  Bạn Liên hơi gầy (ốm).  |  Bạn Liên hơi gầy, ốm
+0.60  Em họ em thế nào?  |  Em học em thì nào?
+1.00  Anh trai em rất vui vẻ.  |  Anh trai em rất vui vẻ
+1.00  Chú em rất thân thiện.  |  Chú em, rất thân thiện
