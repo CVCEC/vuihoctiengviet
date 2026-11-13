@@ -162,3 +162,23 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.60  Em họ em thế nào?  |  Em học em thì nào?
 1.00  Anh trai em rất vui vẻ.  |  Anh trai em rất vui vẻ
 1.00  Chú em rất thân thiện.  |  Chú em, rất thân thiện
+1.00  Bố em rất nghiêm.  |  Bố em rất nghiêm
+0.50  Bố tớ rất nghiêm.  |  Bố tử xích nghiêm
+1.00  Em gái em rất xinh.  |  Em gái em rất xinh
+1.00  Chú em thế nào?  |  Chú em thế nào?
+1.00  Bà em thế nào?  |  Bà em thế nào?
+1.00  Lớp mình ai cao nhất?  |  Lớp mình ai cao nhất?
+1.00  Lớp mình Hùng cao nhất.  |  lớp mình hùng cao nhất.
+0.67  Còn bạn Hùng?  |  Con bạn Hùng
+1.00  Em Hà rất dễ thương.  |  Em Hà rất dễ thương.
+0.75  Bà tớ rất hiền.  |  bà tỡ rất hiền
+1.00  Mẹ em rất đẹp.  |  Mẹ em rất đẹp
+1.00  Bà em rất hiền.  |  bà em rất hiền
+1.00  Mẹ em thế nào?  |  Mẹ em thế nào?
+1.00  Anh trai em thế nào?  |  Anh trai em thế nào?
+1.00  Bà bạn thế nào?  |  Bà bạn thế nào?
+1.00  Còn bố bạn?  |  Còn bố bạn
+0.75  Bố em thế nào?  |  Bụi em thế nào?
+1.00  Còn chú Thanh?  |  Còn chú Thanh
+1.00  Em họ em rất dễ thương.  |  Em họ em rất dễ thương
+1.00  Em gái em thế nào?  |  Em gái em thế nào?

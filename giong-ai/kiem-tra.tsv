@@ -102,17 +102,22 @@ ma	nghe	diem
 4404a17a0f62	Tàu thủy nhanh hơn thuyền	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
 44da7ba22c89	Các chú ấy là kỹ sư	0.83
+45afba454547	Bố em rất nghiêm	1.0
 45c039b4dd19	hình chữ nhật màu gì?	1.0
 45cc5c879363	Phải Con gà có hai chân	1.0
 4655b45aa458	Hi! Cảy gỡ màu xanh!	0.4
 46c69c0c941c	Con hồ thế nào?	0.75
 47451b281b9d	Hình tròn, màu đỏ	1.0
+4896316fb9f1	Bố tử xích nghiêm	0.5
 48ddf7a2d487	có sẩu hình tam giác.	0.8
 49616bae7250	Chẩu chào cô ạ!	0.75
+496802b088c6	Em gái em rất xinh	1.0
+4974403e6b9b	Chú em thế nào?	1.0
 49c2b80f7f87	Con mèo đang làm gì?	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
 4b778892c8ad	ô tô và xe đạp Xe nào rẻ hơn?	1.0
 4b7ff2f0584a	Trường ngôi sao ở đâu?	1.0
+4bad8ad473a1	Bà em thế nào?	1.0
 4db93ff26b03	Không, bà ấy không phải là thợ may.	1.0
 4e45e8b9a3d5	Chị ấy làm việc ở chuông	0.83
 4e886749dc2e	ô tô và xe đạp Xe nào đắt hơn?	1.0
@@ -134,6 +139,7 @@ ma	nghe	diem
 58f638a6a5f1	Ông Nội	1.0
 5aebd1d29659	Đây là ông ngoại của Nam.	1.0
 5b4aacad473f	Kia là con hộ	0.75
+5b55c216b91e	Lớp mình ai cao nhất?	1.0
 5b56104b5462	Đây là quả dứa, phải không?	1.0
 5bcce74827b0	Đây là bác gái của Nam	1.0
 5bff7baceccf	Đây là cậu tôi	1.0
@@ -148,6 +154,7 @@ ma	nghe	diem
 5f66420f5fb8	Không phải, cây cam có 10 quả	1.0
 5fcf02fd587f	Đây là bố của Nam	1.0
 5fdaa1c271fb	tâu thủy và thuyền. Cái nào nhẹ hơn?	0.88
+5fe407242df0	lớp mình hùng cao nhất.	1.0
 60a4553ad77a	Cái bàn này cao, phải không?	1.0
 60f0ddc57a16	Con hồ khỏe lắm	0.75
 620fa5cfc633	Thẳng này là thẳng 6	0.6
@@ -157,6 +164,7 @@ ma	nghe	diem
 6324be59dc97	Con khỉ, đang làm gì?	1.0
 6381326eaba4	ô tô con hay xe buýt nhanh hơn.	1.0
 63b12025984f	Tôi biết hát	1.0
+65f80282d975	Con bạn Hùng	0.67
 6667c253403c	quả bóng ở dưới cái bàn.	1.0
 66cea064023a	Tối	0.0
 67314beb3f19	Của Mỹ con mèo	0.5
@@ -165,6 +173,7 @@ ma	nghe	diem
 67b68a0de997	Con mèo có mấy mắt	1.0
 67fd42d847d4	Đây là mả tôi	0.75
 6994e2ef746f	Bạn có biết vẽ không?	1.0
+69c0297038af	Em Hà rất dễ thương.	1.0
 6b0f7ad8a576	Còn khi có hai tai	0.6
 6b170782a779	không phải trường ngôi sao bên cạnh bệnh viện mắt.	1.0
 6b40f453c7a8	có bao nhiêu hình chữ nhật?	1.0
@@ -176,6 +185,7 @@ ma	nghe	diem
 6ce05668193d	Bác của cậu làm nghề gì?	1.0
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
+6dd81b57614b	bà tỡ rất hiền	0.75
 6e6a987aef02	Đây là bà nội của Nam	1.0
 6e8eaeed6f3a	Em Tùng, Đáng Đọc	0.75
 6ff230f07ef5	Bạn có biết đọc không?	1.0
@@ -184,6 +194,7 @@ ma	nghe	diem
 7303339ad695	tàu thủy hay thuyền nhanh hơn.	1.0
 73b9dbe2a3dc	Cây mít có 3 quà	0.8
 73bb2a4c9f66	quyển sách màu đỏ có nặng không?	1.0
+74205ad29919	Mẹ em rất đẹp	1.0
 746968986dae	Không, quyển vỡ màu vàng nhỏ	0.83
 756956b4af73	cháu chào dụng ạ	0.75
 75db4a5da700	Con mèo có hai mắt	1.0
@@ -193,6 +204,7 @@ ma	nghe	diem
 76978f05e01a	Nam học ở trường Nguy Sao	0.83
 77d1536aeff8	Đây là ai?	1.0
 78e5c5a283ac	Con sóc đang múa	1.0
+7ac35d3c1b68	bà em rất hiền	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
 7bf3c77526d4	Tôi thích đi tết màu nâu	0.83
 7bf7b17c4dc9	Không phải cái bàn này ngắn.	1.0
@@ -205,10 +217,13 @@ ma	nghe	diem
 7fcaeabd6b9d	Tôi thích mặc áo màu vàng	1.0
 7fd4d0e4f377	Gãi đủ	0.0
 808ebca74e84	Tôi thích mặc giày màu nâu	0.83
+80b2cb2bd178	Mẹ em thế nào?	1.0
+8218db8917ad	Anh trai em thế nào?	1.0
 8236fe92d110	Đây là chú của tớ	1.0
 82803cbb759e	Nam học ở đâu?	1.0
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
 840c6b15b15a	có hai cái bàn	1.0
+8439fad9298c	Bà bạn thế nào?	1.0
 843ed9d781a7	hình tâm giác mô di	0.4
 84b8168ba6de	Bà ấy là người bán hàng.	1.0
 8511c132570d	Đây là dưỡng của Nam	0.8
@@ -243,11 +258,13 @@ ma	nghe	diem
 93f05b662684	Chào chào dì ạ!	0.75
 94bde15a2ada	Cô Hằng làm nghề gì?	1.0
 951d453c0885	Đây là gì của Nam?	0.8
+9534acce7ae0	Còn bố bạn	1.0
 9572ad27a050	Vật này có hình gì?	1.0
 95d23f6bac1f	Có Tôi thích hát	1.0
 95f5606a4459	kia là con ngựa.	1.0
 961993b42793	Đồng hồ ở trên tường	1.0
 96280f286688	Không phải, con thỏ này nhỏ	1.0
+966181fb3cea	Bụi em thế nào?	0.75
 97405c76c543	Phải, đây là quả dứa.	1.0
 97e007f1c8f4	Hai cái ghế màu gì?	1.0
 98dc9aea9985	cháu chào cộng ạ!	0.75
@@ -277,6 +294,7 @@ a56365589016	Các chị ấy đang vẽ	1.0
 a70e9cd7b51c	bà nội	1.0
 a74bb00baf93	có 8 hình chữ nhật	1.0
 a756e8a54abd	Không phải, đây là cây dứa	1.0
+a76fb247a268	Còn chú Thanh	1.0
 a778f2f606f4	Có Không Tớ biết Không biết phải	0.86
 a860f3e00bbf	Tôi thích mặc áo màu xanh.	1.0
 a8d2a479887d	Còn voi này thế nào?	0.8
@@ -293,7 +311,9 @@ ade282c7c765	phải, không phải, cái bàn này cao, thấp	1.0
 adf5a734912f	Không phải! Đây là quả dừa!	1.0
 aee03c915f9f	Phải, đây là quả bưởi	1.0
 af3e06fcc655	Có 10 hình tròn	1.0
+af43eace753d	Em họ em rất dễ thương	1.0
 b1edcaa1c0f6	Đây là gì tôi?	0.75
+b1feaca4ecd6	Em gái em thế nào?	1.0
 b22730b39559	Ông ấy là bác sĩ	1.0
 b2c7e0dd0d34	tủ màu xanh hay tủ màu nâu cao hơn?	1.0
 b2e299ff439c	Đây là con voi	1.0
