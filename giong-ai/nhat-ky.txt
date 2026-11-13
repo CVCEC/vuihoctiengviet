@@ -122,3 +122,23 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.83  Tôi thích mặc áo màu cam.  |  Tôi thích mặc ảo màu cam
 1.00  Con chó ở dưới bàn.  |  Con chó ở dưới bàn
 1.00  Bạn thích mặc váy màu gì?  |  Bạn thích mặc váy màu gì?
+1.00  Đây là chị họ của tớ.  |  Đây là chị họ của tớ.
+1.00  Đây là anh họ của Nam.  |  Đây là anh họ của Nam
+1.00  Chú ấy làm việc ở đâu?  |  Chú ấy làm việc ở đâu?
+1.00  Đây là ông nội của Nam.  |  Đây là ông nội của Nam.
+1.00  Bác ấy làm việc ở đâu?  |  Bác ấy làm việc ở đâu?
+0.80  Bác tớ là bác sĩ.  |  Bác tử là bác sĩ
+1.00  Đây là bác của tớ.  |  Đây là bác của tớ
+0.83  Chị ấy làm việc ở trường.  |  Chị ấy làm việc ở chuông
+1.00  Đây là ông ngoại của Nam.  |  Đây là ông ngoại của Nam.
+1.00  Đây là bác gái của Nam.  |  Đây là bác gái của Nam
+1.00  Chị tớ là giáo viên.  |  Chị Tớ là giáo viên
+0.83  Đây là bà ngoại của Nam.  |  Đây là bàn ngoại của Nam.
+1.00  Đây là bố của Nam.  |  Đây là bố của Nam
+1.00  Bác của cậu làm nghề gì?  |  Bác của cậu làm nghề gì?
+1.00  Đây là bà nội của Nam.  |  Đây là bà nội của Nam
+1.00  Đây là ai?  |  Đây là ai?
+1.00  Đây là chú của tớ.  |  Đây là chú của tớ
+0.80  Đây là dượng của Nam.  |  Đây là dưỡng của Nam
+1.00  Chú tớ là thợ xây.  |  Chú Tớ là thợ xây.
+1.00  Đây là bác trai của Nam.  |  Đây là bác trai của Nam.
