@@ -1,7 +1,20 @@
 /* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
-const AM_AI = {"Kore|Trường Ngôi Sao ở đâu?":"../../am-ai/4b7ff2f0584a.mp3",
+const AM_AI = {"Kore|Nam học ở Trường Ngôi Sao.":"../../am-ai/76978f05e01a.mp3",
+"Kore|Nam học ở đâu?":"../../am-ai/82803cbb759e.mp3",
+"Kore|Trường Ngôi Sao ở trên đường Thanh Niên.":"../../am-ai/8da79e3302ca.mp3",
+"Kore|Trường Ngôi Sao ở đâu?":"../../am-ai/4b7ff2f0584a.mp3",
 "Kore|Không phải, Trường Ngôi Sao bên cạnh Bệnh viện Mắt.":"../../am-ai/6b170782a779.mp3",
+"Kore|Trường Ngôi Sao đối diện Bệnh viện Mắt, phải không?":"../../am-ai/7e67f0abec68.mp3",
+"Kore|Trường Nam ở gần nhà Nam.":"../../am-ai/6c45db79bd53.mp3",
+"Kore|Trường Nam ở xa hay gần nhà Nam?":"../../am-ai/7ddc9ef1a6ea.mp3",
+"Kore|Con mèo ở bên cạnh cái ghế.":"../../am-ai/aae4cecc783d.mp3",
 "Kore|Quả bóng ở dưới cái bàn.":"../../am-ai/6667c253403c.mp3",
+"Kore|Quả bóng ở đâu?":"../../am-ai/f5635c5fcee4.mp3",
+"Kore|Đồng hồ ở trên tường.":"../../am-ai/961993b42793.mp3",
+"Kore|Đồng hồ ở đâu?":"../../am-ai/a9d5f8f78414.mp3",
+"Kore|Quyển sách ở trên cái bàn.":"../../am-ai/c312c8804887.mp3",
+"Kore|Quyển sách ở đâu?":"../../am-ai/b3902deecf21.mp3",
 "Kore|Cái đèn ở trên cái bàn.":"../../am-ai/3390b0303d9a.mp3",
 "Kore|Cái đèn ở đâu?":"../../am-ai/5398d217b940.mp3",
-"Kore|Lọ hoa ở trên cái bàn.":"../../am-ai/516b4c9c67c8.mp3"};
+"Kore|Lọ hoa ở trên cái bàn.":"../../am-ai/516b4c9c67c8.mp3",
+"Kore|Lọ hoa ở đâu?":"../../am-ai/d4de7cb6ec9a.mp3"};

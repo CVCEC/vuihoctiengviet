@@ -25,6 +25,7 @@ ma	nghe	diem
 17009479cafb	có một hình tròn.	1.0
 17a1d35ced7a	Em xem TV à!	0.44
 1851a9bff959	có một hình vuông.	1.0
+18a6799147ee	Nam thích mặc áo màu trắng	0.86
 18fc6c440d4f	Đúng, cô ấy là giáo viên	1.0
 1b11dafa89b3	có bao nhiêu hình vuông?	1.0
 1c7decab7d4a	Làm gì đó?	1.0
@@ -123,6 +124,7 @@ ma	nghe	diem
 6b59f5b0bdb1	Có! Tôi thích bơi!	1.0
 6b788951dc3a	Con mèo có 4 chân	1.0
 6ba2673fae03	có 3 hình tam giác.	1.0
+6c45db79bd53	Trường Nam, ở gần nhà Nam	1.0
 6c5bb7edc878	Phải, Còn Kỳ, Cỡ Hái Tái	0.17
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
@@ -138,12 +140,16 @@ ma	nghe	diem
 75f26494d6b1	Có mỹ quà táo	0.5
 762207d30f4c	Có, tôi biết viết	1.0
 768cb132f57f	Anh	1.0
+76978f05e01a	Nam học ở trường Nguy Sao	0.83
 78e5c5a283ac	Con sóc đang múa	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
 7bf7b17c4dc9	Không phải cái bàn này ngắn.	1.0
 7d22f7334b27	Đây là gì?	1.0
+7ddc9ef1a6ea	trường Nam, ở xa hay gần nhà Nam?	1.0
+7e67f0abec68	trường ngôi sao đối diện bệnh viện mắt, phải không?	1.0
 7f6e14cd8951	Bạn có thích hát không?	1.0
 7fd4d0e4f377	Gãi đủ	0.0
+82803cbb759e	Nam học ở đâu?	1.0
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
 840c6b15b15a	có hai cái bàn	1.0
 843ed9d781a7	hình tâm giác mô di	0.4
@@ -162,6 +168,7 @@ ma	nghe	diem
 8c14182e534a	Phải, đây là cây cam	1.0
 8cb162dac2d8	Hôm nay là ngày 12 tháng 5.	1.0
 8d97869a1879	Đây là chị tôi	1.0
+8da79e3302ca	trường ngôi sao ở trên đường Thanh Niên.	1.0
 8e23111bf4cf	Phải, con thò, gõ hái đai	0.33
 8f255b13cbd0	Có bút chì màu xanh dài	1.0
 8fe23893483d	Con thỏ đang ăn	1.0
@@ -175,6 +182,7 @@ ma	nghe	diem
 9572ad27a050	Vật này có hình gì?	1.0
 95d23f6bac1f	Có Tôi thích hát	1.0
 95f5606a4459	kia là con ngựa.	1.0
+961993b42793	Đồng hồ ở trên tường	1.0
 96280f286688	Không phải, con thỏ này nhỏ	1.0
 97405c76c543	Phải, đây là quả dứa.	1.0
 97e007f1c8f4	Hai cái ghế màu gì?	1.0
@@ -201,7 +209,9 @@ a756e8a54abd	Không phải, đây là cây dứa	1.0
 a778f2f606f4	Có Không Tớ biết Không biết phải	0.86
 a8d2a479887d	Còn voi này thế nào?	0.8
 a8d6d389810e	Có, không, tôi biết, không biết, đọc	1.0
+a9d5f8f78414	Đồng hồ ở đâu?	1.0
 aabf48009f26	Đây là cây khế phải không?	1.0
+aae4cecc783d	con mèo ở bên cạnh cái ghế.	1.0
 ac5f31fd34e8	có một hình chữ nhật.	1.0
 ad56fe578c69	Con cua có mấy chân?	1.0
 ade282c7c765	phải, không phải, cái bàn này cao, thấp	1.0
@@ -211,6 +221,7 @@ af3e06fcc655	Có 10 hình tròn	1.0
 b1edcaa1c0f6	Đây là gì tôi?	0.75
 b22730b39559	Ông ấy là bác sĩ	1.0
 b2e299ff439c	Đây là con voi	1.0
+b3902deecf21	quyền sách ở đâu?	0.75
 b3c1c05670fc	Bạn có thích bơi không?	1.0
 b3ef5e8a292a	Hôm nay là ngày 8	1.0
 b54efaa83334	Anh ấy làm nghề gì?	1.0
@@ -219,6 +230,7 @@ b658160e8b05	Không! Ông ấy không phải là kỹ sư.	0.88
 b7e07b63157f	Cái bàn này thấp	1.0
 b7e106a145b7	Chào chào tí mạc!	0.25
 b9d38f777050	phải, không phải, cây cam có 8, 10 quả	1.0
+b9ebdfc707c9	huyển xanh	0.0
 bae80f9e149d	Hình tròn màu gì?	1.0
 bb0fce610d09	Hình chữ nhật màu gì?	1.0
 bb2628c8c627	Cô ấy có phải là cảnh sát không?	1.0
@@ -234,6 +246,7 @@ c028cf03cc31	Ông	1.0
 c1541c460b34	Go!	0.0
 c15540325eb9	Cái bàn	1.0
 c1efb79b2caa	Ba huyền làm nghề gì?	0.8
+c312c8804887	quyền sách ở trên cái bàn.	0.83
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
 c512b4811351	Chú tôi trẻ lắm	1.0
 c5444e59c095	hình chữ nhật, màu xanh	1.0
@@ -243,13 +256,16 @@ c6d0c317cd6a	Con thỏ này to, phải không?	1.0
 c6df7f97f14b	Cái ghế này nặng, phải không?	1.0
 c8f8a4b6942b	Có hai cài gửi	0.5
 c9506ef3c12c	Con khỉ có 4 tai, phải không?	1.0
+ca1dae4b02f4	Nam thích mặt màu gì?	0.0
 cbb28a11956a	Đây là tôi	1.0
 cce8a6bfffaf	Cây dừa có mấy quả	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
 d0c1e5558324	Hôm nay là ngày 5	0.8
 d2927f33876e	Con gà đang chạy	1.0
+d2ffb15c4ca4	Quyền	0.0
 d346de20174c	Kia là con mèo	1.0
 d3ef61ed89a2	Cậu có thích mua không?	0.8
+d4de7cb6ec9a	Lọ hoa ở đâu?	1.0
 d52628c9e3d9	Không phải, đây là quả táo	1.0
 d815269b50f5	Hôm nay là ngày 1.	1.0
 d86fa6892e78	Chị Liên đang hát	1.0
@@ -257,8 +273,10 @@ d885cc1e50c1	Không, bút chỉ màu vàng ngắn	0.83
 d90262cff195	Đúng, cô ấy là cảnh sát	1.0
 dac0f241439a	Các chú ấy có phải là thợ xây không?	1.0
 dc945415cb52	Quyền vở màu trắng có to không?	0.86
+dd1aacf6d4f5	Mai thích mặc váy màu cam, đội mũ màu vàng	0.4
 dd752297ff44	một quyển màu trắng, một quyển màu vàng.	1.0
 de449d320a61	Cái bàn nhỏ có cao không?	1.0
+e00c46cf3b0a	Lan thích mặt màu gì?	0.6
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
 e60e4b921d42	Bạn có thích chạy không?	1.0
@@ -284,6 +302,7 @@ f2cf85e97c3c	Đây là chú tôi.	1.0
 f3d7ea5c0264	Con mèo có mỉ tai	0.8
 f3fc9461ae35	Của Không Tự thích Không thích mua	0.57
 f4297c64667a	Đây là con gà	1.0
+f5635c5fcee4	Quả bóng ở đâu?	1.0
 f981aea15dfe	Ân ngoại	0.5
 fa19e9e9f7d1	Còn mấy hình tam giác	0.8
 fc63f0c31fd6	Con vịt đang làm gì?	1.0
@@ -291,4 +310,5 @@ fc7c3fd8baa3	Phải, đây là quả chuối	1.0
 fcaa14e2034f	Có mấy hình tròn	1.0
 fccac4f843d0	Không! Các chú ấy không phải là thợ xây.	1.0
 fd455edd04e6	Các chú ấy làm nghề gì?	1.0
+ff20a20a0c85	Mai thích mặc phẩy màu hồng hoặc màu điểm	0.67
 ff347a5ee3ef	Phải. Đây là cây mít.	1.0

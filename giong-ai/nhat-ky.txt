@@ -40,3 +40,23 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Cái đèn ở đâu?  |  Cái đèn ở đâu?
 1.00  Quả bóng ở dưới cái bàn.  |  quả bóng ở dưới cái bàn.
 1.00  Không phải, Trường Ngôi Sao bên cạnh Bệnh viện Mắt.  |  không phải trường ngôi sao bên cạnh bệnh viện mắt.
+1.00  Trường Nam ở gần nhà Nam.  |  Trường Nam, ở gần nhà Nam
+0.83  Nam học ở Trường Ngôi Sao.  |  Nam học ở trường Nguy Sao
+1.00  Trường Nam ở xa hay gần nhà Nam?  |  trường Nam, ở xa hay gần nhà Nam?
+1.00  Trường Ngôi Sao đối diện Bệnh viện Mắt, phải không?  |  trường ngôi sao đối diện bệnh viện mắt, phải không?
+1.00  Nam học ở đâu?  |  Nam học ở đâu?
+1.00  Trường Ngôi Sao ở trên đường Thanh Niên.  |  trường ngôi sao ở trên đường Thanh Niên.
+1.00  Đồng hồ ở trên tường.  |  Đồng hồ ở trên tường
+1.00  Đồng hồ ở đâu?  |  Đồng hồ ở đâu?
+1.00  Con mèo ở bên cạnh cái ghế.  |  con mèo ở bên cạnh cái ghế.
+0.75  Quyển sách ở đâu?  |  quyền sách ở đâu?
+0.83  Quyển sách ở trên cái bàn.  |  quyền sách ở trên cái bàn.
+1.00  Lọ hoa ở đâu?  |  Lọ hoa ở đâu?
+1.00  Quả bóng ở đâu?  |  Quả bóng ở đâu?
+0.86  Nam thích mặc áo màu trắng, quần xanh.  |  Nam thích mặc áo màu trắng
+0.00  Nam thích mặc màu gì?  |  huyển xanh
+0.00  quần  |  Nam thích mặt màu gì?
+0.00  Mai thích mặc váy màu cam, đội mũ màu vàng.  |  Quyền
+0.40  Lan thích mặc màu gì?  |  Mai thích mặc váy màu cam, đội mũ màu vàng
+0.60  Mai thích mặc màu gì?  |  Lan thích mặt màu gì?
+0.67  Lan thích mặc váy màu hồng hoặc màu tím.  |  Mai thích mặc phẩy màu hồng hoặc màu điểm
