@@ -80,3 +80,24 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Bạn thích đội mũ màu gì?  |  Bạn thích đội mũ màu gì?
 0.83  Bạn thích mặc quần màu gì?  |  Bạn thích mặc quần mù gì?
 1.00  Tôi thích đội mũ màu vàng.  |  Tôi thích đội mũ màu vàng.
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  Xe đạp ở trước cửa hàng.  |  xe đạp ở trước cửa hàng
+1.00  Cái ghế ở đâu?  |  Cái ghế ở đâu?
+1.00  Tôi thích mặc quần màu đen.  |  Tôi thích mặc quần màu đen
+1.00  Quả dứa ở trên bàn.  |  Quả dứa ở trên bàn
+1.00  Xe máy và xe đạp, xe nào nhanh hơn?  |  xe máy và xe đạp Xe nào nhanh hơn?
+1.00  Con chó ở đâu?  |  Con chó ở đâu?
+1.00  Ô tô đắt hơn xe đạp.  |  ô tô đắt hơn xe đạp
+1.00  Xe máy và xe đạp, xe nào chậm hơn?  |  xe máy và xe đạp Xe nào chậm hơn?
+0.82  Mê trô và tàu hoả, tàu nào mới hơn?  |  Metro và tàu hỏa Tàu nào mới hơn?
+1.00  Ô tô và xe đạp, xe nào rẻ hơn?  |  ô tô và xe đạp Xe nào rẻ hơn?
+1.00  Ô tô và xe đạp, xe nào đắt hơn?  |  ô tô và xe đạp Xe nào đắt hơn?
+0.83  Tôi thích quàng khăn màu xanh.  |  Tôi thích quảng khăn màu xanh
+0.83  Tôi thích mặc váy màu hồng.  |  Tôi thích mặc vảy màu hồng
+0.88  Tàu thuỷ và thuyền, cái nào nhẹ hơn?  |  tâu thủy và thuyền. Cái nào nhẹ hơn?
+0.83  Tôi thích đi tất màu nâu.  |  Tôi thích đi tết màu nâu
+1.00  Cửa hàng ở đâu?  |  Cửa hàng ở đâu?
+1.00  Bệnh viện ở đối diện ngôi nhà màu đỏ.  |  Bệnh viện ở đối diện ngôi nhà màu đỏ.
+1.00  Tôi thích mặc áo màu vàng.  |  Tôi thích mặc áo màu vàng
+0.83  Tôi thích đi giày màu nâu.  |  Tôi thích mặc giày màu nâu
+1.00  Người bán hàng ở trong cửa hàng.  |  Người bán hàng ở trong cửa hàng
