@@ -288,6 +288,7 @@ ma	nghe	diem
 91f072319d2b	Còn lau bát đĩa giúp mẹ được không?	0.88
 921885226e9b	Đây, kia là con mèo	1.0
 923645654f44	Của Mỹ Bông Hoa	0.5
+9370bd907f51	Tâm đang cho mèo ăn	1.0
 93928f0626d5	Hình vuông màu tím	1.0
 93b253c0be67	Đây là con thỏ	1.0
 93b42ca6f73a	Cô ấy là cảnh sát	1.0
@@ -306,6 +307,7 @@ ma	nghe	diem
 97405c76c543	Phải, đây là quả dứa.	1.0
 97e007f1c8f4	Hai cái ghế màu gì?	1.0
 98dc9aea9985	cháu chào cộng ạ!	0.75
+99aad3ba9214	Đi mưa, cô mơ đã có rù	0.86
 9a223004323a	hình tròn, màu dí.	0.75
 9b4ada25e948	ô tô con nhanh hơn xe buýt	1.0
 9b55a93c94f0	Con thỏ đang làm gì?	1.0
@@ -318,16 +320,19 @@ ma	nghe	diem
 9d7df1980a5c	Cảy khuyến này nhé!	0.25
 9d90c3d700d5	thuyền của tớ hay thuyền của cậu to hơn	1.0
 9d99752cb652	Đây là ba tôi	1.0
+9e591878139f	Liên đang rửa cúc chén.	0.8
 9e97c768a16d	Đây là quả táo, phải không?	1.0
 a0fdef0ab71d	Chú ấy làm việc ở công trường.	1.0
 a1c0b5ada72f	Hôm nay là thứ tư	1.0
 a23f8e623d5f	Hình vuông, màu gì?	1.0
+a2a03e32fec0	Được ạ! Con lau bát đĩa được!	1.0
 a2cea2b67660	Bạn thích đi tất màu gì?	1.0
 a2cf0cfc51eb	Có hai quyền vợ	0.5
 a375c9785824	Con gà đang làm gì?	1.0
 a4242cb356a8	Đĩa cá có đũa	1.0
 a491ae514efe	Bạn thích đi giày màu gì?	1.0
 a4c6e2323320	Phải, gãy hủy này nâng	0.4
+a50627708c71	Con không giúp bố được ạ. Con không biết nấu cơm.	1.0
 a547b0f32ff0	Con mèo có mấy chân?	1.0
 a56365589016	Các chị ấy đang vẽ	1.0
 a70e9cd7b51c	bà nội	1.0
@@ -362,6 +367,7 @@ b329c6fd2419	Xe đạp ở đâu?	1.0
 b3902deecf21	quyền sách ở đâu?	0.75
 b3c1c05670fc	Bạn có thích bơi không?	1.0
 b3ef5e8a292a	Hôm nay là ngày 8	1.0
+b51ec9d10677	Được ạ, con giặt quần áo được.	1.0
 b54efaa83334	Anh ấy làm nghề gì?	1.0
 b56c04d59dc5	Đây là chị họ của Nam.	1.0
 b5d728b3167e	không phải con hổ có bốn chân	1.0
@@ -393,6 +399,7 @@ c15540325eb9	Cái bàn	1.0
 c1efb79b2caa	Ba huyền làm nghề gì?	0.8
 c2698b281707	cua đá	1.0
 c312c8804887	quyền sách ở trên cái bàn.	0.83
+c36dfcde9fef	Mìa?	0.0
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
 c512b4811351	Chú tôi trẻ lắm	1.0
 c517fad6aa86	Thuyền của cậu to hơn thuyền của tớ	1.0
@@ -425,6 +432,7 @@ d3ef61ed89a2	Cậu có thích mua không?	0.8
 d4de7cb6ec9a	Lọ hoa ở đâu?	1.0
 d52628c9e3d9	Không phải, đây là quả táo	1.0
 d5a21dd6a3d0	Bác ấy làm việc ở bệnh viện.	1.0
+d62e97305951	Con nhặt rau giúp mẹ được không?	1.0
 d65d3fa2e5b2	Em Linh, rất xinh	1.0
 d708e2d5212c	Chị gái em, thế nào?	1.0
 d815269b50f5	Hôm nay là ngày 1.	1.0
@@ -436,6 +444,7 @@ da82d0d294f5	Bạn thích quảng khăn màu gì?	0.83
 dac0f241439a	Các chú ấy có phải là thợ xây không?	1.0
 dbc05c21f45c	trong phòng làm việc có một cái bàn, một cái máy tính và một cái ghế.	1.0
 dc945415cb52	Quyền vở màu trắng có to không?	0.86
+dce1f40d5fdf	Mũ đỏ	1.0
 dd1aacf6d4f5	Mai thích mặc váy màu cam, đội mũ màu vàng	0.4
 dd752297ff44	một quyển màu trắng, một quyển màu vàng.	1.0
 de449d320a61	Cái bàn nhỏ có cao không?	1.0
@@ -466,6 +475,7 @@ edecd070ebf1	Của sầu bông hoa	0.5
 eeedae5985a4	Có, không, tôi thích, không thích, chạy	1.0
 ef72781f7644	Cô ấy là thợ may.	1.0
 ef8df959a24c	Tôi biết đọc	1.0
+f02c1395dc7c	Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm	1.0
 f0429362a5d3	Con gấu đang đọc sách	1.0
 f083de3e185c	Không, trong phòng khách không có tủ lạnh	1.0
 f12c0eec3df7	Bút chỉ màu vàng có dai không?	0.71

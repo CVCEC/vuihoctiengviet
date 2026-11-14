@@ -62,3 +62,15 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Thu đang giặt quần áo.  |  Thu đang giặt quần áo.
 1.00  Con giặt quần áo giúp bố được không?  |  Con giặt quần áo giúp bố được không?
 0.88  Con lau bát đĩa giúp mẹ được không?  |  Còn lau bát đĩa giúp mẹ được không?
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 20 câu không cắt được, chia đôi để đọc lại
+1.00  Tâm đang cho mèo ăn.  |  Tâm đang cho mèo ăn
+0.86  Đi mưa, cô Mơ đã có dù.  |  Đi mưa, cô mơ đã có rù
+0.80  Liên đang rửa cốc chén.  |  Liên đang rửa cúc chén.
+1.00  Được ạ. Con lau bát đĩa được.  |  Được ạ! Con lau bát đĩa được!
+1.00  Con không giúp bố được ạ. Con không biết nấu cơm.  |  Con không giúp bố được ạ. Con không biết nấu cơm.
+1.00  Được ạ. Con giặt quần áo được.  |  Được ạ, con giặt quần áo được.
+0.00  mía  |  Mìa?
+1.00  Con nhặt rau giúp mẹ được không?  |  Con nhặt rau giúp mẹ được không?
+1.00  mũ đỏ  |  Mũ đỏ
+1.00  Phải. Mẹ đang rửa rau. / Không phải. Mẹ đang nấu cơm.  |  Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm
