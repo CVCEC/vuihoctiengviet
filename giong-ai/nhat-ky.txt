@@ -74,3 +74,13 @@ Lô 20 câu không cắt được, chia đôi để đọc lại
 1.00  Con nhặt rau giúp mẹ được không?  |  Con nhặt rau giúp mẹ được không?
 1.00  mũ đỏ  |  Mũ đỏ
 1.00  Phải. Mẹ đang rửa rau. / Không phải. Mẹ đang nấu cơm.  |  Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm
+0.00  mưa  |  Mỡ
+1.00  Con không giúp mẹ được ạ. Con không biết nấu cơm.  |  Con không giúp mẹ được ạ, con không biết nấu cơm
+0.50  nô đùa  |  Nó đùa.
+1.00  Ai hiền nhất?  |  Ai hiền nhất
+0.67  Còn mẹ bạn?  |  Con mẹ bạn
+0.75  Bạn Hà thế nào?  |  Bạn Ha thế nào?
+0.80  Bạn Hùng khá thân thiện.  |  Bạn Hùng khá thân thiệt
+1.00  Dì Lê đưa bé Ly đi bộ.  |  Dì Lê đưa bé Ly đi bộ
+0.80  Đây là dì của em.  |  Đây là gì của em?
+1.00  Đây là em họ của em.  |  Đây là em họ của em
