@@ -1,5 +1,6 @@
 ma	nghe	diem
 0028372d64b2	Anh Dũng đang bơi	1.0
+003b022d9872	Con không giúp bố được ạ Con không biết tưới cây	1.0
 00c335d4c04c	Tàu thủy hay thuyền nặng hơn	1.0
 00d5551bc6e4	cây na, cổ, mỷ, quả	0.6
 013423fa7f4a	Phải, cây dừa này cao	1.0
@@ -12,16 +13,20 @@ ma	nghe	diem
 044cdea3ac33	Xe đạp rẻ hơn ô tô	1.0
 052d2ebd54d6	Đây là con mèo	1.0
 063595077320	tàu thủy và thuyền, cái nào nặng hơn?	1.0
+0668594a6f41	Mẹ đang rửa rau, phải không?	1.0
 06a0ed4d7bfb	có chiến hình vua	0.5
 06f7295177df	phải không phải Đây là quả táo cam	1.0
 070ab109b3d7	cây na có bậy quả	0.8
 077ed8f8aca7	Bạn thích đội mũ màu gì?	1.0
 0856d72d4a27	Đây là chị họ của tớ.	1.0
 087759336691	Bạn thích mặc quần mù gì?	0.83
+08825b311251	Được ạ, con cho mèo ăn được	1.0
 0a74a26df9f7	Hình vuông mưu zi	0.5
+0ac9e65fe35e	Mẹ đang làm gì?	1.0
 0f402eb38217	Có bao nhiêu hình tròn?	1.0
 0fe4e46add9a	Chị gái em rất chăm chỉ	1.0
 0ff478a35225	Hôm nay là ngày 19.	1.0
+1097687d06b3	Mẹ đăng nũ cơm	0.5
 10e5ecb4f7ee	Bà ấy có phải là thợ may không?	1.0
 111c252c0cde	Tôi thích đội mũ màu vàng.	1.0
 11805554308d	cây dừa có 6 quả.	1.0
@@ -300,6 +305,7 @@ a23f8e623d5f	Hình vuông, màu gì?	1.0
 a2cea2b67660	Bạn thích đi tất màu gì?	1.0
 a2cf0cfc51eb	Có hai quyền vợ	0.5
 a375c9785824	Con gà đang làm gì?	1.0
+a4242cb356a8	Đĩa cá có đũa	1.0
 a491ae514efe	Bạn thích đi giày màu gì?	1.0
 a4c6e2323320	Phải, gãy hủy này nâng	0.4
 a547b0f32ff0	Con mèo có mấy chân?	1.0
@@ -316,6 +322,7 @@ a8df083954e2	Tủ màu xanh hay tủ màu nâu nặng hơn	1.0
 a8ef680dfdaa	Bệnh viện ở đâu?	1.0
 a9c9b5877b9c	xe buýt và ô tô con xe nào to hơn	1.0
 a9d5f8f78414	Đồng hồ ở đâu?	1.0
+aa6e7475026d	trong phòng làm việc có gì?	1.0
 aabf48009f26	Đây là cây khế phải không?	1.0
 aae4cecc783d	con mèo ở bên cạnh cái ghế.	1.0
 ac5f31fd34e8	có một hình chữ nhật.	1.0
@@ -325,6 +332,7 @@ adf5a734912f	Không phải! Đây là quả dừa!	1.0
 aee03c915f9f	Phải, đây là quả bưởi	1.0
 af3e06fcc655	Có 10 hình tròn	1.0
 af43eace753d	Em họ em rất dễ thương	1.0
+afa4e3d8d420	Trong phòng ăn, có gì?	1.0
 b1edcaa1c0f6	Đây là gì tôi?	0.75
 b1feaca4ecd6	Em gái em thế nào?	1.0
 b22730b39559	Ông ấy là bác sĩ	1.0
@@ -342,6 +350,7 @@ b658160e8b05	Không! Ông ấy không phải là kỹ sư.	0.88
 b6d97a51e28a	xe buýt và ô tô con xe nào nhỏ hơn	1.0
 b7e07b63157f	Cái bàn này thấp	1.0
 b7e106a145b7	Chào chào tí mạc!	0.25
+b9b071e6d114	Không, trong phòng ăn không có tù bếp	0.88
 b9d38f777050	phải, không phải, cây cam có 8, 10 quả	1.0
 b9ebdfc707c9	huyển xanh	0.0
 bae80f9e149d	Hình tròn màu gì?	1.0
@@ -350,8 +359,10 @@ bb2628c8c627	Cô ấy có phải là cảnh sát không?	1.0
 bb5c930d386d	Con mèo đang ngủ	1.0
 bc2bda9d7913	chi	0.0
 bc68b3dfbefa	Cái bàn này dài!	1.0
+bce0f7a41ad3	Trong phòng ngủ có một cái giường, một cái ghế và một cái tủ quần áo	1.0
 bcf2272b4ac6	hình tam giác màu vàng.	1.0
 bd359725801e	Anh ấy là bác sĩ.	1.0
+be3b10af4ac0	trong phòng khách có tủ lạnh, phải không?	1.0
 be4a49bb0c3d	Không phải. Đây là cây bưởi.	1.0
 be83859384ec	Bạn thích mặc áo màu gì?	1.0
 beacc60162fd	Không phải, đây là quả mít.	1.0
@@ -360,17 +371,20 @@ c028cf03cc31	Ông	1.0
 c1541c460b34	Go!	0.0
 c15540325eb9	Cái bàn	1.0
 c1efb79b2caa	Ba huyền làm nghề gì?	0.8
+c2698b281707	cua đá	1.0
 c312c8804887	quyền sách ở trên cái bàn.	0.83
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
 c512b4811351	Chú tôi trẻ lắm	1.0
 c517fad6aa86	Thuyền của cậu to hơn thuyền của tớ	1.0
 c5444e59c095	hình chữ nhật, màu xanh	1.0
+c54bdcba5e0e	Lú lú	0.0
 c5c027830daf	Cô Na rất đẹp	1.0
 c5d04041620e	Cô Hoa làm nghề gì?	1.0
 c6c7bf634859	quyển sách màu đỏ nặng	0.91
 c6c8f63a500b	Tôi thích đội mũ màu đỏ	1.0
 c6d0c317cd6a	Con thỏ này to, phải không?	1.0
 c6df7f97f14b	Cái ghế này nặng, phải không?	1.0
+c83702e452b5	Trong phòng ăn có một bộ bàn ăn và một cái tủ lạnh	1.0
 c8f8a4b6942b	Có hai cài gửi	0.5
 c9506ef3c12c	Con khỉ có 4 tai, phải không?	1.0
 ca0dd79f6419	ô tô con hay xe buýt to hơn	1.0
@@ -400,6 +414,7 @@ d8a96fe83d05	Cái ghĩ ở sau bàn	0.8
 d90262cff195	Đúng, cô ấy là cảnh sát	1.0
 da82d0d294f5	Bạn thích quảng khăn màu gì?	0.83
 dac0f241439a	Các chú ấy có phải là thợ xây không?	1.0
+dbc05c21f45c	trong phòng làm việc có một cái bàn, một cái máy tính và một cái ghế.	1.0
 dc945415cb52	Quyền vở màu trắng có to không?	0.86
 dd1aacf6d4f5	Mai thích mặc váy màu cam, đội mũ màu vàng	0.4
 dd752297ff44	một quyển màu trắng, một quyển màu vàng.	1.0
@@ -409,6 +424,7 @@ e03cf83bee4a	Tù mù xanh, cao hôn tù mù nấu	0.25
 e042fcd0781a	ô tô màu vàng hay ô tô màu đỏ rẻ hơn.	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
+e1a5ae8b8374	trong phòng ăn có tủ bếp phải không?	1.0
 e2aa7d1d85eb	Đây là mẹ của Nam.	1.0
 e60e4b921d42	Bạn có thích chạy không?	1.0
 e612ccdb63a8	Tôi thích mặc quần màu tím	1.0
@@ -419,6 +435,7 @@ e782827f30b3	Ông ấy có phải là kỹ sư không?	0.88
 e88060b61be2	Có hai hình tam giác	1.0
 ea329e061429	Hình này là hình vuông	1.0
 ea3b931bb78c	Chào chào chú à!	0.5
+ea75578dbf09	trong phòng khách có gì?	1.0
 eb3a824a4da0	Bố tôi rất khỏe	1.0
 ebbf07f9816c	Các bạn ấy đang mua	0.8
 ec23a05bd41b	Con khỉ đang chơi	1.0
@@ -430,6 +447,7 @@ eeedae5985a4	Có, không, tôi thích, không thích, chạy	1.0
 ef72781f7644	Cô ấy là thợ may.	1.0
 ef8df959a24c	Tôi biết đọc	1.0
 f0429362a5d3	Con gấu đang đọc sách	1.0
+f083de3e185c	Không, trong phòng khách không có tủ lạnh	1.0
 f12c0eec3df7	Bút chỉ màu vàng có dai không?	0.71
 f17f03958c35	có hai hình tròn	1.0
 f2637556a7b5	Cái bàn này thế nào?	1.0
@@ -439,6 +457,7 @@ f3fc9461ae35	Của Không Tự thích Không thích mua	0.57
 f4297c64667a	Đây là con gà	1.0
 f53721e2aacc	Chị Tâm rất chăm chỉ.	1.0
 f5635c5fcee4	Quả bóng ở đâu?	1.0
+f5d06b5f2bac	Zù đà	0.0
 f6646e55eb5c	Tôi thích mặc ảo màu cam	0.83
 f86ee2b517b5	Con chó ở dưới bàn	1.0
 f981aea15dfe	Ân ngoại	0.5
@@ -449,6 +468,7 @@ fc63f0c31fd6	Con vịt đang làm gì?	1.0
 fc7c3fd8baa3	Phải, đây là quả chuối	1.0
 fcaa14e2034f	Có mấy hình tròn	1.0
 fccac4f843d0	Không! Các chú ấy không phải là thợ xây.	1.0
+fd2627992d0e	trong phòng khách có TV phải không?	0.67
 fd455edd04e6	Các chú ấy làm nghề gì?	1.0
 ff20a20a0c85	Mai thích mặc phẩy màu hồng hoặc màu điểm	0.67
 ff347a5ee3ef	Phải. Đây là cây mít.	1.0
