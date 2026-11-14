@@ -71,6 +71,7 @@ ma	nghe	diem
 2a66b3148fd1	Bạn Liên hơi gầy, ốm	1.0
 2b93c3934ffc	Hình này là hình tròn	1.0
 2c5ef27d5bb3	Đây là cây na phải không?	1.0
+2c70ca943f63	Không. Trong phòng bếp không có bàn ăn. Bàn ăn ở trong phòng ăn.	1.0
 2c718c645886	Em Hoàng đang viết	1.0
 2cb31e7c53a3	có 3 hình chữ nhật	1.0
 2ded6a9a7c4a	Đây là anh tôi.	1.0
@@ -89,18 +90,22 @@ ma	nghe	diem
 352a48396809	Tôi biết mua	0.67
 356c8e4bb935	Cái bàn này dài, phải không?	1.0
 362ccb9685ff	Đây là quả cam, phải không?	1.0
+36c53690a360	Cả đĩa	0.5
 37d9f979371d	Anh trai em rất vui vẻ	1.0
 382d98a1e242	Đây là con hồ	0.75
 38f1bed0611b	Cảnh hưởng này thế nào?	0.6
 39038095bf6a	con voi này tớ	0.75
+3b87cf0f26d3	Trong phòng khách có một bộ bàn ghế, một cái TV và một bức tranh	0.9
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
 3e1905e73c74	Đây là em tôi	1.0
 3e741c3897da	Chú em, rất thân thiện	1.0
+3ed5ad1f653a	Đũa	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
 40451f61bdac	Đúng, bạn ấy là học sinh	1.0
 40cd199287bc	Con gấu đang làm gì?	1.0
 41936af84d54	Phải, đây là cây khế	1.0
 424258feb195	Cô ấy có phải là giáo viên không?	1.0
+42a9e1967992	Không, trong phòng làm việc không có tủ quần áo.	1.0
 42ab0798242a	Hôm nay là chủ nhật	1.0
 4404a17a0f62	Tàu thủy nhanh hơn thuyền	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
@@ -154,6 +159,7 @@ ma	nghe	diem
 5e56f64b88ef	Bạn có biết viết không?	1.0
 5e9d70a97026	Đây là cây mít, phải không?	1.0
 5ec870c71a0a	Đây là cây táo, phải không?	1.0
+5edbe510eb75	gì có đu đủ	0.75
 5f66420f5fb8	Không phải, cây cam có 10 quả	1.0
 5fcf02fd587f	Đây là bố của Nam	1.0
 5fdaa1c271fb	tâu thủy và thuyền. Cái nào nhẹ hơn?	0.88
@@ -202,11 +208,13 @@ ma	nghe	diem
 756956b4af73	cháu chào dụng ạ	0.75
 75db4a5da700	Con mèo có hai mắt	1.0
 75f26494d6b1	Có mỹ quà táo	0.5
+760cd179e0f9	Cô có đĩa cá?	1.0
 762207d30f4c	Có, tôi biết viết	1.0
 768cb132f57f	Anh	1.0
 76978f05e01a	Nam học ở trường Nguy Sao	0.83
 77d1536aeff8	Đây là ai?	1.0
 78e5c5a283ac	Con sóc đang múa	1.0
+79fd54506e8f	Trong phòng bếp có một cái bếp, một cái tủ bếp và một cái tủ lạnh	1.0
 7ac35d3c1b68	bà em rất hiền	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
 7bf3c77526d4	Tôi thích đi tết màu nâu	0.83
@@ -216,6 +224,7 @@ ma	nghe	diem
 7ddc9ef1a6ea	trường Nam, ở xa hay gần nhà Nam?	1.0
 7e37183d7482	Bệnh viện ở đối diện ngôi nhà màu đỏ.	1.0
 7e67f0abec68	trường ngôi sao đối diện bệnh viện mắt, phải không?	1.0
+7e792b471a14	Không, trong phòng ngủ không có TV	0.8
 7f6e14cd8951	Bạn có thích hát không?	1.0
 7fcaeabd6b9d	Tôi thích mặc áo màu vàng	1.0
 7fd4d0e4f377	Gãi đủ	0.0
@@ -257,6 +266,7 @@ ma	nghe	diem
 93928f0626d5	Hình vuông màu tím	1.0
 93b253c0be67	Đây là con thỏ	1.0
 93b42ca6f73a	Cô ấy là cảnh sát	1.0
+93bf528fdd0c	trong phòng ngũ có dĩ	0.6
 93ce7fee32c3	Chú của cậu làm nghề gì?	1.0
 93f05b662684	Chào chào dì ạ!	0.75
 94bde15a2ada	Cô Hằng làm nghề gì?	1.0

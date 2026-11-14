@@ -10,3 +10,13 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Trong phòng làm việc có tủ quần áo, phải không?  |  trong phòng làm việc có tủ quần áo, phải không?
 1.00  Trong phòng bếp có gì?  |  Trong phòng bếp có gì?
 1.00  Trong phòng bếp có bàn ăn, phải không?  |  trong phòng bếp có bàn ăn, phải không?
+1.00  Không, trong phòng bếp không có bàn ăn. Bàn ăn ở trong phòng ăn.  |  Không. Trong phòng bếp không có bàn ăn. Bàn ăn ở trong phòng ăn.
+0.50  cá đĩa  |  Cả đĩa
+0.90  Trong phòng khách có 1 bộ bàn ghế, 1 cái ti vi và 1 bức tranh.  |  Trong phòng khách có một bộ bàn ghế, một cái TV và một bức tranh
+1.00  đũa  |  Đũa
+1.00  Không, trong phòng làm việc không có tủ quần áo.  |  Không, trong phòng làm việc không có tủ quần áo.
+0.75  Dì có đu đủ.  |  gì có đu đủ
+1.00  Cô có đĩa cá.  |  Cô có đĩa cá?
+1.00  Trong phòng bếp có 1 cái bếp, 1 cái tủ bếp và 1 cái tủ lạnh.  |  Trong phòng bếp có một cái bếp, một cái tủ bếp và một cái tủ lạnh
+0.80  Không, trong phòng ngủ không có ti vi.  |  Không, trong phòng ngủ không có TV
+0.60  Trong phòng ngủ có gì?  |  trong phòng ngũ có dĩ
