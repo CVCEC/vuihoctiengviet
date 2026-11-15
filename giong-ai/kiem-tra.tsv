@@ -112,6 +112,8 @@ ma	nghe	diem
 2f9988c92997	Không phải, đây là cây chuối	1.0
 308eb3faf0cf	Em chào chị.	1.0
 30d9c0309eb5	Con thỏ có mấy chân?	1.0
+30ea32df679a	tớ ít khi đi du lịch tớ đi bơi, học võ, học đàn	1.0
+31040db369cf	Vũng Tàu đẹp chứ!	1.0
 3328111f0633	Phòng bếp ở đâu?	1.0
 3390b0303d9a	cái đèn ở trên cái bàn.	1.0
 33a54c5a2349	Có bao nhiêu hình tam giác?	1.0
@@ -125,6 +127,7 @@ ma	nghe	diem
 382d98a1e242	Đây là con hồ	0.75
 38f1bed0611b	Cảnh hưởng này thế nào?	0.6
 39038095bf6a	con voi này tớ	0.75
+39a1dfad093f	Bạn có thích thời tiết mùa này không?	1.0
 3ad8a055345d	Ngày mai trời có ẩm không?	0.83
 3af980eda2b9	Dũng đang quét giọn	0.75
 3b479fd31d83	Còn túi cây giúp bố được không?	0.71
@@ -214,6 +217,7 @@ ma	nghe	diem
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
 62bce3a338d7	O tô màu vàng đẹp hơn o tô màu đỏ, nhưng o tô màu đỏ rẻ hơn o tô màu vàng	0.81
+62eb7a3e5741	Hôm nay, thời tiết Tokyo thế nào?	1.0
 62ed782db04c	Phong khách ở đâu?	0.75
 6324be59dc97	Con khỉ, đang làm gì?	1.0
 6381326eaba4	ô tô con hay xe buýt nhanh hơn.	1.0
@@ -276,6 +280,7 @@ ma	nghe	diem
 7b4ec0930027	Cô mua cả mũ?	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
 7bf3c77526d4	Tôi thích đi tết màu nâu	0.83
+7bf5f337b257	Nỉ he, cậu thương làm gì?	0.5
 7bf7b17c4dc9	Không phải cái bàn này ngắn.	1.0
 7cb9342b326b	Cửa hàng ở đâu?	1.0
 7d22f7334b27	Đây là gì?	1.0
@@ -296,9 +301,11 @@ ma	nghe	diem
 8379b829587e	Phòng ngủ ở đâu?	1.0
 837a69558526	Nguồn	0.0
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
+84048216769f	Tớ đi tuần trước	1.0
 840c6b15b15a	có hai cái bàn	1.0
 8439fad9298c	Bà bạn thế nào?	1.0
 843ed9d781a7	hình tâm giác mô di	0.4
+84872c1458f0	Bạn thích đi du lịch chứ?	1.0
 84b8168ba6de	Bà ấy là người bán hàng.	1.0
 8511c132570d	Đây là dưỡng của Nam	0.8
 86a6e55effa8	Bạn Tâm rất hiền.	1.0
@@ -442,6 +449,7 @@ bc68b3dfbefa	Cái bàn này dài!	1.0
 bce0f7a41ad3	Trong phòng ngủ có một cái giường, một cái ghế và một cái tủ quần áo	1.0
 bcf2272b4ac6	hình tam giác màu vàng.	1.0
 bd359725801e	Anh ấy là bác sĩ.	1.0
+bdeeeba0bd25	Tớ đi rồi.	1.0
 be3b10af4ac0	trong phòng khách có tủ lạnh, phải không?	1.0
 be4a49bb0c3d	Không phải. Đây là cây bưởi.	1.0
 be83859384ec	Bạn thích mặc áo màu gì?	1.0
@@ -452,6 +460,7 @@ c1541c460b34	Go!	0.0
 c15540325eb9	Cái bàn	1.0
 c1efb79b2caa	Ba huyền làm nghề gì?	0.8
 c2698b281707	cua đá	1.0
+c306a234152a	Bạn sống ở đâu?	1.0
 c312c8804887	quyền sách ở trên cái bàn.	0.83
 c36dfcde9fef	Mìa?	0.0
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
@@ -476,6 +485,7 @@ cce8a6bfffaf	Cây dừa có mấy quả	1.0
 cdf96d9a1966	Chị ấy làm việc ở đâu?	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
 cf09f5bc5ad9	Đây là em họ của Nam.	1.0
+cfa914a080fe	Bạn đi vũng tàu vào mùa đông à?	1.0
 d0c1e5558324	Hôm nay là ngày 5	0.8
 d0c294bae4b9	Chị Tâm thế nào?	1.0
 d112cc200722	Bạn liên thế nào?	1.0
@@ -554,6 +564,7 @@ f5d06b5f2bac	Zù đà	0.0
 f63fa7e253af	Bạn hoa, rất dễ thương!	1.0
 f6646e55eb5c	Tôi thích mặc ảo màu cam	0.83
 f740e96a5489	Bà đang quét dọn. Hai cháu quét giúp bà được không?	1.0
+f7d9e6073052	Bây giờ ở Tokyo bao nhiêu độ?	1.0
 f86ee2b517b5	Con chó ở dưới bàn	1.0
 f904960fd34a	Mẹ tử rất hiền	0.75
 f981aea15dfe	Ân ngoại	0.5

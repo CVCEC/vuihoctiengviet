@@ -10,4 +10,8 @@ const AM_AI = {"Kore|Hôm nay, trời thế nào?":"../../am-ai/3ba6d2521bed.mp3
 "Kore|Không. Ngày mai có bão.":"../../am-ai/2e293e3afcc2.mp3",
 "Kore|Bờ hồ có nho, có na, có khế.":"../../am-ai/46691d4a026f.mp3",
 "Kore|khế":"../../am-ai/65723cd29339.mp3",
-"Kore|chè":"../../am-ai/14d26b9dd530.mp3"};
+"Kore|chè":"../../am-ai/14d26b9dd530.mp3",
+"Puck|Bạn sống ở đâu?":"../../am-ai/c306a234152a.mp3",
+"Puck|Hôm nay thời tiết Tokyo thế nào?":"../../am-ai/62eb7a3e5741.mp3",
+"Puck|Bây giờ ở Tokyo bao nhiêu độ?":"../../am-ai/f7d9e6073052.mp3",
+"Puck|Bạn có thích thời tiết mùa này không?":"../../am-ai/39a1dfad093f.mp3"};

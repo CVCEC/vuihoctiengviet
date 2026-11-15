@@ -62,3 +62,14 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.75  Bờ hồ có nho, có na, có khế.  |  Bờ hù có nho, có na, có khỉ
 0.00  khế  |  hỡi
 1.00  Hôm nay, có gió nhẹ.  |  Hôm nay, có gió nhẹ
+1.00  Bạn có thích thời tiết mùa này không?  |  Bạn có thích thời tiết mùa này không?
+1.00  Hôm nay thời tiết Tokyo thế nào?  |  Hôm nay, thời tiết Tokyo thế nào?
+1.00  Bạn sống ở đâu?  |  Bạn sống ở đâu?
+1.00  Bây giờ ở Tokyo bao nhiêu độ?  |  Bây giờ ở Tokyo bao nhiêu độ?
+1.00  Vũng Tàu đẹp chứ?  |  Vũng Tàu đẹp chứ!
+1.00  Bạn thích đi du lịch chứ?  |  Bạn thích đi du lịch chứ?
+1.00  Bạn đi Vũng Tàu vào mùa đông à?  |  Bạn đi vũng tàu vào mùa đông à?
+1.00  Tớ đi tuần trước.  |  Tớ đi tuần trước
+1.00  Tớ đi rồi.  |  Tớ đi rồi.
+1.00  Tớ ít khi đi du lịch. Tớ đi bơi, học võ, học đàn.  |  tớ ít khi đi du lịch tớ đi bơi, học võ, học đàn
+0.50  Nghỉ hè, cậu thường làm gì?  |  Nỉ he, cậu thương làm gì?
