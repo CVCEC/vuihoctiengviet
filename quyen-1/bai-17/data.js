@@ -7,7 +7,7 @@ const NOI = [
   ['trường học', 'n-truong-hoc', 'tn-truong-hoc', 'Giáo viên và học sinh ở đâu? – Họ ở trường học.']
 ];
 const MEO = ['trong hộp', 'ngoài hộp', 'trên hộp', 'dưới hộp', 'trước hộp', 'sau hộp', 'bên cạnh hộp', 'đối diện hộp'];
-const VAI = { 'Dũng': { av: 'img/av-dung.webp', mau: '#3E9B5F' }, 'Nam': { av: 'img/av-nam.webp', mau: '#3C78C8' } };
+const VAI = { 'Dũng': { av: 'img/av-dung.webp', mau: '#30784A' }, 'Nam': { av: 'img/av-nam.webp', mau: '#336BB5' } };
 const LOI = [
   { ai: 'Dũng', c: 'Nam ơi, em học ở đâu?', am: A + 'ht-1.mp3' },
   { ai: 'Nam', c: 'Dạ, em học ở Trường Ngôi Sao.', am: A + 'ht-2.mp3' },

@@ -54,7 +54,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn A', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-a.webp', moTa: 'Mai chào má trước khi đi học',
-          vai: { 'Mai': { av: I + 'av-mai.webp', mau: '#E0577A' }, 'Má': { av: I + 'av-ma.webp', mau: '#3E9B5F' } },
+          vai: { 'Mai': { av: I + 'av-mai.webp', mau: '#CA254F' }, 'Má': { av: I + 'av-ma.webp', mau: '#30784A' } },
           loi: [
             { ai: 'Mai', c: 'Má ơi, bây giờ là mấy giờ ạ?', am: A + 'a1.mp3' },
             { ai: 'Má', c: 'Bây giờ là 6 giờ 25 phút.', am: A + 'a2.mp3' },
@@ -70,7 +70,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn B', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-b.webp', moTa: 'Mai, Liên và Nam nói chuyện về giờ dậy của ông',
-          vai: { 'Mai': { av: I + 'av-mai-b.webp', mau: '#E0577A' }, 'Liên': { av: I + 'av-lien.webp', mau: '#D9822B' }, 'Nam': { av: I + 'av-nam.webp', mau: '#3C78C8' } },
+          vai: { 'Mai': { av: I + 'av-mai-b.webp', mau: '#CA254F' }, 'Liên': { av: I + 'av-lien.webp', mau: '#9C5C1C' }, 'Nam': { av: I + 'av-nam.webp', mau: '#336BB5' } },
           loi: [
             { ai: 'Mai', c: 'Ở nhà, chị thường dậy lúc mấy giờ?', am: A + 'b1.mp3' },
             { ai: 'Liên', c: 'Chị thường dậy lúc 6 giờ.', am: A + 'b2.mp3' },

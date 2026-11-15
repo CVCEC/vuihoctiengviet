@@ -33,7 +33,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – A', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-a.webp', moTa: 'Nam nghĩ đến xem phim, đi công viên; Dũng nghĩ đến vịnh Hạ Long',
-          vai: { 'Dũng': { av: H + 'av-dung.webp', mau: '#3E9B5F' }, 'Nam': { av: H + 'av-nam.webp', mau: '#3C78C8' } },
+          vai: { 'Dũng': { av: H + 'av-dung.webp', mau: '#30784A' }, 'Nam': { av: H + 'av-nam.webp', mau: '#336BB5' } },
           loi: [
             { ai: 'Dũng', c: '– Mùa hè, em thích làm gì?', am: A + 'ht-a1.mp3' },
             { ai: 'Nam', c: '– Em thích đi xem phim, đi công viên. Còn anh?', am: A + 'ht-a2.mp3' },
@@ -49,7 +49,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – B', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-b.webp', moTa: 'Mai kể với chị Liên về siêu thị Nhật',
-          vai: { 'Mai': { av: H + 'av-mai.webp', mau: '#E0577A' }, 'Liên': { av: H + 'av-lien.webp', mau: '#D9822B' } },
+          vai: { 'Mai': { av: H + 'av-mai.webp', mau: '#CA254F' }, 'Liên': { av: H + 'av-lien.webp', mau: '#9C5C1C' } },
           loi: [
             { ai: 'Mai', c: '– Chị Liên ơi, chị đã đi siêu thị Nhật chưa?', am: A + 'ht-b1.mp3' },
             { ai: 'Liên', c: '– Chị chưa đi. Siêu thị đó thế nào?', am: A + 'ht-b2.mp3' },

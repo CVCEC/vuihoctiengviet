@@ -15,7 +15,7 @@
 .dc-cau{flex:1;min-width:0;display:flex;flex-direction:column;gap:10px}
 .dc-p{margin:0;font-size:clamp(19px,4vw,24px);line-height:2;font-weight:700}
 .dc-ic{height:1.7em;width:auto;vertical-align:middle;margin:0 2px}
-.dc-o{display:inline-flex;align-items:center;gap:6px;min-width:84px;justify-content:center;vertical-align:middle;border:0;border-bottom:3px dashed #B7AC9E;background:#FFF7E6;border-radius:10px 10px 4px 4px;padding:0 10px;margin:0 3px;font:inherit;font-size:.9em;line-height:1.6;color:var(--ink);cursor:pointer;min-height:40px}
+.dc-o{display:inline-flex;align-items:center;gap:6px;min-width:84px;justify-content:center;vertical-align:middle;border:0;border-bottom:3px dashed #7D6F5D;background:#FFF7E6;border-radius:10px 10px 4px 4px;padding:0 10px;margin:0 3px;font:inherit;font-size:.9em;line-height:1.6;color:var(--ink);cursor:pointer;min-height:40px}
 .dc-o.on{outline:3px solid var(--straw);background:#FFF1D6}
 .dc-o.co{border-bottom-color:var(--ok);background:var(--ok-bg)}
 .dc-o .sw{width:18px;height:18px;border-radius:50%;border:2px solid rgba(0,0,0,.2);flex:none}

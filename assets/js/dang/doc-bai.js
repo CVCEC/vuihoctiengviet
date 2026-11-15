@@ -8,7 +8,7 @@
 @media (max-width:620px){.db{grid-template-columns:1fr}}
 .db-img{width:100%;border-radius:14px;border:2px dashed #E9B8C7;background:#fff}
 .db-txt{background:#FFF7E6;border-radius:16px;padding:14px 16px;box-shadow:inset 0 0 0 2px #F6E3B8}
-.db-txt h4{margin:0 0 8px;text-align:center;font-size:22px;color:#2E7D4F}
+.db-txt h4{margin:0 0 8px;text-align:center;font-size:22px;color:#2B7449}
 .db-p{font-size:clamp(21px,4.4vw,26px);line-height:1.65;margin:0;text-indent:1.4em}
 .db-s{padding:2px 1px;border-radius:6px;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone;outline:none}
 .db-s:focus-visible{box-shadow:0 0 0 2px var(--straw)}

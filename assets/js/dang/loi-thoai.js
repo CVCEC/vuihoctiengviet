@@ -31,7 +31,7 @@
 `;
     document.head.append(st);
   }
-  const MAU = ['#E0577A', '#3C78C8', '#3E9B5F', '#D9822B', '#8A5CC2', '#C2457A'];
+  const MAU = ['#CA254F', '#336BB5', '#30784A', '#9C5C1C', '#814FBD', '#B53B6F'];
 
   A.T['loi-thoai'] = function (ex, ctx) {
     const vai = ex.vai || {};

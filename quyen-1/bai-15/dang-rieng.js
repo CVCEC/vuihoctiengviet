@@ -29,7 +29,7 @@
 .hq-q.pulse{animation:pulse .8s ease}
 .hq-gio{display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-height:56px;margin-top:10px;padding:8px 10px;border:2px dashed var(--straw);border-radius:16px;background:#FFF7E6}
 .hq-gio>b{font-size:16px;color:var(--ink-2);margin-right:4px}
-.hq-chip{min-width:52px;height:52px;border-radius:50%;border:0;background:#E5484D;color:#fff;font:inherit;font-weight:700;font-size:22px;cursor:pointer;padding:0 8px;box-shadow:0 2px 0 rgba(0,0,0,.15)}
+.hq-chip{min-width:52px;height:52px;border-radius:50%;border:0;background:#DD1F25;color:#fff;font:inherit;font-weight:700;font-size:22px;cursor:pointer;padding:0 8px;box-shadow:0 2px 0 rgba(0,0,0,.15)}
 .hq-chip.playing{outline:3px solid var(--straw)}
 `;
     document.head.append(st);

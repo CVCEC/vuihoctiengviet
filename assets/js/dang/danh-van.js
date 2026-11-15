@@ -8,21 +8,21 @@
 .dv-pic{border:0;background:transparent;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px;font:inherit;color:var(--ink)}
 .dv-pic img{width:100%;max-width:200px;aspect-ratio:4/3;object-fit:contain}
 .dv-word{font-size:30px;font-weight:700;line-height:1.1}
-.dv-word .on{color:#E0577A}
+.dv-word .on{color:#CA254F}
 .dv-tab{display:grid;grid-template-columns:1fr 1fr;border-radius:8px;overflow:hidden;font-weight:700;font-size:22px;text-align:center}
 .dv-tab > div{min-height:36px;display:flex;align-items:center;justify-content:center;transition:background .25s, transform .25s}
 .dv-tone{grid-column:1 / -1;background:#FFF6CF;display:grid !important;grid-template-columns:1fr 1fr}
-.dv-tone span{display:flex;align-items:flex-end;justify-content:center;font-size:30px;line-height:1;color:#E0577A;height:36px}
-.dv-am{background:#FBD9DE;color:#C2185B}
-.dv-van{background:#D8EEDB;color:#2E7D4F}
-.dv-tieng{grid-column:1 / -1;background:#DCE7FA;color:#C2185B}
+.dv-tone span{display:flex;align-items:flex-end;justify-content:center;font-size:30px;line-height:1;color:#CA254F;height:36px}
+.dv-am{background:#FBD9DE;color:#BD1759}
+.dv-van{background:#D8EEDB;color:#2B7449}
+.dv-tieng{grid-column:1 / -1;background:#DCE7FA;color:#BD1759}
 .dv-tab .lit{box-shadow:inset 0 0 0 3px var(--straw);transform:scale(1.03);position:relative;z-index:1}
 .dv-tab .muted{color:transparent}
 .dv-doc{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:2px;border:2px solid #E9B8C7;border-radius:10px;padding:6px}
-.dv-doc button{border:0;background:transparent;font:inherit;font-size:19px;padding:4px 6px;border-radius:8px;cursor:pointer;color:#B7AC9E;min-height:36px}
+.dv-doc button{border:0;background:transparent;font:inherit;font-size:19px;padding:4px 6px;border-radius:8px;cursor:pointer;color:#7D6F5D;min-height:36px}
 .dv-doc button.done{color:var(--ink)}
 .dv-doc button.lit{background:#FFF1D6;color:var(--ink)}
-.dv-doc i{font-style:normal;color:#B7AC9E;margin-right:2px}
+.dv-doc i{font-style:normal;color:#7D6F5D;margin-right:2px}
 .dv-st{display:inline-flex;align-items:center;white-space:nowrap}
 .dv-go{align-self:center}
 .dv-card.ok{border-style:solid;border-color:var(--ok)}

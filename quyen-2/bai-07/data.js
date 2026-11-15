@@ -35,7 +35,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – A', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-a.webp', moTa: 'Nam và Mai đọc cẩm nang du lịch: tắm biển, cắm trại',
-          vai: { 'Nam': { av: H + 'av-nam.webp', mau: '#3C78C8' }, 'Mai': { av: H + 'av-mai.webp', mau: '#E0577A' } },
+          vai: { 'Nam': { av: H + 'av-nam.webp', mau: '#336BB5' }, 'Mai': { av: H + 'av-mai.webp', mau: '#CA254F' } },
           loi: [
             { ai: 'Nam', c: '– Bạn thích tắm biển à?', am: A + 'ht-a1.mp3' },
             { ai: 'Mai', c: '– Tớ thích lắm. Còn bạn có thích không?', am: A + 'ht-a2.mp3' },
@@ -47,7 +47,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – B', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-b.webp', moTa: 'Gia đình Liên: bà đi chùa, ông ở nhà, bố đi bảo tàng, mẹ đi siêu thị, Liên đi nhà hát',
-          vai: { 'Dũng': { av: H + 'av-dung.webp', mau: '#3E9B5F' }, 'Liên': { av: H + 'av-lien.webp', mau: '#D9822B' } },
+          vai: { 'Dũng': { av: H + 'av-dung.webp', mau: '#30784A' }, 'Liên': { av: H + 'av-lien.webp', mau: '#9C5C1C' } },
           loi: [
             { ai: 'Dũng', c: '– Hôm nay, em đi nhà hát à?', am: A + 'ht-b1.mp3' },
             { ai: 'Liên', c: '– Vâng. Em đi xem hát.', am: A + 'ht-b2.mp3' },

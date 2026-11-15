@@ -14,8 +14,8 @@ const LICH = {
   ]
 };
 const VAI = {
-  'Cô giáo': { mau: '#D9822B' }, 'Nam': { mau: '#3C78C8' }, 'Hương': { mau: '#E0577A' },
-  'Vũ': { mau: '#3E9B5F' }, 'Lê': { mau: '#8A5CC2' }, 'Mai': { mau: '#C2457A' }
+  'Cô giáo': { mau: '#9C5C1C' }, 'Nam': { mau: '#336BB5' }, 'Hương': { mau: '#CA254F' },
+  'Vũ': { mau: '#30784A' }, 'Lê': { mau: '#814FBD' }, 'Mai': { mau: '#B53B6F' }
 };
 const LOI = [
   { ai: 'Cô giáo', c: 'Hôm nay là thứ mấy?', am: A + 'l01.mp3' },

@@ -58,7 +58,7 @@ const BAI_HOC = {
         {
           id: 'ht1', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại', amLenh: A + 'ht-lenh.mp3',
           hinh: 'img/ht-tranh.webp', moTa: 'Dũng, Mai và Nam ở vườn thú: con voi trong chuồng, đàn vịt dưới ao',
-          vai: { 'Dũng': { mau: '#3E9B5F' }, 'Mai': { mau: '#E0577A' }, 'Nam': { mau: '#3C78C8' } },
+          vai: { 'Dũng': { mau: '#30784A' }, 'Mai': { mau: '#CA254F' }, 'Nam': { mau: '#336BB5' } },
           loi: [
             { ai: 'Dũng', c: 'Đây là con gì?', am: A + 'ht-1.mp3' },
             { ai: 'Mai', c: 'Đây là con vịt.', am: A + 'ht-2.mp3' },
@@ -73,7 +73,7 @@ const BAI_HOC = {
         {
           id: 'ht2', so: 2, loai: 'loi-thoai', lenh: 'Đóng vai, nhắc lại hội thoại trên',
           goiY: 'Chọn “Đóng vai”, rồi chọn Dũng, Mai hoặc Nam. Đến lượt em, em nói to lời của bạn ấy.',
-          vai: { 'Dũng': { mau: '#3E9B5F' }, 'Mai': { mau: '#E0577A' }, 'Nam': { mau: '#3C78C8' } },
+          vai: { 'Dũng': { mau: '#30784A' }, 'Mai': { mau: '#CA254F' }, 'Nam': { mau: '#336BB5' } },
           loi: [
             { ai: 'Dũng', c: 'Đây là con gì?', am: A + 'ht-1.mp3' },
             { ai: 'Mai', c: 'Đây là con vịt.', am: A + 'ht-2.mp3' },

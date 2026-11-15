@@ -11,7 +11,7 @@ const SO_SANH = [
   ['nặng – nhẹ', 'Tàu thuỷ nặng hơn thuyền. Thuyền nhẹ hơn tàu thuỷ.'],
   ['đắt – rẻ', 'Xe máy đắt hơn xe đạp. Xe đạp rẻ hơn xe máy.']
 ];
-const VAI = { 'Sơn': { av: 'img/av-son.webp', mau: '#3C78C8' }, 'Mẹ': { av: 'img/av-me.webp', mau: '#E0577A' } };
+const VAI = { 'Sơn': { av: 'img/av-son.webp', mau: '#336BB5' }, 'Mẹ': { av: 'img/av-me.webp', mau: '#CA254F' } };
 const LOI = [
   { ai: 'Sơn', c: 'Mẹ ơi, ô tô màu vàng hay ô tô màu đỏ đẹp hơn?', am: A + 'ht-1.mp3' },
   { ai: 'Mẹ', c: 'Ô tô màu đỏ đẹp hơn ô tô màu vàng.', am: A + 'ht-2.mp3' },

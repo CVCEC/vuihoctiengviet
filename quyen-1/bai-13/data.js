@@ -1,6 +1,6 @@
 /* Quyển 1 – Bài 13: Cái ghế này có nặng không?  (sách trang 53–57) */
 const A = 'audio/';
-const VAI = { 'Liên': { av: 'img/av-lien.webp', mau: '#E0577A' }, 'Nam': { av: 'img/av-nam.webp', mau: '#3C78C8' } };
+const VAI = { 'Liên': { av: 'img/av-lien.webp', mau: '#CA254F' }, 'Nam': { av: 'img/av-nam.webp', mau: '#336BB5' } };
 const LOI = [
   { ai: 'Liên', c: 'Cái bàn và cái ghế này thế nào?', am: A + 'l01.mp3' },
   { ai: 'Nam', c: 'Bàn cao, ghế thấp.', am: A + 'l02.mp3' },

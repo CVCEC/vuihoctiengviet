@@ -19,7 +19,7 @@
 .ds-hang .ds-o{width:52px;height:52px;border-radius:50%}
 .ds-o{display:grid;place-items:center;font:inherit;font-weight:700;font-size:clamp(15px,3.6vw,20px);min-height:38px;border:2px solid transparent;background:#fff;color:var(--ink);padding:0}
 .ds-o.so{background:var(--bgc,#F6F1E9)}
-button.ds-o{cursor:pointer;border-color:#D9CFC2;border-style:dashed;color:#E0577A;touch-action:manipulation}
+button.ds-o{cursor:pointer;border-color:#D9CFC2;border-style:dashed;color:#CA254F;touch-action:manipulation}
 button.ds-o.sel{border-color:var(--straw);border-style:solid;box-shadow:0 0 0 3px rgba(221,170,85,.35)}
 button.ds-o.ok{border-color:var(--ok);border-style:solid;background:var(--ok-bg);color:var(--ok)}
 button.ds-o.bad{animation:shake .4s}

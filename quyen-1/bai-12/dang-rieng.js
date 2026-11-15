@@ -23,7 +23,7 @@
 .ck-btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:460px;margin:0 auto}
 .ck-btns .opt{font-size:22px;min-height:56px}
 .ck-say{min-height:44px;margin:12px 0 6px;font-size:clamp(21px,4.6vw,27px);font-weight:700;text-align:center;color:var(--ink)}
-.ck-say.wait{color:#B7AC9E;font-weight:400;font-size:18px}
+.ck-say.wait{color:#7D6F5D;font-weight:400;font-size:18px}
 .ck-next{display:flex;justify-content:center;margin-top:6px}
 .bs-tab{display:flex;flex-direction:column;border:2px solid #9CC9A5;border-radius:12px;overflow:hidden;background:#fff}
 .bs-row{display:grid;grid-template-columns:46px minmax(96px,130px) 1fr;align-items:stretch;border:0;border-top:1px solid #CFE6D2;background:#fff;font:inherit;text-align:left;cursor:pointer;min-height:46px;padding:0;color:var(--ink);touch-action:manipulation}
@@ -53,7 +53,7 @@
 .sn-ages{display:flex;flex-wrap:wrap;gap:8px}
 .sn-ages .opt{min-width:52px;min-height:48px;padding:6px 10px;font-size:20px}
 .sn-say{margin-top:10px;font-size:clamp(20px,4.4vw,25px);font-weight:700;min-height:32px}
-.sn-say.wait{color:#B7AC9E;font-weight:400;font-size:17px}
+.sn-say.wait{color:#7D6F5D;font-weight:400;font-size:17px}
 `;
     document.head.append(st);
   }

@@ -325,7 +325,7 @@
     const cauOf = d => d.toi ? tplToi : fill(tpl, d);
     ctx.body.append(h('p', { class: 'hint' }, ex.goiY || 'Chạm vào từng người, rồi nói câu giới thiệu.'));
     if (ex.mau) ctx.body.append(modelBox(ex.mau).el);
-    const say = h('div', { class: 'say', 'aria-live': 'polite' }, h('span', { style: { color: '#B7AC9E', fontWeight: 400, fontSize: '20px' } }, 'Chạm vào một người trong tranh…'));
+    const say = h('div', { class: 'say', 'aria-live': 'polite' }, h('span', { style: { color: '#7D6F5D', fontWeight: 400, fontSize: '20px' } }, 'Chạm vào một người trong tranh…'));
     const rep = ex.traLoi ? bubble(ex.traLoi.av, '', '…', true) : null;
     const seen = new Set();
     const chips = h('div', { class: 'chips' }, base.diem.map(d => h('span', { class: 'chip' }, d.tu)));

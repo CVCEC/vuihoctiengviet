@@ -7,12 +7,12 @@
 .noi{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(36px,.45fr) minmax(0,1fr);align-items:start;user-select:none;-webkit-user-select:none}
 .noi-col{display:flex;flex-direction:column;gap:12px;position:relative;z-index:2}
 .noi-h{font-weight:700;text-align:center;margin-bottom:2px}
-.noi-h span{display:inline-block;min-width:44px;padding:2px 12px;border-radius:10px;color:#fff;background:#E0577A}
-.noi-col.b .noi-h span{background:#3C78C8}
+.noi-h span{display:inline-block;min-width:44px;padding:2px 12px;border-radius:10px;color:#fff;background:#CA254F}
+.noi-col.b .noi-h span{background:#336BB5}
 .noi-it{position:relative;border:2px solid var(--line);background:#fff;border-radius:16px;padding:8px 12px;font:inherit;font-weight:700;font-size:clamp(17px,3.8vw,21px);min-height:56px;cursor:pointer;display:flex;align-items:center;gap:8px;text-align:left;touch-action:manipulation;color:var(--ink)}
 .noi-col.b .noi-it{justify-content:flex-start}
 .noi-it img{width:64px;height:64px;object-fit:contain;border-radius:8px;flex:none}
-.noi-it .dot{position:absolute;top:50%;width:14px;height:14px;margin-top:-7px;border-radius:50%;background:#B7AC9E;border:3px solid #fff;box-shadow:0 0 0 2px #B7AC9E}
+.noi-it .dot{position:absolute;top:50%;width:14px;height:14px;margin-top:-7px;border-radius:50%;background:#7D6F5D;border:3px solid #fff;box-shadow:0 0 0 2px #7D6F5D}
 .noi-col.a .noi-it .dot{right:-9px}
 .noi-col.b .noi-it .dot{left:-9px}
 .noi-it.sel{border-color:var(--straw);box-shadow:0 0 0 4px rgba(221,170,85,.35)}

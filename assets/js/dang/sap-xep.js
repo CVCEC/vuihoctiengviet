@@ -8,7 +8,7 @@
 .sx.ngang .sx-slots{flex-direction:row;flex-wrap:wrap;align-items:center;gap:8px;padding:10px;border:2px dashed var(--line);border-radius:16px;min-height:72px}
 .sx-slot{display:flex;align-items:center;gap:10px;min-height:56px;border:2px dashed #D9CFC2;border-radius:14px;padding:4px 8px;background:#FFFDF9;cursor:pointer;font:inherit;text-align:left;color:var(--ink);touch-action:manipulation}
 .sx.ngang .sx-slot{min-width:72px;justify-content:center}
-.sx-slot .n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--c,#8A5CC2);color:#fff;font-weight:700;display:grid;place-items:center;font-size:15px}
+.sx-slot .n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--c,#814FBD);color:#fff;font-weight:700;display:grid;place-items:center;font-size:15px}
 .sx.ngang .sx-slot .n{display:none}
 .sx-slot.arm{border-color:var(--straw);box-shadow:0 0 0 4px rgba(221,170,85,.3)}
 .sx-slot.full{border-style:solid;border-color:var(--line);background:#fff}

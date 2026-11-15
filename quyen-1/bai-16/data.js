@@ -4,7 +4,7 @@ const NGHE = [
   ['bác sĩ', 'n-bac-si', 'tn-bac-si'], ['giáo viên', 'n-giao-vien', 'tn-giao-vien'], ['kĩ sư', 'n-ki-su', 'tn-ki-su'], ['thợ may', 'n-tho-may', 'tn-tho-may'],
   ['học sinh', 'n-hoc-sinh', 'tn-hoc-sinh'], ['thợ xây', 'n-tho-xay', 'tn-tho-xay'], ['cảnh sát', 'n-canh-sat', 'tn-canh-sat'], ['người bán hàng', 'n-ban-hang', 'tn-ban-hang']
 ];
-const VAI = { 'Nam': { av: 'img/av-nam.webp', mau: '#3C78C8' }, 'Hương': { av: 'img/av-huong.webp', mau: '#D9822B' } };
+const VAI = { 'Nam': { av: 'img/av-nam.webp', mau: '#336BB5' }, 'Hương': { av: 'img/av-huong.webp', mau: '#9C5C1C' } };
 const LOI = [
   { ai: 'Nam', c: 'Hương ơi, tớ cho cậu xem ảnh này. Đây là ông bà tớ. Đây là bố tớ. Đây là chú Linh và chú Tiến.', am: A + 'ht-1.mp3' },
   { ai: 'Hương', c: 'Ông cậu làm nghề gì?', am: A + 'ht-2.mp3' },

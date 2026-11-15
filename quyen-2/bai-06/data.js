@@ -36,7 +36,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – A', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-a.webp', moTa: 'Mai và chị Liên xem dự báo thời tiết',
-          vai: { 'Mai': { mau: '#E0577A' }, 'Liên': { mau: '#D9822B' } },
+          vai: { 'Mai': { mau: '#CA254F' }, 'Liên': { mau: '#9C5C1C' } },
           loi: [
             { ai: 'Mai', c: '– Chị Liên ơi, hôm nay thời tiết thế nào?', am: A + 'ht-a1.mp3' },
             { ai: 'Liên', c: '– Hôm nay trời nóng.', am: A + 'ht-a2.mp3' },
@@ -49,7 +49,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – B', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-b.webp', moTa: 'Dũng ở Cà Mau gọi điện cho Nam ở Hà Nội',
-          vai: { 'Dũng': { av: H + 'av-dung.webp', mau: '#3E9B5F' }, 'Nam': { av: H + 'av-nam.webp', mau: '#3C78C8' } },
+          vai: { 'Dũng': { av: H + 'av-dung.webp', mau: '#30784A' }, 'Nam': { av: H + 'av-nam.webp', mau: '#336BB5' } },
           loi: [
             { ai: 'Dũng', c: '– Nam ơi, tháng này thời tiết Hà Nội thế nào?', am: A + 'ht-b1.mp3' },
             { ai: 'Nam', c: '– Tháng này, Hà Nội lạnh và ẩm, 16 độ ạ.', am: A + 'ht-b2.mp3' },

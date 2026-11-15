@@ -1,6 +1,6 @@
 /* Quyển 1 – Bài 11: Em có biết vẽ không?  (sách trang 44–47) */
 const A = 'audio/';
-const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#E0577A' }, 'Nam': { av: 'img/av-nam.webp', mau: '#3C78C8' } };
+const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#CA254F' }, 'Nam': { av: 'img/av-nam.webp', mau: '#336BB5' } };
 const LOI = [
   { ai: 'Mai', c: 'Nam ơi, cậu có biết bơi không?', am: A + 'l1.mp3' },
   { ai: 'Nam', c: 'Có, tớ biết.', am: A + 'l2.mp3' },

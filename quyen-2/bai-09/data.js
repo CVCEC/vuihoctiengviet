@@ -32,7 +32,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – A', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-a.webp', moTa: 'Nam gọi điện cho bố, muốn mua hộp bút màu',
-          vai: { 'Nam': { av: H + 'av-nam.webp', mau: '#3C78C8' }, 'Bố': { av: H + 'av-bo.webp', mau: '#2B8C99' } },
+          vai: { 'Nam': { av: H + 'av-nam.webp', mau: '#336BB5' }, 'Bố': { av: H + 'av-bo.webp', mau: '#267C87' } },
           loi: [
             { ai: 'Nam', c: '– Bố ơi! Bao giờ bố về ạ?', am: A + 'ht-a1.mp3' },
             { ai: 'Bố', c: '– Bây giờ bố đang làm việc. Lát nữa bố về.', am: A + 'ht-a2.mp3' },
@@ -47,7 +47,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – B', amLenh: A + 'ht-lenh.mp3',
           hinh: H + 'ht-b.webp', moTa: 'Nam và Dũng nói về kế hoạch nghỉ hè: tắm biển, leo núi, cắm trại',
-          vai: { 'Nam': { av: H + 'av-nam.webp', mau: '#3C78C8' }, 'Dũng': { av: H + 'av-dung.webp', mau: '#3E9B5F' } },
+          vai: { 'Nam': { av: H + 'av-nam.webp', mau: '#336BB5' }, 'Dũng': { av: H + 'av-dung.webp', mau: '#30784A' } },
           loi: [
             { ai: 'Nam', c: '– Khi nào anh nghỉ hè?', am: A + 'ht-b1.mp3' },
             { ai: 'Dũng', c: '– Tuần sau. Còn em?', am: A + 'ht-b2.mp3' },

@@ -10,7 +10,7 @@ const MAC = [
   ['mặc áo', 'd-mac-ao'], ['mặc quần', 'd-mac-quan'], ['mặc váy', 'd-mac-vay'], ['đội mũ', 'd-doi-mu'],
   ['đi giày', 'd-di-giay'], ['đi tất', 'd-di-tat'], ['quàng khăn', 'd-quang-khan']
 ];
-const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#D9822B' }, 'Lan': { av: 'img/av-lan.webp', mau: '#E0577A' }, 'Nam': { av: 'img/av-nam.webp', mau: '#3C78C8' } };
+const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#9C5C1C' }, 'Lan': { av: 'img/av-lan.webp', mau: '#CA254F' }, 'Nam': { av: 'img/av-nam.webp', mau: '#336BB5' } };
 const LOI = [
   { ai: 'Mai', c: 'Lan ơi, cậu thích mặc váy màu gì?', am: A + 'ht-1.mp3' },
   { ai: 'Lan', c: 'Tớ thích mặc váy màu hồng hoặc màu tím. Còn cậu?', am: A + 'ht-2.mp3' },

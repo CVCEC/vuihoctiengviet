@@ -13,7 +13,7 @@ const MAU_SON = {
     { tu: 'màu đen', am: A + 'm-den.mp3', nhan: [0, 27.5, 27.5, 12], nguoi: [30, 26, 13.5, 20] }
   ]
 };
-const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#E0577A' }, 'My': { av: 'img/av-my.webp', mau: '#8A5CC2' } };
+const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#CA254F' }, 'My': { av: 'img/av-my.webp', mau: '#814FBD' } };
 const LOI = [
   { ai: 'Mai', c: 'Cái bàn này hình gì?', am: A + 'l01.mp3' },
   { ai: 'My', c: 'Cái bàn này hình tròn.', am: A + 'l02.mp3' },

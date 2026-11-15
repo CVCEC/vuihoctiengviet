@@ -7,12 +7,12 @@
   const CSS = `
 .bg-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:12px;border:2px solid #F3E2A8}
 .bg{border-collapse:collapse;min-width:100%;background:#FFF8D6}
-.bg th{background:#FCE7EC;color:#C2185B;font-weight:700;font-size:18px;padding:6px 4px;min-width:46px;position:sticky;top:0}
+.bg th{background:#FCE7EC;color:#BD1759;font-weight:700;font-size:18px;padding:6px 4px;min-width:46px;position:sticky;top:0}
 .bg th.r{background:#E3EEFB;color:#2457A6;position:sticky;left:0;z-index:2;min-width:40px}
 .bg th.c0{left:0;z-index:3;background:#FFF8D6}
 .bg td{border:1px solid #F6E7B6;padding:0}
 .bg td button{width:100%;min-width:46px;height:46px;border:0;background:transparent;font:inherit;font-weight:700;font-size:17px;color:transparent;cursor:pointer;touch-action:manipulation}
-.bg td button.peek{color:#B7AC9E}
+.bg td button.peek{color:#7D6F5D}
 .bg td button.yes{background:#F8C6D3;color:#B0174F}
 .bg td button.vd{background:#FBE0E8;color:#B0174F}
 .bg td button.hint{box-shadow:inset 0 0 0 3px var(--straw)}

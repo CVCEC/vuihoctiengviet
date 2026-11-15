@@ -53,7 +53,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn A', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-a.webp', moTa: 'Cô giáo và cả lớp trong giờ đọc bài',
-          vai: { 'Cô giáo': { av: I + 'av-co.webp', mau: '#E0577A' }, 'Cả lớp': { mau: '#8A5CC2' }, 'Nam': { av: I + 'av-nam-a.webp', mau: '#3C78C8' } },
+          vai: { 'Cô giáo': { av: I + 'av-co.webp', mau: '#CA254F' }, 'Cả lớp': { mau: '#814FBD' }, 'Nam': { av: I + 'av-nam-a.webp', mau: '#336BB5' } },
           loi: [
             { ai: 'Cô giáo', c: 'Chào các em!', am: A + 'a1.mp3' },
             { ai: 'Cả lớp', c: 'Chúng em chào cô ạ!', am: A + 'a2.mp3' },
@@ -67,7 +67,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn B', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-b.webp', moTa: 'Nam và Mai nói chuyện ở sân trường',
-          vai: { 'Mai': { av: I + 'av-mai.webp', mau: '#E0577A' }, 'Nam': { av: I + 'av-nam.webp', mau: '#3C78C8' }, 'Liên': { mau: '#D9822B' }, 'Cô giáo': { av: I + 'av-co.webp', mau: '#C2457A' } },
+          vai: { 'Mai': { av: I + 'av-mai.webp', mau: '#CA254F' }, 'Nam': { av: I + 'av-nam.webp', mau: '#336BB5' }, 'Liên': { mau: '#9C5C1C' }, 'Cô giáo': { av: I + 'av-co.webp', mau: '#B53B6F' } },
           loi: [
             { ai: 'Mai', c: 'Cậu có vào thư viện không?', am: A + 'b1.mp3' },
             { ai: 'Nam', c: 'Không. Tớ lên tầng 2.', am: A + 'b2.mp3' },

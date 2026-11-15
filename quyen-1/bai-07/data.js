@@ -7,7 +7,7 @@ const THE = [
 ];
 const AM = {}, HINH = {};
 THE.forEach(([tu, f]) => { AM[tu] = A + 'tn-' + f + '.mp3'; HINH[tu] = 'img/the-' + f + '.webp'; });
-const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#E0577A' }, 'Nam': { av: 'img/av-nam.webp', mau: '#3C78C8' } };
+const VAI = { 'Mai': { av: 'img/av-mai.webp', mau: '#CA254F' }, 'Nam': { av: 'img/av-nam.webp', mau: '#336BB5' } };
 // Tiếng Việt vui 1: [hình, cây được hỏi, câu đúng, 2 câu sai] – hai câu đầu là mẫu trong sách
 const HOI_PHAI = [
   ['mít', 'mít', 'Phải. Đây là cây mít.', ['Không phải. Đây là cây mít.', 'Phải. Đây là cây dừa.']],

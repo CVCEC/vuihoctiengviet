@@ -99,7 +99,7 @@
 @media (min-width:700px){.bt{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}}
 .bt-img{width:100%;border-radius:14px;border:2px solid #EFE7DC;background:#fff}
 .bt-side{display:flex;flex-direction:column;align-items:center;gap:10px}
-.bt-kq{width:140px;height:140px;border-radius:22px;border:3px dashed var(--straw);background:#FFF7E6;display:grid;place-items:center;font-size:64px;font-weight:700;color:#B7AC9E;cursor:pointer;font-family:inherit}
+.bt-kq{width:140px;height:140px;border-radius:22px;border:3px dashed var(--straw);background:#FFF7E6;display:grid;place-items:center;font-size:64px;font-weight:700;color:#7D6F5D;cursor:pointer;font-family:inherit}
 .bt-kq.on{border-style:solid;background:#fff;color:var(--c);animation:pulse .6s ease}
 .bt-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;width:100%;max-width:360px}
 .bt-the{aspect-ratio:1;border-radius:12px;border:2px solid var(--line);background:repeating-linear-gradient(45deg,#F4EEE5,#F4EEE5 6px,#FBF7F1 6px,#FBF7F1 12px);font:inherit;font-weight:700;font-size:clamp(20px,5vw,30px);color:transparent;cursor:default;padding:0}
@@ -108,7 +108,7 @@
 `;
     document.head.append(st);
   }
-  const MAU_THE = ['#E8743B', '#E0577A', '#3E9B5F', '#3C78C8', '#8A5CC2', '#C2457A', '#D9822B', '#2B8C99'];
+  const MAU_THE = ['#BE4D16', '#CA254F', '#30784A', '#336BB5', '#814FBD', '#B53B6F', '#9C5C1C', '#267C87'];
   A.T['boc-tham'] = function (ex, ctx) {
     const the = ex.the || [], can = Math.min(ex.can || the.length, the.length);
     const kq = h('button', { class: 'bt-kq', type: 'button', 'aria-label': 'Nghe lại chữ vừa bốc' }, '?');

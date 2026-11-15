@@ -37,7 +37,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn A', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-a.webp', moTa: 'Giờ nghỉ ở sân trường: các bạn đá cầu, nhảy dây',
-          vai: { 'Dũng': { mau: '#3E9B5F' }, 'Nam': { mau: '#3C78C8' } },
+          vai: { 'Dũng': { mau: '#30784A' }, 'Nam': { mau: '#336BB5' } },
           loi: [
             { ai: 'Dũng', c: 'Giờ nghỉ, em thường làm gì?', am: A + 'a1.mp3' },
             { ai: 'Nam', c: 'Em thường đá cầu.', am: A + 'a2.mp3' },
@@ -52,7 +52,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn B', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-b.webp', moTa: 'Mai và Nam nói chuyện trong lớp',
-          vai: { 'Mai': { av: I + 'av-mai.webp', mau: '#E0577A' }, 'Nam': { av: I + 'av-nam.webp', mau: '#3C78C8' } },
+          vai: { 'Mai': { av: I + 'av-mai.webp', mau: '#CA254F' }, 'Nam': { av: I + 'av-nam.webp', mau: '#336BB5' } },
           loi: [
             { ai: 'Mai', c: 'Ở nhà, lúc rảnh, cậu thường làm gì?', am: A + 'b1.mp3' },
             { ai: 'Nam', c: 'Tớ thường đọc sách hoặc nghe nhạc.', am: A + 'b2.mp3' },
@@ -155,7 +155,7 @@ const BAI_HOC = {
         {
           id: 'tvv1', so: 1, loai: 'loi-thoai', lenh: 'Hỏi đáp theo mẫu: Nghỉ hè, cậu thường làm gì?',
           goiY: 'Đọc lời mẫu. Sau đó em hỏi đáp với bố mẹ hoặc bạn: nghỉ hè, em thường làm gì?',
-          vai: { 'Bạn trai': { av: I + 'tv-trai.webp', mau: '#E0577A' }, 'Bạn gái': { av: I + 'tv-gai.webp', mau: '#3C78C8' } },
+          vai: { 'Bạn trai': { av: I + 'tv-trai.webp', mau: '#CA254F' }, 'Bạn gái': { av: I + 'tv-gai.webp', mau: '#336BB5' } },
           loi: [
             { ai: 'Bạn trai', c: 'Nghỉ hè, cậu thường làm gì?' },
             { ai: 'Bạn gái', c: 'Tớ thường đi du lịch cùng gia đình. Còn cậu?' },

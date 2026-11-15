@@ -1,7 +1,7 @@
 /* Mục lục 2 quyển – "san: true" là bài đã có bản tương tác */
 const MUC_LUC = [
   {
-    quyen: 1, ten: 'Quyển 1', moTa: 'Nghe – nói, làm quen mặt chữ', mau: '#4C7BD9',
+    quyen: 1, ten: 'Quyển 1', moTa: 'Nghe – nói, làm quen mặt chữ', mau: '#396DD5',
     chuong: [
       { ten: 'Gia đình', bai: [
         { so: 1, ten: 'Đây là ai?', chu: 'a, ă, â', san: true },
@@ -30,7 +30,7 @@ const MUC_LUC = [
     ]
   },
   {
-    quyen: 2, ten: 'Quyển 2', moTa: 'Luyện nói, bắt đầu đọc – viết', mau: '#3E9B5F',
+    quyen: 2, ten: 'Quyển 2', moTa: 'Luyện nói, bắt đầu đọc – viết', mau: '#30784A',
     chuong: [
       { ten: 'Gia đình', bai: [
         { so: 1, ten: 'Đây là em họ của em à?', chu: 'a, ă, â, c', san: true },

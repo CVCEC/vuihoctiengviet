@@ -14,7 +14,7 @@
       '.dc-card img{height:84px;width:auto;max-width:100%;object-fit:contain}' +
       '.dc-card .dc-w{font-size:clamp(24px,7vw,34px);font-weight:700;line-height:1.25;min-height:44px;letter-spacing:.02em}' +
       '.dc-card .dc-w .bl{color:var(--c);border-bottom:3px dashed var(--c);padding:0 2px;min-width:.9em;display:inline-block;text-align:center}' +
-      '.dc-card .dc-w .bl.trong{color:#C9BFB2}' +
+      '.dc-card .dc-w .bl.trong{color:#7D6F5D}' +
       '.dc-card.sel{border-color:var(--straw);box-shadow:0 0 0 4px rgba(221,170,85,.35)}' +
       '.dc-card.ok{border-color:var(--ok);background:var(--ok-bg)}' +
       '.dc-card.ok .dc-w .bl{color:var(--ok);border-bottom-color:var(--ok)}' +

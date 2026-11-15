@@ -34,13 +34,13 @@
     st.textContent = `
 .bv-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:12px;border:2px solid #F3E2A8;margin-top:10px;max-width:100%}
 .bv{border-collapse:collapse;min-width:100%;background:#FFF8D6}
-.bv th{background:#FCE7EC;color:#D2233F;font-weight:700;font-size:18px;padding:6px 4px;min-width:50px}
+.bv th{background:#FCE7EC;color:#CB223D;font-weight:700;font-size:18px;padding:6px 4px;min-width:50px}
 .bv th.r{background:#E3EEFB;color:#2457A6;position:sticky;left:0;z-index:2;min-width:44px}
 .bv th.c0{position:sticky;left:0;z-index:3;background:#FFF8D6}
 .bv td{border:1px solid #F1E3B0;padding:0}
 .bv td.x{background:#C3C7D1;border-color:#D5D8DF}
 .bv td button{display:block;width:100%;min-width:50px;height:46px;border:0;background:transparent;font:inherit;font-weight:700;font-size:15px;line-height:1.1;color:var(--ink);cursor:pointer;touch-action:manipulation;padding:0 3px}
-.bv td button.peek{color:#9A8F80}
+.bv td button.peek{color:#7A6F61}
 .bv td button.got{background:#F8C6D3;color:#B0174F}
 .bv td button.bad{animation:shake .4s}
 .bv-q{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#fff;border:2px solid #EFE7DC;border-radius:16px;padding:10px 14px;min-height:64px}

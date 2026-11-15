@@ -39,7 +39,7 @@ const BAI_HOC = {
         {
           id: 'ht1a', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn A', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-a.webp', moTa: 'Cô giáo đưa cả lớp ra thăm vườn trường',
-          vai: { 'Cô giáo': { av: I + 'av-co.webp', mau: '#3E9B5F' }, 'Cả lớp': { mau: '#8A5CC2' }, 'Nam': { av: I + 'av-nam.webp', mau: '#3C78C8' }, 'Mai': { av: I + 'av-mai.webp', mau: '#E0577A' } },
+          vai: { 'Cô giáo': { av: I + 'av-co.webp', mau: '#30784A' }, 'Cả lớp': { mau: '#814FBD' }, 'Nam': { av: I + 'av-nam.webp', mau: '#336BB5' }, 'Mai': { av: I + 'av-mai.webp', mau: '#CA254F' } },
           loi: [
             { ai: 'Cô giáo', c: 'Hôm nay, cô đưa các em ra thăm vườn trường. Các em có thích không?', am: A + 'a1.mp3' },
             { ai: 'Cả lớp', c: 'Chúng em thích lắm ạ.', am: A + 'a2.mp3' },
@@ -53,7 +53,7 @@ const BAI_HOC = {
         {
           id: 'ht1b', so: 1, loai: 'loi-thoai', lenh: 'Nhìn hình, nghe và nhắc lại – Đoạn B', amLenh: A + 'ht1-lenh.mp3',
           hinh: I + 'ht-b.webp', moTa: 'Nam và mẹ đứng trước hàng rào chuồng sư tử',
-          vai: { 'Nam': { av: I + 'av-nam.webp', mau: '#3C78C8' }, 'Mẹ': { mau: '#D9822B' } },
+          vai: { 'Nam': { av: I + 'av-nam.webp', mau: '#336BB5' }, 'Mẹ': { mau: '#9C5C1C' } },
           loi: [
             { ai: 'Nam', c: 'Mẹ ơi, vì sao tấm biển này viết là “CẤM VƯỢT QUA HÀNG RÀO”?', am: A + 'b1.mp3' },
             { ai: 'Mẹ', c: 'Vì sư tử là thú dữ, đến gần nó rất nguy hiểm nên phải CẤM.', am: A + 'b2.mp3' },
