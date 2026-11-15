@@ -38,6 +38,7 @@ ma	nghe	diem
 111c252c0cde	Tôi thích đội mũ màu vàng.	1.0
 11805554308d	cây dừa có 6 quả.	1.0
 121451a5e433	xe đạp ở trước cửa hàng	1.0
+1241f28c8133	Em đang trồng cây, anh tưới nước giúp em được không?	1.0
 12679bb4b4a5	Cô Na thì nào?	0.75
 12f2d0828712	Cây dừa này cao, phải không?	1.0
 1302321750f3	Đây là anh họ của Nam	1.0
@@ -50,9 +51,11 @@ ma	nghe	diem
 150cad42a9ed	cây rứa này thế nào?	0.8
 157986bead89	Đây là cây gì?	1.0
 15aae83310a6	cây cam có tảm quà	0.6
+15e79d098373	gì đỡ bé?	0.67
 16b878b175e7	Tôi thích mặc quần màu đen	1.0
 17009479cafb	có một hình tròn.	1.0
 17a1d35ced7a	Em xem TV à!	0.44
+17e0c38acf91	Em gài tử rất dễ thương	0.67
 1851a9bff959	có một hình vuông.	1.0
 18a6799147ee	Nam thích mặc áo màu trắng	0.86
 18d19bd39901	Còn em hà	1.0
@@ -74,6 +77,7 @@ ma	nghe	diem
 21426d72f53c	Đây là cái gì?	1.0
 2227a69cb94f	Bạn biết làm gì?	1.0
 2249a4d88919	Con nấu cơm giúp bố được không?	1.0
+225dd80cdda2	Đây là bà nội của em	1.0
 2369b27bbb5b	Đây là cây cam phải không?	1.0
 239ac9c1278a	xe máy và xe đạp Xe nào chậm hơn?	1.0
 2489892a6452	Kia là con khì.	0.75
@@ -94,12 +98,14 @@ ma	nghe	diem
 2e6ef5278b58	Bác tử là bác sĩ	0.8
 2edff3853b7e	Cháu chào bà à!	0.75
 2ee4ac1aa7a8	Đây là bác của tớ	1.0
+2ef9f460ce7b	Phòng bếp ở tầng 1	1.0
 2f1c0dfd7252	Không, cái bàn nhỏ thấp	1.0
 2f7411243322	Metro và tàu hỏa Tàu nào mới hơn?	0.82
 2f95b582bfec	Hình này là hình tam giác.	1.0
 2f9988c92997	Không phải, đây là cây chuối	1.0
 308eb3faf0cf	Em chào chị.	1.0
 30d9c0309eb5	Con thỏ có mấy chân?	1.0
+3328111f0633	Phòng bếp ở đâu?	1.0
 3390b0303d9a	cái đèn ở trên cái bàn.	1.0
 33a54c5a2349	Có bao nhiêu hình tam giác?	1.0
 34c2558e3251	Còn cho mèo ăn giúp mẹ được không?	0.88
@@ -116,12 +122,14 @@ ma	nghe	diem
 3b479fd31d83	Còn túi cây giúp bố được không?	0.71
 3b87cf0f26d3	Trong phòng khách có một bộ bàn ghế, một cái TV và một bức tranh	0.9
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
+3dfec22cae7e	Bà nói thế nào?	1.0
 3e1905e73c74	Đây là em tôi	1.0
 3e741c3897da	Chú em, rất thân thiện	1.0
 3ed5ad1f653a	Đũa	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
 40451f61bdac	Đúng, bạn ấy là học sinh	1.0
 40cd199287bc	Con gấu đang làm gì?	1.0
+410c86f4712b	Dạ, con và em quyết dọn được ạ.	0.88
 41936af84d54	Phải, đây là cây khế	1.0
 424258feb195	Cô ấy có phải là giáo viên không?	1.0
 42a9e1967992	Không, trong phòng làm việc không có tủ quần áo.	1.0
@@ -142,6 +150,7 @@ ma	nghe	diem
 496802b088c6	Em gái em rất xinh	1.0
 4974403e6b9b	Chú em thế nào?	1.0
 49c2b80f7f87	Con mèo đang làm gì?	1.0
+49deb1a1427a	Trong phòng bếp, có một cái bếp, một cái tủ bếp và một cái tủ lạnh	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
 4b778892c8ad	ô tô và xe đạp Xe nào rẻ hơn?	1.0
 4b7ff2f0584a	Trường ngôi sao ở đâu?	1.0
@@ -151,6 +160,7 @@ ma	nghe	diem
 4e886749dc2e	ô tô và xe đạp Xe nào đắt hơn?	1.0
 4f494e7a9ae1	Đây là bố tôi.	1.0
 4f56e84e97a3	Có mấy cái bàn	1.0
+4f6b8dc68c63	Phòng ngủ ở tầng 2	1.0
 50c9a5667343	Hôm nay là thứ 3	1.0
 516b4c9c67c8	Lọ hoa ở trên cái bàn	1.0
 519f2f18afa3	Con mèo đang hát	1.0
@@ -168,6 +178,7 @@ ma	nghe	diem
 592eba913724	Dùa	0.0
 5aebd1d29659	Đây là ông ngoại của Nam.	1.0
 5b4aacad473f	Kia là con hộ	0.75
+5b4dab3c5fde	Con trả lời thế nào?	1.0
 5b55c216b91e	Lớp mình ai cao nhất?	1.0
 5b56104b5462	Đây là quả dứa, phải không?	1.0
 5bcce74827b0	Đây là bác gái của Nam	1.0
@@ -179,8 +190,10 @@ ma	nghe	diem
 5d94e3851d6b	Đây là bàn ngoại của Nam.	0.83
 5e56f64b88ef	Bạn có biết viết không?	1.0
 5e9d70a97026	Đây là cây mít, phải không?	1.0
+5ebb3bf20f56	Đây là bổ của em	0.8
 5ec870c71a0a	Đây là cây táo, phải không?	1.0
 5edbe510eb75	gì có đu đủ	0.75
+5f41ae74386d	Trong phòng ngủ có một cái dương, một cái ghế và một cái tủ quần áo.	0.94
 5f66420f5fb8	Không phải, cây cam có 10 quả	1.0
 5fcf02fd587f	Đây là bố của Nam	1.0
 5fdaa1c271fb	tâu thủy và thuyền. Cái nào nhẹ hơn?	0.88
@@ -191,9 +204,12 @@ ma	nghe	diem
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
 62bce3a338d7	O tô màu vàng đẹp hơn o tô màu đỏ, nhưng o tô màu đỏ rẻ hơn o tô màu vàng	0.81
+62ed782db04c	Phong khách ở đâu?	0.75
 6324be59dc97	Con khỉ, đang làm gì?	1.0
 6381326eaba4	ô tô con hay xe buýt nhanh hơn.	1.0
 63b12025984f	Tôi biết hát	1.0
+63ffd20c08a4	Anh trai bạn thế nào?	1.0
+64256bb928c8	Bạn hồng hiền nhất	1.0
 65708aa8d39b	Còn quét dọn giúp bố được không?	0.86
 65f80282d975	Con bạn Hùng	0.67
 6667c253403c	quả bóng ở dưới cái bàn.	1.0
@@ -220,8 +236,10 @@ ma	nghe	diem
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
 6dd81b57614b	bà tỡ rất hiền	0.75
+6e4a1a6b8cf7	Mẹ nói thế nào?	1.0
 6e6a987aef02	Đây là bà nội của Nam	1.0
 6e8eaeed6f3a	Em Tùng, Đáng Đọc	0.75
+6f9a3ed9c65c	Đây là dựng của em	0.8
 6ff230f07ef5	Bạn có biết đọc không?	1.0
 7140e32e3d0e	hay quyển vở màu gì?	0.8
 721f1d345df9	Em đi học ạ	1.0
@@ -253,6 +271,7 @@ ma	nghe	diem
 7e37183d7482	Bệnh viện ở đối diện ngôi nhà màu đỏ.	1.0
 7e67f0abec68	trường ngôi sao đối diện bệnh viện mắt, phải không?	1.0
 7e792b471a14	Không, trong phòng ngủ không có TV	0.8
+7e995d81c0a0	Bạn Hà rất xinh đẹp!	1.0
 7f6e14cd8951	Bạn có thích hát không?	1.0
 7fcaeabd6b9d	Tôi thích mặc áo màu vàng	1.0
 7fd4d0e4f377	Gãi đủ	0.0
@@ -261,6 +280,7 @@ ma	nghe	diem
 8218db8917ad	Anh trai em thế nào?	1.0
 8236fe92d110	Đây là chú của tớ	1.0
 82803cbb759e	Nam học ở đâu?	1.0
+82a83415360e	Đây là cậu của em	1.0
 837a69558526	Nguồn	0.0
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
 840c6b15b15a	có hai cái bàn	1.0

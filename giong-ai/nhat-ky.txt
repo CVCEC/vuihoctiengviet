@@ -1,86 +1,21 @@
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-1.00  Cô Na rất đẹp.  |  Cô Na rất đẹp
-1.00  Chị Tâm thế nào?  |  Chị Tâm thế nào?
-1.00  Bạn Liên thế nào?  |  Bạn liên thế nào?
-1.00  Em Linh rất xinh.  |  Em Linh, rất xinh
-1.00  Chị gái em thế nào?  |  Chị gái em, thế nào?
-1.00  Cô My rất hiền.  |  Cô My, rất hiền
-1.00  Chị Tâm rất chăm chỉ.  |  Chị Tâm rất chăm chỉ.
-1.00  Trong phòng làm việc có tủ quần áo, phải không?  |  trong phòng làm việc có tủ quần áo, phải không?
-1.00  Trong phòng bếp có gì?  |  Trong phòng bếp có gì?
-1.00  Trong phòng bếp có bàn ăn, phải không?  |  trong phòng bếp có bàn ăn, phải không?
-1.00  Không, trong phòng bếp không có bàn ăn. Bàn ăn ở trong phòng ăn.  |  Không. Trong phòng bếp không có bàn ăn. Bàn ăn ở trong phòng ăn.
-0.50  cá đĩa  |  Cả đĩa
-0.90  Trong phòng khách có 1 bộ bàn ghế, 1 cái ti vi và 1 bức tranh.  |  Trong phòng khách có một bộ bàn ghế, một cái TV và một bức tranh
-1.00  đũa  |  Đũa
-1.00  Không, trong phòng làm việc không có tủ quần áo.  |  Không, trong phòng làm việc không có tủ quần áo.
-0.75  Dì có đu đủ.  |  gì có đu đủ
-1.00  Cô có đĩa cá.  |  Cô có đĩa cá?
-1.00  Trong phòng bếp có 1 cái bếp, 1 cái tủ bếp và 1 cái tủ lạnh.  |  Trong phòng bếp có một cái bếp, một cái tủ bếp và một cái tủ lạnh
-0.80  Không, trong phòng ngủ không có ti vi.  |  Không, trong phòng ngủ không có TV
-0.60  Trong phòng ngủ có gì?  |  trong phòng ngũ có dĩ
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
 Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-1.00  Đĩa cá có đũa.  |  Đĩa cá có đũa
-1.00  Trong phòng làm việc có gì?  |  trong phòng làm việc có gì?
-1.00  Trong phòng ăn có gì?  |  Trong phòng ăn, có gì?
-0.88  Không, trong phòng ăn không có tủ bếp.  |  Không, trong phòng ăn không có tù bếp
-1.00  Trong phòng ngủ có 1 cái giường, 1 cái ghế và 1 cái tủ quần áo.  |  Trong phòng ngủ có một cái giường, một cái ghế và một cái tủ quần áo
-1.00  Trong phòng khách có tủ lạnh, phải không?  |  trong phòng khách có tủ lạnh, phải không?
-1.00  cua đá  |  cua đá
-0.00  đu đủ  |  Lú lú
-1.00  Trong phòng ăn có 1 bộ bàn ăn và 1 cái tủ lạnh.  |  Trong phòng ăn có một bộ bàn ăn và một cái tủ lạnh
-1.00  Trong phòng làm việc có 1 cái bàn, 1 cái máy tính và 1 cái ghế.  |  trong phòng làm việc có một cái bàn, một cái máy tính và một cái ghế.
-1.00  Trong phòng ăn có tủ bếp, phải không?  |  trong phòng ăn có tủ bếp phải không?
-1.00  Trong phòng khách có gì?  |  trong phòng khách có gì?
-1.00  Không, trong phòng khách không có tủ lạnh.  |  Không, trong phòng khách không có tủ lạnh
-0.00  dù đỏ  |  Zù đà
-0.67  Trong phòng ngủ có ti vi, phải không?  |  trong phòng khách có TV phải không?
-1.00  Con không giúp bố được ạ. Con không biết tưới cây.  |  Con không giúp bố được ạ Con không biết tưới cây
-1.00  Mẹ đang rửa rau, phải không?  |  Mẹ đang rửa rau, phải không?
-1.00  Được ạ. Con cho mèo ăn được.  |  Được ạ, con cho mèo ăn được
-1.00  Mẹ đang làm gì?  |  Mẹ đang làm gì?
-0.50  Mẹ đang nấu cơm.  |  Mẹ đăng nũ cơm
-0.50  dưa đỏ  |  Dứa đỏ
-1.00  Con nấu cơm giúp bố được không?  |  Con nấu cơm giúp bố được không?
-0.83  Được ạ. Con nhặt rau được.  |  Được à! Con nhặt rau được!
-0.88  Con cho mèo ăn giúp mẹ được không?  |  Còn cho mèo ăn giúp mẹ được không?
-1.00  Được ạ. Con quét dọn được.  |  Được ạ! Con quét dọn được!
-0.75  Dũng đang quét dọn.  |  Dũng đang quét giọn
-0.71  Con tưới cây giúp bố được không?  |  Còn túi cây giúp bố được không?
-1.00  Mũ có nơ.  |  mũ có nơ
-0.00  dừa  |  Dùa
-0.86  Con quét dọn giúp bố được không?  |  Còn quét dọn giúp bố được không?
-1.00  nơ đỏ  |  nơ đỏ
-1.00  Bố đang lau bát đĩa.  |  bố đang lau bát đĩa.
-0.86  Con nấu cơm giúp mẹ được không?  |  Còn nấu cơm giúp mẹ được không?
-1.00  Chị Hà đang rửa rau.  |  Chị Hà đang rửa rau
-1.00  Nam đang tưới cây.  |  Nam đang tưới cây
-1.00  Cô mua cả mũ.  |  Cô mua cả mũ?
-0.00  nứa  |  Nguồn
-1.00  Thu đang giặt quần áo.  |  Thu đang giặt quần áo.
-1.00  Con giặt quần áo giúp bố được không?  |  Con giặt quần áo giúp bố được không?
-0.88  Con lau bát đĩa giúp mẹ được không?  |  Còn lau bát đĩa giúp mẹ được không?
-Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 20 câu không cắt được, chia đôi để đọc lại
-1.00  Tâm đang cho mèo ăn.  |  Tâm đang cho mèo ăn
-0.86  Đi mưa, cô Mơ đã có dù.  |  Đi mưa, cô mơ đã có rù
-0.80  Liên đang rửa cốc chén.  |  Liên đang rửa cúc chén.
-1.00  Được ạ. Con lau bát đĩa được.  |  Được ạ! Con lau bát đĩa được!
-1.00  Con không giúp bố được ạ. Con không biết nấu cơm.  |  Con không giúp bố được ạ. Con không biết nấu cơm.
-1.00  Được ạ. Con giặt quần áo được.  |  Được ạ, con giặt quần áo được.
-0.00  mía  |  Mìa?
-1.00  Con nhặt rau giúp mẹ được không?  |  Con nhặt rau giúp mẹ được không?
-1.00  mũ đỏ  |  Mũ đỏ
-1.00  Phải. Mẹ đang rửa rau. / Không phải. Mẹ đang nấu cơm.  |  Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm
-0.00  mưa  |  Mỡ
-1.00  Con không giúp mẹ được ạ. Con không biết nấu cơm.  |  Con không giúp mẹ được ạ, con không biết nấu cơm
-0.50  nô đùa  |  Nó đùa.
-1.00  Ai hiền nhất?  |  Ai hiền nhất
-0.67  Còn mẹ bạn?  |  Con mẹ bạn
-0.75  Bạn Hà thế nào?  |  Bạn Ha thế nào?
-0.80  Bạn Hùng khá thân thiện.  |  Bạn Hùng khá thân thiệt
-1.00  Dì Lê đưa bé Ly đi bộ.  |  Dì Lê đưa bé Ly đi bộ
-0.80  Đây là dì của em.  |  Đây là gì của em?
-1.00  Đây là em họ của em.  |  Đây là em họ của em
+1.00  Em đang trồng cây. Anh tưới nước giúp em được không?  |  Em đang trồng cây, anh tưới nước giúp em được không?
+0.67  Dì đỡ bé.  |  gì đỡ bé?
+0.67  Em gái tớ rất dễ thương.  |  Em gài tử rất dễ thương
+1.00  Đây là bà nội của em.  |  Đây là bà nội của em
+1.00  Phòng bếp ở tầng 1.  |  Phòng bếp ở tầng 1
+1.00  Phòng bếp ở đâu?  |  Phòng bếp ở đâu?
+1.00  Bà nói thế nào?  |  Bà nói thế nào?
+0.88  Dạ, con và em quét dọn được ạ!  |  Dạ, con và em quyết dọn được ạ.
+1.00  Trong phòng bếp có một cái bếp, một cái tủ bếp và một cái tủ lạnh.  |  Trong phòng bếp, có một cái bếp, một cái tủ bếp và một cái tủ lạnh
+1.00  Phòng ngủ ở tầng 2.  |  Phòng ngủ ở tầng 2
+1.00  Con trả lời thế nào?  |  Con trả lời thế nào?
+0.80  Đây là bố của em.  |  Đây là bổ của em
+0.94  Trong phòng ngủ có một cái giường, một cái ghế và một cái tủ quần áo.  |  Trong phòng ngủ có một cái dương, một cái ghế và một cái tủ quần áo.
+0.75  Phòng khách ở đâu?  |  Phong khách ở đâu?
+1.00  Anh trai bạn thế nào?  |  Anh trai bạn thế nào?
+1.00  Bạn Hồng hiền nhất.  |  Bạn hồng hiền nhất
+1.00  Mẹ nói thế nào?  |  Mẹ nói thế nào?
+0.80  Đây là dượng của em.  |  Đây là dựng của em
+1.00  Bạn Hà rất xinh đẹp.  |  Bạn Hà rất xinh đẹp!
+1.00  Đây là cậu của em.  |  Đây là cậu của em
