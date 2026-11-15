@@ -19,3 +19,25 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.80  Đây là dượng của em.  |  Đây là dựng của em
 1.00  Bạn Hà rất xinh đẹp.  |  Bạn Hà rất xinh đẹp!
 1.00  Đây là cậu của em.  |  Đây là cậu của em
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Phòng ngủ ở đâu?  |  Phòng ngủ ở đâu?
+1.00  Bạn Tâm rất hiền.  |  Bạn Tâm rất hiền.
+1.00  Bố đi giặt quần áo. Con và em quét dọn giúp bố được không?  |  Bố đi giặt quần áo Con và em quét dọn giúp bố được không?
+1.00  Còn em gái bạn?  |  Còn em gái bạn
+1.00  Còn bạn Hoa?  |  Còn bạn Hoa
+1.00  Còn bạn Tâm?  |  Còn Bạn Tâm
+1.00  Chị đang rửa bát. Em lau bát giúp chị được không?  |  Chị đang rửa bát. Em lau bát giúp chị được không?
+1.00  Bố bạn thế nào?  |  Bố bạn thế nào?
+1.00  Bạn Tú vui vẻ nhất.  |  bạn Tú vui vẻ nhất
+0.80  Trong phòng khách có một bộ sô pha, một cái ti vi và một bức tranh.  |  Trong phòng khách có một bộ sofa, một cái TV và một bức tranh
+1.00  Mẹ đang nấu cơm. Con cho mèo ăn giúp mẹ được không?  |  Mẹ đang nấu cơm Con cho mèo ăn giúp mẹ được không?
+1.00  Đây là ông nội của em.  |  Đây là ông nội của em
+1.00  Đây là cô của em.  |  Đây là cô của em
+0.94  Nhà tớ có 6 phòng: phòng khách, phòng bếp, 2 phòng ngủ và 2 phòng tắm.  |  Nhà tử có 6 phòng Phòng khách, phòng bếp, 2 phòng ngủ và 2 phòng tắm
+1.00  Đây là em.  |  Đây là em
+0.80  Nhà cậu có mấy phòng?  |  Nhà cậu có mỹ phòng
+1.00  Bé nô đùa.  |  Bé nô đùa
+1.00  Chị nói thế nào?  |  Chị nói thế nào?
+1.00  Ai vui vẻ nhất?  |  Ai vui vẻ nhất?
+1.00  Anh trai tớ rất thân thiện.  |  Anh trai tớ rất thân thiện

@@ -281,6 +281,7 @@ ma	nghe	diem
 8236fe92d110	Đây là chú của tớ	1.0
 82803cbb759e	Nam học ở đâu?	1.0
 82a83415360e	Đây là cậu của em	1.0
+8379b829587e	Phòng ngủ ở đâu?	1.0
 837a69558526	Nguồn	0.0
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
 840c6b15b15a	có hai cái bàn	1.0
@@ -288,10 +289,12 @@ ma	nghe	diem
 843ed9d781a7	hình tâm giác mô di	0.4
 84b8168ba6de	Bà ấy là người bán hàng.	1.0
 8511c132570d	Đây là dưỡng của Nam	0.8
+86a6e55effa8	Bạn Tâm rất hiền.	1.0
 871456548398	Không phải, đây là quả khế.	1.0
 878fdc7ce5ff	có hai quyển sách	1.0
 87c1746354a6	Đếm nhanh	1.0
 8813c26a35f7	Có mấy quyền vỡ	0.5
+8815fbbf3e52	Bố đi giặt quần áo Con và em quét dọn giúp bố được không?	1.0
 88c9829ffe18	Người bán hàng ở trong cửa hàng	1.0
 88d5f04e5038	Đây là cô tôi	1.0
 892e2de3044a	Ông Minh làm nghề gì?	1.0
@@ -300,6 +303,8 @@ ma	nghe	diem
 8a4d4cdfe320	có mấy hình vuông.	1.0
 8a635a797f7c	Cô ấy là giáo viên.	1.0
 8a7ba398c7b2	Cây giữa này thấp	0.75
+8ae667abdabf	Còn em gái bạn	1.0
+8b2e4803d217	Còn bạn Hoa	1.0
 8b53b9dddaf7	Chú Tớ là thợ xây.	1.0
 8bbe1bfee051	Đây là bác trai của Nam.	1.0
 8be3db54b6a8	Thu đang giặt quần áo.	1.0
@@ -311,7 +316,9 @@ ma	nghe	diem
 8da79e3302ca	trường ngôi sao ở trên đường Thanh Niên.	1.0
 8e23111bf4cf	Phải, con thò, gõ hái đai	0.33
 8f255b13cbd0	Có bút chì màu xanh dài	1.0
+8f8578d8e09f	Còn Bạn Tâm	1.0
 8fe23893483d	Con thỏ đang ăn	1.0
+91d95579461c	Chị đang rửa bát. Em lau bát giúp chị được không?	1.0
 91f072319d2b	Còn lau bát đĩa giúp mẹ được không?	0.88
 921885226e9b	Đây, kia là con mèo	1.0
 923645654f44	Của Mỹ Bông Hoa	0.5
@@ -341,6 +348,7 @@ ma	nghe	diem
 9b7e3249317e	Chị họ của cậu, làm nghề gì?	1.0
 9bbd31545e44	Mê Chô và Tàu Hòa. Tàu nào cũ hơn?	0.78
 9bf49424cb1b	Con gà có hai chân, phải không?	1.0
+9c4cbae9a557	Bố bạn thế nào?	1.0
 9ca87d4940a6	Hình tam rác, màu gì?	0.8
 9cb783d58900	có 5 hình tam giác	1.0
 9d5b6aea8607	Đây là mẹ tôi	1.0
@@ -361,6 +369,7 @@ a491ae514efe	Bạn thích đi giày màu gì?	1.0
 a4c6e2323320	Phải, gãy hủy này nâng	0.4
 a50627708c71	Con không giúp bố được ạ. Con không biết nấu cơm.	1.0
 a547b0f32ff0	Con mèo có mấy chân?	1.0
+a55dcaa61736	bạn Tú vui vẻ nhất	1.0
 a56365589016	Các chị ấy đang vẽ	1.0
 a70e9cd7b51c	bà nội	1.0
 a74bb00baf93	có 8 hình chữ nhật	1.0
@@ -377,14 +386,20 @@ a9d5f8f78414	Đồng hồ ở đâu?	1.0
 aa6e7475026d	trong phòng làm việc có gì?	1.0
 aabf48009f26	Đây là cây khế phải không?	1.0
 aae4cecc783d	con mèo ở bên cạnh cái ghế.	1.0
+abcaba06f514	Trong phòng khách có một bộ sofa, một cái TV và một bức tranh	0.8
 ac5f31fd34e8	có một hình chữ nhật.	1.0
 ad56fe578c69	Con cua có mấy chân?	1.0
 ade282c7c765	phải, không phải, cái bàn này cao, thấp	1.0
 adf5a734912f	Không phải! Đây là quả dừa!	1.0
+ae6810bffb7f	Mẹ đang nấu cơm Con cho mèo ăn giúp mẹ được không?	1.0
+ae6e7e5631d2	Đây là ông nội của em	1.0
 aee03c915f9f	Phải, đây là quả bưởi	1.0
+aefbf33b9cc5	Đây là cô của em	1.0
 af3e06fcc655	Có 10 hình tròn	1.0
 af43eace753d	Em họ em rất dễ thương	1.0
 afa4e3d8d420	Trong phòng ăn, có gì?	1.0
+b02070ee1adc	Nhà tử có 6 phòng Phòng khách, phòng bếp, 2 phòng ngủ và 2 phòng tắm	0.94
+b109534f24f7	Đây là em	1.0
 b1edcaa1c0f6	Đây là gì tôi?	0.75
 b1feaca4ecd6	Em gái em thế nào?	1.0
 b22730b39559	Ông ấy là bác sĩ	1.0
@@ -444,6 +459,7 @@ c9506ef3c12c	Con khỉ có 4 tai, phải không?	1.0
 ca0dd79f6419	ô tô con hay xe buýt to hơn	1.0
 ca1dae4b02f4	Nam thích mặt màu gì?	0.0
 cbb28a11956a	Đây là tôi	1.0
+cc8190c3b1ec	Nhà cậu có mỹ phòng	0.8
 cce8a6bfffaf	Cây dừa có mấy quả	1.0
 cdf96d9a1966	Chị ấy làm việc ở đâu?	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
@@ -455,10 +471,12 @@ d2927f33876e	Con gà đang chạy	1.0
 d2a24d5cb701	cửa hàng ở bên cạnh bệnh viện.	1.0
 d2ffb15c4ca4	Quyền	0.0
 d346de20174c	Kia là con mèo	1.0
+d36fb94e7781	Bé nô đùa	1.0
 d3ef61ed89a2	Cậu có thích mua không?	0.8
 d4de7cb6ec9a	Lọ hoa ở đâu?	1.0
 d52628c9e3d9	Không phải, đây là quả táo	1.0
 d5a21dd6a3d0	Bác ấy làm việc ở bệnh viện.	1.0
+d5ae51978b9c	Chị nói thế nào?	1.0
 d62e97305951	Con nhặt rau giúp mẹ được không?	1.0
 d65d3fa2e5b2	Em Linh, rất xinh	1.0
 d708e2d5212c	Chị gái em, thế nào?	1.0
@@ -472,9 +490,11 @@ dac0f241439a	Các chú ấy có phải là thợ xây không?	1.0
 dbc05c21f45c	trong phòng làm việc có một cái bàn, một cái máy tính và một cái ghế.	1.0
 dc945415cb52	Quyền vở màu trắng có to không?	0.86
 dce1f40d5fdf	Mũ đỏ	1.0
+dd1492527875	Ai vui vẻ nhất?	1.0
 dd1aacf6d4f5	Mai thích mặc váy màu cam, đội mũ màu vàng	0.4
 dd752297ff44	một quyển màu trắng, một quyển màu vàng.	1.0
 de449d320a61	Cái bàn nhỏ có cao không?	1.0
+de78362188e1	Anh trai tớ rất thân thiện	1.0
 e00c46cf3b0a	Lan thích mặt màu gì?	0.6
 e03cf83bee4a	Tù mù xanh, cao hôn tù mù nấu	0.25
 e042fcd0781a	ô tô màu vàng hay ô tô màu đỏ rẻ hơn.	1.0
