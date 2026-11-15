@@ -89,3 +89,8 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.83  Tớ đi học bằng xe đạp.  |  Tử đi học bằng xe đạp
 1.00  Nhà cậu cách trường bao xa?  |  Nhà cậu cách trường bao xa
 1.00  Nhà cậu ở đâu?  |  Nhà cậu ở đâu?
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 20 câu không cắt được, chia đôi để đọc lại
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 10 câu có đoạn cắt hỏng (nhị: đoạn quá ngắn) – chia đôi để đọc lại
+Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
