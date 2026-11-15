@@ -40,6 +40,7 @@ ma	nghe	diem
 121451a5e433	xe đạp ở trước cửa hàng	1.0
 1241f28c8133	Em đang trồng cây, anh tưới nước giúp em được không?	1.0
 12679bb4b4a5	Cô Na thì nào?	0.75
+12a17bcf62e7	Hôm nay, trời nóng, 35 độ	1.0
 12f2d0828712	Cây dừa này cao, phải không?	1.0
 1302321750f3	Đây là anh họ của Nam	1.0
 1318f4221267	Bạn ấy có phải là học sinh không?	1.0
@@ -48,6 +49,7 @@ ma	nghe	diem
 14425462c847	Cái ghế ở đâu?	1.0
 144d64080a58	Con sóc đang làm gì?	1.0
 146a64d8b165	Đây là con vịt	1.0
+14d26b9dd530	chê	0.0
 150cad42a9ed	cây rứa này thế nào?	0.8
 157986bead89	Đây là cây gì?	1.0
 15aae83310a6	cây cam có tảm quà	0.6
@@ -65,6 +67,7 @@ ma	nghe	diem
 1944864b6753	xe máy và xe đạp Xe nào nhanh hơn?	1.0
 1a2d7205a1f4	Con chó ở đâu?	1.0
 1a3979c3389c	trong phòng bếp có bàn ăn, phải không?	1.0
+1a4cf35afe6a	Không, ngày mai trời khô	1.0
 1b11dafa89b3	có bao nhiêu hình vuông?	1.0
 1c7decab7d4a	Làm gì đó?	1.0
 1d8c973650d4	Cô ấy có phải là học sinh không?	1.0
@@ -75,6 +78,7 @@ ma	nghe	diem
 1fe87b03db95	Không, cô ấy không phải là học sinh	1.0
 2036eed8e65f	Còn mèo có hai tai?	0.8
 21426d72f53c	Đây là cái gì?	1.0
+21eb21d9b147	có, ngày mai trời cũng ấm, 26 độ hoặc không, ngày mai trời lạnh, 18 độ	0.97
 2227a69cb94f	Bạn biết làm gì?	1.0
 2249a4d88919	Con nấu cơm giúp bố được không?	1.0
 225dd80cdda2	Đây là bà nội của em	1.0
@@ -93,7 +97,10 @@ ma	nghe	diem
 2c70ca943f63	Không. Trong phòng bếp không có bàn ăn. Bàn ăn ở trong phòng ăn.	1.0
 2c718c645886	Em Hoàng đang viết	1.0
 2cb31e7c53a3	có 3 hình chữ nhật	1.0
+2d03c3c23030	Hôm nay trời ầm	0.75
+2d88127ee4e3	Ngày mai trời có ầm không?	0.83
 2ded6a9a7c4a	Đây là anh tôi.	1.0
+2e293e3afcc2	Không, ngày mai có bão	1.0
 2e4b6c7c2b73	Em học em thì nào?	0.6
 2e6ef5278b58	Bác tử là bác sĩ	0.8
 2edff3853b7e	Cháu chào bà à!	0.75
@@ -118,9 +125,11 @@ ma	nghe	diem
 382d98a1e242	Đây là con hồ	0.75
 38f1bed0611b	Cảnh hưởng này thế nào?	0.6
 39038095bf6a	con voi này tớ	0.75
+3ad8a055345d	Ngày mai trời có ẩm không?	0.83
 3af980eda2b9	Dũng đang quét giọn	0.75
 3b479fd31d83	Còn túi cây giúp bố được không?	0.71
 3b87cf0f26d3	Trong phòng khách có một bộ bàn ghế, một cái TV và một bức tranh	0.9
+3ba6d2521bed	Hôm nay trời thế nào?	1.0
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
 3dfec22cae7e	Bà nói thế nào?	1.0
 3e1905e73c74	Đây là em tôi	1.0
@@ -142,6 +151,7 @@ ma	nghe	diem
 45c039b4dd19	hình chữ nhật màu gì?	1.0
 45cc5c879363	Phải Con gà có hai chân	1.0
 4655b45aa458	Hi! Cảy gỡ màu xanh!	0.4
+46691d4a026f	Bờ hù có nho, có na, có khỉ	0.75
 46c69c0c941c	Con hồ thế nào?	0.75
 47451b281b9d	Hình tròn, màu đỏ	1.0
 4896316fb9f1	Bố tử xích nghiêm	0.5
@@ -211,6 +221,8 @@ ma	nghe	diem
 63ffd20c08a4	Anh trai bạn thế nào?	1.0
 64256bb928c8	Bạn hồng hiền nhất	1.0
 65708aa8d39b	Còn quét dọn giúp bố được không?	0.86
+65723cd29339	hỡi	0.0
+657e5a0612c1	Hôm nay, có gió nhẹ	1.0
 65f80282d975	Con bạn Hùng	0.67
 6667c253403c	quả bóng ở dưới cái bàn.	1.0
 66cea064023a	Tối	0.0
@@ -500,8 +512,10 @@ e03cf83bee4a	Tù mù xanh, cao hôn tù mù nấu	0.25
 e042fcd0781a	ô tô màu vàng hay ô tô màu đỏ rẻ hơn.	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
+e1a0bdce7881	Phòng khách ở tầng 1	1.0
 e1a5ae8b8374	trong phòng ăn có tủ bếp phải không?	1.0
 e2aa7d1d85eb	Đây là mẹ của Nam.	1.0
+e3ee71509855	Em nói thế nào?	1.0
 e60e4b921d42	Bạn có thích chạy không?	1.0
 e612ccdb63a8	Tôi thích mặc quần màu tím	1.0
 e6d09eeec7ce	Mũ mù vàng hay mũ mù xanh đẹp hơn.	0.78
@@ -509,6 +523,7 @@ e70c8010123d	Quả dứa ở đâu?	1.0
 e739627fcc94	Có mỹ quyền sách	0.5
 e782827f30b3	Ông ấy có phải là kỹ sư không?	0.88
 e88060b61be2	Có hai hình tam giác	1.0
+e9abe025a7f4	Bạn hùng thế nào?	1.0
 ea329e061429	Hình này là hình vuông	1.0
 ea3b931bb78c	Chào chào chú à!	0.5
 ea75578dbf09	trong phòng khách có gì?	1.0
@@ -520,6 +535,7 @@ ed32a0f94977	Em chú ý ạ	0.57
 edb9b6b0d8a0	Cô My, rất hiền	1.0
 edecd070ebf1	Của sầu bông hoa	0.5
 eeedae5985a4	Có, không, tôi thích, không thích, chạy	1.0
+ef25eeb0c377	Bũ nổi thế nào?	0.5
 ef72781f7644	Cô ấy là thợ may.	1.0
 ef8df959a24c	Tôi biết đọc	1.0
 f02c1395dc7c	Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm	1.0
@@ -535,12 +551,16 @@ f4297c64667a	Đây là con gà	1.0
 f53721e2aacc	Chị Tâm rất chăm chỉ.	1.0
 f5635c5fcee4	Quả bóng ở đâu?	1.0
 f5d06b5f2bac	Zù đà	0.0
+f63fa7e253af	Bạn hoa, rất dễ thương!	1.0
 f6646e55eb5c	Tôi thích mặc ảo màu cam	0.83
+f740e96a5489	Bà đang quét dọn. Hai cháu quét giúp bà được không?	1.0
 f86ee2b517b5	Con chó ở dưới bàn	1.0
+f904960fd34a	Mẹ tử rất hiền	0.75
 f981aea15dfe	Ân ngoại	0.5
 fa19e9e9f7d1	Còn mấy hình tam giác	0.8
 fa2c08f5a7d7	Mỡ	0.0
 fa4ef1e6cdfa	Bạn thích mặc váy màu gì?	1.0
+fb0430515ea9	Đây là mẹ của em	1.0
 fc26232236c8	Con không giúp mẹ được ạ, con không biết nấu cơm	1.0
 fc4b89ccf628	mũ mù vàng hay mũ mù xanh đắt hơn.	0.78
 fc63f0c31fd6	Con vịt đang làm gì?	1.0

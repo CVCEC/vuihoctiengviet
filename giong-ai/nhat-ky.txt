@@ -41,3 +41,24 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Chị nói thế nào?  |  Chị nói thế nào?
 1.00  Ai vui vẻ nhất?  |  Ai vui vẻ nhất?
 1.00  Anh trai tớ rất thân thiện.  |  Anh trai tớ rất thân thiện
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Phòng khách ở tầng 1.  |  Phòng khách ở tầng 1
+1.00  Em nói thế nào?  |  Em nói thế nào?
+1.00  Bạn Hùng thế nào?  |  Bạn hùng thế nào?
+0.50  Bố nói thế nào?  |  Bũ nổi thế nào?
+1.00  Bạn Hoa rất dễ thương.  |  Bạn hoa, rất dễ thương!
+1.00  Bà đang quét dọn. Hai cháu quét giúp bà được không?  |  Bà đang quét dọn. Hai cháu quét giúp bà được không?
+0.75  Mẹ tớ rất hiền.  |  Mẹ tử rất hiền
+1.00  Đây là mẹ của em.  |  Đây là mẹ của em
+1.00  Hôm nay, trời nóng, 35 độ.  |  Hôm nay, trời nóng, 35 độ
+0.00  chè  |  chê
+1.00  Không. Ngày mai trời khô.  |  Không, ngày mai trời khô
+0.97  Có. Ngày mai trời cũng ấm, 26 độ. / Không. Ngày mai trời lạnh, 18 độ.  |  có, ngày mai trời cũng ấm, 26 độ hoặc không, ngày mai trời lạnh, 18 độ
+0.75  Hôm nay, trời ẩm.  |  Hôm nay trời ầm
+0.83  Ngày mai trời có ẩm không?  |  Ngày mai trời có ầm không?
+1.00  Không. Ngày mai có bão.  |  Không, ngày mai có bão
+0.83  Ngày mai trời có ấm không?  |  Ngày mai trời có ẩm không?
+1.00  Hôm nay, trời thế nào?  |  Hôm nay trời thế nào?
+0.75  Bờ hồ có nho, có na, có khế.  |  Bờ hù có nho, có na, có khỉ
+0.00  khế  |  hỡi
+1.00  Hôm nay, có gió nhẹ.  |  Hôm nay, có gió nhẹ
