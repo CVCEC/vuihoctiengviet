@@ -73,3 +73,19 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Tớ đi rồi.  |  Tớ đi rồi.
 1.00  Tớ ít khi đi du lịch. Tớ đi bơi, học võ, học đàn.  |  tớ ít khi đi du lịch tớ đi bơi, học võ, học đàn
 0.50  Nghỉ hè, cậu thường làm gì?  |  Nỉ he, cậu thương làm gì?
+1.00  Hôm nay trời nắng.  |  Hôm nay trời nắng.
+0.75  Tớ sống ở Tokyo.  |  Tỡ SỐNG Ở TOKYO
+1.00  Bây giờ 15 độ.  |  Bây giờ, 15 độ
+0.71  Có. Tớ thích. / Không. Tớ không thích.  |  có, tự thích không, tự không thích
+1.00  Có. Tớ đã đi Vũng Tàu.  |  Có, tớ đã đi vũng tàu.
+1.00  Không. Tớ đi Vũng Tàu vào mùa hè. Gió biển mát lắm.  |  Không, tớ đi vũng tàu vào mùa hè, gió biển mát lắm.
+1.00  Vũng Tàu có biển xanh. Đẹp lắm.  |  Vũng tàu có biển xanh. Đẹp lắm!
+1.00  Bạn đi công viên bao giờ?  |  Bạn đi công viên bao giờ?
+1.00  Bạn đã đi công viên chưa?  |  Bạn đã đi công viên chưa?
+0.90  Tớ thường đi du lịch cùng gia đình. Còn cậu?  |  Tớ thường đi du lịch cùng gia đình, con cậu.
+1.00  Từ nhà tớ đến trường, đi xe đạp mất 15 phút.  |  Từ nhà tớ đến trường, đi xe đạp mất 15 phút.
+1.00  Cậu đi học bằng gì?  |  Cậu đi học bằng gì?
+1.00  Từ nhà cậu đến trường, đi xe đạp mất bao lâu?  |  Từ nhà cậu đến trường, đi xe đạp mất bao lâu?
+0.83  Tớ đi học bằng xe đạp.  |  Tử đi học bằng xe đạp
+1.00  Nhà cậu cách trường bao xa?  |  Nhà cậu cách trường bao xa
+1.00  Nhà cậu ở đâu?  |  Nhà cậu ở đâu?
