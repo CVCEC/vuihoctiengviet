@@ -1,5 +1,6 @@
 /* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
 const AM_AI = {"Kore|Hôm nay, trời thế nào?":"../../am-ai/3ba6d2521bed.mp3",
+"Kore|Hôm nay, trời khá ấm, 25 độ.":"../../am-ai/97bab69635bb.mp3",
 "Kore|Ngày mai trời có ấm không?":"../../am-ai/3ad8a055345d.mp3",
 "Kore|Có. Ngày mai trời cũng ấm, 26 độ. / Không. Ngày mai trời lạnh, 18 độ.":"../../am-ai/21eb21d9b147.mp3",
 "Kore|Hôm nay, trời nóng, 35 độ.":"../../am-ai/12a17bcf62e7.mp3",
