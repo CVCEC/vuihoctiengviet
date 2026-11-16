@@ -7,3 +7,5 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.00  nhổ  |  có cả ba ba.
 Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
 1.00  Hôm nay, trời khá ấm, 25 độ.  |  Hôm nay trời khá ấm, 25 độ
+0.00  chó  |  Chào!
+0.00  khỉ  |  Ấy
