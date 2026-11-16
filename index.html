@@ -14,7 +14,7 @@
 <script src="https://mau.cvcec.org/v1/cvcec-chung.js" defer></script>
 <!-- Cảnh làng quê dùng chung với cổng vietclass.cvcec.org -->
 <script src="https://vietclass.cvcec.org/chung/canh.js" defer></script>
-<link rel="stylesheet" href="assets/css/site.css?v=2">
+<link rel="stylesheet" href="assets/css/site.css?v=3">
 </head>
 <body>
 <header class="top">
@@ -29,6 +29,10 @@
     <div class="vh-banner-the">
       <p class="vh-eyebrow">Trường Tiếng Việt Của Em</p>
       <h1 id="vh-tieu-de">Vui học <span>tiếng Việt</span></h1>
+      <div class="vh-quyen" role="group" aria-label="Chọn quyển">
+        <a class="vh-quyen-nut q1" href="#quyen-1" data-q="1"><b>Quyển 1</b><small>Nghe – nói, làm quen mặt chữ</small></a>
+        <a class="vh-quyen-nut q2" href="#quyen-2" data-q="2"><b>Quyển 2</b><small>Luyện nói, bắt đầu đọc – viết</small></a>
+      </div>
       <p class="vh-phu">Quyển 1 · Nghe – nói và làm quen mặt chữ</p>
       <dl class="vh-sach">
         <div><dt>Sách</dt><dd><b>Vui học tiếng Việt – Quyển 1</b></dd></div>
@@ -269,6 +273,11 @@
     else { chinh.textContent = 'Học thử Bài 1'; chinh.href = 'quyen-1/bai-01/'; }
   }
   btns.forEach(b => b.addEventListener('click', () => show(+b.dataset.q)));
+  // Hai nút Quyển 1 / Quyển 2 trên banner: chọn quyển rồi cuộn xuống danh sách bài
+  document.querySelectorAll('.vh-quyen-nut').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault(); show(+a.dataset.q);
+    document.getElementById('ds-bai').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
   document.addEventListener('ttv-che-do', () => { capNhatBanner(); show(qHien); });
 
   // Điện thoại: thu gọn ba khối giới thiệu để bé thấy danh sách bài sớm

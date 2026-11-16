@@ -404,7 +404,7 @@ a{color:var(--wood-d)}
 .vh-banner-trau{flex:none;width:clamp(120px,22vw,220px);height:auto;margin-bottom:-40px;filter:drop-shadow(0 4px 0 rgba(0,48,96,.12))}
 @media (max-width:640px){
   .vh-banner-ruot{flex-direction:column;align-items:stretch;padding-bottom:20px}
-  .vh-banner-trau{order:-1;align-self:flex-end;width:110px;margin:0 6px -18px 0;position:relative;z-index:1}
+  .vh-banner-trau{order:-1;align-self:flex-end;width:84px;margin:-14px 6px -14px 0;position:relative;z-index:1}
   .vh-sach div{grid-template-columns:1fr;gap:0}
 }
 
@@ -453,3 +453,14 @@ a{color:var(--wood-d)}
 .vh-moi-trau img{flex:none;width:96px;height:auto}
 .vh-nho{font-size:14px;color:var(--ink-2)}
 @media (max-width:480px){.vh-moi-trau img,.vh-trau-noi img{width:70px}}
+
+/* Hai nút Quyển 1 / Quyển 2 ngay trên banner */
+.vh-quyen{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 4px}
+.vh-quyen-nut{display:flex;flex-direction:column;justify-content:center;min-height:64px;padding:8px 14px;border-radius:18px;text-decoration:none;color:#fff;background:var(--c);box-shadow:0 3px 0 rgba(0,0,0,.18);touch-action:manipulation}
+.vh-quyen-nut.q1{--c:var(--ttv-chu,#003060)}
+.vh-quyen-nut.q2{--c:var(--ttv-goc-dam,#3B7A1F)}
+.vh-quyen-nut b{font-size:20px;line-height:1.2}
+.vh-quyen-nut small{font-size:14px;line-height:1.3;opacity:.95}
+.vh-quyen-nut:focus-visible{outline:3px solid var(--ttv-sao,#F0B050);outline-offset:2px}
+@media (max-width:420px){.vh-quyen-nut small{display:none}}
+#ds-bai{scroll-margin-top:76px}
