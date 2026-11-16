@@ -1,6 +1,6 @@
 # Vui học tiếng Việt – bản tương tác
 
-Phiên bản số hoá tương tác của bộ sách **Vui học tiếng Việt** (Quyển 1, 2), do CVCEC – Trường Tiếng Việt Của Em thực hiện với sự đồng ý của Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh. Miễn phí cho các gia đình.
+Phiên bản số hoá tương tác của bộ sách **Vui học tiếng Việt** (Quyển 1, 2), do CVCEC – Trường Tiếng Việt Của Em thực hiện với sự đồng ý của Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh, thuộc dự án phi lợi nhuận Trường Tiếng Việt Của Em.
 
 Trang web: https://vuihoctiengviet.cvcec.org (kho mã: github.com/CVCEC/vuihoctiengviet)
 

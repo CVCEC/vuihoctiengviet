@@ -350,3 +350,106 @@ a{color:var(--wood-d)}
 /* ---------- Bộ mẫu chung ---------- */
 /* Dòng bản quyền: bỏ độ mờ .9 của bộ mẫu để chữ đạt 4,5:1 trên nền kem */
 .ttv-chan .ttv-ban-quyen{opacity:1}
+
+/* ================= Trang chủ Vui học (16-11-2026) ================= */
+/* Màu cảnh làng quê: chép từ chung/cong.css của cổng vietclass.cvcec.org (cảnh vẽ nạp từ /chung/canh.js) */
+.vn-hero-canh .troi { fill: var(--ttv-troi); }
+.vn-hero-canh .mat-troi { fill: var(--ttv-mat-troi); }
+.vn-hero-canh .may { fill: var(--ttv-may); }
+.vn-hero-canh .nui-xa { fill: color-mix(in srgb, var(--ttv-lua-dam) 28%, var(--ttv-troi)); }
+.vn-hero-canh .nui-gan { fill: color-mix(in srgb, var(--ttv-lua-dam) 55%, var(--ttv-troi)); }
+.vn-hero-canh .song { fill: color-mix(in srgb, var(--ttv-chu) 14%, var(--ttv-troi)); }
+.vn-hero-canh .song-sang { stroke: var(--ttv-may); stroke-width: 3; stroke-linecap: round; fill: none; opacity: .7; }
+.vn-hero-canh .lua-sang { fill: var(--ttv-lua-sang); }
+.vn-hero-canh .lua { fill: var(--ttv-lua); }
+.vn-hero-canh .lua-dam { fill: var(--ttv-lua-dam); }
+.vn-hero-canh .bo-ruong { stroke: var(--ttv-may); stroke-width: 3; fill: none; opacity: .45; }
+.vn-hero-canh .gach { fill: var(--ttv-kem-rom); stroke: var(--ttv-chinh-dam); stroke-width: 2; }
+.vn-hero-canh .go { fill: var(--ttv-chinh-dam); }
+.vn-hero-canh .mai { fill: var(--ttv-chinh); }
+.vn-hero-canh .vang { fill: var(--ttv-sao); }
+.vn-hero-canh .net-vang { stroke: var(--ttv-sao); stroke-width: 3; fill: none; }
+.vn-hero-canh .net-day { stroke: var(--ttv-chinh-dam); stroke-width: 2; fill: none; }
+.vn-hero-canh .tre-than { fill: var(--ttv-lua-dam); }
+.vn-hero-canh .tre-la { fill: var(--ttv-lua); }
+.vn-hero-canh .thuyen { fill: var(--ttv-chinh-dam); }
+.vn-hero-canh .non { fill: var(--ttv-kem-rom); stroke: var(--ttv-chinh-dam); stroke-width: 1.5; }
+.vn-hero-canh .nguoi { fill: var(--ttv-chu); }
+.vn-hero-canh .vang-dam { fill: color-mix(in srgb, var(--ttv-sao) 60%, var(--ttv-chinh)); }
+.vn-hero-canh .buom { fill: color-mix(in srgb, var(--ttv-chinh) 55%, var(--ttv-kem-rom)); stroke: var(--ttv-chinh-dam); stroke-width: 1.5; }
+.vn-hero-canh .cau-thep path { fill: none; stroke: var(--ttv-chu); stroke-width: 5; stroke-linecap: round; }
+.vn-hero-canh .cau-thep .mong { stroke-width: 3; }
+.vn-hero-canh .cau-thep .mat-cau { stroke-width: 8; }
+.vn-hero-canh .rom { fill: color-mix(in srgb, var(--ttv-sao) 55%, var(--ttv-kem-rom)); stroke: var(--ttv-chinh-dam); stroke-width: 1.5; }
+.vn-hero-canh .duong-lang { fill: var(--ttv-kem-rom); }
+.vn-hero-canh .co { stroke: var(--ttv-chu); stroke-width: 1; }
+
+/* Banner: cảnh làng quê phía sau, thẻ trắng chứa tên chuyên mục và thông tin sách, Trâu Con chính thức */
+.vh-banner{position:relative;overflow:hidden;isolation:isolate;background:var(--ttv-troi,#BFE3F5)}
+.vh-banner .vn-hero-canh{position:absolute;inset:0;width:100%;height:100%;z-index:-1;display:block}
+.vh-banner-ruot{display:flex;align-items:flex-end;gap:12px;padding-top:26px;padding-bottom:70px}
+.vh-banner-the{flex:1;min-width:0;background:var(--card);border-radius:24px;padding:20px 22px;box-shadow:var(--shadow);border:2px solid var(--line)}
+.vh-eyebrow{margin:0 0 4px;font:800 13px/1.3 var(--ttv-phong,inherit);letter-spacing:.08em;text-transform:uppercase;color:var(--ttv-goc-dam)}
+.vh-banner h1{margin:0;font-family:var(--ttv-phong-tieu-de,inherit);font-size:clamp(32px,7vw,50px);line-height:1.08}
+.vh-banner h1 span{color:var(--ttv-goc-dam)}
+.vh-phu{margin:6px 0 12px;font-weight:700;font-size:18px;color:var(--ink)}
+.vh-sach{margin:0 0 14px;display:grid;gap:6px;font-size:15px;line-height:1.45}
+.vh-sach div{display:grid;grid-template-columns:110px 1fr;gap:8px}
+.vh-sach dt{color:var(--ink-2);font-weight:700}
+.vh-sach dd{margin:0}
+.vh-nut-hang{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.vh-nut-hang .btn{min-height:48px;text-decoration:none}
+.btn.vh-nut-chinh{background:var(--ttv-chinh,#C8321E);color:#fff}
+.vh-thuc-hien{margin:12px 0 0;font-size:14px;color:var(--ink-2)}
+.vh-banner-trau{flex:none;width:clamp(120px,22vw,220px);height:auto;margin-bottom:-40px;filter:drop-shadow(0 4px 0 rgba(0,48,96,.12))}
+@media (max-width:640px){
+  .vh-banner-ruot{flex-direction:column;align-items:stretch;padding-bottom:20px}
+  .vh-banner-trau{order:-1;align-self:flex-end;width:110px;margin:0 6px -18px 0;position:relative;z-index:1}
+  .vh-sach div{grid-template-columns:1fr;gap:0}
+}
+
+/* Ba khối giới thiệu (thu gọn được) */
+.vh-khoi{background:var(--card);border:2px solid var(--line);border-radius:22px;margin:18px 0;box-shadow:var(--shadow)}
+.vh-khoi summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:56px;padding:10px 18px;cursor:pointer;touch-action:manipulation}
+.vh-khoi summary::-webkit-details-marker{display:none}
+.vh-khoi-ten{font-family:var(--ttv-phong-tieu-de,inherit);font-weight:800;font-size:clamp(19px,3.6vw,23px);color:var(--ink)}
+.vh-them{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:999px;background:var(--ttv-goc-nhat);color:var(--ink);font-weight:700;font-size:15px}
+.vh-khoi[open] .vh-them{font-size:0}
+.vh-khoi[open] .vh-them::after{content:"Thu gọn";font-size:15px}
+.vh-khoi-ruot{padding:0 20px 18px;border-top:2px dashed var(--line)}
+.vh-khoi h3{margin:16px 0 6px;font-size:18px;color:var(--ttv-goc-dam)}
+.vh-khoi p{margin:6px 0}
+.vh-khoi ul,.vh-khoi ol{margin:6px 0;padding-left:22px}
+.vh-khoi li{margin:4px 0}
+.vh-chu-de{list-style:none;padding:0!important;display:grid;gap:8px}
+.vh-chu-de li{display:flex;gap:10px;align-items:flex-start;background:var(--ttv-goc-nhat);border-radius:14px;padding:10px 12px}
+.vh-chu-de li > span:first-child{font-size:22px;line-height:1.2}
+.vh-meo{display:flex;gap:10px;align-items:flex-start;background:var(--ttv-kem-rom,#FFF1D6);border-radius:14px;padding:10px 14px;margin-top:14px!important}
+.vh-trau-noi{display:flex;align-items:center;gap:10px;margin-top:14px}
+.vh-trau-noi img{flex:none;width:84px;height:auto}
+.vh-bong{position:relative;background:var(--ttv-goc-nhat);border-radius:18px;padding:10px 14px;margin:0;font-weight:700}
+.vh-bong small{display:block;font-weight:400;color:var(--ink-2);margin-top:2px}
+.vh-nv{list-style:none;padding:0!important;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:14px!important}
+.vh-nv li{display:flex;gap:12px;align-items:flex-start;border:2px solid var(--line);border-radius:18px;padding:12px;margin:0}
+.vh-nv img,.vh-nv-bieu{flex:none;width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid var(--ttv-goc-nhat)}
+.vh-nv-bieu{display:grid;place-items:center;font-size:34px;background:var(--ttv-goc-nhat)}
+.vh-nv b{font-size:18px}
+.vh-nv p{margin:2px 0 0;font-size:16px}
+.vh-hd{display:grid;grid-template-columns:1fr 1fr;gap:4px 22px}
+@media (max-width:760px){.vh-hd{grid-template-columns:1fr}}
+
+/* Danh sách bài */
+.vh-ds-tieu-de{margin:28px 0 4px;font-family:var(--ttv-phong-tieu-de,inherit);font-size:clamp(24px,5vw,30px)}
+.les.thu{box-shadow:0 0 0 3px var(--ttv-sao,#F0B050),var(--shadow)}
+.nhan-thu{display:inline-block;background:var(--ttv-goc-dam);color:#fff;font-weight:700;border-radius:999px;padding:0 8px;margin-right:6px;font-size:12px}
+.les.lock .s{flex-wrap:wrap}
+
+/* Dải mời đăng nhập giữa Bài 1 và các bài sau */
+.vh-moi{background:var(--card);border:3px solid var(--ttv-goc);border-radius:24px;padding:18px 20px;margin:16px 0 6px;box-shadow:var(--shadow)}
+.vh-moi h2{margin:12px 0 6px;font-family:var(--ttv-phong-tieu-de,inherit);font-size:clamp(20px,4vw,24px)}
+.vh-moi p{margin:6px 0}
+.vh-moi ul{margin:6px 0 12px;padding-left:22px}
+.vh-moi-trau{display:flex;align-items:center;gap:10px}
+.vh-moi-trau img{flex:none;width:96px;height:auto}
+.vh-nho{font-size:14px;color:var(--ink-2)}
+@media (max-width:480px){.vh-moi-trau img,.vh-trau-noi img{width:70px}}

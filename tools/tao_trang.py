@@ -66,7 +66,7 @@ KHUON = '''<!doctype html>
 <footer class="foot">
   <div class="wrap">
     <p>Nội dung: <b>Vui học tiếng Việt – Quyển {q}</b> · {tac_gia} · Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh.</p>
-    <p>Bản số hoá tương tác: CVCEC – Trường Tiếng Việt Của Em, với sự đồng ý của Nhà xuất bản. Sử dụng miễn phí cho mục đích học tập.</p>
+    <p>Bản tương tác do Trường Tiếng Việt Của Em (CVCEC) thực hiện.</p>
     <p class="cp">Bài hát được nhúng từ YouTube và thuộc bản quyền của tác giả, người biểu diễn.</p>
     <p class="dk"><a href="../../#dieu-khoan">Lưu ý về sử dụng tài liệu · Terms of use</a></p>
   </div>

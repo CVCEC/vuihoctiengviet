@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vui học tiếng Việt – Trường Tiếng Việt Của Em</title>
-<meta name="description" content="Bộ sách Vui học tiếng Việt (Quyển 1, 2) phiên bản tương tác: nghe, nói, đóng vai, đọc và viết – miễn phí cho các gia đình.">
+<meta name="description" content="Bộ sách Vui học tiếng Việt (Quyển 1, 2) phiên bản tương tác: nghe, nói, đóng vai, đọc và viết. Một phần của Trường Tiếng Việt Của Em – dự án phi lợi nhuận của CVCEC.">
 <meta name="theme-color" content="#FFF8EC">
 <meta name="robots" content="noimageindex, noai, noimageai">
 <meta name="googlebot" content="noimageindex">
@@ -12,7 +12,9 @@
 <link rel="preload" href="assets/fonts/andika-vietnamese-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://mau.cvcec.org/v1/cvcec-chung.css">
 <script src="https://mau.cvcec.org/v1/cvcec-chung.js" defer></script>
-<link rel="stylesheet" href="assets/css/site.css">
+<!-- Cảnh làng quê dùng chung với cổng vietclass.cvcec.org -->
+<script src="https://vietclass.cvcec.org/chung/canh.js" defer></script>
+<link rel="stylesheet" href="assets/css/site.css?v=2">
 </head>
 <body>
 <header class="top">
@@ -21,16 +23,126 @@
   </div>
 </header>
 
-<div class="ttv-canh home-canh">
-<div class="wrap">
-  <section class="home-hero">
-    <h1>Vui học <span>tiếng Việt</span></h1>
-    <p>Bộ sách tương tác cho các em mới bắt đầu học tiếng Việt: nghe, nói theo, đóng vai, tô chữ – học cùng bố mẹ trên điện thoại, máy tính bảng hoặc máy tính.</p>
-  </section>
-</div>
-</div>
+<!-- 1. Banner: cảnh làng quê + Trâu Con + thông tin sách -->
+<section class="vh-banner" id="vh-banner" aria-labelledby="vh-tieu-de">
+  <div class="wrap vh-banner-ruot">
+    <div class="vh-banner-the">
+      <p class="vh-eyebrow">Trường Tiếng Việt Của Em</p>
+      <h1 id="vh-tieu-de">Vui học <span>tiếng Việt</span></h1>
+      <p class="vh-phu">Quyển 1 · Nghe – nói và làm quen mặt chữ</p>
+      <dl class="vh-sach">
+        <div><dt>Sách</dt><dd><b>Vui học tiếng Việt – Quyển 1</b></dd></div>
+        <div><dt>Tác giả</dt><dd>Nguyễn Minh Thuyết, Nguyễn Khánh Hà (đồng chủ biên), Hoàng Hoà Bình, Phùng Thị Thanh Lâm</dd></div>
+        <div><dt>Nhà xuất bản</dt><dd>Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh</dd></div>
+      </dl>
+      <div class="vh-nut-hang">
+        <a class="btn vh-nut-chinh" id="vh-nut-bat-dau" href="quyen-1/bai-01/">Học thử Bài 1</a>
+        <a class="btn soft" id="vh-nut-dang-nhap" href="https://vietclass.cvcec.org/dang-nhap/?ve=%2F%23vuihoc" target="_top" hidden>Đăng nhập để học trọn bộ</a>
+      </div>
+      <p class="vh-thuc-hien">Bản tương tác do Trường Tiếng Việt Của Em (CVCEC) thực hiện</p>
+    </div>
+    <img class="vh-banner-trau" src="https://mau.cvcec.org/assets/trau-thumbs-up.png" alt="" width="220" height="220">
+  </div>
+</section>
 
 <main class="wrap">
+
+  <!-- 2. Tổng quan & Mục tiêu -->
+  <details class="vh-khoi" id="tong-quan" data-mo-rong open>
+    <summary><span class="vh-khoi-ten"><span aria-hidden="true">📘</span> Tổng quan &amp; Mục tiêu khoá học</span><span class="vh-them">Xem thêm</span></summary>
+    <div class="vh-khoi-ruot">
+      <h3>Cuốn sách này có gì?</h3>
+      <p><b>Vui học tiếng Việt – Quyển 1</b> là bước đầu tiên để các bạn nhỏ <b>nghe hiểu, nói được và nhận ra mặt chữ</b> tiếng Việt. Cuốn sách đi từ những điều gần gũi nhất quanh bé:</p>
+      <ul class="vh-chu-de">
+        <li><span aria-hidden="true">🏠</span><span><b>Gia đình</b> (Bài 1–5): <i>Đây là ai?</i> · <i>Con chào mẹ ạ.</i> · <i>Em làm gì đó?</i> · <i>Bố mẹ em thế nào?</i></span></li>
+        <li><span aria-hidden="true">🌳</span><span><b>Thiên nhiên</b> (Bài 6–10): <i>Kia là con gì?</i> · <i>Cây cam có mấy quả?</i> · <i>Con hổ đang làm gì?</i></span></li>
+        <li><span aria-hidden="true">🏫</span><span><b>Trường lớp</b> (Bài 11–15): <i>Em có biết vẽ không?</i> · <i>Hình này là hình gì?</i> · <i>Hôm nay là thứ mấy?</i></span></li>
+        <li><span aria-hidden="true">🏘️</span><span><b>Cộng đồng</b> (Bài 16–20): <i>Cô ấy làm nghề gì?</i> · <i>Trường em ở đâu?</i> · <i>Xe nào nhanh hơn?</i></span></li>
+      </ul>
+      <p>Tổng cộng <b>20 bài</b>: 16 bài học mới và 4 bài ôn tập, mỗi chủ đề khép lại bằng một bài ôn.</p>
+
+      <h3>Mỗi bài học gồm</h3>
+      <ul class="vh-phan">
+        <li><b>Từ ngữ</b>: nhìn tranh, nghe và nhắc lại.</li>
+        <li><b>Hội thoại</b>: nghe các bạn trong sách nói chuyện, rồi đóng vai hỏi – đáp.</li>
+        <li><b>Tiếng Việt vui</b>: trò chơi, bài hát.</li>
+        <li><b>Học chữ</b>: nghe tên chữ, nhắc lại, tìm và tô màu chữ.</li>
+      </ul>
+
+      <h3>Học xong Quyển 1, bé có thể</h3>
+      <ul class="vh-dich">
+        <li><b>Nghe hiểu</b> các câu nói hằng ngày về gia đình, con vật, đồ vật, trường lớp và nghề nghiệp.</li>
+        <li><b>Nói</b> câu ngắn để giới thiệu (“Đây là mẹ tôi.”), chào hỏi lễ phép (“Con chào mẹ ạ.”) và hỏi – đáp (“Kia là con gì?”).</li>
+        <li><b>Dùng đúng từ xưng hô</b> trong họ nội, họ ngoại, và biết rằng có nơi gọi “bố, mẹ”, có nơi gọi “ba, má”.</li>
+        <li><b>Nhận ra toàn bộ bảng chữ cái</b> và các chữ ghép như ch, gh, gi, kh, ng, ngh, nh, qu, th, tr, từ a, ă, â đến s, x, v.</li>
+        <li><b>Nói về thời gian, màu sắc, hình dạng và số lượng</b> đơn giản.</li>
+        <li><b>Tự tin và yêu thích tiếng Việt</b>: đây là nền tảng để sang Quyển 2 bắt đầu đọc và viết.</li>
+      </ul>
+      <p class="vh-meo"><span aria-hidden="true">💡</span><span>Mỗi bài xây trên bài trước. Học <b>trọn 20 bài theo thứ tự</b> thì bé có đủ vốn từ và đủ mặt chữ để bước sang Quyển 2 một cách nhẹ nhàng.</span></p>
+    </div>
+  </details>
+
+  <!-- 3. Nhân vật -->
+  <details class="vh-khoi" id="nhan-vat" open>
+    <summary><span class="vh-khoi-ten"><span aria-hidden="true">👫</span> Bạn đồng hành trong sách</span><span class="vh-them">Xem thêm</span></summary>
+    <div class="vh-khoi-ruot">
+      <div class="vh-trau-noi">
+        <img src="https://mau.cvcec.org/assets/trau-wave.png" alt="" width="84" height="84">
+        <p class="vh-bong">Các bạn ơi, trong sách có nhiều bạn nhỏ sẽ cùng học, cùng chơi với các bạn đấy. Mình giới thiệu nhé!<small>— Trâu Con</small></p>
+      </div>
+      <ul class="vh-nv">
+        <li><img src="quyen-1/bai-03/img/av-nam.webp" alt="Nam" width="80" height="80" loading="lazy"><div><b>Nam</b><p>Cậu bạn hay hỏi, hay kể chuyện. Nhà Nam có <b>bố, mẹ</b> và <b>chị Liên</b>. Nam còn dẫn các bạn đi thăm họ nội, họ ngoại của mình.</p></div></li>
+        <li><img src="quyen-1/bai-03/img/av-mai.webp" alt="Mai" width="80" height="80" loading="lazy"><div><b>Mai</b><p>Cô bạn vui vẻ, thân thiện. Nhà Mai có <b>ba, má, anh Dũng</b> và em nhỏ. Các bạn sẽ được dự sinh nhật Mai cùng cả lớp.</p></div></li>
+        <li><img src="quyen-1/bai-03/img/av-dung.webp" alt="Anh Dũng" width="80" height="80" loading="lazy"><div><b>Anh Dũng</b><p>Anh trai của Mai, hay dẫn hai em đi chơi, đi vườn thú.</p></div></li>
+        <li><span class="vh-nv-bieu" aria-hidden="true">🧑‍🏫</span><div><b>Các bạn cùng lớp và cô giáo</b><p>Lan, Tùng, Hương… cùng cô giáo sẽ gặp các bạn ở trường, ở sân chơi.</p></div></li>
+      </ul>
+      <p class="vh-meo"><span aria-hidden="true">🗣️</span><span>Nam gọi “bố, mẹ”, Mai gọi “ba, má”. Nhờ hai bạn, bé biết được cả hai cách gọi của người Việt.</span></p>
+    </div>
+  </details>
+
+  <!-- 4. Hướng dẫn cho Cha mẹ & Giáo viên -->
+  <details class="vh-khoi" id="huong-dan" open>
+    <summary><span class="vh-khoi-ten"><span aria-hidden="true">🧭</span> Hướng dẫn cho Cha mẹ &amp; Giáo viên</span><span class="vh-them">Xem thêm</span></summary>
+    <div class="vh-khoi-ruot vh-hd">
+      <section>
+        <h3>Mỗi buổi học</h3>
+        <ol>
+          <li><b>Ngắn và đều</b>: 15–20 phút mỗi lần, 3–4 lần một tuần, tốt hơn học dồn một buổi dài.</li>
+          <li><b>Ngồi cùng bé</b>, nhất là với các bé 5–7 tuổi. Bé cần người cùng hỏi – đáp.</li>
+          <li><b>Theo thứ tự trong bài</b>: Từ ngữ → Hội thoại → Tiếng Việt vui → Học chữ.</li>
+          <li><b>Bật âm thanh</b>: bé nghe giọng đọc chuẩn rồi nhắc lại thành tiếng. Nói to quan trọng hơn bấm đúng.</li>
+        </ol>
+      </section>
+      <section>
+        <h3>Đồng hành hiệu quả</h3>
+        <ul>
+          <li><b>Đóng vai cùng bé</b>: cha mẹ làm Nam, bé làm Mai, rồi đổi vai.</li>
+          <li><b>Đưa bài học vào đời sống</b>: học xong bài gia đình thì chỉ ảnh nhà mình và hỏi “Đây là ai?”.</li>
+          <li><b>Khen nỗ lực, không chỉ khen kết quả</b>: “Con nói to và rõ quá!”</li>
+          <li><b>Bé làm sai thì gợi ý nhẹ nhàng</b>, rồi cho bé thử lại. Không làm thay bé.</li>
+          <li><b>Đừng bỏ bài Ôn tập</b>: đây là lúc bé ghép các phần đã học lại với nhau.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Với giáo viên</h3>
+        <ul>
+          <li>Mỗi chủ đề (5 bài) có thể dạy trong <b>khoảng 3–5 tuần</b>, tuỳ nhịp lớp.</li>
+          <li>Dùng phần <b>Hội thoại</b> để luyện nói theo cặp trên lớp, còn <b>Học chữ</b> và <b>Tiếng Việt vui</b> giao cho bé làm ở nhà.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Sao, khoá bài và dữ liệu</h3>
+        <ul>
+          <li>Xong mỗi bài tập, bé được một ngôi sao. Bé cần <b>đủ sao</b> ở một bài thì bài tiếp theo mới mở. Nếu đổi máy, hoặc thầy cô muốn cho học trước, người lớn bấm vào bài đang khoá và trả lời một phép tính nhỏ để mở.</li>
+          <li>Nút ghi âm giúp bé nghe lại giọng mình để so với giọng mẫu. Bản ghi âm và ảnh gia đình chỉ nằm trên máy của bạn, không được gửi lên mạng.</li>
+          <li>Nếu có sách giấy, bạn có thể bấm “Xem trang sách” trong mỗi bài để đối chiếu.</li>
+        </ul>
+      </section>
+    </div>
+  </details>
+
+  <!-- 5. Danh sách bài học -->
+  <h2 class="vh-ds-tieu-de" id="ds-bai">Danh sách bài học</h2>
   <div class="books" role="group" aria-label="Chọn quyển">
     <button class="book q1" type="button" data-q="1" aria-pressed="true"><b>Quyển 1</b><small>Nghe – nói, làm quen mặt chữ · 20 bài</small></button>
     <button class="book q2" type="button" data-q="2" aria-pressed="false"><b>Quyển 2</b><small>Luyện nói, bắt đầu đọc – viết · 20 bài</small></button>
@@ -38,30 +150,41 @@
 
   <div id="list"></div>
 
-  <section class="guide">
-    <h2>Hướng dẫn cho bố mẹ</h2>
-    <ul>
-      <li>Mỗi bài đi theo đúng các phần trong sách. Em làm lần lượt từng phần, xong mỗi bài tập sẽ được một ngôi sao.</li>
-      <li>Em cần <b>đủ sao</b> ở một bài thì bài tiếp theo mới mở. Nếu đổi máy, hoặc thầy cô muốn cho học trước, bố mẹ / giáo viên bấm vào bài đang khoá và trả lời một phép tính nhỏ để mở.</li>
-      <li>Hãy cho em nghe và <b>nói to theo</b>. Nút ghi âm giúp em nghe lại giọng mình để so với giọng mẫu.</li>
-      <li>Bản ghi âm và ảnh gia đình chỉ nằm trên máy của bạn, không được gửi lên mạng. Tiến độ học cũng chỉ lưu trên máy này.</li>
-      <li>Nếu có sách giấy, bạn có thể bấm “Xem trang sách” trong mỗi bài để đối chiếu.</li>
-    </ul>
-  </section>
+  <!-- Dải mời đăng nhập: chỉ hiện khi khách đang học thử (chèn vào danh sách bằng script) -->
+  <template id="mau-moi">
+    <section class="vh-moi" aria-labelledby="vh-moi-h">
+      <div class="vh-moi-trau">
+        <img src="https://mau.cvcec.org/assets/trau-wave.png" alt="" width="96" height="96">
+        <p class="vh-bong">Các bạn học giỏi quá! Nam và Mai đang chờ các bạn ở Bài 2 đấy. Các bạn nhờ bố mẹ đăng nhập giúp nhé, mình sẽ cất sao cho các bạn.</p>
+      </div>
+      <h2 id="vh-moi-h"><span aria-hidden="true">🌟</span> Bé đã sẵn sàng cho hành trình 20 bài?</h2>
+      <p><b>Vui học tiếng Việt</b> là một phần của Trường Tiếng Việt Của Em – dự án phi lợi nhuận dành cho mọi gia đình. Chỉ cần đăng nhập một lần để:</p>
+      <ul>
+        <li>mở trọn bộ các bài tiếp theo;</li>
+        <li>lưu sao và tiến độ học của bé;</li>
+        <li>cùng nhà trường giữ học liệu này luôn an toàn cho cộng đồng.</li>
+      </ul>
+      <div class="vh-nut-hang">
+        <a class="btn vh-nut-chinh" data-dang-nhap href="https://vietclass.cvcec.org/dang-nhap/?ve=%2F%23vuihoc" target="_top">Đăng nhập để học tiếp</a>
+        <a class="btn soft" data-dang-ky href="https://vietclass.cvcec.org/dang-nhap/?che-do=ky&amp;ve=%2F%23vuihoc" target="_top">Tạo tài khoản</a>
+      </div>
+      <p class="vh-nho">Chỉ mất chưa đến một phút.</p>
+    </section>
+  </template>
 
   <section class="terms" id="dieu-khoan" aria-labelledby="dk-h">
     <h2 id="dk-h">Lưu ý về sử dụng tài liệu · Terms of use</h2>
     <p>Các trang sách, hình ảnh và bản ghi âm trên trang này thuộc bộ sách <b>Vui học tiếng Việt</b> (© nhóm tác giả và Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh). CVCEC chuyển thành bản tương tác và đăng tải với sự đồng ý của Nhà xuất bản, nhằm mục đích học tập, và có thể được dùng cho nghiên cứu về tiếng Việt như một ngoại ngữ. Các nhà nghiên cứu ngôn ngữ muốn tìm hiểu thêm xin liên hệ <a href="mailto:contact@cvcec.org">contact@cvcec.org</a>.</p>
-    <p>Trang học hoàn toàn miễn phí và phi lợi nhuận. Tài liệu không được sử dụng vào mục đích thương mại, và không được sao chép, tải xuống hay chia sẻ lại dưới bất kỳ hình thức nào khi chưa có sự đồng ý bằng văn bản của CVCEC và Nhà xuất bản.</p>
+    <p>Trang học thuộc dự án phi lợi nhuận Trường Tiếng Việt Của Em. Tài liệu không được sử dụng vào mục đích thương mại, và không được sao chép, tải xuống hay chia sẻ lại dưới bất kỳ hình thức nào khi chưa có sự đồng ý bằng văn bản của CVCEC và Nhà xuất bản.</p>
     <p class="en" lang="en">The textbook pages, pictures and recordings on this site come from <i>Vui học tiếng Việt</i> (© the authors and Ho Chi Minh City University of Education Publishing House). CVCEC publishes this interactive version with the publisher's permission for learning purposes, and it may be used for research on Vietnamese as a foreign language. Language researchers who would like more information may contact <a href="mailto:contact@cvcec.org">contact@cvcec.org</a>.</p>
-    <p class="en" lang="en">This site is entirely free and non-profit. The materials may not be used for any commercial purpose, and may not be copied, downloaded or shared in any form without written permission from CVCEC and the publisher.</p>
+    <p class="en" lang="en">This site is part of Trường Tiếng Việt Của Em, a non-profit project. The materials may not be used for any commercial purpose, and may not be copied, downloaded or shared in any form without written permission from CVCEC and the publisher.</p>
   </section>
 </main>
 
 <footer class="foot">
   <div class="wrap">
     <p>Nội dung: <b>Vui học tiếng Việt</b> (Quyển 1, 2) · Nhóm tác giả Nguyễn Minh Thuyết, Nguyễn Khánh Hà, Hoàng Hoà Bình, Phùng Thị Thanh Lâm, Trịnh Cẩm Lan, Hoàng Anh Thi · Nhà xuất bản Đại học Sư phạm TP. Hồ Chí Minh. Bộ sách do Mạng lưới Giảng dạy tiếng Việt và văn hoá Việt Nam toàn cầu (Vietnamese Network), đại diện là Hội Người Việt Nam tại Fukuoka, liên kết với Nhà xuất bản biên soạn và xuất bản.</p>
-    <p>Bản số hoá tương tác: CVCEC – Trường Tiếng Việt Của Em, với sự đồng ý của Nhà xuất bản. Sử dụng miễn phí cho mục đích học tập.</p>
+    <p>Bản tương tác do Trường Tiếng Việt Của Em (CVCEC) thực hiện.</p>
     <p class="dk"><a href="#dieu-khoan">Lưu ý về sử dụng tài liệu · Terms of use</a></p>
   </div>
 </footer>
@@ -74,6 +197,16 @@
 (function () {
   const list = document.getElementById('list');
   const btns = document.querySelectorAll('.book');
+  const ICON_KHOA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+  let qHien = 1;
+
+  // Chế độ học do cổng báo qua bộ mẫu chung: "thu" (khách học thử Bài 1), "hoc" (đã đăng nhập), null (chưa biết)
+  function cheDo() { return (window.TTV && TTV.cheDoHoc) ? TTV.cheDoHoc() : null; }
+  function duongDangNhap(ky) {
+    if (window.TTV && TTV.duongDangNhap) return TTV.duongDangNhap(ky);
+    return 'https://vietclass.cvcec.org/dang-nhap/?' + (ky ? 'che-do=ky&' : '') + 've=%2F%23vuihoc';
+  }
+
   function stars(q, b) {
     try {
       const s = JSON.parse(localStorage.getItem('vhtv:q' + q + ':b' + String(b).padStart(2, '0'))) || {};
@@ -81,35 +214,78 @@
       return s._tong ? got + '/' + s._tong + ' sao' : '';
     } catch (e) { return ''; }
   }
+  function daiMoi() {
+    const d = document.getElementById('mau-moi').content.firstElementChild.cloneNode(true);
+    d.querySelector('[data-dang-nhap]').href = duongDangNhap(false);
+    d.querySelector('[data-dang-ky]').href = duongDangNhap(true);
+    return d;
+  }
   function show(q) {
+    qHien = q;
+    const thu = cheDo() === 'thu';
     const book = MUC_LUC.find(x => x.quyen === q);
     btns.forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.q === q)));
     list.innerHTML = '';
+    let daChenMoi = false;
+    // Quyển 2 khi học thử: mọi bài đều cần đăng nhập, dải mời đặt lên đầu
+    if (thu && q !== 1) { list.append(daiMoi()); daChenMoi = true; }
     book.chuong.forEach(ch => {
       const h = document.createElement('h2'); h.className = 'chap'; h.textContent = ch.ten; list.append(h);
-      const g = document.createElement('div'); g.className = 'grid';
+      let g = document.createElement('div'); g.className = 'grid'; list.append(g);
       ch.bai.forEach(b => {
         const href = 'quyen-' + q + '/bai-' + String(b.so).padStart(2, '0') + '/';
-        const khoa = b.san && !KHOA.mo(q, b.so);
+        const laBaiThu = thu && q === 1 && b.so === 1;
+        const canDangNhap = thu && b.san && !laBaiThu;
+        const khoa = !thu && b.san && !KHOA.mo(q, b.so);
+        // Dải mời đăng nhập nằm ngay sau Bài 1, trước Bài 2
+        if (canDangNhap && !daChenMoi) { list.append(daiMoi()); daChenMoi = true; g = document.createElement('div'); g.className = 'grid'; list.append(g); }
         const a = document.createElement(!b.san ? 'div' : khoa ? 'button' : 'a');
-        a.className = 'les' + (b.san ? '' : ' soon') + (khoa ? ' lock' : '') + (b.on ? ' ont' : '');
+        a.className = 'les' + (b.san ? '' : ' soon') + (khoa || canDangNhap ? ' lock' : '') + (b.on ? ' ont' : '') + (laBaiThu ? ' thu' : '');
         a.style.setProperty('--c', book.mau);
-        if (b.san && !khoa) a.href = href;
+        if (canDangNhap) { a.href = duongDangNhap(false); a.target = '_top'; }
+        else if (b.san && !khoa) a.href = href;
         if (khoa) { a.type = 'button'; a.addEventListener('click', () => KHOA.hoi(q, b.so, () => { location.href = href; })); }
         const st = b.san ? stars(q, b.so) : '';
         a.innerHTML = '<span class="n">' + b.so + '</span><span><span class="t"></span><br><span class="s"></span></span>';
         a.querySelector('.t').textContent = b.ten;
         const sub = a.querySelector('.s');
         if (!b.san) sub.textContent = 'Sắp có';
-        else if (khoa) { const p = KHOA.truoc(q, b.so); sub.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>'; sub.append('Cần đủ sao Bài ' + p.so); }
+        else if (canDangNhap) { sub.innerHTML = ICON_KHOA; sub.append('Đăng nhập để học'); }
+        else if (khoa) { const p = KHOA.truoc(q, b.so); sub.innerHTML = ICON_KHOA; sub.append('Cần đủ sao Bài ' + p.so); }
+        else if (laBaiThu) { sub.innerHTML = '<span class="nhan-thu">Học thử</span>'; sub.append(st || (b.chu ? 'Chữ: ' + b.chu : '')); }
         else sub.textContent = st || (b.chu ? 'Chữ: ' + b.chu : 'Bắt đầu học');
         g.append(a);
       });
-      list.append(g);
     });
     try { history.replaceState(null, '', '#quyen-' + q); } catch (e) {}
   }
+  function capNhatBanner() {
+    const thu = cheDo() === 'thu';
+    const chinh = document.getElementById('vh-nut-bat-dau');
+    const dn = document.getElementById('vh-nut-dang-nhap');
+    dn.hidden = !thu;
+    dn.href = duongDangNhap(false);
+    if (cheDo() === 'hoc') { chinh.textContent = 'Chọn bài học'; chinh.href = '#ds-bai'; }
+    else { chinh.textContent = 'Học thử Bài 1'; chinh.href = 'quyen-1/bai-01/'; }
+  }
   btns.forEach(b => b.addEventListener('click', () => show(+b.dataset.q)));
+  document.addEventListener('ttv-che-do', () => { capNhatBanner(); show(qHien); });
+
+  // Điện thoại: thu gọn ba khối giới thiệu để bé thấy danh sách bài sớm
+  if (window.matchMedia && matchMedia('(max-width: 640px)').matches) {
+    document.querySelectorAll('details.vh-khoi').forEach(d => d.removeAttribute('open'));
+  }
+
+  // Cảnh làng quê (vẽ trong canh.js của cổng); thiếu tệp thì giữ nền trời
+  function veCanh() {
+    const c = window.CONG_CANH && CONG_CANH['lang-que'];
+    const bn = document.getElementById('vh-banner');
+    if (!c || bn.querySelector('.vn-hero-canh')) return;
+    bn.insertAdjacentHTML('afterbegin', '<svg class="vn-hero-canh" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">' + c.svg + '</svg>');
+  }
+  window.addEventListener('DOMContentLoaded', () => { veCanh(); capNhatBanner(); });
+
+  capNhatBanner();
   show(location.hash === '#quyen-2' ? 2 : 1);
 })();
 </script>
