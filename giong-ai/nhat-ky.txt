@@ -9,3 +9,9 @@ Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 1.00  Hôm nay, trời khá ấm, 25 độ.  |  Hôm nay trời khá ấm, 25 độ
 0.00  chó  |  Chào!
 0.00  khỉ  |  Ấy
+Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.50  Nhà Hà có hồ.  |  Nhà ha, có hù
+1.00  Hôm nay, trời mát, 22 độ.  |  Hôm nay trời mát 22 độ
+0.00  nhị  |  Ni
+0.50  chú hề  |  Chú hê
+1.00  Ngày mai có gió nhẹ không?  |  Ngày mai có gió nhẹ không?
