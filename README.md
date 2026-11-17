@@ -41,3 +41,5 @@ nguon-am-thanh/            File thu âm gốc + danh-sach.tsv
 3. Đặt `san: true` cho bài đó trong `assets/js/muc-luc.js`.
 
 Không cần tài khoản, không thu thập dữ liệu: tiến độ học lưu trong trình duyệt của từng máy; ghi âm và ảnh chỉ nằm trên máy người dùng.
+
+Ghi kết quả học: làm xong một bài tập (nhận sao), `assets/js/engine.js` gọi `TTV.ghiKetQua({ bai: "q1-b01", hoatDong: <id bài tập, ví dụ "tn1">, soTroChoi: <tổng số bài tập của bài>, diem, diemToiDa, sao, thoiGianGiay })` của bộ mẫu chung; cổng ghi vào tài khoản người học (ngoài cổng hoặc học thử thì không gửi gì). Điểm tính theo số lần chọn đúng / sai trong bài tập (lời nhắc kiểu "Em hãy vẽ trước nhé" không tính là sai).

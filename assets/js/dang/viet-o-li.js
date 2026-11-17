@@ -142,7 +142,7 @@
     }
     bPrev.onclick = () => { if (k > 0) { k--; stopAll(); render(); } };
     bNext.onclick = () => {
-      if (!items[k].strokes.length) { feedback(fb, false, 'Em viết từ “' + items[k].c + '” trước nhé!'); return; }
+      if (!items[k].strokes.length) { feedback(fb, false, 'Em viết từ “' + items[k].c + '” trước nhé!', true); return; }
       fb.textContent = ''; fb.className = 'fb';
       if (k < items.length - 1) { k++; stopAll(); render(); if (items[k].am) play(items[k].am); }
       else if (won) { sfx(true); toast('Em đã viết xong cả bài!'); }

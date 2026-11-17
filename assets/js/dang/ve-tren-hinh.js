@@ -107,8 +107,8 @@
     bUndo.onclick = () => { strokes.pop(); draw(); };
     bClear.onclick = () => { strokes.length = 0; draw(); };
     bDone.onclick = () => {
-      if (!strokes.length) { feedback(fb, false, 'Em hãy vẽ lên tranh trước nhé!'); return; }
-      if (ex.dich && !won) { feedback(fb, false, 'Đường vẽ chưa tới nơi. Em vẽ tiếp nhé!'); return; }
+      if (!strokes.length) { feedback(fb, false, 'Em hãy vẽ lên tranh trước nhé!', true); return; }
+      if (ex.dich && !won) { feedback(fb, false, 'Đường vẽ chưa tới nơi. Em vẽ tiếp nhé!', true); return; }
       if (!won) { won = true; feedback(fb, true, ex.xong || 'Giỏi lắm! Em đã vẽ xong.'); ctx.win(); }
       else { sfx(true); toast(ex.xong || 'Giỏi lắm!'); }
     };

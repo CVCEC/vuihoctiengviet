@@ -55,6 +55,31 @@
     has(id) { return !!this.get()[id]; }
   };
 
+  /* ---------- ghi kết quả lên cổng (TTV.ghiKetQua – bộ mẫu chung) ----------
+     Mỗi bài tập là một trò: làm xong (ctx.win) thì gửi một lần. Không lưu gì thêm trên máy. */
+  const MA_BAI = 'q' + D.quyen + '-b' + String(D.bai).padStart(2, '0');
+  const SO_TRO_CHOI = D.phan.reduce((n, p) => n + p.bt.length, 0);
+  const luotCua = new WeakMap(); // thẻ bài tập → { batDau, dung, sai, daGhi, vuaGhi }
+  function demLuot(el, ok) {
+    const c = el && el.closest && el.closest('.card'), kq = c && luotCua.get(c);
+    if (!kq || kq.vuaGhi) return; // lời khen đi liền ngay sau khi xong thuộc lượt vừa ghi
+    kq.daGhi = false;
+    if (!kq.batDau) kq.batDau = Date.now();
+    if (ok) kq.dung++; else kq.sai++;
+  }
+  function ghiKetQua(ex, kq) {
+    if (kq.daGhi) return; // một lượt chơi chỉ gửi một lần
+    const now = Date.now();
+    const dung = Math.max(kq.dung, 1), toiDa = dung + kq.sai, tiLe = dung / toiDa;
+    const sao = tiLe >= 0.9 ? 3 : tiLe >= 0.6 ? 2 : tiLe > 0 ? 1 : 0;
+    const giay = Math.max(1, Math.round((now - (kq.batDau || now)) / 1000));
+    Object.assign(kq, { daGhi: true, vuaGhi: true, batDau: 0, dung: 0, sai: 0 });
+    setTimeout(() => { kq.vuaGhi = false; }, 0);
+    try {
+      if (window.TTV && TTV.ghiKetQua) TTV.ghiKetQua({ bai: MA_BAI, hoatDong: ex.id, soTroChoi: SO_TRO_CHOI, diem: dung, diemToiDa: toiDa, sao, thoiGianGiay: giay });
+    } catch (e) { /* bỏ qua */ }
+  }
+
   /* ---------- âm thanh ---------- */
   const player = new Audio();
   player.preload = 'auto';
@@ -127,7 +152,9 @@
     let t = $('.toast'); if (!t) { t = h('div', { class: 'toast', role: 'status' }); document.body.append(t); }
     t.textContent = msg; t.classList.add('on'); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('on'), 2200);
   }
-  function feedback(el, ok, msg) {
+  // khongTinh = true: lời nhắc (chưa làm gì), không tính là trả lời sai
+  function feedback(el, ok, msg, khongTinh) {
+    if (!khongTinh) demLuot(el, ok);
     el.className = 'fb ' + (ok ? 'ok' : 'no');
     el.innerHTML = ''; el.append(icon(ok ? 'check' : 'redo'), msg || (ok ? 'Đúng rồi!' : 'Thử lại nhé!'));
     sfx(ok);
@@ -199,6 +226,9 @@
     head.append(star);
     const body = h('div');
     const c = h('section', { class: 'card', id: ex.id, style: { '--c': `var(--${sec.mau})` } }, head, body);
+    const kq = { batDau: 0, dung: 0, sai: 0, daGhi: false, vuaGhi: false };
+    luotCua.set(c, kq);
+    c.addEventListener('pointerdown', () => { if (!kq.batDau) kq.batDau = Date.now(); }, true);
     if (ex._ai) c.append(h('p', { class: 'ai-ghi' }, icon('spk'), typeof AM_AI_GHI === 'string' ? AM_AI_GHI : 'Một số câu trong bài tập này được đọc bằng giọng AI (Google Gemini), vì sách không có file thu âm.'));
     const ctx = {
       body, sec,
@@ -208,6 +238,7 @@
           if (coKhoa && KHOA.xong(D.quyen, D.bai)) { const n = KHOA.sau(D.quyen, D.bai); toast(n && n.san ? 'Giỏi quá! Em đã mở Bài ' + n.so + '.' : 'Giỏi quá! Em đã có đủ sao Bài ' + D.bai + '.'); }
         }
         else { flash(star, 'got', 600); star.classList.add('got'); }
+        ghiKetQua(ex, kq);
       }
     };
     return { el: c, ctx };

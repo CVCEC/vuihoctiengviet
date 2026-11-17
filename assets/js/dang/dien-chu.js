@@ -163,7 +163,7 @@
       if (cur < 0) return; const it = items[cur];
       if (compose(it) === it.dap) return changed();
       flash(cards[cur].c, 'bad', 450);
-      feedback(fb, false, it.input || it.tone ? 'Chưa đúng, em thử lại nhé!' : 'Em chọn chữ hoặc dấu để điền vào chỗ trống.');
+      feedback(fb, false, it.input || it.tone ? 'Chưa đúng, em thử lại nhé!' : 'Em chọn chữ hoặc dấu để điền vào chỗ trống.', !(it.input || it.tone));
     };
     rowT.append(bDel, bCheck);
     pad.append(rowL, rowT);
