@@ -464,3 +464,35 @@ a{color:var(--wood-d)}
 .vh-quyen-nut:focus-visible{outline:3px solid var(--ttv-sao,#F0B050);outline-offset:2px}
 @media (max-width:420px){.vh-quyen-nut small{display:none}}
 #ds-bai{scroll-margin-top:76px}
+
+/* ---------- Mở rộng 15+ (assets/js/mo-rong.js) ---------- */
+.mr-gioi-thieu{background:var(--card);border:2px dashed var(--line);border-radius:14px;padding:10px 14px;margin:0 0 14px;font-size:15px}
+.mr-en{color:var(--ink-2);font-size:14px;margin:2px 0 8px}
+.mr-muc{margin:0 0 2px}
+.mr-h4{margin:16px 0 8px;font-size:17px}
+.mr-thoai{list-style:none;padding:0;margin:8px 0;display:grid;gap:6px}
+.mr-thoai li{display:grid;grid-template-columns:6.5em 1fr;gap:8px;background:var(--paper);border-radius:12px;padding:8px 12px;font-size:19px}
+.mr-thoai b{color:var(--c)}
+.mr-cau{border-top:1px dashed var(--line);padding:12px 0 4px}
+.mr-hoi{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:18px}
+.mr-chon{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.mr-chon .opt{min-height:48px;font-size:19px}
+.mr-chon .opt[aria-pressed="true"]{border-color:var(--c);background:var(--card);box-shadow:0 0 0 3px var(--c) inset}
+.mr-xep-dich{display:flex;flex-wrap:wrap;gap:6px;min-height:44px;align-items:center;padding:6px 10px;border:2px dashed var(--line);border-radius:12px;margin-top:8px}
+.mr-goi-y{color:var(--ink-2);font-size:15px}
+.mr-go-hang{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.mr-go{flex:1 1 220px;min-height:48px;font:inherit;font-size:20px;padding:6px 12px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
+.mr-go:focus{outline:none;border-color:var(--c)}
+.mr-bang-cuon{overflow-x:auto;margin:8px 0}
+.mr-bang{border-collapse:collapse;width:100%;min-width:460px;font-size:16px}
+.mr-bang th,.mr-bang td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.mr-bang th{background:var(--paper)}
+.mr-ghi{font-size:14px;color:var(--ink-2)}
+.mr-mau{border-left:4px solid var(--c);background:var(--paper);border-radius:0 12px 12px 0;padding:8px 12px;font-size:19px;font-weight:700}
+.mr-dien{font-size:20px;margin:6px 0}
+.mr-o{display:inline-block;min-width:3.5em;text-align:center;border-bottom:2px solid var(--c);margin:0 4px;color:var(--ink-2)}
+.mr-o.co{color:var(--ink);font-weight:700}
+.mr-viet{width:100%;font:inherit;font-size:19px;line-height:1.5;padding:10px 12px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);margin:8px 0}
+.mr-tu-kt{background:var(--paper);border-radius:12px;padding:10px 14px;margin-top:12px}
+.mr-tu-kt ul{margin:4px 0 0;padding-left:20px}
+@media (max-width:520px){.mr-thoai li{grid-template-columns:1fr;gap:0}}

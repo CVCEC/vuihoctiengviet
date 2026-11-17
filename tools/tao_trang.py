@@ -76,7 +76,7 @@ KHUON = '''<!doctype html>
 <script src="../../assets/js/muc-luc.js"></script>
 <script src="../../assets/js/khoa.js"></script>
 {plugins}
-<script src="data.js"></script>{giong_ai}
+<script src="data.js"></script>{mo_rong}{giong_ai}
 <script src="../../assets/js/engine.js"></script>
 </body>
 </html>
@@ -99,7 +99,10 @@ def main():
         rieng = '\n<script src="dang-rieng.js"></script>' if (d / 'dang-rieng.js').exists() else ''
         giong_ai = ('\n<script src="am-ai.js"></script>\n<script src="../../assets/js/giong-ai.js"></script>'
                     if (d / 'am-ai.js').exists() else '')
-        page = KHUON.format(q=q, b=b, ten=html.escape(ten), tac_gia=TAC_GIA[q], plugins=plugins + rieng, giong_ai=giong_ai,
+        # Phần Mở rộng 15+ (Lộ trình theo khung năng lực): bài nào có mo-rong.js thì gắn dữ liệu và dạng bài
+        mo_rong = ('\n<script src="mo-rong.js"></script>\n<script src="../../assets/js/mo-rong.js"></script>'
+                   if (d / 'mo-rong.js').exists() else '')
+        page = KHUON.format(q=q, b=b, ten=html.escape(ten), tac_gia=TAC_GIA[q], plugins=plugins + rieng, giong_ai=giong_ai, mo_rong=mo_rong,
                             chu_mo_ta=(', học chữ ' + html.escape(chu)) if chu and '–' not in chu else '')
         (d / 'index.html').write_text(page, encoding='utf-8')
         if xuat_trang:

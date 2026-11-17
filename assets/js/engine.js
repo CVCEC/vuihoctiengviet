@@ -58,7 +58,9 @@
   /* ---------- ghi kết quả lên cổng (TTV.ghiKetQua – bộ mẫu chung) ----------
      Mỗi bài tập là một trò: làm xong (ctx.win) thì gửi một lần. Không lưu gì thêm trên máy. */
   const MA_BAI = 'q' + D.quyen + '-b' + String(D.bai).padStart(2, '0');
-  const SO_TRO_CHOI = D.phan.reduce((n, p) => n + p.bt.length, 0);
+  // Phần sách (không tính thẻ "Mở rộng 15+" – moRong, xem assets/js/mo-rong.js)
+  const PHAN_SACH = D.phan.filter(p => !p.moRong);
+  const SO_TRO_CHOI = PHAN_SACH.reduce((n, p) => n + p.bt.length, 0);
   const luotCua = new WeakMap(); // thẻ bài tập → { batDau, dung, sai, daGhi, vuaGhi }
   function demLuot(el, ok) {
     const c = el && el.closest && el.closest('.card'), kq = c && luotCua.get(c);
@@ -76,7 +78,7 @@
     Object.assign(kq, { daGhi: true, vuaGhi: true, batDau: 0, dung: 0, sai: 0 });
     setTimeout(() => { kq.vuaGhi = false; }, 0);
     try {
-      if (window.TTV && TTV.ghiKetQua) TTV.ghiKetQua({ bai: MA_BAI, hoatDong: ex.id, soTroChoi: SO_TRO_CHOI, diem: dung, diemToiDa: toiDa, sao, thoiGianGiay: giay });
+      if (window.TTV && TTV.ghiKetQua) TTV.ghiKetQua({ bai: ex._maBai || MA_BAI, hoatDong: ex._hoatDong || ex.id, soTroChoi: ex._soTro || SO_TRO_CHOI, diem: dung, diemToiDa: toiDa, sao, thoiGianGiay: giay });
     } catch (e) { /* bỏ qua */ }
   }
 
@@ -788,8 +790,9 @@
       const got = p.bt.filter(b => s[b.id]).length;
       tabs[i].st.textContent = got + '/' + p.bt.length;
     });
-    const all = D.phan.reduce((n, p) => n + p.bt.length, 0);
-    const got = D.phan.reduce((n, p) => n + p.bt.filter(b => s[b.id]).length, 0);
+    // sao mở khoá bài sau chỉ tính phần sách; thẻ Mở rộng 15+ có sao riêng (mã "_mr-…")
+    const all = PHAN_SACH.reduce((n, p) => n + p.bt.length, 0);
+    const got = PHAN_SACH.reduce((n, p) => n + p.bt.filter(b => s[b.id]).length, 0);
     const f = $('.finish .stars'); if (f) f.textContent = 'Em đã có ' + got + '/' + all + ' sao';
     const o = store.get(); o._tong = all; store.put(o);
     const nw = $('.finish .nextwrap');
@@ -837,8 +840,9 @@
       tabbar.append(t); tabs.push({ t, st });
       const bookBtn = h('button', { class: 'btn soft small', type: 'button' }, icon('book'), 'Xem trang sách');
       bookBtn.onclick = () => openPages(p.trang);
-      const sec = h('section', { class: 'sec', id: 'sec-' + p.id, role: 'tabpanel', style: { '--c': `var(--${p.mau})` } },
-        h('div', { class: 'sec-head' }, h('span', { class: 'banner' }, p.ten), bookBtn));
+      const sec = h('section', { class: 'sec' + (p.moRong ? ' mo-rong' : ''), id: 'sec-' + p.id, role: 'tabpanel', style: { '--c': `var(--${p.mau})` } },
+        h('div', { class: 'sec-head' }, h('span', { class: 'banner' }, p.ten), p.trang && p.trang.length ? bookBtn : null));
+      if (p.moRong) sec.append(h('p', { class: 'mr-gioi-thieu' }, 'Phần mở rộng cho người học từ 15 tuổi (Lộ trình theo khung năng lực): nghe hội thoại, viết, chính tả, ngữ pháp. Sao của phần này không tính vào việc mở bài sau.', h('br'), h('span', { class: 'mr-en', lang: 'en' }, 'Extra practice for learners aged 15+: listening, writing, spelling and grammar. These stars do not affect unlocking the next lesson.')));
       p.bt.forEach(ex => {
         const { el, ctx } = card(ex, p);
         const fn = T[ex.loai];
@@ -849,7 +853,7 @@
       if (i > 0) { const b = h('button', { class: 'btn soft', type: 'button' }, icon('back'), D.phan[i - 1].ten); b.onclick = () => go(i - 1, true); nav.append(b); } else nav.append(h('span'));
       if (i < D.phan.length - 1) { const b = h('button', { class: 'btn', type: 'button' }, 'Tiếp: ' + D.phan[i + 1].ten, icon('next')); b.onclick = () => go(i + 1, true); nav.append(b); }
       sec.append(nav);
-      if (i === D.phan.length - 1) {
+      if (p === PHAN_SACH[PHAN_SACH.length - 1]) {
         sec.append(h('div', { class: 'finish' },
           h('h2', { style: { margin: '0 0 6px' } }, 'Hoàn thành Bài ' + D.bai + '!'),
           h('p', { class: 'stars' }, ''),
