@@ -1,7 +1,7 @@
 # Giọng đọc AI – trạng thái
 
-- Lần chạy gần nhất: 2026-11-17 10:30 UTC
+- Lần chạy gần nhất: 2026-11-17 10:33 UTC
 - Mô hình: gemini-3.1-flash-tts-preview · giọng miền Bắc
-- Đã có tiếng: **630 / 1382** câu (lần này thêm 20, dùng 2 lượt gọi)
-- Câu Whisper nghe hơi khác chữ (cần nghe kỹ): 85
+- Đã có tiếng: **632 / 1382** câu (lần này thêm 22, dùng 7 lượt gọi)
+- Câu Whisper nghe hơi khác chữ (cần nghe kỹ): 86
 - Câu bỏ qua theo yêu cầu: 0 · câu lỗi: 0

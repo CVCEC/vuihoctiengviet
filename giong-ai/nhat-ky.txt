@@ -19,3 +19,9 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  Em hỏi bạn thế nào?  |  Em hỏi bạn thế nào?
 1.00  Bạn thích đi rừng chứ?  |  Bạn thích đi rừng chứ?
 0.33  Gà có ngô.  |  Gà cổng ngu
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 10 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+0.00  ghế  |  Gê
+1.00  nghĩ  |  Nghĩ?
