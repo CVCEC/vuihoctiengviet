@@ -16,6 +16,7 @@ const AM_AI = {"Kore|Hôm nay, trời thế nào?":"../../am-ai/3ba6d2521bed.mp3
 "Kore|Bờ hồ có nho, có na, có khế.":"../../am-ai/46691d4a026f.mp3",
 "Kore|chó":"../../am-ai/a3c261e9e6fc.mp3",
 "Kore|khế":"../../am-ai/65723cd29339.mp3",
+"Kore|nhà":"../../am-ai/fe05a23a7c3f.mp3",
 "Kore|chè":"../../am-ai/14d26b9dd530.mp3",
 "Kore|chú hề":"../../am-ai/f7b76665d39f.mp3",
 "Kore|khỉ":"../../am-ai/b97b85eca90c.mp3",
