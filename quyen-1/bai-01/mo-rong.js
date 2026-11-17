@@ -48,7 +48,7 @@ const MO_RONG = {
       mau: { ten: 'Đoạn mẫu (Nam viết)', chu: 'Đây là gia đình tôi. Đây là bố tôi. Đây là mẹ tôi. Đây là chị tôi. Tôi là Nam.' },
       tu: ['bố', 'mẹ', 'ba', 'má', 'anh', 'chị', 'em'],
       muc_: {
-        de: { huong: 'Chọn từ để điền vào 3 câu.', en: 'Easy: choose a word for each blank.', khung: [['Đây là ', ' tôi.'], ['Đây là ', ' tôi.'], ['Đây là ', ' tôi.']] },
+        de: { huong: 'Chọn từ để điền vào 3 câu.', en: 'Easy: choose a word for each blank.', khung: [['Đây là ', ' tôi.'], ['Đây là ', ' tôi.'], ['Đây là ', ' tôi.']], xong: 'Đúng rồi! Em đã giới thiệu gia đình em.' },
         vua: { huong: 'Viết 3 câu theo đoạn mẫu, thay bằng người trong gia đình em.', en: 'Medium: write 3 sentences like the model, about your own family.', soCau: 3 },
         kho: { huong: 'Viết 5 câu: câu đầu “Đây là gia đình tôi.”, câu cuối giới thiệu chính em “Tôi là …”.', en: 'Hard: write 5 sentences. Start with “Đây là gia đình tôi.” and end with “Tôi là …”.', soCau: 5 }
       },

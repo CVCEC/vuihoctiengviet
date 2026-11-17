@@ -496,3 +496,4 @@ a{color:var(--wood-d)}
 .mr-tu-kt{background:var(--paper);border-radius:12px;padding:10px 14px;margin-top:12px}
 .mr-tu-kt ul{margin:4px 0 0;padding-left:20px}
 @media (max-width:520px){.mr-thoai li{grid-template-columns:1fr;gap:0}}
+.mr-xem{font-size:19px;font-weight:700;color:var(--ink)}

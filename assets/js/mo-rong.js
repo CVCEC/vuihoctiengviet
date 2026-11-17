@@ -30,7 +30,13 @@
     function cauHoi(q, xong) {
       const box = h('div', { class: 'mr-cau' });
       const dau = h('div', { class: 'mr-hoi' }, h('b', null, q.hoi));
-      if (q.nghe) dau.append(' ', loa(q.nghe, q.tep));
+      if (q.nghe) {
+        // Chưa nghe được (máy thiếu giọng tiếng Việt) thì xem chữ để vẫn làm được bài
+        const chu = h('span', { class: 'mr-xem', hidden: true }, '“' + q.nghe + '”');
+        const xem = h('button', { class: 'btn soft small', type: 'button', 'aria-expanded': 'false' }, 'Xem chữ');
+        xem.onclick = () => { chu.hidden = !chu.hidden; xem.setAttribute('aria-expanded', String(!chu.hidden)); };
+        dau.append(' ', loa(q.nghe, q.tep), xem, chu);
+      }
       box.append(dau); if (q.en) box.append(en(q.en));
       const fb = h('div', { class: 'fb', 'aria-live': 'polite' });
       let daXong = false;
@@ -145,7 +151,7 @@
             pane.append(h('div', { class: 'mr-cau' }, h('p', { class: 'mr-dien' }, kh[0], o, kh[1]), ds));
           });
           const kt = h('button', { class: 'btn', type: 'button' }, icon('check'), 'Xong');
-          kt.onclick = () => { const du = hang.every(x => x.v); feedback(fb, du, du ? 'Đúng rồi! Em đã giới thiệu gia đình em.' : 'Em chọn từ cho mọi chỗ trống nhé.', !du); if (du) ctx.win(); };
+          kt.onclick = () => { const du = hang.every(x => x.v); feedback(fb, du, du ? (m.xong || 'Đúng rồi! Em đã viết xong đoạn văn.') : 'Em chọn từ cho mọi chỗ trống nhé.', !du); if (du) ctx.win(); };
           pane.append(h('div', { class: 'row' }, kt));
         } else {
           const o = doc(), ta = h('textarea', { class: 'mr-viet', rows: k === 'kho' ? 7 : 4, lang: 'vi', 'aria-label': 'Bài viết của em' });
