@@ -29,3 +29,7 @@ Lô 3 câu – Gemini không trả tiếng: không có tiếng trả về: {"can
 1.00  Bà của Nga đã già.  |  Bà của Nga đã già
 0.00  Nghé có cỏ.  |  ngỡ, cõ, cò
 0.00  gió  |  Sao?
+Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 5 câu không cắt được, chia đôi để đọc lại
+0.00  Nghỉ hè, Nga ở nhà bà.  |  Nghì hê
+0.00  ngựa  |  Ngã ở nhà bà
