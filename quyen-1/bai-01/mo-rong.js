@@ -3,6 +3,20 @@
    Dạng bài: assets/js/mo-rong.js. Câu chưa có tệp ghi âm thì tạm đọc bằng giọng máy qua bộ mẫu (TTV.phat). */
 const MO_RONG = {
   ten: 'Mở rộng 15+',
+  // Tệp giọng có sẵn của sách / giọng AI của trường cho câu trùng chữ; câu khác tạm đọc bằng giọng máy (TTV.phat).
+  tep: {
+    'Chào Mai!': '../bai-03/audio/ht-2.mp3',
+    'Đây là mẹ tôi.': '../../am-ai/9d5b6aea8607.mp3',
+    'Cháu chào cô ạ.': '../../am-ai/49616bae7250.mp3',
+    'Chào cháu.': '../bai-02/audio/p2b.mp3',
+    'Đây là ba tôi.': '../../am-ai/9d99752cb652.mp3',
+    'Đây là má tôi.': '../../am-ai/67fd42d847d4.mp3',
+    'chị': '../../am-ai/bc2bda9d7913.mp3',
+    'anh': '../../am-ai/768cb132f57f.mp3',
+    'á': 'audio/hc-aw.mp3',
+    'ớ': 'audio/hc-aa.mp3',
+    'Đây là ai?': '../../am-ai/77d1536aeff8.mp3'
+  },
   bt: [
     {
       id: 'nghe', loai: 'mr-bai', lenh: '🎧 Luyện nghe hội thoại',

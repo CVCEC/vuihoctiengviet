@@ -21,7 +21,7 @@
   window.VHTV_DANG = window.VHTV_DANG || [];
   window.VHTV_DANG.push(function (A) {
     const { T, h, icon, shuffle, feedback, nfc, stopAll } = A;
-    const noi = (chu, tep) => { stopAll(); if (window.TTV && TTV.phat) return TTV.phat({ tep: tep || null, chu }); return Promise.resolve(false); };
+    const noi = (chu, tep) => { stopAll(); tep = tep || (typeof MO_RONG !== 'undefined' && MO_RONG.tep && MO_RONG.tep[chu]) || null; if (window.TTV && TTV.phat) return TTV.phat({ tep: tep || null, chu }); return Promise.resolve(false); };
     const chuan = s => nfc(String(s || '')).replace(/\s+/g, ' ').trim();
     const en = t => t ? h('p', { class: 'mr-en', lang: 'en' }, t) : null;
     const loa = (chu, tep, nhan) => { const b = h('button', { class: 'btn soft small', type: 'button' }, icon('spk'), nhan || 'Nghe'); b.onclick = () => noi(chu, tep); return b; };
