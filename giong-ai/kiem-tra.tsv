@@ -11,6 +11,7 @@ ma	nghe	diem
 02f5313005b9	Con hổ có hai chân, phải không?	1.0
 02f5372188f2	Chào chào mọi người!	0.25
 02ff407d7355	Chú Thanh rất thân thiện.	1.0
+03416708d6f1	Bao giờ bạn đi?	1.0
 044cdea3ac33	Xe đạp rẻ hơn ô tô	1.0
 046d8fbbd72b	Ai hiền nhất	1.0
 052d2ebd54d6	Đây là con mèo	1.0
@@ -52,17 +53,21 @@ ma	nghe	diem
 1302321750f3	Đây là anh họ của Nam	1.0
 1318f4221267	Bạn ấy có phải là học sinh không?	1.0
 13e189bf9172	Dứa đỏ	0.5
+13e6e8d3e8b9	Bạn sẽ đi chuyển lãm à!	0.83
 140060b955f8	Bạn hùng khá cao	1.0
 14425462c847	Cái ghế ở đâu?	1.0
 144d64080a58	Con sóc đang làm gì?	1.0
 146a64d8b165	Đây là con vịt	1.0
 14d26b9dd530	chê	0.0
+14d8dabd6bfb	Cảm ơn.	0.0
 150cad42a9ed	cây rứa này thế nào?	0.8
 155beb119b90	Bạn thích cấm chạy chứ?	0.6
 157986bead89	Đây là cây gì?	1.0
 15aae83310a6	cây cam có tảm quà	0.6
+15e1db1408a7	Bạn sẽ đi Cà Mau à!	1.0
 15e79d098373	gì đỡ bé?	0.67
 16b878b175e7	Tôi thích mặc quần màu đen	1.0
+16d9d369aad2	bạn sẽ đi nhà H.A.	0.67
 17009479cafb	có một hình tròn.	1.0
 17a1d35ced7a	Em xem TV à!	0.44
 17c6c12ba29b	Về	0.0
@@ -73,6 +78,7 @@ ma	nghe	diem
 18eb38e32183	Trong phòng bếp có gì?	1.0
 18f99717eb25	Quả dứa ở trên bàn	1.0
 18fc6c440d4f	Đúng, cô ấy là giáo viên	1.0
+191e53e9b970	Gotcha!	0.0
 1944864b6753	xe máy và xe đạp Xe nào nhanh hơn?	1.0
 1a2d7205a1f4	Con chó ở đâu?	1.0
 1a3979c3389c	trong phòng bếp có bàn ăn, phải không?	1.0
@@ -91,6 +97,7 @@ ma	nghe	diem
 1fe87b03db95	Không, cô ấy không phải là học sinh	1.0
 2036eed8e65f	Còn mèo có hai tai?	0.8
 20cfeb8f3d8e	phô	0.0
+20eb577c57f9	Bạn sẽ đi sáp hả?	0.55
 21426d72f53c	Đây là cái gì?	1.0
 21bf92866b12	Từ nhà tớ đến trường, đi xe đạp mất 15 phút.	1.0
 21eb21d9b147	có, ngày mai trời cũng ấm, 26 độ hoặc không, ngày mai trời lạnh, 18 độ	0.97
@@ -188,6 +195,7 @@ ma	nghe	diem
 4974403e6b9b	Chú em thế nào?	1.0
 49c2b80f7f87	Con mèo đang làm gì?	1.0
 49deb1a1427a	Trong phòng bếp, có một cái bếp, một cái tủ bếp và một cái tủ lạnh	1.0
+4a1a1b6f0504	Vâng! Đúng rồi!	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
 4b778892c8ad	ô tô và xe đạp Xe nào rẻ hơn?	1.0
 4b7ff2f0584a	Trường ngôi sao ở đâu?	1.0
@@ -323,6 +331,7 @@ ma	nghe	diem
 7bf7b17c4dc9	Không phải cái bàn này ngắn.	1.0
 7cb9342b326b	Cửa hàng ở đâu?	1.0
 7d22f7334b27	Đây là gì?	1.0
+7d36be425f04	Quả!	1.0
 7d941b48a277	Bạn đã đi công viên chưa?	1.0
 7ddc9ef1a6ea	trường Nam, ở xa hay gần nhà Nam?	1.0
 7e37183d7482	Bệnh viện ở đối diện ngôi nhà màu đỏ.	1.0
@@ -351,6 +360,7 @@ ma	nghe	diem
 84b8168ba6de	Bà ấy là người bán hàng.	1.0
 8511c132570d	Đây là dưỡng của Nam	0.8
 86a6e55effa8	Bạn Tâm rất hiền.	1.0
+86ff5226f52f	Bạn đã đi công viên chưa?	1.0
 871456548398	Không phải, đây là quả khế.	1.0
 8734b3fd1431	Giá đỗ	1.0
 878fdc7ce5ff	có hai quyển sách	1.0
@@ -417,12 +427,14 @@ ma	nghe	diem
 9bbd31545e44	Mê Chô và Tàu Hòa. Tàu nào cũ hơn?	0.78
 9bf49424cb1b	Con gà có hai chân, phải không?	1.0
 9c4cbae9a557	Bố bạn thế nào?	1.0
+9c79a04972f8	Bạn Liên đánh dấu tranh này, em nói thế nào?	1.0
 9ca87d4940a6	Hình tam rác, màu gì?	0.8
 9cb783d58900	có 5 hình tam giác	1.0
 9d5b6aea8607	Đây là mẹ tôi	1.0
 9d7df1980a5c	Cảy khuyến này nhé!	0.25
 9d90c3d700d5	thuyền của tớ hay thuyền của cậu to hơn	1.0
 9d99752cb652	Đây là ba tôi	1.0
+9e098c73fe09	Hẻ phố có phờ, có cả cà phê.	0.75
 9e591878139f	Liên đang rửa cúc chén.	0.8
 9e97c768a16d	Đây là quả táo, phải không?	1.0
 9f6cf7bb8835	Gà cổng ngu	0.33
@@ -438,6 +450,7 @@ a375c9785824	Con gà đang làm gì?	1.0
 a3c261e9e6fc	Chào!	0.0
 a4242cb356a8	Đĩa cá có đũa	1.0
 a491ae514efe	Bạn thích đi giày màu gì?	1.0
+a4a7335a573c	Bạn đã đi Vịnh Hạ Long chưa?	1.0
 a4c6e2323320	Phải, gãy hủy này nâng	0.4
 a50627708c71	Con không giúp bố được ạ. Con không biết nấu cơm.	1.0
 a547b0f32ff0	Con mèo có mấy chân?	1.0
@@ -517,6 +530,7 @@ c15540325eb9	Cái bàn	1.0
 c1efb79b2caa	Ba huyền làm nghề gì?	0.8
 c2698b281707	cua đá	1.0
 c306a234152a	Bạn sống ở đâu?	1.0
+c30dabb4221e		0.0
 c312c8804887	quyền sách ở trên cái bàn.	0.83
 c36dfcde9fef	Mìa?	0.0
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
@@ -550,6 +564,7 @@ cfb2bb04d640	Ngã ở nhà bà	0.0
 d0c1e5558324	Hôm nay là ngày 5	0.8
 d0c294bae4b9	Chị Tâm thế nào?	1.0
 d112cc200722	Bạn liên thế nào?	1.0
+d182ede9c86e	Nhà bà ở phố Nhà thơ	0.83
 d1ce1c4e322c	Không, tớ đi vũng tàu vào mùa hè, gió biển mát lắm.	1.0
 d2927f33876e	Con gà đang chạy	1.0
 d2a24d5cb701	cửa hàng ở bên cạnh bệnh viện.	1.0
@@ -567,6 +582,7 @@ d6f153098f27	Vũng tàu có biển xanh. Đẹp lắm!	1.0
 d708e2d5212c	Chị gái em, thế nào?	1.0
 d73949588678	Nhà ha, có hù	0.5
 d815269b50f5	Hôm nay là ngày 1.	1.0
+d8318e96fa94	Bạn đi khi nào?	1.0
 d86fa6892e78	Chị Liên đang hát	1.0
 d885cc1e50c1	Không, bút chỉ màu vàng ngắn	0.83
 d8a96fe83d05	Cái ghĩ ở sau bàn	0.8
@@ -587,6 +603,7 @@ e00c46cf3b0a	Lan thích mặt màu gì?	0.6
 e02c43291a11	Ni	0.0
 e03cf83bee4a	Tù mù xanh, cao hôn tù mù nấu	0.25
 e042fcd0781a	ô tô màu vàng hay ô tô màu đỏ rẻ hơn.	1.0
+e0f003bfc805	Bạn đã đi đến trường chưa?	1.0
 e181c1c9fc5d	Con khỉ có mấy tai?	1.0
 e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
 e1a0bdce7881	Phòng khách ở tầng 1	1.0
@@ -600,6 +617,7 @@ e6d09eeec7ce	Mũ mù vàng hay mũ mù xanh đẹp hơn.	0.78
 e70c8010123d	Quả dứa ở đâu?	1.0
 e739627fcc94	Có mỹ quyền sách	0.5
 e782827f30b3	Ông ấy có phải là kỹ sư không?	0.88
+e79becc02849	Bạn đã đi chỗ chưa?	0.8
 e808a156639b	Còn bố mẹ bạn thích làm gì?	1.0
 e8683b82b6b8	Bạn thích đi chùa chứ?	1.0
 e88060b61be2	Có hai hình tam giác	1.0
@@ -616,6 +634,7 @@ edb9b6b0d8a0	Cô My, rất hiền	1.0
 edecd070ebf1	Của sầu bông hoa	0.5
 eeedae5985a4	Có, không, tôi thích, không thích, chạy	1.0
 ef25eeb0c377	Bũ nổi thế nào?	0.5
+ef3a860e1ba0	Bạn Mai đánh dấu tranh này, em nói thế nào?	1.0
 ef72781f7644	Cô ấy là thợ may.	1.0
 ef8df959a24c	Tôi biết đọc	1.0
 f02c1395dc7c	Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm	1.0
@@ -628,6 +647,7 @@ f2cf85e97c3c	Đây là chú tôi.	1.0
 f3d7ea5c0264	Con mèo có mỉ tai	0.8
 f3fc9461ae35	Của Không Tự thích Không thích mua	0.57
 f4297c64667a	Đây là con gà	1.0
+f43ac5b431e8	Tử đi hôn kia	0.5
 f53721e2aacc	Chị Tâm rất chăm chỉ.	1.0
 f5635c5fcee4	Quả bóng ở đâu?	1.0
 f5d06b5f2bac	Zù đà	0.0

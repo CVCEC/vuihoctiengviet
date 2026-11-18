@@ -18,3 +18,24 @@
 0.00  thợ  |  tơ
 0.00  phố  |  4
 1.00  Bạn Mai đã đi siêu thị.  |  Bạn Mai đã đi siêu thị.
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  quả  |  Quả!
+1.00  Bạn đã đi công viên chưa?  |  Bạn đã đi công viên chưa?
+1.00  Bạn Liên đánh dấu tranh này. Em nói thế nào?  |  Bạn Liên đánh dấu tranh này, em nói thế nào?
+0.75  Hè phố có phở, có cả cà phê.  |  Hẻ phố có phờ, có cả cà phê.
+1.00  Bạn đã đi vịnh Hạ Long chưa?  |  Bạn đã đi Vịnh Hạ Long chưa?
+0.00  thẻ  |  
+0.83  Nhà bà ở phố Nhà Thờ.  |  Nhà bà ở phố Nhà thơ
+1.00  Bạn đi khi nào?  |  Bạn đi khi nào?
+1.00  Bạn đã đi đến trường chưa?  |  Bạn đã đi đến trường chưa?
+0.80  Bạn đã đi chợ chưa?  |  Bạn đã đi chỗ chưa?
+1.00  Bạn Mai đánh dấu tranh này. Em nói thế nào?  |  Bạn Mai đánh dấu tranh này, em nói thế nào?
+0.50  Tớ đi hôm kia.  |  Tử đi hôn kia
+1.00  Bao giờ bạn đi?  |  Bao giờ bạn đi?
+0.83  Bạn sẽ đi triển lãm à?  |  Bạn sẽ đi chuyển lãm à!
+0.00  xe ca  |  Cảm ơn.
+1.00  Bạn sẽ đi Cà Mau à?  |  Bạn sẽ đi Cà Mau à!
+0.67  Bạn sẽ đi nhà hát à?  |  bạn sẽ đi nhà H.A.
+0.00  cá trê  |  Gotcha!
+0.55  Bạn sẽ đi Sa Pa à?  |  Bạn sẽ đi sáp hả?
+1.00  Vâng. Đúng rồi.  |  Vâng! Đúng rồi!
