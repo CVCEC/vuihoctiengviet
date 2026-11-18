@@ -118,6 +118,7 @@ ma	nghe	diem
 27579af1c4eb	Em Linh thế nào?	1.0
 28498cfb2a6b	Đông Đông	0.0
 2a44ce4f9d61	Bác ấy làm việc ở đâu?	1.0
+2a46ef90e3fa	Bao giờ bạn đi xem phim?	1.0
 2a59d9c59244	Nghe	0.0
 2a66b3148fd1	Bạn Liên hơi gầy, ốm	1.0
 2b93c3934ffc	Hình này là hình tròn	1.0
@@ -157,11 +158,13 @@ ma	nghe	diem
 3677dc6e08d9	Nhà bà có gà, có càng ngẽ?	0.71
 36c53690a360	Cả đĩa	0.5
 37d9f979371d	Anh trai em rất vui vẻ	1.0
+381f8f657911	Hộp sữa	1.0
 382d98a1e242	Đây là con hồ	0.75
 38f1bed0611b	Cảnh hưởng này thế nào?	0.6
 390027410758	TÀ	0.0
 39038095bf6a	con voi này tớ	0.75
 39a1dfad093f	Bạn có thích thời tiết mùa này không?	1.0
+3a6b1ac4821f	Súp lơ	1.0
 3ad8a055345d	Ngày mai trời có ẩm không?	0.83
 3af980eda2b9	Dũng đang quét giọn	0.75
 3b479fd31d83	Còn túi cây giúp bố được không?	0.71
@@ -182,6 +185,7 @@ ma	nghe	diem
 424258feb195	Cô ấy có phải là giáo viên không?	1.0
 42a9e1967992	Không, trong phòng làm việc không có tủ quần áo.	1.0
 42ab0798242a	Hôm nay là chủ nhật	1.0
+431c3fda9648	Hợp đồng.	0.0
 4404a17a0f62	Tàu thủy nhanh hơn thuyền	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
 44a12f07b0dc	mũ có nơ	1.0
@@ -212,6 +216,7 @@ ma	nghe	diem
 4f494e7a9ae1	Đây là bố tôi.	1.0
 4f56e84e97a3	Có mấy cái bàn	1.0
 4f6b8dc68c63	Phòng ngủ ở tầng 2	1.0
+50404ee55899	Bạn thích tấm biển chứ?	0.8
 50c9a5667343	Hôm nay là thứ 3	1.0
 516b4c9c67c8	Lọ hoa ở trên cái bàn	1.0
 519f2f18afa3	Con mèo đang hát	1.0
@@ -226,10 +231,13 @@ ma	nghe	diem
 56325a5ee7c4	Con cua có 10 chân	1.0
 5672256aa956	Con vịt đang bơi	1.0
 56ecbe913d07	Tôi thích quảng khăn màu xanh	0.83
+57e75ec8d74b	BOOM!	0.0
 586f5ef0a877	Em hát à	0.67
 58f638a6a5f1	Ông Nội	1.0
+5916405cc010	Chủ nhật, tớ sẽ đi xem phim	1.0
 592eba913724	Dùa	0.0
 5a802c7fff87	Tớ đi rồi	1.0
+5ab152ff3224	Quả mướp	1.0
 5aebd1d29659	Đây là ông ngoại của Nam.	1.0
 5b4aacad473f	Kia là con hộ	0.75
 5b4dab3c5fde	Con trả lời thế nào?	1.0
@@ -239,12 +247,14 @@ ma	nghe	diem
 5bcce74827b0	Đây là bác gái của Nam	1.0
 5bff7baceccf	Đây là cậu tôi	1.0
 5c74cb098c5e	Cái gì?	0.5
+5ca02992a6a4	Bao giờ bạn lên lớp 2?	1.0
 5cf268cda9c8	Hôm nay trời nắng.	1.0
 5d04e75f8ba7	Em ăn cơm ạ	1.0
 5d1b1b38d537	Chị Tớ là giáo viên	1.0
 5d67139d642f	Tôi thích mặc vảy màu hồng	0.83
 5d94e3851d6b	Đây là bàn ngoại của Nam.	0.83
 5daae271077d	Từ nhà cậu đến trường, đi xe đạp mất bao lâu?	1.0
+5e442471d6c9	Tuần sau tớ sẽ nghỉ tết.	1.0
 5e56f64b88ef	Bạn có biết viết không?	1.0
 5e9d70a97026	Đây là cây mít, phải không?	1.0
 5ebb3bf20f56	Đây là bổ của em	0.8
@@ -267,6 +277,7 @@ ma	nghe	diem
 6381326eaba4	ô tô con hay xe buýt nhanh hơn.	1.0
 638d09b8f3d6	Bạn thích đi bảo tàng chứ?	1.0
 63b12025984f	Tôi biết hát	1.0
+63c96b011015	Bạn đã được thả dìu bao giờ chưa?	0.88
 63ffd20c08a4	Anh trai bạn thế nào?	1.0
 64256bb928c8	Bạn hồng hiền nhất	1.0
 65708aa8d39b	Còn quét dọn giúp bố được không?	0.86
@@ -296,10 +307,12 @@ ma	nghe	diem
 6c45db79bd53	Trường Nam, ở gần nhà Nam	1.0
 6c56f5d6ed1e	Còn nấu cơm giúp mẹ được không?	0.86
 6c5bb7edc878	Phải, Còn Kỳ, Cỡ Hái Tái	0.17
+6cd02acab8dd	Cùng	0.0
 6ce05668193d	Bác của cậu làm nghề gì?	1.0
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
 6dd81b57614b	bà tỡ rất hiền	0.75
+6de0adb6c0a9	Hôm nay trời thế nào?	1.0
 6e4a1a6b8cf7	Mẹ nói thế nào?	1.0
 6e6a987aef02	Đây là bà nội của Nam	1.0
 6e720c522078	4	0.0
@@ -314,11 +327,14 @@ ma	nghe	diem
 73b7d5133f26	Tuần sau, cả nhà tớ sẽ đi cắm trại.	1.0
 73b9dbe2a3dc	Cây mít có 3 quà	0.8
 73bb2a4c9f66	quyển sách màu đỏ có nặng không?	1.0
+73c091479e90	Bao giờ bạn đi xem triển lãm?	1.0
 74205ad29919	Mẹ em rất đẹp	1.0
 74324b3046d0	Chị Hà đang rửa rau	1.0
 746968986dae	Không, quyển vỡ màu vàng nhỏ	0.83
+75160011ce5b	Bao giờ bạn nghỉ tết?	1.0
 756956b4af73	cháu chào dụng ạ	0.75
 756efde0c2a1	Bạn Mai đã đi siêu thị.	1.0
+758b3104e25d	Hẹ này tớ sẽ đi biển.	0.83
 75db4a5da700	Con mèo có hai mắt	1.0
 75f26494d6b1	Có mỹ quà táo	0.5
 760cd179e0f9	Cô có đĩa cá?	1.0
@@ -330,6 +346,7 @@ ma	nghe	diem
 79fd54506e8f	Trong phòng bếp có một cái bếp, một cái tủ bếp và một cái tủ lạnh	1.0
 7a0075670087	Nam đang tưới cây	1.0
 7a170f03bd3f	Ngày kia tớ sẽ đi.	1.0
+7a253c78d868	Bạn đã được làm bánh trung thu bao giờ chưa?	1.0
 7ac35d3c1b68	bà em rất hiền	1.0
 7b4ec0930027	Cô mua cả mũ?	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
@@ -368,6 +385,7 @@ ma	nghe	diem
 84872c1458f0	Bạn thích đi du lịch chứ?	1.0
 84b8168ba6de	Bà ấy là người bán hàng.	1.0
 8511c132570d	Đây là dưỡng của Nam	0.8
+869d475cf836	Ơ	0.0
 86a6e55effa8	Bạn Tâm rất hiền.	1.0
 86ff5226f52f	Bạn đã đi công viên chưa?	1.0
 871456548398	Không phải, đây là quả khế.	1.0
@@ -379,6 +397,7 @@ ma	nghe	diem
 88c9829ffe18	Người bán hàng ở trong cửa hàng	1.0
 88d2e5e5c9ca	Bây giờ, 15 độ	1.0
 88d5f04e5038	Đây là cô tôi	1.0
+891a47f50436	Bố đi làm	1.0
 892e2de3044a	Ông Minh làm nghề gì?	1.0
 897e6248cb8f	Con mèo ở trước cửa	1.0
 897fac6ca0b1	thẳng này là thẳng tảm	0.4
@@ -396,6 +415,7 @@ ma	nghe	diem
 8c14182e534a	Phải, đây là cây cam	1.0
 8c2e7b765a9e	Con giặt quần áo giúp bố được không?	1.0
 8cb162dac2d8	Hôm nay là ngày 12 tháng 5.	1.0
+8d7d85a71461	Bao giờ bạn đi biển?	1.0
 8d97869a1879	Đây là chị tôi	1.0
 8da79e3302ca	trường ngôi sao ở trên đường Thanh Niên.	1.0
 8e23111bf4cf	Phải, con thò, gõ hái đai	0.33

@@ -62,3 +62,23 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.88  Thứ Hai tớ sẽ đi xem triển lãm.  |  Thứ hai, Tố sẽ đi xem triển lãm.
 0.90  Bạn đã được xem múa rối nước bao giờ chưa?  |  Bạn đã được xem mùa rối nước bao giờ chưa?
 0.00  đom đóm  |  Đông Đông
+1.00  Bao giờ bạn đi xem phim?  |  Bao giờ bạn đi xem phim?
+1.00  hộp sữa  |  Hộp sữa
+1.00  súp lơ  |  Súp lơ
+0.00  họp tổ  |  Hợp đồng.
+0.80  Bạn thích tắm biển chứ?  |  Bạn thích tấm biển chứ?
+0.00  buồm  |  BOOM!
+1.00  Chủ nhật tớ sẽ đi xem phim.  |  Chủ nhật, tớ sẽ đi xem phim
+1.00  quả mướp  |  Quả mướp
+1.00  Bao giờ bạn lên lớp 2?  |  Bao giờ bạn lên lớp 2?
+1.00  Tuần sau tớ sẽ nghỉ Tết.  |  Tuần sau tớ sẽ nghỉ tết.
+0.88  Bạn đã được thả diều bao giờ chưa?  |  Bạn đã được thả dìu bao giờ chưa?
+0.00  cốm  |  Cùng
+1.00  Hôm nay trời thế nào?  |  Hôm nay trời thế nào?
+1.00  Bao giờ bạn đi xem triển lãm?  |  Bao giờ bạn đi xem triển lãm?
+1.00  Bao giờ bạn nghỉ Tết?  |  Bao giờ bạn nghỉ tết?
+0.83  Hè này tớ sẽ đi biển.  |  Hẹ này tớ sẽ đi biển.
+1.00  Bạn đã được làm bánh Trung thu bao giờ chưa?  |  Bạn đã được làm bánh trung thu bao giờ chưa?
+0.00  hộp  |  Ơ
+1.00  Bố đi làm.  |  Bố đi làm
+1.00  Bao giờ bạn đi biển?  |  Bao giờ bạn đi biển?
