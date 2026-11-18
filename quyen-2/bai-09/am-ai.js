@@ -1,10 +1,20 @@
 /* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
-const AM_AI = {"Kore|Vâng. Đúng rồi.":"../../am-ai/4a1a1b6f0504.mp3",
+const AM_AI = {"Kore|Bạn sẽ đi bảo tàng à?":"../../am-ai/823b0d6a8b2b.mp3",
+"Kore|Vâng. Đúng rồi.":"../../am-ai/4a1a1b6f0504.mp3",
 "Kore|Bao giờ bạn đi?":"../../am-ai/03416708d6f1.mp3",
+"Kore|Ngày kia tớ sẽ đi.":"../../am-ai/7a170f03bd3f.mp3",
 "Kore|Em hỏi bạn thế nào?":"../../am-ai/92267c640983.mp3",
 "Kore|Bạn sẽ đi nhà hát à?":"../../am-ai/16d9d369aad2.mp3",
 "Kore|Bạn sẽ đi triển lãm à?":"../../am-ai/13e6e8d3e8b9.mp3",
 "Kore|Bạn sẽ đi Sa Pa à?":"../../am-ai/20eb577c57f9.mp3",
 "Kore|Bạn sẽ đi Cà Mau à?":"../../am-ai/15e1db1408a7.mp3",
+"Kore|Cả nhà sẽ đi ô tô vì quê Vũ ở xa.":"../../am-ai/909ef4bbf0b4.mp3",
+"Kore|Ở đó có hồ Ba Bể.":"../../am-ai/aaed775cae2c.mp3",
+"Kore|Bờ hồ có tre, nứa, có cả khế, su su.":"../../am-ai/8ea67af5fbc0.mp3",
 "Kore|xe ca":"../../am-ai/14d8dabd6bfb.mp3",
-"Kore|cá trê":"../../am-ai/191e53e9b970.mp3"};
+"Kore|cá trê":"../../am-ai/191e53e9b970.mp3",
+"Kore|su su":"../../am-ai/9ac586de100a.mp3",
+"Kore|Tuần sau, cả nhà tớ sẽ đi cắm trại.":"../../am-ai/73b7d5133f26.mp3",
+"Kore|Năm sau, tớ sẽ lên lớp 2.":"../../am-ai/989bb214fdc6.mp3",
+"Kore|Tháng sau, tớ sẽ nghỉ hè.":"../../am-ai/82bb6f6ac70b.mp3",
+"Kore|Tuần sau, tớ sẽ đi xem phim.":"../../am-ai/8a0b6c8f4068.mp3"};

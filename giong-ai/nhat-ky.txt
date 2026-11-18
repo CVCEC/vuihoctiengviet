@@ -39,3 +39,14 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.00  cá trê  |  Gotcha!
 0.55  Bạn sẽ đi Sa Pa à?  |  Bạn sẽ đi sáp hả?
 1.00  Vâng. Đúng rồi.  |  Vâng! Đúng rồi!
+Lô 20 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+1.00  Tuần sau, cả nhà tớ sẽ đi cắm trại.  |  Tuần sau, cả nhà tớ sẽ đi cắm trại.
+1.00  Ngày kia tớ sẽ đi.  |  Ngày kia tớ sẽ đi.
+1.00  Bạn sẽ đi bảo tàng à?  |  Bạn sẽ đi bảo tàng à!
+0.67  Tháng sau, tớ sẽ nghỉ hè.  |  Tháng sau, tử sẽ nghì hè.
+1.00  Tuần sau, tớ sẽ đi xem phim.  |  Tuần sau, tớ sẽ đi xem phim
+0.90  Bờ hồ có tre, nứa, có cả khế, su su.  |  Bờ hồ có che, nứa, có cả khế, su su
+1.00  Cả nhà sẽ đi ô tô vì quê Vũ ở xa.  |  Cả nhà sẽ đi ô tô vì quê vũ ở xa
+0.86  Năm sau, tớ sẽ lên lớp 2.  |  Năm sau, tử sẽ lên lớp 2.
+0.00  su su  |  Số số
+0.83  Ở đó có hồ Ba Bể.  |  Ở đó có Hồ 3B.
