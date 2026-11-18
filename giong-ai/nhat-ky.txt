@@ -50,3 +50,7 @@ Lô 20 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để 
 0.86  Năm sau, tớ sẽ lên lớp 2.  |  Năm sau, tử sẽ lên lớp 2.
 0.00  su su  |  Số số
 0.83  Ở đó có hồ Ba Bể.  |  Ở đó có Hồ 3B.
+Lô 10 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+0.86  Nghỉ hè, cả nhà Vũ về quê.  |  Ngỉ hè, cả nhà vũ về quê
+0.00  rùa  |  sua
