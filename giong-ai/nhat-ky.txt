@@ -82,3 +82,8 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.00  hộp  |  Ơ
 1.00  Bố đi làm.  |  Bố đi làm
 1.00  Bao giờ bạn đi biển?  |  Bao giờ bạn đi biển?
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 20 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
+Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 10 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
