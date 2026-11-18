@@ -57,3 +57,8 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.25  Hồ có cá to.  |  hầu, gõ, gã, to
 0.00  tre  |  Chê!
 1.00  về quê  |  Về quê
+0.00  Mẹ đi bộ.  |  MÈ, LÝ, BỒ
+1.00  cam  |  Cam
+0.88  Thứ Hai tớ sẽ đi xem triển lãm.  |  Thứ hai, Tố sẽ đi xem triển lãm.
+0.90  Bạn đã được xem múa rối nước bao giờ chưa?  |  Bạn đã được xem mùa rối nước bao giờ chưa?
+0.00  đom đóm  |  Đông Đông
