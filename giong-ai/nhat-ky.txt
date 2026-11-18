@@ -1,35 +1,20 @@
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  nhà  |  Nha!
-1.00  ngô  |  Ngô
-0.60  Bạn thích cắm trại chứ?  |  Bạn thích cấm chạy chứ?
-0.00  ghe  |  Về
-0.00  giã  |  Dạ
-1.00  công viên  |  Công viên
-0.00  nghệ  |  Nghe
-1.00  Bố tớ thích cắm trại. Còn mẹ tớ thích tắm biển.  |  Bố tớ thích cắm trại, còn mẹ tớ thích tắm biển.
-0.60  Nhà của nghé nho nhỏ.  |  Nhà của ngái nhó nhỏ
-0.71  Nhà bà có gà, có cả nghé.  |  Nhà bà có gà, có càng ngẽ?
-0.82  Đúng. Tớ thích leo núi. / Không. Tớ không thích leo núi.  |  Đúng, tỡ thích leo núi Không, tỡ không thích leo núi
-0.80  Từ nào đúng với hình?  |  Tư nào đúng với hình?
-1.00  Bạn thích đi bảo tàng chứ?  |  Bạn thích đi bảo tàng chứ?
-1.00  Bạn thích leo núi chứ?  |  Bạn thích leo núi chứ!
-0.00  giã giò  |  Dạ dạ
-1.00  giá đỗ  |  Giá đỗ
-1.00  ngà  |  NGÀ
-1.00  Em hỏi bạn thế nào?  |  Em hỏi bạn thế nào?
-1.00  Bạn thích đi rừng chứ?  |  Bạn thích đi rừng chứ?
-0.33  Gà có ngô.  |  Gà cổng ngu
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.00  ghế  |  Gê
-1.00  nghĩ  |  Nghĩ?
-Lô 3 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-1.00  Bà của Nga đã già.  |  Bà của Nga đã già
-0.00  Nghé có cỏ.  |  ngỡ, cõ, cò
-0.00  gió  |  Sao?
-Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 5 câu không cắt được, chia đôi để đọc lại
-0.00  Nghỉ hè, Nga ở nhà bà.  |  Nghì hê
-0.00  ngựa  |  Ngã ở nhà bà
+0.50  Ổ gà be bé.  |  U Gà Bé Bé
+1.00  Còn bố mẹ bạn thích làm gì?  |  Còn bố mẹ bạn thích làm gì?
+1.00  Bạn thích đi chùa chứ?  |  Bạn thích đi chùa chứ?
+1.00  Bạn Liên đã đi công viên.  |  Bạn Liên đã đi công viên
+1.00  cà phê  |  Cà phê
+1.00  Bạn Nam đã đi xem phim.  |  Bạn Nam đã đi xem phim
+1.00  Bạn Dũng đã đi sân vận động.  |  Bạn Dũng đã đi sân vận động.
+0.00  quạ  |  Qua
+1.00  Mẹ đưa bé qua nhà bà.  |  Mẹ đưa bé qua nhà bà.
+0.88  Phố có nhà thờ to, có ô tô.  |  Phủ có nhà thờ to, có ô tô.
+1.00  Bạn đã đi Đà Lạt chưa?  |  Bạn đã đi Đà Lạt chưa?
+0.00  phở  |  phô
+0.00  thỏ  |  TÀ
+1.00  Bạn Nam đánh dấu tranh này. Em nói thế nào?  |  Bạn Nam đánh dấu tranh này, em nói thế nào?
+1.00  Bạn Dũng đánh dấu tranh này. Em nói thế nào?  |  Bạn Dũng đánh dấu tranh này, em nói thế nào?
+1.00  Tớ đi rồi.  |  Tớ đi rồi
+0.50  quê nhà  |  Quê nhạc
+0.00  thợ  |  tơ
+0.00  phố  |  4
+1.00  Bạn Mai đã đi siêu thị.  |  Bạn Mai đã đi siêu thị.
