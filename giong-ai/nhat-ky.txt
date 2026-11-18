@@ -54,3 +54,6 @@ Lô 10 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để 
 Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
 0.86  Nghỉ hè, cả nhà Vũ về quê.  |  Ngỉ hè, cả nhà vũ về quê
 0.00  rùa  |  sua
+0.25  Hồ có cá to.  |  hầu, gõ, gã, to
+0.00  tre  |  Chê!
+1.00  về quê  |  Về quê
