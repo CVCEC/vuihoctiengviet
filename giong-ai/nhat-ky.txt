@@ -7,3 +7,7 @@ Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 Lô 5 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
 1.00  Bạn đã được múa sạp bao giờ chưa?  |  Bạn đã được múa sạp bao giờ chưa?
 0.00  gươm  |  Ươm
+Lô 3 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+0.86  Sang năm tớ sẽ lên lớp 2.  |  Sang 5. Tử sẽ lên lớp 2.
+1.00  Rồi. Năm kia tớ đã được gói bánh chưng rồi. / Chưa. Tớ chưa bao giờ được gói bánh chưng.  |  Rồi Năm kia, tớ đã được gói bánh chưng rồi. Chưa, tớ chưa bao giờ được gói bánh chưng.
+0.89  Mẹ chỉ cho bé: Giữa hồ có Tháp Rùa.  |  Mẹ chỉ cho bé Giữa hồ có tháp dùa
