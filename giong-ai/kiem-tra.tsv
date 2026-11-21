@@ -1,6 +1,7 @@
 ma	nghe	diem
 0028372d64b2	Anh Dũng đang bơi	1.0
 003b022d9872	Con không giúp bố được ạ Con không biết tưới cây	1.0
+00403d317984	Bây giờ là 2 giờ 50 phút.	1.0
 00be21c66e0c	MÈ, LÝ, BỒ	0.0
 00c335d4c04c	Tàu thủy hay thuyền nặng hơn	1.0
 00d5551bc6e4	cây na, cổ, mỷ, quả	0.6
@@ -29,11 +30,14 @@ ma	nghe	diem
 0856d72d4a27	Đây là chị họ của tớ.	1.0
 087759336691	Bạn thích mặc quần mù gì?	0.83
 08825b311251	Được ạ, con cho mèo ăn được	1.0
+08f53767f25d	Bạn ấy đang làm gì?	1.0
+09a980ce8e55	Qua ớt	0.5
 0a74a26df9f7	Hình vuông mưu zi	0.5
 0ac9e65fe35e	Mẹ đang làm gì?	1.0
 0b4c13f5b5f8	Bạn Hùng khá thân thiệt	0.8
 0b7b8c740baf	Dì Lê đưa bé Ly đi bộ	1.0
 0bba37a6fc7b	Ngô	1.0
+0c2a7c22cb27	Hả?	0.0
 0c65803409b8	Bạn Nam đã đi xem phim	1.0
 0d754922bbab	Bạn Dũng đã đi sân vận động.	1.0
 0e963c388110	Đây là gì của em?	0.8
@@ -51,12 +55,14 @@ ma	nghe	diem
 1241f28c8133	Em đang trồng cây, anh tưới nước giúp em được không?	1.0
 12679bb4b4a5	Cô Na thì nào?	0.75
 12a17bcf62e7	Hôm nay, trời nóng, 35 độ	1.0
+12dd6f9df793	Bút Viết	1.0
 12f2d0828712	Cây dừa này cao, phải không?	1.0
 1302321750f3	Đây là anh họ của Nam	1.0
 1318f4221267	Bạn ấy có phải là học sinh không?	1.0
 13e189bf9172	Dứa đỏ	0.5
 13e6e8d3e8b9	Bạn sẽ đi chuyển lãm à!	0.83
 140060b955f8	Bạn hùng khá cao	1.0
+1435e196f466	Bạn ấy đang ăn sáng.	1.0
 14425462c847	Cái ghế ở đâu?	1.0
 144d64080a58	Con sóc đang làm gì?	1.0
 146a64d8b165	Đây là con vịt	1.0
@@ -83,6 +89,7 @@ ma	nghe	diem
 18fc6c440d4f	Đúng, cô ấy là giáo viên	1.0
 191e53e9b970	Gotcha!	0.0
 1944864b6753	xe máy và xe đạp Xe nào nhanh hơn?	1.0
+195fe00f9b93	Bây giờ là 2 giờ	1.0
 1a2d7205a1f4	Con chó ở đâu?	1.0
 1a3979c3389c	trong phòng bếp có bàn ăn, phải không?	1.0
 1a4cf35afe6a	Không, ngày mai trời khô	1.0
@@ -689,6 +696,7 @@ f02c1395dc7c	Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm	1
 f0429362a5d3	Con gấu đang đọc sách	1.0
 f083de3e185c	Không, trong phòng khách không có tủ lạnh	1.0
 f12c0eec3df7	Bút chỉ màu vàng có dai không?	0.71
+f17842b7815c	Hôm nay trời nắng	1.0
 f17f03958c35	có hai hình tròn	1.0
 f2637556a7b5	Cái bàn này thế nào?	1.0
 f2816cc6f42b	Chê!	0.0
@@ -709,6 +717,7 @@ f7d9e6073052	Bây giờ ở Tokyo bao nhiêu độ?	1.0
 f86ee2b517b5	Con chó ở dưới bàn	1.0
 f904960fd34a	Mẹ tử rất hiền	0.75
 f981aea15dfe	Ân ngoại	0.5
+fa1711320325	Cầm	0.0
 fa19e9e9f7d1	Còn mấy hình tam giác	0.8
 fa2c08f5a7d7	Mỡ	0.0
 fa4ef1e6cdfa	Bạn thích mặc váy màu gì?	1.0
@@ -723,6 +732,7 @@ fccac4f843d0	Không! Các chú ấy không phải là thợ xây.	1.0
 fd2627992d0e	trong phòng khách có TV phải không?	0.67
 fd455edd04e6	Các chú ấy làm nghề gì?	1.0
 fdab71ce808a	Nó đùa.	0.5
+fdc76dd1435c	Mẹ cho bé ra bờ hồ	1.0
 fe05a23a7c3f	Nha!	0.0
 ff20a20a0c85	Mai thích mặc phẩy màu hồng hoặc màu điểm	0.67
 ff347a5ee3ef	Phải. Đây là cây mít.	1.0

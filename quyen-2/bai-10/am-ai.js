@@ -1,5 +1,6 @@
 /* Giọng đọc AI cho câu sách không có file thu âm – tạo tự động bằng tools/thieu_tieng.js --gan */
 const AM_AI = {"Kore|Hôm nay trời thế nào?":"../../am-ai/6de0adb6c0a9.mp3",
+"Kore|Hôm nay trời nắng.":"../../am-ai/f17842b7815c.mp3",
 "Kore|Bạn thích tắm biển chứ?":"../../am-ai/50404ee55899.mp3",
 "Kore|Có. Tớ rất thích. / Không. Tớ không thích.":"../../am-ai/b1929b76bd68.mp3",
 "Kore|Em hỏi bạn thế nào?":"../../am-ai/92267c640983.mp3",
@@ -20,6 +21,7 @@ const AM_AI = {"Kore|Hôm nay trời thế nào?":"../../am-ai/6de0adb6c0a9.mp3"
 "Kore|Thứ Hai tớ sẽ đi xem triển lãm.":"../../am-ai/17fd44411605.mp3",
 "Kore|Bao giờ bạn đi xem triển lãm?":"../../am-ai/73c091479e90.mp3",
 "Kore|Bố đi làm.":"../../am-ai/891a47f50436.mp3",
+"Kore|Mẹ cho bé ra Bờ Hồ.":"../../am-ai/fdc76dd1435c.mp3",
 "Kore|Mẹ đi bộ.":"../../am-ai/00be21c66e0c.mp3",
 "Kore|Bé đạp xe.":"../../am-ai/c65ea0191170.mp3",
 "Kore|Mẹ chỉ cho bé: Giữa hồ có Tháp Rùa.":"../../am-ai/aba2583b49de.mp3",
@@ -27,6 +29,7 @@ const AM_AI = {"Kore|Hôm nay trời thế nào?":"../../am-ai/6de0adb6c0a9.mp3"
 "Kore|họp tổ":"../../am-ai/431c3fda9648.mp3",
 "Kore|cốm":"../../am-ai/6cd02acab8dd.mp3",
 "Kore|hộp sữa":"../../am-ai/381f8f657911.mp3",
+"Kore|cơm":"../../am-ai/fa1711320325.mp3",
 "Kore|sấm chớp":"../../am-ai/e94decee94cf.mp3",
 "Kore|chùm nho":"../../am-ai/b430dca908e7.mp3",
 "Kore|súp lơ":"../../am-ai/3a6b1ac4821f.mp3",

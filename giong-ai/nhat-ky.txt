@@ -16,3 +16,14 @@ Lô 3 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.00  chùm nho  |  Dọn nha!
 0.67  Bé đạp xe.  |  Bể đạp xe
 0.00  sấm chớp  |  sẩm chấp
+Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  Hôm nay trời nắng.  |  Hôm nay trời nắng
+0.00  cơm  |  Cầm
+1.00  Mẹ cho bé ra Bờ Hồ.  |  Mẹ cho bé ra bờ hồ
+1.00  Bây giờ là 2 giờ 50 phút.  |  Bây giờ là 2 giờ 50 phút.
+1.00  Bạn ấy đang làm gì?  |  Bạn ấy đang làm gì?
+0.50  quả ớt  |  Qua ớt
+0.00  hát  |  Hả?
+1.00  bút (viết)  |  Bút Viết
+1.00  Bạn ấy đang ăn sáng.  |  Bạn ấy đang ăn sáng.
+1.00  Bây giờ là 2 giờ.  |  Bây giờ là 2 giờ
