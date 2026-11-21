@@ -1,89 +1,9 @@
-0.50  Ổ gà be bé.  |  U Gà Bé Bé
-1.00  Còn bố mẹ bạn thích làm gì?  |  Còn bố mẹ bạn thích làm gì?
-1.00  Bạn thích đi chùa chứ?  |  Bạn thích đi chùa chứ?
-1.00  Bạn Liên đã đi công viên.  |  Bạn Liên đã đi công viên
-1.00  cà phê  |  Cà phê
-1.00  Bạn Nam đã đi xem phim.  |  Bạn Nam đã đi xem phim
-1.00  Bạn Dũng đã đi sân vận động.  |  Bạn Dũng đã đi sân vận động.
-0.00  quạ  |  Qua
-1.00  Mẹ đưa bé qua nhà bà.  |  Mẹ đưa bé qua nhà bà.
-0.88  Phố có nhà thờ to, có ô tô.  |  Phủ có nhà thờ to, có ô tô.
-1.00  Bạn đã đi Đà Lạt chưa?  |  Bạn đã đi Đà Lạt chưa?
-0.00  phở  |  phô
-0.00  thỏ  |  TÀ
-1.00  Bạn Nam đánh dấu tranh này. Em nói thế nào?  |  Bạn Nam đánh dấu tranh này, em nói thế nào?
-1.00  Bạn Dũng đánh dấu tranh này. Em nói thế nào?  |  Bạn Dũng đánh dấu tranh này, em nói thế nào?
-1.00  Tớ đi rồi.  |  Tớ đi rồi
-0.50  quê nhà  |  Quê nhạc
-0.00  thợ  |  tơ
-0.00  phố  |  4
-1.00  Bạn Mai đã đi siêu thị.  |  Bạn Mai đã đi siêu thị.
-Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-1.00  quả  |  Quả!
-1.00  Bạn đã đi công viên chưa?  |  Bạn đã đi công viên chưa?
-1.00  Bạn Liên đánh dấu tranh này. Em nói thế nào?  |  Bạn Liên đánh dấu tranh này, em nói thế nào?
-0.75  Hè phố có phở, có cả cà phê.  |  Hẻ phố có phờ, có cả cà phê.
-1.00  Bạn đã đi vịnh Hạ Long chưa?  |  Bạn đã đi Vịnh Hạ Long chưa?
-0.00  thẻ  |  
-0.83  Nhà bà ở phố Nhà Thờ.  |  Nhà bà ở phố Nhà thơ
-1.00  Bạn đi khi nào?  |  Bạn đi khi nào?
-1.00  Bạn đã đi đến trường chưa?  |  Bạn đã đi đến trường chưa?
-0.80  Bạn đã đi chợ chưa?  |  Bạn đã đi chỗ chưa?
-1.00  Bạn Mai đánh dấu tranh này. Em nói thế nào?  |  Bạn Mai đánh dấu tranh này, em nói thế nào?
-0.50  Tớ đi hôm kia.  |  Tử đi hôn kia
-1.00  Bao giờ bạn đi?  |  Bao giờ bạn đi?
-0.83  Bạn sẽ đi triển lãm à?  |  Bạn sẽ đi chuyển lãm à!
-0.00  xe ca  |  Cảm ơn.
-1.00  Bạn sẽ đi Cà Mau à?  |  Bạn sẽ đi Cà Mau à!
-0.67  Bạn sẽ đi nhà hát à?  |  bạn sẽ đi nhà H.A.
-0.00  cá trê  |  Gotcha!
-0.55  Bạn sẽ đi Sa Pa à?  |  Bạn sẽ đi sáp hả?
-1.00  Vâng. Đúng rồi.  |  Vâng! Đúng rồi!
-Lô 20 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-1.00  Tuần sau, cả nhà tớ sẽ đi cắm trại.  |  Tuần sau, cả nhà tớ sẽ đi cắm trại.
-1.00  Ngày kia tớ sẽ đi.  |  Ngày kia tớ sẽ đi.
-1.00  Bạn sẽ đi bảo tàng à?  |  Bạn sẽ đi bảo tàng à!
-0.67  Tháng sau, tớ sẽ nghỉ hè.  |  Tháng sau, tử sẽ nghì hè.
-1.00  Tuần sau, tớ sẽ đi xem phim.  |  Tuần sau, tớ sẽ đi xem phim
-0.90  Bờ hồ có tre, nứa, có cả khế, su su.  |  Bờ hồ có che, nứa, có cả khế, su su
-1.00  Cả nhà sẽ đi ô tô vì quê Vũ ở xa.  |  Cả nhà sẽ đi ô tô vì quê vũ ở xa
-0.86  Năm sau, tớ sẽ lên lớp 2.  |  Năm sau, tử sẽ lên lớp 2.
-0.00  su su  |  Số số
-0.83  Ở đó có hồ Ba Bể.  |  Ở đó có Hồ 3B.
-Lô 10 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.86  Nghỉ hè, cả nhà Vũ về quê.  |  Ngỉ hè, cả nhà vũ về quê
-0.00  rùa  |  sua
-0.25  Hồ có cá to.  |  hầu, gõ, gã, to
-0.00  tre  |  Chê!
-1.00  về quê  |  Về quê
-0.00  Mẹ đi bộ.  |  MÈ, LÝ, BỒ
-1.00  cam  |  Cam
-0.88  Thứ Hai tớ sẽ đi xem triển lãm.  |  Thứ hai, Tố sẽ đi xem triển lãm.
-0.90  Bạn đã được xem múa rối nước bao giờ chưa?  |  Bạn đã được xem mùa rối nước bao giờ chưa?
-0.00  đom đóm  |  Đông Đông
-1.00  Bao giờ bạn đi xem phim?  |  Bao giờ bạn đi xem phim?
-1.00  hộp sữa  |  Hộp sữa
-1.00  súp lơ  |  Súp lơ
-0.00  họp tổ  |  Hợp đồng.
-0.80  Bạn thích tắm biển chứ?  |  Bạn thích tấm biển chứ?
-0.00  buồm  |  BOOM!
-1.00  Chủ nhật tớ sẽ đi xem phim.  |  Chủ nhật, tớ sẽ đi xem phim
-1.00  quả mướp  |  Quả mướp
-1.00  Bao giờ bạn lên lớp 2?  |  Bao giờ bạn lên lớp 2?
-1.00  Tuần sau tớ sẽ nghỉ Tết.  |  Tuần sau tớ sẽ nghỉ tết.
-0.88  Bạn đã được thả diều bao giờ chưa?  |  Bạn đã được thả dìu bao giờ chưa?
-0.00  cốm  |  Cùng
-1.00  Hôm nay trời thế nào?  |  Hôm nay trời thế nào?
-1.00  Bao giờ bạn đi xem triển lãm?  |  Bao giờ bạn đi xem triển lãm?
-1.00  Bao giờ bạn nghỉ Tết?  |  Bao giờ bạn nghỉ tết?
-0.83  Hè này tớ sẽ đi biển.  |  Hẹ này tớ sẽ đi biển.
-1.00  Bạn đã được làm bánh Trung thu bao giờ chưa?  |  Bạn đã được làm bánh trung thu bao giờ chưa?
-0.00  hộp  |  Ơ
-1.00  Bố đi làm.  |  Bố đi làm
-1.00  Bao giờ bạn đi biển?  |  Bao giờ bạn đi biển?
-Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-Lô 20 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
+Lô 20 câu không cắt được, chia đôi để đọc lại
 Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 Lô 10 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
+Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 5 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
+1.00  Bạn đã được múa sạp bao giờ chưa?  |  Bạn đã được múa sạp bao giờ chưa?
+0.00  gươm  |  Ươm

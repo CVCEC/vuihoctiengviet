@@ -4,6 +4,7 @@ const AM_AI = {"Kore|Hôm nay trời thế nào?":"../../am-ai/6de0adb6c0a9.mp3"
 "Kore|Em hỏi bạn thế nào?":"../../am-ai/92267c640983.mp3",
 "Kore|Bạn đã được làm bánh Trung thu bao giờ chưa?":"../../am-ai/7a253c78d868.mp3",
 "Kore|Bạn đã được thả diều bao giờ chưa?":"../../am-ai/63c96b011015.mp3",
+"Kore|Bạn đã được múa sạp bao giờ chưa?":"../../am-ai/a02edbdc6563.mp3",
 "Kore|Bạn đã được xem múa rối nước bao giờ chưa?":"../../am-ai/2328ec5eb34c.mp3",
 "Kore|Bao giờ bạn nghỉ Tết?":"../../am-ai/75160011ce5b.mp3",
 "Kore|Tuần sau tớ sẽ nghỉ Tết.":"../../am-ai/5e442471d6c9.mp3",
@@ -22,6 +23,7 @@ const AM_AI = {"Kore|Hôm nay trời thế nào?":"../../am-ai/6de0adb6c0a9.mp3"
 "Kore|hộp sữa":"../../am-ai/381f8f657911.mp3",
 "Kore|súp lơ":"../../am-ai/3a6b1ac4821f.mp3",
 "Kore|buồm":"../../am-ai/57e75ec8d74b.mp3",
+"Kore|gươm":"../../am-ai/a40c0978276a.mp3",
 "Kore|quả mướp":"../../am-ai/5ab152ff3224.mp3",
 "Kore|cam":"../../am-ai/06af6b4038fc.mp3",
 "Kore|hộp":"../../am-ai/869d475cf836.mp3"};
