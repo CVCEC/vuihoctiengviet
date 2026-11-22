@@ -376,6 +376,7 @@ ma	nghe	diem
 7a253c78d868	Bạn đã được làm bánh trung thu bao giờ chưa?	1.0
 7ac35d3c1b68	bà em rất hiền	1.0
 7b4ec0930027	Cô mua cả mũ?	1.0
+7b68b8818d03	Bây giờ là 5 giờ 30 phút	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
 7bf3c77526d4	Tôi thích đi tết màu nâu	0.83
 7bf5f337b257	Nỉ he, cậu thương làm gì?	0.5
@@ -389,9 +390,11 @@ ma	nghe	diem
 7e67f0abec68	trường ngôi sao đối diện bệnh viện mắt, phải không?	1.0
 7e792b471a14	Không, trong phòng ngủ không có TV	0.8
 7e995d81c0a0	Bạn Hà rất xinh đẹp!	1.0
+7eb07e3c3b7b	Bạn ấy đang đi ngủ	1.0
 7f6e14cd8951	Bạn có thích hát không?	1.0
 7fcaeabd6b9d	Tôi thích mặc áo màu vàng	1.0
 7fd4d0e4f377	Gãi đủ	0.0
+805266ff6406	Bạn ấy đang dạy.	0.75
 80849567a2fc	có cả ba ba.	0.0
 808ebca74e84	Tôi thích mặc giày màu nâu	0.83
 80b2cb2bd178	Mẹ em thế nào?	1.0
@@ -402,6 +405,7 @@ ma	nghe	diem
 82803cbb759e	Nam học ở đâu?	1.0
 82a83415360e	Đây là cậu của em	1.0
 82bb6f6ac70b	Tháng sau, tử sẽ nghì hè.	0.67
+8345fe4334d1	luôn	0.0
 8379b829587e	Phòng ngủ ở đâu?	1.0
 837a69558526	Nguồn	0.0
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
@@ -412,6 +416,7 @@ ma	nghe	diem
 84872c1458f0	Bạn thích đi du lịch chứ?	1.0
 84b8168ba6de	Bà ấy là người bán hàng.	1.0
 8511c132570d	Đây là dưỡng của Nam	0.8
+85909c333508	Bạn ấy đang đánh răng.	1.0
 869d475cf836	Ơ	0.0
 86a6e55effa8	Bạn Tâm rất hiền.	1.0
 86ff5226f52f	Bạn đã đi công viên chưa?	1.0
@@ -436,6 +441,7 @@ ma	nghe	diem
 8ae667abdabf	Còn em gái bạn	1.0
 8b2e4803d217	Còn bạn Hoa	1.0
 8b53b9dddaf7	Chú Tớ là thợ xây.	1.0
+8b53db516209	Cột nhà	1.0
 8bbe1bfee051	Đây là bác trai của Nam.	1.0
 8be3db54b6a8	Thu đang giặt quần áo.	1.0
 8bf5eb032c3c	Con vịt đang đi	1.0
@@ -449,7 +455,10 @@ ma	nghe	diem
 8ea67af5fbc0	Bờ hồ có che, nứa, có cả khế, su su	0.9
 8f255b13cbd0	Có bút chì màu xanh dài	1.0
 8f8578d8e09f	Còn Bạn Tâm	1.0
+8fc67b6baeeb	Bà rửa mặt cho bé lân	1.0
 8fe23893483d	Con thỏ đang ăn	1.0
+900af6357661	Ở nhà, bạn dạy lúc mấy giờ?	0.86
+909d4d34c4f6	Bây giờ là 7 giờ 15 phút	1.0
 909ef4bbf0b4	Cả nhà sẽ đi ô tô vì quê vũ ở xa	1.0
 91d95579461c	Chị đang rửa bát. Em lau bát giúp chị được không?	1.0
 91f072319d2b	Còn lau bát đĩa giúp mẹ được không?	0.88
@@ -487,10 +496,12 @@ ma	nghe	diem
 9b7e3249317e	Chị họ của cậu, làm nghề gì?	1.0
 9bbd31545e44	Mê Chô và Tàu Hòa. Tàu nào cũ hơn?	0.78
 9bf49424cb1b	Con gà có hai chân, phải không?	1.0
+9c0c2bd4af48	Tiếp đó, cả nhà ăn cơm	1.0
 9c4cbae9a557	Bố bạn thế nào?	1.0
 9c79a04972f8	Bạn Liên đánh dấu tranh này, em nói thế nào?	1.0
 9ca87d4940a6	Hình tam rác, màu gì?	0.8
 9cb783d58900	có 5 hình tam giác	1.0
+9d4b3d7c7896	Mấy giờ bạn đánh răng?	1.0
 9d5b6aea8607	Đây là mẹ tôi	1.0
 9d7df1980a5c	Cảy khuyến này nhé!	0.25
 9d90c3d700d5	thuyền của tớ hay thuyền của cậu to hơn	1.0
@@ -513,6 +524,7 @@ a3c261e9e6fc	Chào!	0.0
 a40c0978276a	Ươm	0.0
 a4242cb356a8	Đĩa cá có đũa	1.0
 a491ae514efe	Bạn thích đi giày màu gì?	1.0
+a491e4ff8cbe	Bây giờ là 9 giờ	1.0
 a4a7335a573c	Bạn đã đi Vịnh Hạ Long chưa?	1.0
 a4c6e2323320	Phải, gãy hủy này nâng	0.4
 a4f6d62c5939	Sang 5. Tử sẽ lên lớp 2.	0.86
@@ -526,6 +538,7 @@ a756e8a54abd	Không phải, đây là cây dứa	1.0
 a76fb247a268	Còn chú Thanh	1.0
 a778f2f606f4	Có Không Tớ biết Không biết phải	0.86
 a860f3e00bbf	Tôi thích mặc áo màu xanh.	1.0
+a875ae95e146	Nụt nè	0.0
 a8d2a479887d	Còn voi này thế nào?	0.8
 a8d6d389810e	Có, không, tôi biết, không biết, đọc	1.0
 a8df083954e2	Tủ màu xanh hay tủ màu nâu nặng hơn	1.0
@@ -534,6 +547,7 @@ a9c9b5877b9c	xe buýt và ô tô con xe nào to hơn	1.0
 a9d5f8f78414	Đồng hồ ở đâu?	1.0
 aa6e7475026d	trong phòng làm việc có gì?	1.0
 aabf48009f26	Đây là cây khế phải không?	1.0
+aad5c9cdf44b	vươn	0.0
 aae4cecc783d	con mèo ở bên cạnh cái ghế.	1.0
 aaed775cae2c	Ở đó có Hồ 3B.	0.83
 ab9cd161686a	Rồi Năm kia, tớ đã được gói bánh chưng rồi. Chưa, tớ chưa bao giờ được gói bánh chưng.	1.0
@@ -552,6 +566,7 @@ af3e06fcc655	Có 10 hình tròn	1.0
 af43eace753d	Em họ em rất dễ thương	1.0
 afa4e3d8d420	Trong phòng ăn, có gì?	1.0
 b02070ee1adc	Nhà tử có 6 phòng Phòng khách, phòng bếp, 2 phòng ngủ và 2 phòng tắm	0.94
+b0358c1574f9	Tớ đánh răng lúc 6 giờ 10 phút.	1.0
 b109534f24f7	Đây là em	1.0
 b1929b76bd68	có, tựu rất thích không, tựu không thích	0.75
 b1edcaa1c0f6	Đây là gì tôi?	0.75
@@ -584,12 +599,14 @@ bae80f9e149d	Hình tròn màu gì?	1.0
 bb0fce610d09	Hình chữ nhật màu gì?	1.0
 bb2628c8c627	Cô ấy có phải là cảnh sát không?	1.0
 bb5c930d386d	Con mèo đang ngủ	1.0
+bbb030b1152e	vườn mít	1.0
 bc2bda9d7913	chi	0.0
 bc68b3dfbefa	Cái bàn này dài!	1.0
 bce0f7a41ad3	Trong phòng ngủ có một cái giường, một cái ghế và một cái tủ quần áo	1.0
 bcf2272b4ac6	hình tam giác màu vàng.	1.0
 bd359725801e	Anh ấy là bác sĩ.	1.0
 bdeeeba0bd25	Tớ đi rồi.	1.0
+be1aed9d395a	Mấy giờ bạn tập thể giúp?	0.83
 be3b10af4ac0	trong phòng khách có tủ lạnh, phải không?	1.0
 be4a49bb0c3d	Không phải. Đây là cây bưởi.	1.0
 be83859384ec	Bạn thích mặc áo màu gì?	1.0
@@ -605,6 +622,7 @@ c30dabb4221e		0.0
 c312c8804887	quyền sách ở trên cái bàn.	0.83
 c36dfcde9fef	Mìa?	0.0
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
+c4c33c368757	Tở dậy lúc 6 giờ.	0.8
 c512b4811351	Chú tôi trẻ lắm	1.0
 c517fad6aa86	Thuyền của cậu to hơn thuyền của tớ	1.0
 c5444e59c095	hình chữ nhật, màu xanh	1.0
@@ -628,8 +646,10 @@ cba8b0c76169	Nghì hê	0.0
 cbb28a11956a	Đây là tôi	1.0
 cc8190c3b1ec	Nhà cậu có mỹ phòng	0.8
 cce8a6bfffaf	Cây dừa có mấy quả	1.0
+cd180e352fb1	con chuột	1.0
 cdf96d9a1966	Chị ấy làm việc ở đâu?	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
+cea7462a5902	Nón là	0.5
 cf09f5bc5ad9	Đây là em họ của Nam.	1.0
 cfa914a080fe	Bạn đi vũng tàu vào mùa đông à?	1.0
 cfb2bb04d640	Ngã ở nhà bà	0.0

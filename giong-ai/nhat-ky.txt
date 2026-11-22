@@ -18,3 +18,23 @@
 0.00  bút  |  Bu...
 0.80  Bạn ấy đang rửa mặt.  |  Bạn ấy đang sửa mặt.
 0.91  7 giờ kém 5 phút, bố mẹ dắt xe đi làm.  |  Bảy giờ kém 5 phút, bố mẹ rắt xe đi làm.
+1.00  Bây giờ là 5 giờ 30 phút.  |  Bây giờ là 5 giờ 30 phút
+1.00  Bạn ấy đang đi ngủ.  |  Bạn ấy đang đi ngủ
+0.75  Bạn ấy đang dậy.  |  Bạn ấy đang dạy.
+0.00  đun  |  luôn
+1.00  Bạn ấy đang đánh răng.  |  Bạn ấy đang đánh răng.
+1.00  cột nhà  |  Cột nhà
+1.00  Bà rửa mặt cho bé Lân.  |  Bà rửa mặt cho bé lân
+0.86  Ở nhà, bạn dậy lúc mấy giờ?  |  Ở nhà, bạn dạy lúc mấy giờ?
+1.00  Bây giờ là 7 giờ 15 phút.  |  Bây giờ là 7 giờ 15 phút
+1.00  Tiếp đó, cả nhà ăn cơm.  |  Tiếp đó, cả nhà ăn cơm
+1.00  Mấy giờ bạn đánh răng?  |  Mấy giờ bạn đánh răng?
+1.00  Bây giờ là 9 giờ.  |  Bây giờ là 9 giờ
+0.00  nứt nẻ  |  Nụt nè
+0.00  vườn  |  vươn
+1.00  Tớ đánh răng lúc 6 giờ 10 phút.  |  Tớ đánh răng lúc 6 giờ 10 phút.
+1.00  vườn mít  |  vườn mít
+0.83  Mấy giờ bạn tập thể dục?  |  Mấy giờ bạn tập thể giúp?
+0.80  Tớ dậy lúc 6 giờ.  |  Tở dậy lúc 6 giờ.
+1.00  con chuột  |  con chuột
+0.50  nón lá  |  Nón là
