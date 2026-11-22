@@ -38,3 +38,23 @@
 0.80  Tớ dậy lúc 6 giờ.  |  Tở dậy lúc 6 giờ.
 1.00  con chuột  |  con chuột
 0.50  nón lá  |  Nón là
+1.00  Bạn ấy đang tập thể dục.  |  Bạn ấy đang tập thể dục.
+0.00  con lợn  |  Còn lượt
+1.00  vượt lên  |  Vượt lên
+0.00  mứt  |  Mụt
+1.00  Bây giờ là 6 giờ.  |  Bây giờ là 6 giờ
+1.00  Tớ rửa mặt lúc 6 giờ 15 phút.  |  Tớ rửa mặt lúc 6 giờ 15 phút.
+1.00  Nhà Yến có bà và bố mẹ.  |  Nhà Yến có bà và bố mẹ.
+0.88  6 giờ, Yến giúp mẹ sắp bát đũa.  |  Sáu giờ, Yến giúp mẹ sắp bắt đũa
+1.00  Mấy giờ bạn rửa mặt?  |  Mấy giờ bạn rửa mặt?
+1.00  Tớ ăn trưa lúc 11 giờ 30 phút.  |  Tớ ăn trưa lúc 11 giờ 30 phút.
+1.00  Tớ đi ngủ lúc 9 giờ.  |  Tớ đi ngủ lúc 9 giờ.
+1.00  Bà đưa bé Lân đi nhà trẻ.  |  bà đưa bé Lân đi nhà trẻ.
+0.67  Yến đến lớp.  |  Yến đến lúc
+1.00  Bây giờ là 11 giờ 30 phút.  |  Bây giờ là 11 giờ 30 phút.
+1.00  dòng sông  |  dòng sông.
+0.00  bông cúc  |  Bóng cục
+0.56  Thế mà sáng sớm, đường phố đã hết rác.  |  Thì mà sáng súng, đường phú đã hết sắc.
+0.50  quả trứng  |  Quả chứng
+1.00  Sáng sáng, xe rác lặng lẽ đi làm.  |  Sáng sáng, xe rác lặng lẽ đi làm.
+1.00  4. Em khuyên bạn vào nhà vệ sinh rửa tay.  |  4. Em khuyên bạn vào nhà vệ sinh rửa tay
