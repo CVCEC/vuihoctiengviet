@@ -78,3 +78,16 @@
 1.00  Cậu vào nhà vệ sinh rửa tay đi!  |  Cậu vào nhà vệ sinh rửa tay đi!
 0.59  Nhìn xe rác bon bon chở rác, xe téc hớn hở, xe điện leng keng: “Cảm ơn bạn nhé!”.  |  nhìn xe giác bonbon chửi giác, xe tét hớn hở, xe điện lenh kênh, cảm ơn bạn nhé!
 1.00  quả bóng  |  quả bóng
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+0.86  Xe điện, xe téc lo lắng nhìn.  |  xe điện xe tét lo lắng nhìn
+1.00  GƯƠNG  |  Gương
+0.00  uống thuốc  |  ủng thuộc
+1.00  5. Nhờ cô giáo dạy hát tiếng Việt.  |  5. Nhờ cô giáo dạy hát tiếng Việt
+1.00  1. Cô giáo mời học sinh vào lớp.  |  1. Cô giáo mời học sinh vào lớp
+1.00  gương  |  Gương
+0.50  gốc đa  |  Gục đa
+0.00  đuốc  |  Luốc
+1.00  Chúng ta ra sân chơi đi!  |  Chúng ta ra sân chơi đi!
+0.75  2. Gọi em dậy.  |  2. Gọi em dạy

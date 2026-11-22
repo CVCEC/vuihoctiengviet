@@ -369,6 +369,7 @@ ma	nghe	diem
 6ed558c889b9	Tớ ăn túi lúc 7 giờ kém 15 phút	0.9
 6f9a3ed9c65c	Đây là dựng của em	0.8
 6ff230f07ef5	Bạn có biết đọc không?	1.0
+7077eefe892a	xe điện xe tét lo lắng nhìn	0.86
 70d7950c1aa7	Bu...	0.0
 70fa4299039c	Bạn ấy đang sửa mặt.	0.8
 7140e32e3d0e	hay quyển vở màu gì?	0.8
@@ -394,6 +395,7 @@ ma	nghe	diem
 762207d30f4c	Có, tôi biết viết	1.0
 768cb132f57f	Anh	1.0
 76978f05e01a	Nam học ở trường Nguy Sao	0.83
+76e58a42c520	Gương	1.0
 77d1536aeff8	Đây là ai?	1.0
 78e5c5a283ac	Con sóc đang múa	1.0
 79fd54506e8f	Trong phòng bếp có một cái bếp, một cái tủ bếp và một cái tủ lạnh	1.0
@@ -401,6 +403,7 @@ ma	nghe	diem
 7a170f03bd3f	Ngày kia tớ sẽ đi.	1.0
 7a253c78d868	Bạn đã được làm bánh trung thu bao giờ chưa?	1.0
 7ac35d3c1b68	bà em rất hiền	1.0
+7ad9b8af3bc6	ủng thuộc	0.0
 7b4ec0930027	Cô mua cả mũ?	1.0
 7b68b8818d03	Bây giờ là 5 giờ 30 phút	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
@@ -428,12 +431,14 @@ ma	nghe	diem
 8218db8917ad	Anh trai em thế nào?	1.0
 8236fe92d110	Đây là chú của tớ	1.0
 823b0d6a8b2b	Bạn sẽ đi bảo tàng à!	1.0
+827f31ea47f2	5. Nhờ cô giáo dạy hát tiếng Việt	1.0
 82803cbb759e	Nam học ở đâu?	1.0
 82a83415360e	Đây là cậu của em	1.0
 82bb6f6ac70b	Tháng sau, tử sẽ nghì hè.	0.67
 8345fe4334d1	luôn	0.0
 8379b829587e	Phòng ngủ ở đâu?	1.0
 837a69558526	Nguồn	0.0
+83a962856c74	1. Cô giáo mời học sinh vào lớp	1.0
 83bf83b925b6	Quyền vở màu vàng có to không?	0.86
 84048216769f	Tớ đi tuần trước	1.0
 840c6b15b15a	có hai cái bàn	1.0
@@ -465,6 +470,7 @@ ma	nghe	diem
 8a7ba398c7b2	Cây giữa này thấp	0.75
 8ad9112a129c	NGÀ	1.0
 8ae667abdabf	Còn em gái bạn	1.0
+8b0be60e5e27	Gương	1.0
 8b2e4803d217	Còn bạn Hoa	1.0
 8b53b9dddaf7	Chú Tớ là thợ xây.	1.0
 8b53db516209	Cột nhà	1.0
@@ -473,8 +479,10 @@ ma	nghe	diem
 8bf5eb032c3c	Con vịt đang đi	1.0
 8c14182e534a	Phải, đây là cây cam	1.0
 8c2e7b765a9e	Con giặt quần áo giúp bố được không?	1.0
+8c4d9cb085b0	Gục đa	0.5
 8cb162dac2d8	Hôm nay là ngày 12 tháng 5.	1.0
 8d7d85a71461	Bao giờ bạn đi biển?	1.0
+8d888bce20c3	Luốc	0.0
 8d97869a1879	Đây là chị tôi	1.0
 8da79e3302ca	trường ngôi sao ở trên đường Thanh Niên.	1.0
 8e23111bf4cf	Phải, con thò, gõ hái đai	0.33
@@ -530,6 +538,7 @@ ma	nghe	diem
 9d4b3d7c7896	Mấy giờ bạn đánh răng?	1.0
 9d5b6aea8607	Đây là mẹ tôi	1.0
 9d7df1980a5c	Cảy khuyến này nhé!	0.25
+9d8e51a9a2d0	Chúng ta ra sân chơi đi!	1.0
 9d90c3d700d5	thuyền của tớ hay thuyền của cậu to hơn	1.0
 9d99752cb652	Đây là ba tôi	1.0
 9e098c73fe09	Hẻ phố có phờ, có cả cà phê.	0.75
@@ -546,6 +555,7 @@ a2a03e32fec0	Được ạ! Con lau bát đĩa được!	1.0
 a2cea2b67660	Bạn thích đi tất màu gì?	1.0
 a2cf0cfc51eb	Có hai quyền vợ	0.5
 a375c9785824	Con gà đang làm gì?	1.0
+a3c18f797b78	2. Gọi em dạy	0.75
 a3c261e9e6fc	Chào!	0.0
 a40c0978276a	Ươm	0.0
 a4242cb356a8	Đĩa cá có đũa	1.0
