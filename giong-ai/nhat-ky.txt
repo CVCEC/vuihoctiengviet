@@ -98,3 +98,4 @@ Lô 5 câu có đoạn cắt hỏng (IÊNG: đoạn quá ngắn) – chia đôi 
 Lô 2 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
 Lô 2 câu không cắt được, chia đôi để đọc lại
 1.00  Em ơi, em dậy đi!  |  Em ơi! Em dậy đi!
+0.00  IÊNG  |  Yêng
