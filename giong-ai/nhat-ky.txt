@@ -58,3 +58,23 @@
 0.50  quả trứng  |  Quả chứng
 1.00  Sáng sáng, xe rác lặng lẽ đi làm.  |  Sáng sáng, xe rác lặng lẽ đi làm.
 1.00  4. Em khuyên bạn vào nhà vệ sinh rửa tay.  |  4. Em khuyên bạn vào nhà vệ sinh rửa tay
+1.00  Bác ơi, bác chỉ cho cháu đường đến thư viện với ạ!  |  Bác ơi, bác chỉ cho cháu đường đến thư viện với ạ.
+0.00  ƯƠNG  |  Ừm
+1.00  chuông  |  Chuông
+1.00  ÔNG  |  Ông
+0.00  CHIÊNG  |  Tiếng!
+1.00  Chúng ta lên tầng 2 đi!  |  Chúng ta lên tầng 2 đi!
+0.00  ĂNG  |  Ơng
+1.00  Cậu cho tớ mượn bút màu nhé!  |  Cậu cho tớ mượn bút màu nhé!
+1.00  4. Mượn bút màu của bạn.  |  4. Mượn bút màu của bạn
+1.00  ANG  |  Ang
+0.88  Nó về khi tất cả đã ngon giấc.  |  Nó về khi tất cả đã ngon rất!
+1.00  Mẹ ơi, mẹ cho con đi công viên nhé!  |  Mẹ ơi, mẹ cho con đi công viên nhé!
+0.00  bóng  |  Bỏng
+1.00  Em ơi, em nín đi!  |  Em ơi, em nín đi!
+0.00  con sóc  |  Còn sao?
+1.00  lực sĩ  |  Lực sĩ
+0.00  xiếc  |  See ya!
+1.00  Cậu vào nhà vệ sinh rửa tay đi!  |  Cậu vào nhà vệ sinh rửa tay đi!
+0.59  Nhìn xe rác bon bon chở rác, xe téc hớn hở, xe điện leng keng: “Cảm ơn bạn nhé!”.  |  nhìn xe giác bonbon chửi giác, xe tét hớn hở, xe điện lenh kênh, cảm ơn bạn nhé!
+1.00  quả bóng  |  quả bóng

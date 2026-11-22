@@ -110,6 +110,7 @@ ma	nghe	diem
 1d8c973650d4	Cô ấy có phải là học sinh không?	1.0
 1e8de607f64f	Chú	1.0
 1ee09d01aa18	Hình này là hình chữ nhật.	1.0
+1f0327324399	Bác ơi, bác chỉ cho cháu đường đến thư viện với ạ.	1.0
 1f2d7e7b57a4	Đây là quả bười, phải không?	0.83
 1fdbc2acdbfa	ô tô đắt hơn xe đạp	1.0
 1fe87b03db95	Không, cô ấy không phải là học sinh	1.0
@@ -121,6 +122,7 @@ ma	nghe	diem
 21eb21d9b147	có, ngày mai trời cũng ấm, 26 độ hoặc không, ngày mai trời lạnh, 18 độ	0.97
 2227a69cb94f	Bạn biết làm gì?	1.0
 2249a4d88919	Con nấu cơm giúp bố được không?	1.0
+225610829a5f	Ừm	0.0
 225dd80cdda2	Đây là bà nội của em	1.0
 2328ec5eb34c	Bạn đã được xem mùa rối nước bao giờ chưa?	0.9
 2369b27bbb5b	Đây là cây cam phải không?	1.0
@@ -129,6 +131,7 @@ ma	nghe	diem
 25c8428a9895	Chú ấy làm việc ở đâu?	1.0
 26106a699db2	Đây là ông nội của Nam.	1.0
 26253ffa5a9b	con cơm mì	0.0
+2653c5cf446a	Chuông	1.0
 26e30a93a5c6	Công viên	1.0
 27579af1c4eb	Em Linh thế nào?	1.0
 28498cfb2a6b	Đông Đông	0.0
@@ -142,6 +145,7 @@ ma	nghe	diem
 2c70ca943f63	Không. Trong phòng bếp không có bàn ăn. Bàn ăn ở trong phòng ăn.	1.0
 2c718c645886	Em Hoàng đang viết	1.0
 2cb31e7c53a3	có 3 hình chữ nhật	1.0
+2cedfd7306d7	Ông	1.0
 2d03c3c23030	Hôm nay trời ầm	0.75
 2d88127ee4e3	Ngày mai trời có ầm không?	0.83
 2ded6a9a7c4a	Đây là anh tôi.	1.0
@@ -162,6 +166,7 @@ ma	nghe	diem
 30d9c0309eb5	Con thỏ có mấy chân?	1.0
 30ea32df679a	tớ ít khi đi du lịch tớ đi bơi, học võ, học đàn	1.0
 31040db369cf	Vũng Tàu đẹp chứ!	1.0
+31899ba7c533	Tiếng!	0.0
 319ced22edfa	Nhà của ngái nhó nhỏ	0.6
 3328111f0633	Phòng bếp ở đâu?	1.0
 3390b0303d9a	cái đèn ở trên cái bàn.	1.0
@@ -176,10 +181,12 @@ ma	nghe	diem
 37d9f979371d	Anh trai em rất vui vẻ	1.0
 381f8f657911	Hộp sữa	1.0
 382d98a1e242	Đây là con hồ	0.75
+38d7d3ce0023	Chúng ta lên tầng 2 đi!	1.0
 38f1bed0611b	Cảnh hưởng này thế nào?	0.6
 390027410758	TÀ	0.0
 39038095bf6a	con voi này tớ	0.75
 39a1dfad093f	Bạn có thích thời tiết mùa này không?	1.0
+3a54a517a542	Ơng	0.0
 3a6b1ac4821f	Súp lơ	1.0
 3acbdd11c509	Mấy giờ bạn ăn chưa?	0.8
 3ad8a055345d	Ngày mai trời có ẩm không?	0.83
@@ -194,6 +201,7 @@ ma	nghe	diem
 3e741c3897da	Chú em, rất thân thiện	1.0
 3ed5ad1f653a	Đũa	1.0
 3f0f4efa0390	Mấy giờ rồi?	1.0
+3f87c117aaec	Cậu cho tớ mượn bút màu nhé!	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
 3fe16a8a5ff6	Đàm	0.0
 3fe6c134b8d1	tở ăn sáng lúc 6 giờ 30 phút.	0.89
@@ -201,11 +209,13 @@ ma	nghe	diem
 40cd199287bc	Con gấu đang làm gì?	1.0
 410c86f4712b	Dạ, con và em quyết dọn được ạ.	0.88
 41936af84d54	Phải, đây là cây khế	1.0
+422de6dccf08	4. Mượn bút màu của bạn	1.0
 423e54d60b05	Cậu đi học bằng gì?	1.0
 424258feb195	Cô ấy có phải là giáo viên không?	1.0
 42a9e1967992	Không, trong phòng làm việc không có tủ quần áo.	1.0
 42ab0798242a	Hôm nay là chủ nhật	1.0
 431c3fda9648	Hợp đồng.	0.0
+436c1c073360	Ang	1.0
 4404a17a0f62	Tàu thủy nhanh hơn thuyền	1.0
 4485ea32625a	Phải Đây là quả cam	1.0
 44a12f07b0dc	mũ có nơ	1.0
@@ -248,8 +258,10 @@ ma	nghe	diem
 5277c0e87cbb	Tháng này là tháng 3	1.0
 52b7b8e0e864	có mấy hình chữ nhật.	1.0
 52ea94daa8c7	cây mít có mấy quà	0.8
+52f26f11ddeb	Nó về khi tất cả đã ngon rất!	0.88
 5398d217b940	Cái đèn ở đâu?	1.0
 53cf5fed3b47	Tư nào đúng với hình?	0.8
+550bee2c366a	Mẹ ơi, mẹ cho con đi công viên nhé!	1.0
 55fab1781461	Bạn Dũng đánh dấu tranh này, em nói thế nào?	1.0
 56325a5ee7c4	Con cua có 10 chân	1.0
 56444085db2d	Bây giờ là 9 giờ rưỡi	1.0
@@ -270,10 +282,12 @@ ma	nghe	diem
 5b55c216b91e	Lớp mình ai cao nhất?	1.0
 5b56104b5462	Đây là quả dứa, phải không?	1.0
 5ba492df0a7f	Quê nhạc	0.5
+5bc45b019742	Bỏng	0.0
 5bcce74827b0	Đây là bác gái của Nam	1.0
 5bff7baceccf	Đây là cậu tôi	1.0
 5c74cb098c5e	Cái gì?	0.5
 5ca02992a6a4	Bao giờ bạn lên lớp 2?	1.0
+5cbe7b9c4823	Em ơi, em nín đi!	1.0
 5cf268cda9c8	Hôm nay trời nắng.	1.0
 5d04e75f8ba7	Em ăn cơm ạ	1.0
 5d1b1b38d537	Chị Tớ là giáo viên	1.0
@@ -286,14 +300,17 @@ ma	nghe	diem
 5ebb3bf20f56	Đây là bổ của em	0.8
 5ec870c71a0a	Đây là cây táo, phải không?	1.0
 5edbe510eb75	gì có đu đủ	0.75
+5f2d0aeeddb7	Còn sao?	0.0
 5f41ae74386d	Trong phòng ngủ có một cái dương, một cái ghế và một cái tủ quần áo.	0.94
 5f66420f5fb8	Không phải, cây cam có 10 quả	1.0
+5f6d487176fa	Lực sĩ	1.0
 5fcf02fd587f	Đây là bố của Nam	1.0
 5fdaa1c271fb	tâu thủy và thuyền. Cái nào nhẹ hơn?	0.88
 5fe407242df0	lớp mình hùng cao nhất.	1.0
 606005116ccc	Chìm hợp	0.0
 60a4553ad77a	Cái bàn này cao, phải không?	1.0
 60f0ddc57a16	Con hồ khỏe lắm	0.75
+61daf426e6fd	See ya!	0.0
 620fa5cfc633	Thẳng này là thẳng 6	0.6
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
@@ -308,9 +325,11 @@ ma	nghe	diem
 63ffd20c08a4	Anh trai bạn thế nào?	1.0
 64256bb928c8	Bạn hồng hiền nhất	1.0
 64f6a0394c9b	nụ hôn	1.0
+652643f83ca6	Cậu vào nhà vệ sinh rửa tay đi!	1.0
 65708aa8d39b	Còn quét dọn giúp bố được không?	0.86
 65723cd29339	hỡi	0.0
 657e5a0612c1	Hôm nay, có gió nhẹ	1.0
+6585c061e376	nhìn xe giác bonbon chửi giác, xe tét hớn hở, xe điện lenh kênh, cảm ơn bạn nhé!	0.59
 65f80282d975	Con bạn Hùng	0.67
 6667c253403c	quả bóng ở dưới cái bàn.	1.0
 66cea064023a	Tối	0.0
@@ -338,6 +357,7 @@ ma	nghe	diem
 6c5bb7edc878	Phải, Còn Kỳ, Cỡ Hái Tái	0.17
 6cd02acab8dd	Cùng	0.0
 6ce05668193d	Bác của cậu làm nghề gì?	1.0
+6d542b1ac62b	quả bóng	1.0
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
 6dd81b57614b	bà tỡ rất hiền	0.75
