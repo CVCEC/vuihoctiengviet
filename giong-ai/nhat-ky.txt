@@ -1,29 +1,20 @@
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 20 câu không cắt được, chia đôi để đọc lại
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-Lô 10 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
-Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-Lô 5 câu có đoạn cắt hỏng (gươm: đoạn quá ngắn) – chia đôi để đọc lại
-1.00  Bạn đã được múa sạp bao giờ chưa?  |  Bạn đã được múa sạp bao giờ chưa?
-0.00  gươm  |  Ươm
-Lô 3 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-0.86  Sang năm tớ sẽ lên lớp 2.  |  Sang 5. Tử sẽ lên lớp 2.
-1.00  Rồi. Năm kia tớ đã được gói bánh chưng rồi. / Chưa. Tớ chưa bao giờ được gói bánh chưng.  |  Rồi Năm kia, tớ đã được gói bánh chưng rồi. Chưa, tớ chưa bao giờ được gói bánh chưng.
-0.89  Mẹ chỉ cho bé: Giữa hồ có Tháp Rùa.  |  Mẹ chỉ cho bé Giữa hồ có tháp dùa
-1.00  Bạn đã được gói bánh chưng bao giờ chưa?  |  Bạn đã được gói bánh chưng bao giờ chưa?
-0.75  Có. Tớ rất thích. / Không. Tớ không thích.  |  có, tựu rất thích không, tựu không thích
-0.00  chùm nho  |  Dọn nha!
-0.67  Bé đạp xe.  |  Bể đạp xe
-0.00  sấm chớp  |  sẩm chấp
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-1.00  Hôm nay trời nắng.  |  Hôm nay trời nắng
-0.00  cơm  |  Cầm
-1.00  Mẹ cho bé ra Bờ Hồ.  |  Mẹ cho bé ra bờ hồ
-1.00  Bây giờ là 2 giờ 50 phút.  |  Bây giờ là 2 giờ 50 phút.
-1.00  Bạn ấy đang làm gì?  |  Bạn ấy đang làm gì?
-0.50  quả ớt  |  Qua ớt
-0.00  hát  |  Hả?
-1.00  bút (viết)  |  Bút Viết
-1.00  Bạn ấy đang ăn sáng.  |  Bạn ấy đang ăn sáng.
-1.00  Bây giờ là 2 giờ.  |  Bây giờ là 2 giờ
+1.00  Mấy giờ bạn ăn tối?  |  Mấy giờ bạn ăn tối?
+1.00  Bạn ấy đang ăn tối.  |  Bạn ấy đang ăn tối.
+1.00  Tớ tập thể dục lúc 6 giờ 20 phút.  |  tớ tập thể dục lúc 6 giờ 20 phút
+0.80  Mấy giờ bạn ăn trưa?  |  Mấy giờ bạn ăn chưa?
+1.00  Mấy giờ rồi?  |  Mấy giờ rồi?
+0.00  đàn  |  Đàm
+0.89  Tớ ăn sáng lúc 6 giờ 30 phút.  |  tở ăn sáng lúc 6 giờ 30 phút.
+1.00  Mấy giờ bạn ăn sáng?  |  Mấy giờ bạn ăn sáng?
+1.00  Bố cho gà vịt ăn.  |  Bố cho gà vịt ăn
+1.00  Mấy giờ bạn đi ngủ?  |  Mấy giờ bạn đi ngủ?
+1.00  Bây giờ là 9 giờ rưỡi.  |  Bây giờ là 9 giờ rưỡi
+0.80  Bạn ấy đang ăn trưa.  |  Bạn ấy đang ăn chưa?
+1.00  chuồn chuồn  |  chuồn chuồn
+0.00  chim hót  |  Chìm hợp
+1.00  nụ hôn  |  nụ hôn
+1.00  À, có Yến và bé Lân nữa.  |  À, có Yến và bé Lân nữa.
+0.90  Tớ ăn tối lúc 7 giờ kém 15 phút.  |  Tớ ăn túi lúc 7 giờ kém 15 phút
+0.00  bút  |  Bu...
+0.80  Bạn ấy đang rửa mặt.  |  Bạn ấy đang sửa mặt.
+0.91  7 giờ kém 5 phút, bố mẹ dắt xe đi làm.  |  Bảy giờ kém 5 phút, bố mẹ rắt xe đi làm.

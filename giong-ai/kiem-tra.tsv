@@ -93,9 +93,11 @@ ma	nghe	diem
 1a2d7205a1f4	Con chó ở đâu?	1.0
 1a3979c3389c	trong phòng bếp có bàn ăn, phải không?	1.0
 1a4cf35afe6a	Không, ngày mai trời khô	1.0
+1a4e9f5ea180	Mấy giờ bạn ăn tối?	1.0
 1a859622ee29	Tớ thường đi du lịch cùng gia đình, con cậu.	0.9
 1b11dafa89b3	có bao nhiêu hình vuông?	1.0
 1b3398cc14b4	Phủ có nhà thờ to, có ô tô.	0.88
+1b8047f22010	Bạn ấy đang ăn tối.	1.0
 1c7decab7d4a	Làm gì đó?	1.0
 1cce1357ae18	Dạ	0.0
 1cee31c997a7	Bạn đã đi Đà Lạt chưa?	1.0
@@ -143,6 +145,7 @@ ma	nghe	diem
 2edff3853b7e	Cháu chào bà à!	0.75
 2ee4ac1aa7a8	Đây là bác của tớ	1.0
 2ef9f460ce7b	Phòng bếp ở tầng 1	1.0
+2f10639da893	tớ tập thể dục lúc 6 giờ 20 phút	1.0
 2f1c0dfd7252	Không, cái bàn nhỏ thấp	1.0
 2f727b314f7e	Bố tớ thích cắm trại, còn mẹ tớ thích tắm biển.	1.0
 2f7411243322	Metro và tàu hỏa Tàu nào mới hơn?	0.82
@@ -172,6 +175,7 @@ ma	nghe	diem
 39038095bf6a	con voi này tớ	0.75
 39a1dfad093f	Bạn có thích thời tiết mùa này không?	1.0
 3a6b1ac4821f	Súp lơ	1.0
+3acbdd11c509	Mấy giờ bạn ăn chưa?	0.8
 3ad8a055345d	Ngày mai trời có ẩm không?	0.83
 3af980eda2b9	Dũng đang quét giọn	0.75
 3b479fd31d83	Còn túi cây giúp bố được không?	0.71
@@ -183,7 +187,10 @@ ma	nghe	diem
 3e1905e73c74	Đây là em tôi	1.0
 3e741c3897da	Chú em, rất thân thiện	1.0
 3ed5ad1f653a	Đũa	1.0
+3f0f4efa0390	Mấy giờ rồi?	1.0
 3fa4d3e13fdf	Cháu chào ông ạ!	1.0
+3fe16a8a5ff6	Đàm	0.0
+3fe6c134b8d1	tở ăn sáng lúc 6 giờ 30 phút.	0.89
 40451f61bdac	Đúng, bạn ấy là học sinh	1.0
 40cd199287bc	Con gấu đang làm gì?	1.0
 410c86f4712b	Dạ, con và em quyết dọn được ạ.	0.88
@@ -205,6 +212,7 @@ ma	nghe	diem
 46c69c0c941c	Con hồ thế nào?	0.75
 47451b281b9d	Hình tròn, màu đỏ	1.0
 4896316fb9f1	Bố tử xích nghiêm	0.5
+48ba114c9682	Mấy giờ bạn ăn sáng?	1.0
 48ddf7a2d487	có sẩu hình tam giác.	0.8
 49616bae7250	Chẩu chào cô ạ!	0.75
 496802b088c6	Em gái em rất xinh	1.0
@@ -224,10 +232,12 @@ ma	nghe	diem
 4f56e84e97a3	Có mấy cái bàn	1.0
 4f6b8dc68c63	Phòng ngủ ở tầng 2	1.0
 50404ee55899	Bạn thích tấm biển chứ?	0.8
+50562c724ea1	Bố cho gà vịt ăn	1.0
 50c9a5667343	Hôm nay là thứ 3	1.0
 516b4c9c67c8	Lọ hoa ở trên cái bàn	1.0
 519f2f18afa3	Con mèo đang hát	1.0
 5222abf70ffb	Đây là con gì?	1.0
+522f89edac9a	Mấy giờ bạn đi ngủ?	1.0
 526604351a03	Không phải, con khỉ có hai tai	1.0
 5277c0e87cbb	Tháng này là tháng 3	1.0
 52b7b8e0e864	có mấy hình chữ nhật.	1.0
@@ -236,6 +246,7 @@ ma	nghe	diem
 53cf5fed3b47	Tư nào đúng với hình?	0.8
 55fab1781461	Bạn Dũng đánh dấu tranh này, em nói thế nào?	1.0
 56325a5ee7c4	Con cua có 10 chân	1.0
+56444085db2d	Bây giờ là 9 giờ rưỡi	1.0
 5672256aa956	Con vịt đang bơi	1.0
 56ecbe913d07	Tôi thích quảng khăn màu xanh	0.83
 57e75ec8d74b	BOOM!	0.0
@@ -243,6 +254,8 @@ ma	nghe	diem
 58f638a6a5f1	Ông Nội	1.0
 5916405cc010	Chủ nhật, tớ sẽ đi xem phim	1.0
 592eba913724	Dùa	0.0
+59feebbd63f1	Bạn ấy đang ăn chưa?	0.8
+5a24d3428696	chuồn chuồn	1.0
 5a802c7fff87	Tớ đi rồi	1.0
 5ab152ff3224	Quả mướp	1.0
 5aebd1d29659	Đây là ông ngoại của Nam.	1.0
@@ -272,6 +285,7 @@ ma	nghe	diem
 5fcf02fd587f	Đây là bố của Nam	1.0
 5fdaa1c271fb	tâu thủy và thuyền. Cái nào nhẹ hơn?	0.88
 5fe407242df0	lớp mình hùng cao nhất.	1.0
+606005116ccc	Chìm hợp	0.0
 60a4553ad77a	Cái bàn này cao, phải không?	1.0
 60f0ddc57a16	Con hồ khỏe lắm	0.75
 620fa5cfc633	Thẳng này là thẳng 6	0.6
@@ -287,6 +301,7 @@ ma	nghe	diem
 63c96b011015	Bạn đã được thả dìu bao giờ chưa?	0.88
 63ffd20c08a4	Anh trai bạn thế nào?	1.0
 64256bb928c8	Bạn hồng hiền nhất	1.0
+64f6a0394c9b	nụ hôn	1.0
 65708aa8d39b	Còn quét dọn giúp bố được không?	0.86
 65723cd29339	hỡi	0.0
 657e5a0612c1	Hôm nay, có gió nhẹ	1.0
@@ -312,6 +327,7 @@ ma	nghe	diem
 6b788951dc3a	Con mèo có 4 chân	1.0
 6ba2673fae03	có 3 hình tam giác.	1.0
 6c45db79bd53	Trường Nam, ở gần nhà Nam	1.0
+6c558d50dcb0	À, có Yến và bé Lân nữa.	1.0
 6c56f5d6ed1e	Còn nấu cơm giúp mẹ được không?	0.86
 6c5bb7edc878	Phải, Còn Kỳ, Cỡ Hái Tái	0.17
 6cd02acab8dd	Cùng	0.0
@@ -324,8 +340,11 @@ ma	nghe	diem
 6e6a987aef02	Đây là bà nội của Nam	1.0
 6e720c522078	4	0.0
 6e8eaeed6f3a	Em Tùng, Đáng Đọc	0.75
+6ed558c889b9	Tớ ăn túi lúc 7 giờ kém 15 phút	0.9
 6f9a3ed9c65c	Đây là dựng của em	0.8
 6ff230f07ef5	Bạn có biết đọc không?	1.0
+70d7950c1aa7	Bu...	0.0
+70fa4299039c	Bạn ấy đang sửa mặt.	0.8
 7140e32e3d0e	hay quyển vở màu gì?	0.8
 714c35a06744	Hồ nhỏ mà có cá?	0.71
 721f1d345df9	Em đi học ạ	1.0
@@ -339,6 +358,7 @@ ma	nghe	diem
 74324b3046d0	Chị Hà đang rửa rau	1.0
 746968986dae	Không, quyển vỡ màu vàng nhỏ	0.83
 75160011ce5b	Bao giờ bạn nghỉ tết?	1.0
+7559dc9e378f	Bảy giờ kém 5 phút, bố mẹ rắt xe đi làm.	0.91
 756956b4af73	cháu chào dụng ạ	0.75
 756efde0c2a1	Bạn Mai đã đi siêu thị.	1.0
 758b3104e25d	Hẹ này tớ sẽ đi biển.	0.83
