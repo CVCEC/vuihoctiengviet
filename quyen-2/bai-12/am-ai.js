@@ -22,6 +22,7 @@ const AM_AI = {"Kore|1. Cô giáo mời học sinh vào lớp.":"../../am-ai/83a
 "Kore|bóng":"../../am-ai/5bc45b019742.mp3",
 "Kore|xiếc":"../../am-ai/61daf426e6fd.mp3",
 "Kore|Em ơi, em nín đi!":"../../am-ai/5cbe7b9c4823.mp3",
+"Kore|Em ơi, em dậy đi!":"../../am-ai/a99261973471.mp3",
 "Kore|2. Gọi em dậy.":"../../am-ai/a3c18f797b78.mp3",
 "Kore|Mẹ ơi, mẹ cho con đi công viên nhé!":"../../am-ai/550bee2c366a.mp3",
 "Kore|Cậu cho tớ mượn bút màu nhé!":"../../am-ai/3f87c117aaec.mp3",
