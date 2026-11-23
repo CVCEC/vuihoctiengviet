@@ -14,3 +14,10 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.00  nắng  |  Nẵng
 0.00  lược  |  LỤC
 1.00  bông súng  |  bông súng
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 10 câu có đoạn cắt hỏng (HẠC: đoạn quá ngắn) – chia đôi để đọc lại
+1.00  sóc  |  Sóc
+0.62  Xe điện, xe téc cằn nhằn: “Bẩn quá!”.  |  xe điện, xe tét, canh nhanh Bẩn quá!
+0.00  HẠC  |  Hỡ
+1.00  SÔNG  |  sông
+1.00  1. Dỗ em.  |  1. Dỗ em
