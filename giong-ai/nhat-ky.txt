@@ -8,3 +8,6 @@ Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  3. Nói với mẹ cho đi công viên.  |  3. Nói với mẹ cho đi công viên
 0.00  NÀNG  |  nâng
 1.00  Cô ơi, cô dạy em hát tiếng Việt với ạ!  |  Cô ơi! Cô dạy em hát tiếng Việt với ạ!
+Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+0.00  TRẮNG  |  Chẳng?
+1.00  2. Giờ nghỉ, em rủ bạn ra sân chơi.  |  2. Giờ nghỉ, em rủ bạn ra sân chơi
