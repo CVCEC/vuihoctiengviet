@@ -1,101 +1,10 @@
-1.00  Mấy giờ bạn ăn tối?  |  Mấy giờ bạn ăn tối?
-1.00  Bạn ấy đang ăn tối.  |  Bạn ấy đang ăn tối.
-1.00  Tớ tập thể dục lúc 6 giờ 20 phút.  |  tớ tập thể dục lúc 6 giờ 20 phút
-0.80  Mấy giờ bạn ăn trưa?  |  Mấy giờ bạn ăn chưa?
-1.00  Mấy giờ rồi?  |  Mấy giờ rồi?
-0.00  đàn  |  Đàm
-0.89  Tớ ăn sáng lúc 6 giờ 30 phút.  |  tở ăn sáng lúc 6 giờ 30 phút.
-1.00  Mấy giờ bạn ăn sáng?  |  Mấy giờ bạn ăn sáng?
-1.00  Bố cho gà vịt ăn.  |  Bố cho gà vịt ăn
-1.00  Mấy giờ bạn đi ngủ?  |  Mấy giờ bạn đi ngủ?
-1.00  Bây giờ là 9 giờ rưỡi.  |  Bây giờ là 9 giờ rưỡi
-0.80  Bạn ấy đang ăn trưa.  |  Bạn ấy đang ăn chưa?
-1.00  chuồn chuồn  |  chuồn chuồn
-0.00  chim hót  |  Chìm hợp
-1.00  nụ hôn  |  nụ hôn
-1.00  À, có Yến và bé Lân nữa.  |  À, có Yến và bé Lân nữa.
-0.90  Tớ ăn tối lúc 7 giờ kém 15 phút.  |  Tớ ăn túi lúc 7 giờ kém 15 phút
-0.00  bút  |  Bu...
-0.80  Bạn ấy đang rửa mặt.  |  Bạn ấy đang sửa mặt.
-0.91  7 giờ kém 5 phút, bố mẹ dắt xe đi làm.  |  Bảy giờ kém 5 phút, bố mẹ rắt xe đi làm.
-1.00  Bây giờ là 5 giờ 30 phút.  |  Bây giờ là 5 giờ 30 phút
-1.00  Bạn ấy đang đi ngủ.  |  Bạn ấy đang đi ngủ
-0.75  Bạn ấy đang dậy.  |  Bạn ấy đang dạy.
-0.00  đun  |  luôn
-1.00  Bạn ấy đang đánh răng.  |  Bạn ấy đang đánh răng.
-1.00  cột nhà  |  Cột nhà
-1.00  Bà rửa mặt cho bé Lân.  |  Bà rửa mặt cho bé lân
-0.86  Ở nhà, bạn dậy lúc mấy giờ?  |  Ở nhà, bạn dạy lúc mấy giờ?
-1.00  Bây giờ là 7 giờ 15 phút.  |  Bây giờ là 7 giờ 15 phút
-1.00  Tiếp đó, cả nhà ăn cơm.  |  Tiếp đó, cả nhà ăn cơm
-1.00  Mấy giờ bạn đánh răng?  |  Mấy giờ bạn đánh răng?
-1.00  Bây giờ là 9 giờ.  |  Bây giờ là 9 giờ
-0.00  nứt nẻ  |  Nụt nè
-0.00  vườn  |  vươn
-1.00  Tớ đánh răng lúc 6 giờ 10 phút.  |  Tớ đánh răng lúc 6 giờ 10 phút.
-1.00  vườn mít  |  vườn mít
-0.83  Mấy giờ bạn tập thể dục?  |  Mấy giờ bạn tập thể giúp?
-0.80  Tớ dậy lúc 6 giờ.  |  Tở dậy lúc 6 giờ.
-1.00  con chuột  |  con chuột
-0.50  nón lá  |  Nón là
-1.00  Bạn ấy đang tập thể dục.  |  Bạn ấy đang tập thể dục.
-0.00  con lợn  |  Còn lượt
-1.00  vượt lên  |  Vượt lên
-0.00  mứt  |  Mụt
-1.00  Bây giờ là 6 giờ.  |  Bây giờ là 6 giờ
-1.00  Tớ rửa mặt lúc 6 giờ 15 phút.  |  Tớ rửa mặt lúc 6 giờ 15 phút.
-1.00  Nhà Yến có bà và bố mẹ.  |  Nhà Yến có bà và bố mẹ.
-0.88  6 giờ, Yến giúp mẹ sắp bát đũa.  |  Sáu giờ, Yến giúp mẹ sắp bắt đũa
-1.00  Mấy giờ bạn rửa mặt?  |  Mấy giờ bạn rửa mặt?
-1.00  Tớ ăn trưa lúc 11 giờ 30 phút.  |  Tớ ăn trưa lúc 11 giờ 30 phút.
-1.00  Tớ đi ngủ lúc 9 giờ.  |  Tớ đi ngủ lúc 9 giờ.
-1.00  Bà đưa bé Lân đi nhà trẻ.  |  bà đưa bé Lân đi nhà trẻ.
-0.67  Yến đến lớp.  |  Yến đến lúc
-1.00  Bây giờ là 11 giờ 30 phút.  |  Bây giờ là 11 giờ 30 phút.
-1.00  dòng sông  |  dòng sông.
-0.00  bông cúc  |  Bóng cục
-0.56  Thế mà sáng sớm, đường phố đã hết rác.  |  Thì mà sáng súng, đường phú đã hết sắc.
-0.50  quả trứng  |  Quả chứng
-1.00  Sáng sáng, xe rác lặng lẽ đi làm.  |  Sáng sáng, xe rác lặng lẽ đi làm.
-1.00  4. Em khuyên bạn vào nhà vệ sinh rửa tay.  |  4. Em khuyên bạn vào nhà vệ sinh rửa tay
-1.00  Bác ơi, bác chỉ cho cháu đường đến thư viện với ạ!  |  Bác ơi, bác chỉ cho cháu đường đến thư viện với ạ.
-0.00  ƯƠNG  |  Ừm
-1.00  chuông  |  Chuông
-1.00  ÔNG  |  Ông
-0.00  CHIÊNG  |  Tiếng!
-1.00  Chúng ta lên tầng 2 đi!  |  Chúng ta lên tầng 2 đi!
-0.00  ĂNG  |  Ơng
-1.00  Cậu cho tớ mượn bút màu nhé!  |  Cậu cho tớ mượn bút màu nhé!
-1.00  4. Mượn bút màu của bạn.  |  4. Mượn bút màu của bạn
-1.00  ANG  |  Ang
-0.88  Nó về khi tất cả đã ngon giấc.  |  Nó về khi tất cả đã ngon rất!
-1.00  Mẹ ơi, mẹ cho con đi công viên nhé!  |  Mẹ ơi, mẹ cho con đi công viên nhé!
-0.00  bóng  |  Bỏng
-1.00  Em ơi, em nín đi!  |  Em ơi, em nín đi!
-0.00  con sóc  |  Còn sao?
-1.00  lực sĩ  |  Lực sĩ
-0.00  xiếc  |  See ya!
-1.00  Cậu vào nhà vệ sinh rửa tay đi!  |  Cậu vào nhà vệ sinh rửa tay đi!
-0.59  Nhìn xe rác bon bon chở rác, xe téc hớn hở, xe điện leng keng: “Cảm ơn bạn nhé!”.  |  nhìn xe giác bonbon chửi giác, xe tét hớn hở, xe điện lenh kênh, cảm ơn bạn nhé!
-1.00  quả bóng  |  quả bóng
 Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
 Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-0.86  Xe điện, xe téc lo lắng nhìn.  |  xe điện xe tét lo lắng nhìn
-1.00  GƯƠNG  |  Gương
-0.00  uống thuốc  |  ủng thuộc
-1.00  5. Nhờ cô giáo dạy hát tiếng Việt.  |  5. Nhờ cô giáo dạy hát tiếng Việt
-1.00  1. Cô giáo mời học sinh vào lớp.  |  1. Cô giáo mời học sinh vào lớp
-1.00  gương  |  Gương
-0.50  gốc đa  |  Gục đa
-0.00  đuốc  |  Luốc
-1.00  Chúng ta ra sân chơi đi!  |  Chúng ta ra sân chơi đi!
-0.75  2. Gọi em dậy.  |  2. Gọi em dạy
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-Lô 10 câu có đoạn cắt hỏng (IÊNG: đoạn quá ngắn) – chia đôi để đọc lại
+Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 10 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
 Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-Lô 5 câu có đoạn cắt hỏng (IÊNG: đoạn quá ngắn) – chia đôi để đọc lại
-Lô 2 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 2 câu không cắt được, chia đôi để đọc lại
-1.00  Em ơi, em dậy đi!  |  Em ơi! Em dậy đi!
-0.00  IÊNG  |  Yêng
+0.89  6. Nhờ một bác chỉ đường đến thư viện.  |  6. Nhờ một bác chỉnh đường đến thư viện
+1.00  3. Giờ nghỉ, em rủ bạn lên tầng 2.  |  3. Giờ nghỉ, em rủ bạn lên tầng 2.
+1.00  3. Nói với mẹ cho đi công viên.  |  3. Nói với mẹ cho đi công viên
+0.00  NÀNG  |  nâng
+1.00  Cô ơi, cô dạy em hát tiếng Việt với ạ!  |  Cô ơi! Cô dạy em hát tiếng Việt với ạ!
