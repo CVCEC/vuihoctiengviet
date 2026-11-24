@@ -19,3 +19,24 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.00  LỆCH  |  LÊC
 0.00  ÊNH  |  Anh
 0.00  phích nước  |  FIỆC NỨC
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.50  quyển sách  |  Quyền sách
+1.00  bàn tính  |  Bàn tính
+1.00  Bọ dừa trốn mưa nhờ đám lá dừa.  |  Bọ dừa, trốn mưa, nhờ đám lá dừa.
+0.00  ACH  |  Ấy
+0.00  SÁCH  |  Sh...
+0.00  KÍNH  |  Kinh!
+0.50  bập bênh  |  Bập binh
+0.75  KHÔNG GIẪM LÊN CỎ  |  không dẫm lên cỏ
+1.00  xanh  |  xanh
+1.00  ANH  |  Anh
+0.86  Cánh cam trú mưa ở khóm lúa.  |  Cánh cam, chú mưa ở khóm lúa
+1.00  Mưa đổ xuống rất nhanh.  |  Mưa đổ xuống rất nhanh
+1.00  6. Không vứt rác ra đường.  |  6. Không vứt rác ra đường
+0.00  ÊCH  |  Ây
+1.00  Em đừng hái hoa!  |  Em đừng hái hoa!
+0.83  Chim chích nấp trên cành chanh.  |  chim chích nấp trên cành tranh.
+0.50  quả chanh  |  Qua chanh
+0.00  kênh  |  Kinh!
+0.00  CẤM BƠI  |  Cẩn bời!
+0.75  5. Không hái hoa.  |  5. Không hải hoa
