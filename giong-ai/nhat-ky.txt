@@ -52,3 +52,4 @@ Lô 20 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để 
 0.00  sách  |  Sạch
 1.00  Em đừng chạy qua đường!  |  Em đừng chạy qua đường
 1.00  Em đừng vứt rác ra đường!  |  Em, đừng, vứt, rác, ra, đường
+Lô 10 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
