@@ -9,6 +9,7 @@ const AM_AI = {"Kore|1. Cô giáo mời học sinh vào lớp.":"../../am-ai/83a
 "Kore|Sáng sáng, xe rác lặng lẽ đi làm.":"../../am-ai/1cfb5dd57cb1.mp3",
 "Kore|Nó về khi tất cả đã ngon giấc.":"../../am-ai/52f26f11ddeb.mp3",
 "Kore|Xe điện, xe téc cằn nhằn: “Bẩn quá!”.":"../../am-ai/e56560f2c869.mp3",
+"Kore|Một đêm, mưa to, đường phố ngập rác.":"../../am-ai/ff7404c4f161.mp3",
 "Kore|Xe điện, xe téc lo lắng nhìn.":"../../am-ai/7077eefe892a.mp3",
 "Kore|Thế mà sáng sớm, đường phố đã hết rác.":"../../am-ai/09f95cb5d0ae.mp3",
 "Kore|Nhìn xe rác bon bon chở rác, xe téc hớn hở, xe điện leng keng: “Cảm ơn bạn nhé!”.":"../../am-ai/6585c061e376.mp3",

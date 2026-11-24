@@ -1,23 +1,21 @@
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-0.89  6. Nhờ một bác chỉ đường đến thư viện.  |  6. Nhờ một bác chỉnh đường đến thư viện
-1.00  3. Giờ nghỉ, em rủ bạn lên tầng 2.  |  3. Giờ nghỉ, em rủ bạn lên tầng 2.
-1.00  3. Nói với mẹ cho đi công viên.  |  3. Nói với mẹ cho đi công viên
-0.00  NÀNG  |  nâng
-1.00  Cô ơi, cô dạy em hát tiếng Việt với ạ!  |  Cô ơi! Cô dạy em hát tiếng Việt với ạ!
-Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.00  TRẮNG  |  Chẳng?
-1.00  2. Giờ nghỉ, em rủ bạn ra sân chơi.  |  2. Giờ nghỉ, em rủ bạn ra sân chơi
-0.00  nắng  |  Nẵng
-0.00  lược  |  LỤC
-1.00  bông súng  |  bông súng
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-Lô 10 câu có đoạn cắt hỏng (HẠC: đoạn quá ngắn) – chia đôi để đọc lại
-1.00  sóc  |  Sóc
-0.62  Xe điện, xe téc cằn nhằn: “Bẩn quá!”.  |  xe điện, xe tét, canh nhanh Bẩn quá!
-0.00  HẠC  |  Hỡ
-1.00  SÔNG  |  sông
-1.00  1. Dỗ em.  |  1. Dỗ em
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+0.88  Một đêm, mưa to, đường phố ngập rác.  |  Một đêm, mưa to, đường phố ngập xác
+0.00  ICH  |  Ê
+0.00  tách trà  |  Tạch chào!
+0.00  TRANH  |  Chanh!
+1.00  3. Không chạy qua đường.  |  3. Không chạy qua đường
+1.00  4. Không vẽ lên tường.  |  4. Không vẽ lên tường
+0.67  KHÔNG NÓI TO  |  không nổi to.
+1.00  Các con vật tìm chỗ tránh mưa.  |  các con vật tìm chỗ tránh mưa.
+1.00  Nấm như một chiếc ô che cho nó.  |  nấm, như một chiếc ô che cho nó.
+1.00  vịnh Hạ Long  |  Vịnh Hạ Long
+1.00  Em đừng vẽ lên tường!  |  Em đừng vẽ lên tường.
+1.00  Em đừng trêu con vật!  |  Em đừng trêu con vật
+1.00  Em đừng mở cửa sổ!  |  Em đừng mở cửa sổ.
+0.50  chim chích  |  Chím chích
+1.00  khám bệnh  |  khám bệnh
+0.77  Ếch và ễnh ương không sợ mưa.  |  và ảnh ương không sợ mưa.
+1.00  1. Không mở cửa sổ.  |  1. Không mở cửa sổ
+0.00  LỆCH  |  LÊC
+0.00  ÊNH  |  Anh
+0.00  phích nước  |  FIỆC NỨC

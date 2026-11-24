@@ -20,6 +20,7 @@ ma	nghe	diem
 0542025ef7c8	Con mẹ bạn	0.67
 0580ebb42211	dòng sông.	1.0
 063595077320	tàu thủy và thuyền, cái nào nặng hơn?	1.0
+063717094bef	Ê	0.0
 0668594a6f41	Mẹ đang rửa rau, phải không?	1.0
 06a0ed4d7bfb	có chiến hình vua	0.5
 06af6b4038fc	Cam	1.0
@@ -80,6 +81,7 @@ ma	nghe	diem
 15e79d098373	gì đỡ bé?	0.67
 16b878b175e7	Tôi thích mặc quần màu đen	1.0
 16d9d369aad2	bạn sẽ đi nhà H.A.	0.67
+16f0c094aa5b	Tạch chào!	0.0
 17009479cafb	có một hình tròn.	1.0
 17a1d35ced7a	Em xem TV à!	0.44
 17c6c12ba29b	Về	0.0
@@ -108,6 +110,7 @@ ma	nghe	diem
 1cfb5dd57cb1	Sáng sáng, xe rác lặng lẽ đi làm.	1.0
 1d0e604766b8	4. Em khuyên bạn vào nhà vệ sinh rửa tay	1.0
 1d8c973650d4	Cô ấy có phải là học sinh không?	1.0
+1e3a05bf8a0d	Chanh!	0.0
 1e8de607f64f	Chú	1.0
 1ee09d01aa18	Hình này là hình chữ nhật.	1.0
 1f0327324399	Bác ơi, bác chỉ cho cháu đường đến thư viện với ạ.	1.0
@@ -132,6 +135,8 @@ ma	nghe	diem
 26106a699db2	Đây là ông nội của Nam.	1.0
 26253ffa5a9b	con cơm mì	0.0
 2653c5cf446a	Chuông	1.0
+2665b55a49f6	3. Không chạy qua đường	1.0
+2670e4acbdfc	4. Không vẽ lên tường	1.0
 26e30a93a5c6	Công viên	1.0
 27579af1c4eb	Em Linh thế nào?	1.0
 28498cfb2a6b	Đông Đông	0.0
@@ -152,6 +157,7 @@ ma	nghe	diem
 2e293e3afcc2	Không, ngày mai có bão	1.0
 2e4b6c7c2b73	Em học em thì nào?	0.6
 2e6ef5278b58	Bác tử là bác sĩ	0.8
+2eae40d83a5b	không nổi to.	0.67
 2edff3853b7e	Cháu chào bà à!	0.75
 2ee4ac1aa7a8	Đây là bác của tớ	1.0
 2ef9f460ce7b	Phòng bếp ở tầng 1	1.0
@@ -166,6 +172,7 @@ ma	nghe	diem
 30d9c0309eb5	Con thỏ có mấy chân?	1.0
 30ea32df679a	tớ ít khi đi du lịch tớ đi bơi, học võ, học đàn	1.0
 31040db369cf	Vũng Tàu đẹp chứ!	1.0
+3117c8f7a386	các con vật tìm chỗ tránh mưa.	1.0
 31899ba7c533	Tiếng!	0.0
 319ced22edfa	Nhà của ngái nhó nhỏ	0.6
 3328111f0633	Phòng bếp ở đâu?	1.0
@@ -177,7 +184,9 @@ ma	nghe	diem
 35c7e331a64d	Được ạ! Con quét dọn được!	1.0
 362ccb9685ff	Đây là quả cam, phải không?	1.0
 3677dc6e08d9	Nhà bà có gà, có càng ngẽ?	0.71
+3699ca97376d	nấm, như một chiếc ô che cho nó.	1.0
 36c53690a360	Cả đĩa	0.5
+370e34d63afc	Vịnh Hạ Long	1.0
 37d9f979371d	Anh trai em rất vui vẻ	1.0
 381f8f657911	Hộp sữa	1.0
 382d98a1e242	Đây là con hồ	0.75
@@ -224,6 +233,7 @@ ma	nghe	diem
 45c039b4dd19	hình chữ nhật màu gì?	1.0
 45cc5c879363	Phải Con gà có hai chân	1.0
 4655b45aa458	Hi! Cảy gỡ màu xanh!	0.4
+465d79e7db62	Em đừng vẽ lên tường.	1.0
 46691d4a026f	Bờ hù có nho, có na, có khỉ	0.75
 46c69c0c941c	Con hồ thế nào?	0.75
 47451b281b9d	Hình tròn, màu đỏ	1.0
@@ -236,17 +246,20 @@ ma	nghe	diem
 49c2b80f7f87	Con mèo đang làm gì?	1.0
 49deb1a1427a	Trong phòng bếp, có một cái bếp, một cái tủ bếp và một cái tủ lạnh	1.0
 4a1a1b6f0504	Vâng! Đúng rồi!	1.0
+4a8d078dbd89	Em đừng trêu con vật	1.0
 4b1a20d5d9fa	Có mấy con gà	1.0
 4b778892c8ad	ô tô và xe đạp Xe nào rẻ hơn?	1.0
 4b7ff2f0584a	Trường ngôi sao ở đâu?	1.0
 4bad8ad473a1	Bà em thế nào?	1.0
 4d6dc9a17fee	Đúng, tỡ thích leo núi Không, tỡ không thích leo núi	0.82
 4db93ff26b03	Không, bà ấy không phải là thợ may.	1.0
+4e21e31859e4	Em đừng mở cửa sổ.	1.0
 4e45e8b9a3d5	Chị ấy làm việc ở chuông	0.83
 4e886749dc2e	ô tô và xe đạp Xe nào đắt hơn?	1.0
 4f494e7a9ae1	Đây là bố tôi.	1.0
 4f56e84e97a3	Có mấy cái bàn	1.0
 4f6b8dc68c63	Phòng ngủ ở tầng 2	1.0
+4ffa7954d465	Chím chích	0.5
 50404ee55899	Bạn thích tấm biển chứ?	0.8
 50562c724ea1	Bố cho gà vịt ăn	1.0
 50c9a5667343	Hôm nay là thứ 3	1.0
@@ -277,6 +290,7 @@ ma	nghe	diem
 5a802c7fff87	Tớ đi rồi	1.0
 5ab152ff3224	Quả mướp	1.0
 5aebd1d29659	Đây là ông ngoại của Nam.	1.0
+5b19b44dde10	khám bệnh	1.0
 5b4aacad473f	Kia là con hộ	0.75
 5b4dab3c5fde	Con trả lời thế nào?	1.0
 5b55c216b91e	Lớp mình ai cao nhất?	1.0
@@ -286,6 +300,7 @@ ma	nghe	diem
 5bcce74827b0	Đây là bác gái của Nam	1.0
 5bff7baceccf	Đây là cậu tôi	1.0
 5c74cb098c5e	Cái gì?	0.5
+5c996fedb590	và ảnh ương không sợ mưa.	0.77
 5ca02992a6a4	Bao giờ bạn lên lớp 2?	1.0
 5cbe7b9c4823	Em ơi, em nín đi!	1.0
 5cf268cda9c8	Hôm nay trời nắng.	1.0
@@ -294,6 +309,7 @@ ma	nghe	diem
 5d67139d642f	Tôi thích mặc vảy màu hồng	0.83
 5d94e3851d6b	Đây là bàn ngoại của Nam.	0.83
 5daae271077d	Từ nhà cậu đến trường, đi xe đạp mất bao lâu?	1.0
+5e038e602b35	1. Không mở cửa sổ	1.0
 5e442471d6c9	Tuần sau tớ sẽ nghỉ tết.	1.0
 5e56f64b88ef	Bạn có biết viết không?	1.0
 5e9d70a97026	Đây là cây mít, phải không?	1.0
@@ -314,6 +330,7 @@ ma	nghe	diem
 620fa5cfc633	Thẳng này là thẳng 6	0.6
 6240d9a045f9	Cây cam có 8 quà, phải không?	0.86
 62645c2a3b35	Đây là cây dừa, phải không?	1.0
+62a79fb169f2	LÊC	0.0
 62bce3a338d7	O tô màu vàng đẹp hơn o tô màu đỏ, nhưng o tô màu đỏ rẻ hơn o tô màu vàng	0.81
 62eb7a3e5741	Hôm nay, thời tiết Tokyo thế nào?	1.0
 62ed782db04c	Phong khách ở đâu?	0.75
@@ -331,6 +348,8 @@ ma	nghe	diem
 657e5a0612c1	Hôm nay, có gió nhẹ	1.0
 6585c061e376	nhìn xe giác bonbon chửi giác, xe tét hớn hở, xe điện lenh kênh, cảm ơn bạn nhé!	0.59
 65f80282d975	Con bạn Hùng	0.67
+6611ca4c5876	Anh	0.0
+6641c2fc733e	FIỆC NỨC	0.0
 6667c253403c	quả bóng ở dưới cái bàn.	1.0
 66cea064023a	Tối	0.0
 670722ea91e6	Bạn thích leo núi chứ!	1.0
@@ -843,3 +862,4 @@ fdc76dd1435c	Mẹ cho bé ra bờ hồ	1.0
 fe05a23a7c3f	Nha!	0.0
 ff20a20a0c85	Mai thích mặc phẩy màu hồng hoặc màu điểm	0.67
 ff347a5ee3ef	Phải. Đây là cây mít.	1.0
+ff7404c4f161	Một đêm, mưa to, đường phố ngập xác	0.88
