@@ -40,3 +40,15 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.00  kênh  |  Kinh!
 0.00  CẤM BƠI  |  Cẩn bời!
 0.75  5. Không hái hoa.  |  5. Không hải hoa
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+1.00  chích  |  Chích
+1.00  CẤM LỬA  |  Cấm lửa
+0.67  CẤM VẬT NUÔI  |  cẩm vật nuôi
+1.00  Kiến nép bên gốc nấm.  |  kiến nép bên gốc nấm
+0.00  INH  |  Ý, nở, tính
+0.00  chênh lệch  |  chính lịch
+1.00  2. Không trêu con vật.  |  2. Không trêu con vật
+0.00  sách  |  Sạch
+1.00  Em đừng chạy qua đường!  |  Em đừng chạy qua đường
+1.00  Em đừng vứt rác ra đường!  |  Em, đừng, vứt, rác, ra, đường

@@ -696,12 +696,14 @@ c1541c460b34	Go!	0.0
 c15540325eb9	Cái bàn	1.0
 c1efb79b2caa	Ba huyền làm nghề gì?	0.8
 c2698b281707	cua đá	1.0
+c2d9469bd4b0	Chích	1.0
 c306a234152a	Bạn sống ở đâu?	1.0
 c30dabb4221e		0.0
 c312c8804887	quyền sách ở trên cái bàn.	0.83
 c36dfcde9fef	Mìa?	0.0
 c3ca31aeb319	3. Nói với mẹ cho đi công viên	1.0
 c3ef72082faf	Con khỉ có hai tay, phải không?	1.0
+c3fc3d2f0880	Cấm lửa	1.0
 c4c33c368757	Tở dậy lúc 6 giờ.	0.8
 c512b4811351	Chú tôi trẻ lắm	1.0
 c517fad6aa86	Thuyền của cậu to hơn thuyền của tớ	1.0
@@ -778,10 +780,12 @@ dbc05c21f45c	trong phòng làm việc có một cái bàn, một cái máy tính
 dc89c27b76f4	Hôm nay trời mát 22 độ	1.0
 dc945415cb52	Quyền vở màu trắng có to không?	0.86
 dce1f40d5fdf	Mũ đỏ	1.0
+dd050a2ecb7d	cẩm vật nuôi	0.67
 dd1492527875	Ai vui vẻ nhất?	1.0
 dd1aacf6d4f5	Mai thích mặc váy màu cam, đội mũ màu vàng	0.4
 dd690e9d388b	Tử đi học bằng xe đạp	0.83
 dd752297ff44	một quyển màu trắng, một quyển màu vàng.	1.0
+de0052cf65d2	kiến nép bên gốc nấm	1.0
 de449d320a61	Cái bàn nhỏ có cao không?	1.0
 de78362188e1	Anh trai tớ rất thân thiện	1.0
 e00c46cf3b0a	Lan thích mặt màu gì?	0.6
@@ -795,20 +799,26 @@ e19c566ff3dc	Bút chỉ màu xanh có dài không?	0.86
 e1a0bdce7881	Phòng khách ở tầng 1	1.0
 e1a5ae8b8374	trong phòng ăn có tủ bếp phải không?	1.0
 e2aa7d1d85eb	Đây là mẹ của Nam.	1.0
+e2f3267534ff	Ý, nở, tính	0.0
 e30347fe66cc	Sóc	1.0
+e3111c304799	chính lịch	0.0
 e3606957285c	U Gà Bé Bé	0.5
 e3ee71509855	Em nói thế nào?	1.0
 e45f5cb4ac04	Tớ rửa mặt lúc 6 giờ 15 phút.	1.0
 e56560f2c869	xe điện, xe tét, canh nhanh Bẩn quá!	0.62
+e59f9136042a	2. Không trêu con vật	1.0
 e60e4b921d42	Bạn có thích chạy không?	1.0
 e612ccdb63a8	Tôi thích mặc quần màu tím	1.0
 e64d78d8153c	Nhà Yến có bà và bố mẹ.	1.0
 e6d09eeec7ce	Mũ mù vàng hay mũ mù xanh đẹp hơn.	0.78
+e6e43364f9c9	Sạch	0.0
 e70c8010123d	Quả dứa ở đâu?	1.0
 e739627fcc94	Có mỹ quyền sách	0.5
 e782827f30b3	Ông ấy có phải là kỹ sư không?	0.88
 e79becc02849	Bạn đã đi chỗ chưa?	0.8
 e7adede1c4ed	Hỡ	0.0
+e7e842a38fc8	Em đừng chạy qua đường	1.0
+e7fb71d424fe	Em, đừng, vứt, rác, ra, đường	1.0
 e808a156639b	Còn bố mẹ bạn thích làm gì?	1.0
 e854c6c2b81c	Sáu giờ, Yến giúp mẹ sắp bắt đũa	0.88
 e8683b82b6b8	Bạn thích đi chùa chứ?	1.0
