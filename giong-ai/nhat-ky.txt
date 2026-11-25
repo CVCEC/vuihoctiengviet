@@ -10,3 +10,9 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  c) – Anh (Chị) của bạn nhảy dây giỏi không? (Em trả lời: Có)  |  Anh, chị của bạn nhảy dây giỏi không? Em trả lời, có.
 0.00  CHUỐI  |  Chú ý?
 0.00  bầy sói  |  bì xói
+Lô 10 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+0.50  con muỗi  |  Con mũi
+0.50  cái váy  |  Cái, vầy
+1.00  đồng muối  |  Đồng muối
+1.00  dòng suối  |  dòng, suối
+0.00  cây dừa  |  Cái dựa
