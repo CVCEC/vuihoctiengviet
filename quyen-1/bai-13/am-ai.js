@@ -2,7 +2,6 @@
 const AM_AI = {"Kore|Cái bàn này thế nào?":"../../am-ai/f2637556a7b5.mp3",
 "Kore|Cái bàn này thấp.":"../../am-ai/b7e07b63157f.mp3",
 "Kore|Cái bàn này cao, phải không?":"../../am-ai/60a4553ad77a.mp3",
-"Kore|Phải (Không phải). Cái bàn này cao (thấp).":"../../am-ai/ade282c7c765.mp3",
 "Kore|Cái bàn này dài.":"../../am-ai/bc68b3dfbefa.mp3",
 "Kore|Không phải. Cái bàn này ngắn.":"../../am-ai/7bf7b17c4dc9.mp3",
 "Kore|Cái bàn này dài, phải không?":"../../am-ai/356c8e4bb935.mp3",

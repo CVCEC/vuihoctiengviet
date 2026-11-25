@@ -80,8 +80,16 @@ def bai_key(b):
 
 
 def doc_cho_may(t):
-    """Chữ gửi cho máy đọc: bỏ nhãn a) b) c) đầu câu."""
-    return re.sub(r'^\s*[a-eđ]\)\s*', '', t).strip()
+    """Chữ gửi cho máy đọc (chữ hiện trên trang và mã câu giữ nguyên):
+    - bỏ nhãn đầu câu a) b) 1) 2) và gạch đầu dòng "–";
+    - bỏ lời dặn trong ngoặc như "(Em trả lời: Có)" và phương án thay thế như "Anh (Chị)", "táo (cam)":
+      máy chỉ đọc phương án chính, giống bản thu của sách;
+    - viết thường từ in hoa (vần ICH, biển báo KHÔNG NÓI TO) để máy đọc thành tiếng, không đánh vần từng chữ cái."""
+    t = re.sub(r'\s*\([^()]*\)', '', t)
+    t = re.sub(r'^\s*(?:[a-eđ]|\d+)\)\s*', '', t)
+    t = re.sub(r'^\s*[–—-]\s*', '', t)
+    t = re.sub(r'\w+', lambda m: m.group().lower() if len(m.group()) > 1 and m.group().isupper() else m.group(), t)
+    return re.sub(r'\s+', ' ', t).strip()
 
 
 def loi_nhac(cau):
@@ -416,6 +424,13 @@ def main():
                 ghi(f'Lô {len(nhom)} câu có đoạn cắt hỏng ({hong})' + (' – chia đôi để đọc lại' if len(nhom) > 1 else ''))
                 if len(nhom) > 1:
                     h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
+                continue
+            # Cắt lệch: tiếng của một câu giống câu ngay bên cạnh hơn câu của chính nó → bỏ cả lô, chia đôi để đọc lại
+            lech = [r['chu'] for i, (r, _o, nd, d) in enumerate(kq) if d < 0.5 and len(chuan(r['chu'])) >= 3 and any(
+                giong_nhau(doc_cho_may(kq[j][0]['chu']), nd) >= max(0.6, d + 0.25) for j in (i - 1, i + 1) if 0 <= j < len(kq))]
+            if lech and len(nhom) > 1:
+                ghi(f'Lô {len(nhom)} câu bị cắt lệch (ví dụ: {lech[0][:40]}) – chia đôi để đọc lại')
+                h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 continue
             kem = sum(1 for x in kq if x[3] < 0.5)
             if len(nhom) > 1 and kem > max(2, len(nhom) * 0.3):
