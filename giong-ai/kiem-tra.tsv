@@ -292,6 +292,8 @@ ma	nghe	diem
 5398d217b940	Cái đèn ở đâu?	1.0
 53cf5fed3b47	Tư nào đúng với hình?	0.8
 550bee2c366a	Mẹ ơi, mẹ cho con đi công viên nhé!	1.0
+552eb41bbb66	Tim không biết bơi	0.75
+55573933a3d2	Không! Anh chỉ tớ bơi chậm	0.83
 55fab1781461	Bạn Dũng đánh dấu tranh này, em nói thế nào?	1.0
 56325a5ee7c4	Con cua có 10 chân	1.0
 56444085db2d	Bây giờ là 9 giờ rưỡi	1.0
@@ -302,6 +304,7 @@ ma	nghe	diem
 58f638a6a5f1	Ông Nội	1.0
 5916405cc010	Chủ nhật, tớ sẽ đi xem phim	1.0
 592eba913724	Dùa	0.0
+594d7c86a6cc	Không, anh trị tớ đá cầu không giỏi	0.88
 59feebbd63f1	Bạn ấy đang ăn chưa?	0.8
 5a24d3428696	chuồn chuồn	1.0
 5a802c7fff87	Tớ đi rồi	1.0
@@ -309,6 +312,7 @@ ma	nghe	diem
 5aebd1d29659	Đây là ông ngoại của Nam.	1.0
 5b19b44dde10	khám bệnh	1.0
 5b4aacad473f	Kia là con hộ	0.75
+5b4d3b948afa	Cá bơi dưới suối	1.0
 5b4dab3c5fde	Con trả lời thế nào?	1.0
 5b55c216b91e	Lớp mình ai cao nhất?	1.0
 5b56104b5462	Đây là quả dứa, phải không?	1.0
@@ -340,6 +344,7 @@ ma	nghe	diem
 5fcf02fd587f	Đây là bố của Nam	1.0
 5fdaa1c271fb	tâu thủy và thuyền. Cái nào nhẹ hơn?	0.88
 5fe407242df0	lớp mình hùng cao nhất.	1.0
+6017d2df67ea	Chim có biết bơi?	1.0
 606005116ccc	Chìm hợp	0.0
 60a4553ad77a	Cái bàn này cao, phải không?	1.0
 60f0ddc57a16	Con hồ khỏe lắm	0.75
@@ -381,6 +386,7 @@ ma	nghe	diem
 6994e2ef746f	Bạn có biết vẽ không?	1.0
 69a35750402b	bố đang lau bát đĩa.	1.0
 69c0297038af	Em Hà rất dễ thương.	1.0
+6a68eed5f309	Cá bơi dưới suối, thấy chim hót trên cây, bèn rụ	0.91
 6aef772d4c90	tơ	0.0
 6b0f7ad8a576	Còn khi có hai tai	0.6
 6b170782a779	không phải trường ngôi sao bên cạnh bệnh viện mắt.	1.0
@@ -397,6 +403,7 @@ ma	nghe	diem
 6d542b1ac62b	quả bóng	1.0
 6d7f680d7b64	Kia là con gà	1.0
 6d9c06f4e003	Đây, kia là con gì?	1.0
+6dad9687f92c	Tchôi!	0.0
 6dd81b57614b	bà tỡ rất hiền	0.75
 6de0adb6c0a9	Hôm nay trời thế nào?	1.0
 6e4a1a6b8cf7	Mẹ nói thế nào?	1.0
@@ -414,6 +421,7 @@ ma	nghe	diem
 7140e32e3d0e	hay quyển vở màu gì?	0.8
 714c35a06744	Hồ nhỏ mà có cá?	0.71
 721f1d345df9	Em đi học ạ	1.0
+72dd5ad31230	Không, tự không hay hát	0.8
 72f53ee116cd	Dạ dạ	0.0
 7303339ad695	tàu thủy hay thuyền nhanh hơn.	1.0
 73b7d5133f26	Tuần sau, cả nhà tớ sẽ đi cắm trại.	1.0
@@ -428,6 +436,7 @@ ma	nghe	diem
 756956b4af73	cháu chào dụng ạ	0.75
 756efde0c2a1	Bạn Mai đã đi siêu thị.	1.0
 758b3104e25d	Hẹ này tớ sẽ đi biển.	0.83
+75a8845a02d6	Cậu có hay vẽ không? Em trả lời, có	1.0
 75db4a5da700	Con mèo có hai mắt	1.0
 75f26494d6b1	Có mỹ quà táo	0.5
 760cd179e0f9	Cô có đĩa cá?	1.0
@@ -435,6 +444,7 @@ ma	nghe	diem
 768cb132f57f	Anh	1.0
 76978f05e01a	Nam học ở trường Nguy Sao	0.83
 76e58a42c520	Gương	1.0
+77751de0bb21	Anh, chị của bạn hát hay không? Em trả lời, có	1.0
 77d1536aeff8	Đây là ai?	1.0
 78e5c5a283ac	Con sóc đang múa	1.0
 79fd54506e8f	Trong phòng bếp có một cái bếp, một cái tủ bếp và một cái tủ lạnh	1.0
@@ -443,6 +453,7 @@ ma	nghe	diem
 7a253c78d868	Bạn đã được làm bánh trung thu bao giờ chưa?	1.0
 7ac35d3c1b68	bà em rất hiền	1.0
 7ad9b8af3bc6	ủng thuộc	0.0
+7b12b2b19a41	VÀI!	0.0
 7b4ec0930027	Cô mua cả mũ?	1.0
 7b68b8818d03	Bây giờ là 5 giờ 30 phút	1.0
 7b6de64155b2	Chào chào bác ạ!	0.75
@@ -459,6 +470,7 @@ ma	nghe	diem
 7e792b471a14	Không, trong phòng ngủ không có TV	0.8
 7e995d81c0a0	Bạn Hà rất xinh đẹp!	1.0
 7eb07e3c3b7b	Bạn ấy đang đi ngủ	1.0
+7ef55f1c5a1f	Có, anh, chị Tố hát hay	0.83
 7f6e14cd8951	Bạn có thích hát không?	1.0
 7fcaeabd6b9d	Tôi thích mặc áo màu vàng	1.0
 7fd4d0e4f377	Gãi đủ	0.0
@@ -467,6 +479,7 @@ ma	nghe	diem
 808ebca74e84	Tôi thích mặc giày màu nâu	0.83
 80b2cb2bd178	Mẹ em thế nào?	1.0
 81826a219a43	Tỡ SỐNG Ở TOKYO	0.75
+821698efb889	Bùi!	0.0
 8218db8917ad	Anh trai em thế nào?	1.0
 8236fe92d110	Đây là chú của tớ	1.0
 823abb154c6d	Ấy	0.0
@@ -522,6 +535,8 @@ ma	nghe	diem
 8bbe1bfee051	Đây là bác trai của Nam.	1.0
 8be3db54b6a8	Thu đang giặt quần áo.	1.0
 8bf5eb032c3c	Con vịt đang đi	1.0
+8c071e8e9682	Cả nội?	0.0
+8c08f6ce87e1	Anh, chị của bạn bơi nhanh không? Em trả lời, không!	1.0
 8c14182e534a	Phải, đây là cây cam	1.0
 8c2e7b765a9e	Con giặt quần áo giúp bố được không?	1.0
 8c4d9cb085b0	Gục đa	0.5
@@ -540,6 +555,7 @@ ma	nghe	diem
 900af6357661	Ở nhà, bạn dạy lúc mấy giờ?	0.86
 909d4d34c4f6	Bây giờ là 7 giờ 15 phút	1.0
 909ef4bbf0b4	Cả nhà sẽ đi ô tô vì quê vũ ở xa	1.0
+9174b7e91ff4	Cậu có hay vẽ không? Em trả lời, không.	0.89
 91d95579461c	Chị đang rửa bát. Em lau bát giúp chị được không?	1.0
 91f072319d2b	Còn lau bát đĩa giúp mẹ được không?	0.88
 921885226e9b	Đây, kia là con mèo	1.0
@@ -549,6 +565,7 @@ ma	nghe	diem
 933d36ab16a4	Cánh cam, chú mưa ở khóm lúa	0.86
 9344da19eaee	Nhà cậu ở đâu?	1.0
 9370bd907f51	Tâm đang cho mèo ăn	1.0
+937f2806305e	Ôi, bạn cá ơi!	1.0
 93928f0626d5	Hình vuông màu tím	1.0
 93b253c0be67	Đây là con thỏ	1.0
 93b42ca6f73a	Cô ấy là cảnh sát	1.0
@@ -598,9 +615,12 @@ ma	nghe	diem
 a02edbdc6563	Bạn đã được múa sạp bao giờ chưa?	1.0
 a0a09b5a6a88	Gê	0.0
 a0fdef0ab71d	Chú ấy làm việc ở công trường.	1.0
+a15d17558333	Dạy	0.0
+a1ab80df92a5	Không lo, chim ơi!	1.0
 a1c0b5ada72f	Hôm nay là thứ tư	1.0
 a1ccce8ce4e3	có, tự thích không, tự không thích	0.71
 a23f8e623d5f	Hình vuông, màu gì?	1.0
+a2552f0713ce	Chim có đôi cánh	1.0
 a2a03e32fec0	Được ạ! Con lau bát đĩa được!	1.0
 a2cea2b67660	Bạn thích đi tất màu gì?	1.0
 a2cf0cfc51eb	Có hai quyền vợ	0.5

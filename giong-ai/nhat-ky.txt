@@ -22,3 +22,23 @@ Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.67  Thích lắm! Thích lắm!  |  Thích lắm
 0.75  Cá bơi dưới suối  |  Cả bơi dưới suối
 1.00  b) – Cậu có hay đi bơi không? (Em trả lời: Không)  |  Cậu có hay đi bơi không? Em trả lời Không
+0.75  Chim không biết bơi  |  Tim không biết bơi
+0.83  Không. Anh (Chị) tớ bơi chậm.  |  Không! Anh chỉ tớ bơi chậm
+0.88  Không. Anh (Chị) tớ đá cầu không giỏi.  |  Không, anh trị tớ đá cầu không giỏi
+1.00  Cá bơi dưới suối.  |  Cá bơi dưới suối
+1.00  Chim có biết bơi  |  Chim có biết bơi?
+0.91  Cá bơi dưới suối, thấy chim hót trên cây, bèn rủ:  |  Cá bơi dưới suối, thấy chim hót trên cây, bèn rụ
+0.00  CHƠI  |  Tchôi!
+0.80  Không. Tớ không hay hát.  |  Không, tự không hay hát
+1.00  c) – Cậu có hay vẽ không? (Em trả lời: Có)  |  Cậu có hay vẽ không? Em trả lời, có
+1.00  a) – Anh (Chị) của bạn hát hay không? (Em trả lời: Có)  |  Anh, chị của bạn hát hay không? Em trả lời, có
+0.00  VOI  |  VÀI!
+0.83  Có. Anh (Chị) tớ hát hay.  |  Có, anh, chị Tố hát hay
+0.00  BƯỞI  |  Bùi!
+0.00  Cá nói:  |  Cả nội?
+1.00  d) – Anh (Chị) của bạn bơi nhanh không? (Em trả lời: Không)  |  Anh, chị của bạn bơi nhanh không? Em trả lời, không!
+0.89  d) – Cậu có hay hát không? (Em trả lời: Không)  |  Cậu có hay vẽ không? Em trả lời, không.
+1.00  Ôi, bạn cá ơi!  |  Ôi, bạn cá ơi!
+0.00  DÂY  |  Dạy
+1.00  Không lo, chim ơi!  |  Không lo, chim ơi!
+1.00  Chim có đôi cánh  |  Chim có đôi cánh
