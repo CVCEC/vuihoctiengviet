@@ -16,3 +16,9 @@ Lô 10 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để 
 1.00  đồng muối  |  Đồng muối
 1.00  dòng suối  |  dòng, suối
 0.00  cây dừa  |  Cái dựa
+Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+0.00  phơi  |  phôi
+1.00  con nai  |  Con nai
+0.67  Thích lắm! Thích lắm!  |  Thích lắm
+0.75  Cá bơi dưới suối  |  Cả bơi dưới suối
+1.00  b) – Cậu có hay đi bơi không? (Em trả lời: Không)  |  Cậu có hay đi bơi không? Em trả lời Không
