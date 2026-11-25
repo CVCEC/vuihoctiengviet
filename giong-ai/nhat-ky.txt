@@ -42,3 +42,17 @@ Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.00  DÂY  |  Dạy
 1.00  Không lo, chim ơi!  |  Không lo, chim ơi!
 1.00  Chim có đôi cánh  |  Chim có đôi cánh
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 20 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+0.00  ƯƠI  |  Ui!
+1.00  Chim bay trên trời.  |  Chim bay trên trời
+1.00  Ta cùng đi chơi  |  Ta cùng đi chơi
+0.00  UÔI  |  Ui!
+1.00  Thế rồi hai bạn cùng đi chơi.  |  Thế rồi hai bạn cùng đi chơi.
+1.00  gửi thư  |  gửi thư
+1.00  a) – Cậu có hay đi xe không? (Em trả lời: Có)  |  Cậu có hay đi xe không? Em trả lời Có
+1.00  bơi lội  |  bơi lội
+0.00  TAI  |  Đại Của
+0.92  Có. Anh (Chị) tớ nhảy dây giỏi.  |  Anh! Chị Tớ nhảy dây giỏi

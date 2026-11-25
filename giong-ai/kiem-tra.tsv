@@ -665,6 +665,7 @@ aba2583b49de	Mẹ chỉ cho bé Giữa hồ có tháp dùa	0.89
 abcaba06f514	Trong phòng khách có một bộ sofa, một cái TV và một bức tranh	0.8
 ac5f31fd34e8	có một hình chữ nhật.	1.0
 ad56fe578c69	Con cua có mấy chân?	1.0
+ad78ae4794ee	Ui!	0.0
 ad827ab34970	Qua chanh	0.5
 ade282c7c765	phải, không phải, cái bàn này cao, thấp	1.0
 adf5a734912f	Không phải! Đây là quả dừa!	1.0
@@ -696,6 +697,7 @@ b430dca908e7	Dọn nha!	0.0
 b51ec9d10677	Được ạ, con giặt quần áo được.	1.0
 b54efaa83334	Anh ấy làm nghề gì?	1.0
 b56c04d59dc5	Đây là chị họ của Nam.	1.0
+b576a76299f3	Chim bay trên trời	1.0
 b5d728b3167e	không phải con hổ có bốn chân	1.0
 b5df0a8f06a6	Cẩn bời!	0.0
 b612110ed4de	Tôi thích đội mũ màu trắng.	1.0
@@ -710,7 +712,9 @@ b9d38f777050	phải, không phải, cây cam có 8, 10 quả	1.0
 b9ebdfc707c9	huyển xanh	0.0
 ba1781acf544	5. Không hải hoa	0.75
 ba8f32ff92d3	Bà của Nga đã già	1.0
+baa960971b55	Ta cùng đi chơi	1.0
 bae80f9e149d	Hình tròn màu gì?	1.0
+bb0303992a6c	Ui!	0.0
 bb0fce610d09	Hình chữ nhật màu gì?	1.0
 bb2628c8c627	Cô ấy có phải là cảnh sát không?	1.0
 bb59cc29096e	3. Giờ nghỉ, em rủ bạn lên tầng 2.	1.0
@@ -763,6 +767,7 @@ c9ecddc87855	Sao?	0.0
 ca0dd79f6419	ô tô con hay xe buýt to hơn	1.0
 ca1dae4b02f4	Nam thích mặt màu gì?	0.0
 cb057aeea5dc	Cô ơi! Cô dạy em hát tiếng Việt với ạ!	1.0
+cb2dd4e97bc7	Thế rồi hai bạn cùng đi chơi.	1.0
 cba8b0c76169	Nghì hê	0.0
 cbb28a11956a	Đây là tôi	1.0
 cc8190c3b1ec	Nhà cậu có mỹ phòng	0.8
@@ -771,6 +776,8 @@ cd180e352fb1	con chuột	1.0
 cdf96d9a1966	Chị ấy làm việc ở đâu?	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
 cea7462a5902	Nón là	0.5
+ced600a26cc2	gửi thư	1.0
+cef0994de107	Cậu có hay đi xe không? Em trả lời Có	1.0
 cf09f5bc5ad9	Đây là em họ của Nam.	1.0
 cfa914a080fe	Bạn đi vũng tàu vào mùa đông à?	1.0
 cfb2bb04d640	Ngã ở nhà bà	0.0
@@ -778,6 +785,7 @@ d02472bc73aa	Bạn ấy đang tập thể dục.	1.0
 d0c1e5558324	Hôm nay là ngày 5	0.8
 d0c294bae4b9	Chị Tâm thế nào?	1.0
 d112cc200722	Bạn liên thế nào?	1.0
+d13b806f7894	bơi lội	1.0
 d182ede9c86e	Nhà bà ở phố Nhà thơ	0.83
 d19eb1bf11da	Chẳng?	0.0
 d1ce1c4e322c	Không, tớ đi vũng tàu vào mùa hè, gió biển mát lắm.	1.0
@@ -790,6 +798,7 @@ d2ffb15c4ca4	Quyền	0.0
 d346de20174c	Kia là con mèo	1.0
 d36fb94e7781	Bé nô đùa	1.0
 d37e70a5e614	Vượt lên	1.0
+d3c3b3371f85	Đại Của	0.0
 d3ef61ed89a2	Cậu có thích mua không?	0.8
 d4de7cb6ec9a	Lọ hoa ở đâu?	1.0
 d52628c9e3d9	Không phải, đây là quả táo	1.0
@@ -812,6 +821,7 @@ d90262cff195	Đúng, cô ấy là cảnh sát	1.0
 d919f7a23e78	Bây giờ là 6 giờ	1.0
 d9d9fee9767a	hầu, gõ, gã, to	0.25
 da82d0d294f5	Bạn thích quảng khăn màu gì?	0.83
+da8e13f36180	Anh! Chị Tớ nhảy dây giỏi	0.92
 dac0f241439a	Các chú ấy có phải là thợ xây không?	1.0
 dbc05c21f45c	trong phòng làm việc có một cái bàn, một cái máy tính và một cái ghế.	1.0
 dc89c27b76f4	Hôm nay trời mát 22 độ	1.0
