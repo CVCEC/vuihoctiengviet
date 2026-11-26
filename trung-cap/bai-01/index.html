@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bài TC1: Tết ở nhà em – Vui học tiếng Việt Trung cấp</title>
+<meta name="description" content="Bài Trung cấp 1 (Bậc 3) do CVCEC biên soạn: nghe hội thoại, đọc hiểu, từ ngữ, kể theo trình tự, chính tả và viết đoạn văn về Tết.">
+<meta name="robots" content="noindex, noimageindex, noai, noimageai">
+<link rel="icon" href="../../assets/img/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://mau.cvcec.org/v1/cvcec-chung.css">
+<script src="https://mau.cvcec.org/v1/cvcec-chung.js" defer></script>
+<link rel="stylesheet" href="../tc.css?v=1">
+</head>
+<body data-ttv-nen="don-gian">
+<div class="tc-wrap">
+  <nav class="tc-top"><a href="../../">← Vui học tiếng Việt</a></nav>
+  <main id="app"></main>
+  <p class="tc-chan">Bài do Trường Tiếng Việt Của Em (CVCEC) biên soạn, tham chiếu Bậc 3 của Khung năng lực tiếng Việt dùng cho người nước ngoài (Thông tư 17/2015/TT-BGDĐT). Đây là bài học, không phải chứng chỉ. Giọng đọc: giọng AI của trường; câu chưa có tệp thì tạm đọc bằng giọng máy của thiết bị.</p>
+</div>
+<script>
+/* Bài mẫu TC1 – Trung cấp, Bậc 3, chủ điểm le-tet (Lễ Tết, phong tục). CVCEC tự viết 26-11-2026; chờ CVCEC duyệt.
+   Mã bài gửi lên cổng: tc-b01 (nhãn bậc thêm vào TTV_LO_TRINH khi bài được duyệt). */
+const BAI_HOC = {
+  ma: 'tc-b01', bac: 3, nhanBac: 'Trung cấp · Bậc 3 · Bài 1',
+  ten: 'Tết ở nhà em',
+  chuDe: 'Lễ Tết, phong tục',
+  mucTieu: [
+    'Nghe hiểu ý chính của một cuộc trò chuyện về Tết.',
+    'Đọc hiểu bài văn kể về một lễ hội.',
+    'Kể lại một việc theo trình tự: trước tiên, sau đó, tiếp theo, cuối cùng.',
+    'Viết đoạn văn có mở đầu, thân đoạn và kết đoạn về một ngày lễ ở nhà mình.'
+  ],
+  phan: [
+    { loai: 'hoi-thoai', tieuDe: 'Nghe hội thoại', lenh: 'Nghe Minh và Anna nói chuyện về Tết. Bấm 🔊 để nghe từng câu.',
+      nguoi: { A: 'Anna', B: 'Minh' },
+      loi: [
+        ['A', 'Minh ơi, sắp đến Tết rồi phải không? Nhà bạn chuẩn bị gì chưa?'],
+        ['B', 'Rồi. Tuần này cả nhà mình dọn dẹp nhà cửa và đi chợ sắm Tết.'],
+        ['A', 'Người Việt thường mua gì cho ngày Tết?'],
+        ['B', 'Nhà mình mua hoa đào, bánh kẹo và trái cây để bày mâm ngũ quả.'],
+        ['A', 'Còn đêm giao thừa thì nhà bạn làm gì?'],
+        ['B', 'Trước tiên, cả nhà thắp hương cúng ông bà. Sau đó, mọi người ngồi xem pháo hoa.'],
+        ['A', 'Sáng mùng Một thì sao?'],
+        ['B', 'Sáng mùng Một, mình mặc quần áo mới và chúc Tết ông bà. Ông bà mừng tuổi cho các cháu.'],
+        ['A', 'Mừng tuổi là gì vậy?'],
+        ['B', 'Là cho tiền lì xì trong phong bao đỏ, để chúc một năm mới may mắn.'],
+        ['A', 'Hay quá! Năm nay mình muốn đón Tết với gia đình bạn.'],
+        ['B', 'Tốt quá! Mùng Hai bạn đến nhà mình ăn bánh chưng nhé.']
+      ] },
+    { loai: 'chon', ma: 'nghe-hieu', tieuDe: 'Bạn nghe hiểu không?', cau: [
+      { hoi: 'Tuần này nhà Minh làm gì?', chon: ['Dọn dẹp nhà cửa và đi chợ sắm Tết.', 'Đi du lịch xa.', 'Đi học thêm.'], dung: 0 },
+      { hoi: 'Nhà Minh mua trái cây để làm gì?', chon: ['Để làm bánh chưng.', 'Để bày mâm ngũ quả.', 'Để tặng bạn bè.'], dung: 1 },
+      { hoi: 'Đêm giao thừa, việc đầu tiên nhà Minh làm là gì?', chon: ['Xem pháo hoa.', 'Ăn bánh chưng.', 'Thắp hương cúng ông bà.'], dung: 2 },
+      { hoi: '"Mừng tuổi" nghĩa là gì?', chon: ['Cho tiền lì xì để chúc năm mới may mắn.', 'Hỏi tuổi của ông bà.', 'Tổ chức sinh nhật.'], dung: 0 },
+      { hoi: 'Minh mời Anna đến nhà vào ngày nào?', chon: ['Đêm giao thừa.', 'Mùng Một.', 'Mùng Hai.'], dung: 2 }
+    ] },
+    { loai: 'tu-ngu', tieuDe: 'Từ ngữ', lenh: 'Học các từ sau. Bấm EN nếu cần gợi ý tiếng Anh.', tu: [
+      ['sắm Tết', 'mua những thứ cần cho ngày Tết', 'to shop for Tết'],
+      ['giao thừa', 'lúc chuyển từ năm cũ sang năm mới, nửa đêm cuối năm', 'New Year\'s Eve (midnight)'],
+      ['mâm ngũ quả', 'mâm năm loại trái cây bày trên bàn thờ ngày Tết', 'five-fruit tray'],
+      ['thắp hương', 'đốt hương để tưởng nhớ ông bà, tổ tiên', 'to burn incense'],
+      ['chúc Tết', 'nói lời chúc tốt đẹp vào dịp năm mới', 'to give New Year wishes'],
+      ['mừng tuổi', 'cho tiền lì xì để chúc may mắn', 'to give lucky money'],
+      ['phong bao', 'bao giấy nhỏ, thường màu đỏ, để đựng tiền lì xì', 'red envelope'],
+      ['bánh chưng', 'bánh làm từ gạo nếp, đậu xanh, thịt, gói bằng lá dong', 'square sticky rice cake']
+    ] },
+    { loai: 'doc', tieuDe: 'Đọc hiểu', lenh: 'Đọc bài văn của Lan, rồi trả lời câu hỏi ở phần sau.', doan: [
+      'Tết Nguyên Đán là dịp vui nhất trong năm của gia đình em. Năm nào cũng vậy, cả nhà em đều đón Tết rất vui vẻ và đầm ấm.',
+      'Trước Tết khoảng một tuần, bố mẹ và em cùng dọn dẹp, trang trí nhà cửa. Bố mua một cành đào thật đẹp, còn mẹ đi chợ mua bánh kẹo và trái cây. Chiều hai mươi chín Tết, cả nhà ngồi gói bánh chưng. Em được bà dạy cách xếp lá dong cho thật vuông.',
+      'Đêm giao thừa, trước tiên bố thắp hương mời ông bà, tổ tiên về ăn Tết. Sau đó, cả nhà ra ban công xem pháo hoa. Khi đồng hồ chỉ đúng mười hai giờ, mọi người chúc nhau một năm mới mạnh khoẻ, bình an.',
+      'Sáng mùng Một, em mặc áo dài mới và cùng bố mẹ về chúc Tết ông bà. Ông bà mừng tuổi cho em một phong bao đỏ. Em rất thích Tết vì đây là lúc cả gia đình được sum họp bên nhau.'
+    ] },
+    { loai: 'chon', ma: 'doc-hieu', tieuDe: 'Trả lời câu hỏi bài đọc', cau: [
+      { hoi: 'Gia đình Lan bắt đầu chuẩn bị Tết từ khi nào?', chon: ['Trước Tết khoảng một tuần.', 'Đêm giao thừa.', 'Sáng mùng Một.'], dung: 0 },
+      { hoi: 'Ai dạy Lan xếp lá dong?', chon: ['Mẹ.', 'Bà.', 'Bố.'], dung: 1 },
+      { hoi: 'Đêm giao thừa, gia đình Lan làm gì sau khi thắp hương?', chon: ['Gói bánh chưng.', 'Đi chợ hoa.', 'Xem pháo hoa.'], dung: 2 },
+      { hoi: 'Vì sao Lan rất thích Tết?', chon: ['Vì được nghỉ học.', 'Vì cả gia đình được sum họp.', 'Vì được ăn nhiều bánh kẹo.'], dung: 1, giai: 'Câu cuối bài văn nêu cảm nghĩ của Lan.' },
+      { hoi: 'Bài văn có mấy phần?', chon: ['Hai phần: Tết trước và Tết sau.', 'Ba phần: mở đầu, thân bài kể theo trình tự, kết bài nêu cảm nghĩ.', 'Một phần.'], dung: 1, giai: 'Đoạn 1 mở đầu, đoạn 2–3 và phần đầu đoạn 4 kể lại, câu cuối kết lại.' }
+    ] },
+    { loai: 'ghi-nho', tieuDe: 'Ngữ pháp: kể theo trình tự', y: [
+      'Để kể lại một việc, dùng từ chỉ thứ tự: trước tiên → sau đó → tiếp theo → cuối cùng.',
+      'Dùng "trước khi" / "sau khi" + việc làm: "Trước khi gói bánh, em rửa lá dong."',
+      'Dùng mốc thời gian: trước Tết một tuần, chiều hai mươi chín Tết, đêm giao thừa, sáng mùng Một.',
+      'Sau từ chỉ thứ tự đứng đầu câu, thường có dấu phẩy: "Sau đó, cả nhà xem pháo hoa."'
+    ], viDu: [
+      'Trước tiên, cả nhà dọn dẹp nhà cửa.',
+      'Sau khi dọn dẹp xong, mẹ đi chợ sắm Tết.',
+      'Cuối cùng, mọi người ngồi gói bánh chưng.'
+    ] },
+    { loai: 'xep', ma: 'xep-thu-tu', tieuDe: 'Xếp câu theo trình tự', lenh: 'Chạm vào các câu theo đúng thứ tự để kể lại việc gói bánh chưng.', cau: [
+      'Trước tiên, em rửa sạch lá dong và lau khô.',
+      'Sau đó, mẹ vo gạo nếp và đãi đậu xanh.',
+      'Tiếp theo, cả nhà xếp lá, cho gạo, đậu và thịt vào rồi gói thật vuông.',
+      'Sau khi gói xong, bố luộc bánh suốt mười tiếng.',
+      'Cuối cùng, cả nhà vớt bánh ra và để cho ráo nước.'
+    ] },
+    { loai: 'chon', ma: 'chinh-ta', tieuDe: 'Chính tả', lenh: 'Chọn cách viết đúng.', cau: [
+      { hoi: 'Đi chợ … Tết', chon: ['xắm', 'sắm'], dung: 1, giai: '"sắm" viết với s.' },
+      { hoi: 'Bánh …ưng', chon: ['ch', 'tr'], dung: 0, giai: '"bánh chưng" viết với ch.' },
+      { hoi: 'Đêm … thừa', chon: ['dao', 'giao'], dung: 1, giai: '"giao thừa" viết với gi.' },
+      { hoi: 'Mâm … quả', chon: ['ngũ', 'ngủ'], dung: 0, giai: '"ngũ" (năm) có dấu ngã; "ngủ" là đi ngủ.' },
+      { hoi: 'Chúc ông bà mạnh …', chon: ['khoẻ', 'khoẽ'], dung: 0, giai: '"khoẻ" có dấu hỏi.' },
+      { hoi: 'Phong bao … xì', chon: ['lì', 'nì'], dung: 0, giai: '"lì xì" viết với l.' }
+    ] },
+    { loai: 'viet', ma: 'viet-doan', tieuDe: 'Viết đoạn văn',
+      de: 'Viết một đoạn văn (6–8 câu) kể về một ngày lễ hoặc ngày Tết ở nhà bạn.',
+      goiY: [
+        'Mở đầu: đó là ngày lễ gì? Nhà bạn đón lễ ở đâu, với ai?',
+        'Thân đoạn: kể các việc theo trình tự thời gian.',
+        'Kết đoạn: bạn cảm thấy thế nào? Vì sao bạn thích ngày lễ đó?'
+      ],
+      tuNoi: ['trước tiên', 'sau đó', 'tiếp theo', 'cuối cùng', 'trước khi', 'sau khi'],
+      itNhatCau: 6, itNhatTuNoi: 2 }
+  ]
+};
+</script>
+<script src="../tc.js?v=1"></script>
+<script>
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => TC.chay(BAI_HOC)); else TC.chay(BAI_HOC);
+</script>
+</body>
+</html>
