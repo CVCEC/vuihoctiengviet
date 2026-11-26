@@ -497,3 +497,9 @@ a{color:var(--wood-d)}
 .mr-tu-kt ul{margin:4px 0 0;padding-left:20px}
 @media (max-width:520px){.mr-thoai li{grid-template-columns:1fr;gap:0}}
 .mr-xem{font-size:19px;font-weight:700;color:var(--ink)}
+/* Vui học nâng cao (26-11-2026): nút thứ ba cạnh Quyển 1, Quyển 2 */
+.books,.vh-quyen{grid-template-columns:repeat(3,minmax(0,1fr))}
+.book.nc{--c:var(--ttv-chu,#003060)}
+.vh-quyen-nut.nc{--c:var(--ttv-chu,#003060)}
+.nc-gt{margin:0 0 14px;font-size:16px;line-height:1.55}
+@media (max-width:640px){.books{grid-template-columns:1fr}.vh-quyen{grid-template-columns:1fr 1fr}.vh-quyen-nut.nc{grid-column:1 / -1}}

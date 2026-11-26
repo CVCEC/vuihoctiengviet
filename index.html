@@ -14,7 +14,7 @@
 <script src="https://mau.cvcec.org/v1/cvcec-chung.js" defer></script>
 <!-- Cảnh làng quê dùng chung với cổng vietclass.cvcec.org -->
 <script src="https://vietclass.cvcec.org/chung/canh.js" defer></script>
-<link rel="stylesheet" href="assets/css/site.css?v=3">
+<link rel="stylesheet" href="assets/css/site.css?v=4">
 </head>
 <body>
 <header class="top">
@@ -32,6 +32,7 @@
       <div class="vh-quyen" role="group" aria-label="Chọn quyển">
         <a class="vh-quyen-nut q1" href="#quyen-1" data-q="1"><b>Quyển 1</b><small>Nghe – nói, làm quen mặt chữ</small></a>
         <a class="vh-quyen-nut q2" href="#quyen-2" data-q="2"><b>Quyển 2</b><small>Luyện nói, bắt đầu đọc – viết</small></a>
+        <a class="vh-quyen-nut nc" href="#nang-cao" data-q="nc"><b>Nâng cao</b><small>Bậc 3–5: nghe, đọc hiểu, viết văn, làm vè</small></a>
       </div>
       <p class="vh-phu">Quyển 1 · Nghe – nói và làm quen mặt chữ</p>
       <dl class="vh-sach">
@@ -150,6 +151,7 @@
   <div class="books" role="group" aria-label="Chọn quyển">
     <button class="book q1" type="button" data-q="1" aria-pressed="true"><b>Quyển 1</b><small>Nghe – nói, làm quen mặt chữ · 20 bài</small></button>
     <button class="book q2" type="button" data-q="2" aria-pressed="false"><b>Quyển 2</b><small>Luyện nói, bắt đầu đọc – viết · 20 bài</small></button>
+    <button class="book nc" type="button" data-q="nc" aria-pressed="false"><b>Nâng cao</b><small>Vui học nâng cao · Bậc 3–5 · CVCEC biên soạn</small></button>
   </div>
 
   <div id="list"></div>
@@ -224,7 +226,42 @@
     d.querySelector('[data-dang-ky]').href = duongDangNhap(true);
     return d;
   }
+  /* Vui học nâng cao (Bậc 3–5) – bài do CVCEC biên soạn, ở trung-cap/bai-NN/. Sao lưu ở khoá vhtv:tc:<mã>. */
+  const NANG_CAO = [
+    { so: 1, ma: 'tc-b01', ten: 'Tết ở nhà em', bac: 3, san: true, mau: true },
+    { so: 2, ten: 'Trung thu và Rằm tháng Giêng', bac: 3 },
+    { so: 3, ten: 'Kể lại một câu chuyện', bac: 3 },
+    { so: 4, ten: 'Chuyến về quê', bac: 3 }
+  ];
+  function saoNC(ma) { try { const s = JSON.parse(localStorage.getItem('vhtv:tc:' + ma)) || {}; const t = Object.values(s).reduce((a, x) => a + x, 0); return t ? t + ' sao' : ''; } catch (e) { return ''; } }
+  function showNC() {
+    qHien = 'nc';
+    const thu = cheDo() === 'thu';
+    btns.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.q === 'nc')));
+    list.innerHTML = '';
+    const p = document.createElement('p'); p.className = 'nc-gt';
+    p.textContent = 'Vui học nâng cao dành cho người học từ 15 tuổi đã học xong Quyển 1–2: luyện nghe, đọc hiểu, ngữ pháp, viết văn và làm thơ, vè, tham chiếu Bậc 3–5 của Khung năng lực tiếng Việt. Bài do Trường Tiếng Việt Của Em biên soạn.';
+    list.append(p);
+    if (thu) list.append(daiMoi());
+    const h = document.createElement('h2'); h.className = 'chap'; h.textContent = 'Bậc 3 · Trung cấp'; list.append(h);
+    const g = document.createElement('div'); g.className = 'grid'; list.append(g);
+    NANG_CAO.forEach(b => {
+      const a = document.createElement(!b.san ? 'div' : 'a');
+      a.className = 'les' + (b.san ? '' : ' soon') + (thu && b.san ? ' lock' : '');
+      a.style.setProperty('--c', 'var(--ttv-chu, #003060)');
+      if (b.san) { if (thu) { a.href = duongDangNhap(false); a.target = '_top'; } else a.href = 'trung-cap/bai-' + String(b.so).padStart(2, '0') + '/'; }
+      a.innerHTML = '<span class="n">' + b.so + '</span><span><span class="t"></span><br><span class="s"></span></span>';
+      a.querySelector('.t').textContent = b.ten;
+      const sub = a.querySelector('.s');
+      if (!b.san) sub.textContent = 'Đang soạn';
+      else if (thu) { sub.innerHTML = ICON_KHOA; sub.append('Đăng nhập để học'); }
+      else sub.textContent = (saoNC(b.ma) || 'Bắt đầu học') + (b.mau ? ' · bài mẫu' : '');
+      g.append(a);
+    });
+    try { history.replaceState(null, '', '#nang-cao'); } catch (e) {}
+  }
   function show(q) {
+    if (q === 'nc') return showNC();
     qHien = q;
     const thu = cheDo() === 'thu';
     const book = MUC_LUC.find(x => x.quyen === q);
@@ -272,10 +309,10 @@
     if (cheDo() === 'hoc') { chinh.textContent = 'Chọn bài học'; chinh.href = '#ds-bai'; }
     else { chinh.textContent = 'Học thử Bài 1'; chinh.href = 'quyen-1/bai-01/'; }
   }
-  btns.forEach(b => b.addEventListener('click', () => show(+b.dataset.q)));
+  btns.forEach(b => b.addEventListener('click', () => show(b.dataset.q === 'nc' ? 'nc' : +b.dataset.q)));
   // Hai nút Quyển 1 / Quyển 2 trên banner: chọn quyển rồi cuộn xuống danh sách bài
   document.querySelectorAll('.vh-quyen-nut').forEach(a => a.addEventListener('click', e => {
-    e.preventDefault(); show(+a.dataset.q);
+    e.preventDefault(); show(a.dataset.q === 'nc' ? 'nc' : +a.dataset.q);
     document.getElementById('ds-bai').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }));
   document.addEventListener('ttv-che-do', () => { capNhatBanner(); show(qHien); });
@@ -295,7 +332,7 @@
   window.addEventListener('DOMContentLoaded', () => { veCanh(); capNhatBanner(); });
 
   capNhatBanner();
-  show(location.hash === '#quyen-2' ? 2 : 1);
+  show(location.hash === '#nang-cao' ? 'nc' : location.hash === '#quyen-2' ? 2 : 1);
 })();
 </script>
 </body>
