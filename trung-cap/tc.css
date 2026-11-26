@@ -46,3 +46,14 @@ body { margin: 0; background: var(--ttv-nen); color: var(--ttv-chu); font-family
 .tc-cham li.dung { color: var(--ttv-dung); font-weight: 700; } .tc-cham li.sai { color: var(--ttv-sai); font-weight: 700; }
 .tc-chan { font-size: .9rem; color: var(--ttv-chu-phu); margin-top: 20px; }
 @media (max-width: 600px) { .tc-dau, .tc-the-phan { padding: 14px; } .tc-dau h1 { font-size: 1.55rem; } .tc-luot { max-width: 100%; } }
+/* thêm 26-11-2026: khuôn "Vui học nâng cao" */
+.tc-h3 { margin: 12px 0 8px; font-size: 1.05rem; font-weight: 800; color: var(--ttv-chu-phu); }
+.tc-giac { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.tc-giac li { background: var(--ttv-nen); border-radius: 14px; padding: 8px 12px; font-weight: 700; }
+.tc-muc-hoi { display: inline-block; margin: 0 0 6px; padding: 2px 10px; border-radius: 999px; border: 2px solid var(--ttv-vien); color: var(--ttv-chu-phu); font-size: .85rem; font-weight: 800; }
+.tc-mau { margin: 0 0 12px; background: var(--ttv-nen); border-radius: 16px; padding: 10px 14px; }
+.tc-mau summary { min-height: 44px; display: flex; align-items: center; font-weight: 800; cursor: pointer; }
+.tc-o { width: 100%; box-sizing: border-box; min-height: 48px; font: inherit; font-size: 1.1rem; padding: 8px 12px; border-radius: 16px; border: 2px solid var(--ttv-vien); background: var(--ttv-the); color: var(--ttv-chu); }
+.tc-ghi-chu { font-size: .9rem; color: var(--ttv-chu-phu); }
+.tc-lien-ket { display: inline-flex; align-items: center; text-decoration: none; }
+@media (max-width: 600px) { .tc-giac { grid-template-columns: 1fr; } }

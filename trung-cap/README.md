@@ -1,12 +1,13 @@
-# Vui học tiếng Việt – Trung cấp và Cao cấp (Bậc 3–5) · CVCEC biên soạn
+# Vui học nâng cao (Bậc 3–5) · CVCEC biên soạn
 
-Phần mở rộng của Lộ trình 15+ (CVCEC đồng ý 26-11-2026). Sách "Vui học tiếng Việt" chỉ có Quyển 1–2 (Bậc 1–2), nên mọi bài ở đây **do CVCEC tự viết**, không chép sách hay trang khác. Ghi "tham chiếu" Khung năng lực tiếng Việt dùng cho người nước ngoài (TT 17/2015/TT-BGDĐT); không gọi là chứng chỉ hay "đạt chuẩn".
+Phần thứ ba của Lộ trình 15+, cạnh Vui học tiếng Việt Quyển 1–2 và Về Nhà Em (CVCEC đồng ý 26-11-2026). **Không lấy bài của các góc Làng học tập.** Bốn mạch: Nghe · Ngữ pháp trong ngữ cảnh · Viết văn · Viết thơ, vè – cùng đọc hiểu. Sách "Vui học tiếng Việt" chỉ có Quyển 1–2 (Bậc 1–2), nên mọi bài ở đây **do CVCEC tự viết**, không chép sách hay trang khác. Ghi "tham chiếu" Khung năng lực tiếng Việt dùng cho người nước ngoài (TT 17/2015/TT-BGDĐT); không gọi là chứng chỉ hay "đạt chuẩn".
 
-**Trạng thái (26-11-2026): mới có bài mẫu `bai-01` "Tết ở nhà em", chờ CVCEC duyệt** (CLAUDE.md: soạn mẫu, duyệt rồi mới làm tiếp). Bài mẫu chưa gắn vào mục lục và tab Lộ trình.
+**Trạng thái (26-11-2026): bài mẫu `bai-01` "Tết ở nhà em" đã làm lại theo khuôn được duyệt, chờ CVCEC duyệt nội dung** (CLAUDE.md: soạn mẫu, duyệt rồi mới làm tiếp). Bài mẫu chưa gắn vào mục lục và tab Lộ trình.
 
 ## Cách làm một bài
 - Trang: `trung-cap/bai-NN/index.html` khai báo `const BAI_HOC = {…}` rồi gọi `TC.chay(BAI_HOC)`. Bộ máy dùng chung: `trung-cap/tc.js`, `trung-cap/tc.css` (xem chú thích đầu `tc.js` cho các loại phần).
-- Mỗi bài: Nghe hội thoại → câu hỏi nghe hiểu ⭐ · Từ ngữ · Đọc hiểu → câu hỏi ⭐ · Ngữ pháp (ghi nhớ) → bài luyện ⭐ · Chính tả ⭐ · Viết (Trâu Con chấm trên máy) ⭐.
+- Khuôn mỗi bài (theo tài liệu tập huấn giáo viên của trường, 11-2026): Khởi động (câu hỏi gợi mở, giác quan) → Nghe (ẩn chữ, nghe trước) → Từ ngữ (từ cần hiểu / từ cần dùng được) → Đọc hiểu (câu hỏi 4 mức: Nhận biết, Giải thích, Hình thức, Vận dụng) → Ngữ pháp trong ngữ cảnh → Viết (có bài mẫu, thang 0–3 cho Nội dung, Chi tiết – trình tự, Diễn đạt) → Viết thơ, vè (máy đếm tiếng, so vần) → Kết nối đời sống (có nhiệm vụ nối với Về Nhà Em).
+- Mọi văn bản đọc, hội thoại, bài mẫu do CVCEC tự viết; không chép slide hay văn bản có tác giả trong tài liệu tập huấn.
 - Mã bài gửi lên cổng: `tc-bNN` (Bậc 3–4), `cc-bNN` (Bậc 5). Khi được duyệt, thêm nhãn vào `TTV_LO_TRINH.nhanBai.vuihoc` (mau-chung) và tên dễ đọc vào `TEN_LUAT` của `lo-trinh/index.html` (cổng).
 - Sao lưu trên máy: khoá mới `vhtv:tc:<mã bài>`. Bài viết không được lưu.
 - Âm thanh: `TTV.phat({ tep, chu })`; tệp đặt ở `bai-NN/audio/`. Khi bài được duyệt, thêm câu vào danh sách của robot giọng đọc AI (giọng Kore).
