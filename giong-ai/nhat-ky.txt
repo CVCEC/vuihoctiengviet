@@ -29,3 +29,4 @@ Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.00  TRẮNG  |  
 0.00  HẠC  |  Ha
 0.00  SÔNG  |  Xong!
+Lô 5 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
