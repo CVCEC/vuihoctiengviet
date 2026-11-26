@@ -41,4 +41,10 @@ const AM_AI = {"Kore|1. Cô giáo mời học sinh vào lớp.":"../../am-ai/83a
 "Kore|5. Nhờ cô giáo dạy hát tiếng Việt.":"../../am-ai/827f31ea47f2.mp3",
 "Kore|Bác ơi, bác chỉ cho cháu đường đến thư viện với ạ!":"../../am-ai/1f0327324399.mp3",
 "Kore|6. Nhờ một bác chỉ đường đến thư viện.":"../../am-ai/b8e78c6b576f.mp3",
+"Kore|ĂNG":"../../am-ai/3a54a517a542.mp3",
+"Kore|ANG":"../../am-ai/436c1c073360.mp3",
+"Kore|CHIÊNG":"../../am-ai/31899ba7c533.mp3",
+"Kore|ÔNG":"../../am-ai/2cedfd7306d7.mp3",
+"Kore|GƯƠNG":"../../am-ai/76e58a42c520.mp3",
+"Kore|ƯƠNG":"../../am-ai/225610829a5f.mp3",
 "Kore|uống thuốc":"../../am-ai/7ad9b8af3bc6.mp3"};

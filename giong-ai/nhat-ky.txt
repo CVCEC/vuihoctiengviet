@@ -1,58 +1,20 @@
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-1.00  dòng kênh  |  dòng kênh
-0.00  KỊCH  |  Kết
-1.00  KÊNH  |  Kênh
-0.50  buổi tối  |  Mùi tối
-1.00  b) – Anh (Chị) của bạn đá cầu giỏi không? (Em trả lời: Không)  |  Anh, chị của bạn đá cầu giỏi không? Em trả lời, không.
-1.00  Xuống đây mà chơi!  |  xuống đây mà chơi
-0.75  Có. Tớ hay vẽ.  |  Có, tử hay vẽ
-1.00  c) – Anh (Chị) của bạn nhảy dây giỏi không? (Em trả lời: Có)  |  Anh, chị của bạn nhảy dây giỏi không? Em trả lời, có.
-0.00  CHUỐI  |  Chú ý?
-0.00  bầy sói  |  bì xói
-Lô 10 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.50  con muỗi  |  Con mũi
-0.50  cái váy  |  Cái, vầy
-1.00  đồng muối  |  Đồng muối
-1.00  dòng suối  |  dòng, suối
-0.00  cây dừa  |  Cái dựa
-Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-0.00  phơi  |  phôi
-1.00  con nai  |  Con nai
-0.67  Thích lắm! Thích lắm!  |  Thích lắm
-0.75  Cá bơi dưới suối  |  Cả bơi dưới suối
-1.00  b) – Cậu có hay đi bơi không? (Em trả lời: Không)  |  Cậu có hay đi bơi không? Em trả lời Không
-0.75  Chim không biết bơi  |  Tim không biết bơi
-0.83  Không. Anh (Chị) tớ bơi chậm.  |  Không! Anh chỉ tớ bơi chậm
-0.88  Không. Anh (Chị) tớ đá cầu không giỏi.  |  Không, anh trị tớ đá cầu không giỏi
-1.00  Cá bơi dưới suối.  |  Cá bơi dưới suối
-1.00  Chim có biết bơi  |  Chim có biết bơi?
-0.91  Cá bơi dưới suối, thấy chim hót trên cây, bèn rủ:  |  Cá bơi dưới suối, thấy chim hót trên cây, bèn rụ
-0.00  CHƠI  |  Tchôi!
-0.80  Không. Tớ không hay hát.  |  Không, tự không hay hát
-1.00  c) – Cậu có hay vẽ không? (Em trả lời: Có)  |  Cậu có hay vẽ không? Em trả lời, có
-1.00  a) – Anh (Chị) của bạn hát hay không? (Em trả lời: Có)  |  Anh, chị của bạn hát hay không? Em trả lời, có
-0.00  VOI  |  VÀI!
-0.83  Có. Anh (Chị) tớ hát hay.  |  Có, anh, chị Tố hát hay
-0.00  BƯỞI  |  Bùi!
-0.00  Cá nói:  |  Cả nội?
-1.00  d) – Anh (Chị) của bạn bơi nhanh không? (Em trả lời: Không)  |  Anh, chị của bạn bơi nhanh không? Em trả lời, không!
-0.89  d) – Cậu có hay hát không? (Em trả lời: Không)  |  Cậu có hay vẽ không? Em trả lời, không.
-1.00  Ôi, bạn cá ơi!  |  Ôi, bạn cá ơi!
-0.00  DÂY  |  Dạy
-1.00  Không lo, chim ơi!  |  Không lo, chim ơi!
-1.00  Chim có đôi cánh  |  Chim có đôi cánh
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-0.00  ƯƠI  |  Ui!
-1.00  Chim bay trên trời.  |  Chim bay trên trời
-1.00  Ta cùng đi chơi  |  Ta cùng đi chơi
-0.00  UÔI  |  Ui!
-1.00  Thế rồi hai bạn cùng đi chơi.  |  Thế rồi hai bạn cùng đi chơi.
-1.00  gửi thư  |  gửi thư
-1.00  a) – Cậu có hay đi xe không? (Em trả lời: Có)  |  Cậu có hay đi xe không? Em trả lời Có
-1.00  bơi lội  |  bơi lội
-0.00  TAI  |  Đại Của
-0.92  Có. Anh (Chị) tớ nhảy dây giỏi.  |  Anh! Chị Tớ nhảy dây giỏi
+1.00  Phải (Không phải). Đây là quả táo (cam).  |  Phải, đây là quả táo
+1.00  Đây (Kia) là con gì?  |  Đây là con gì?
+1.00  Đây (Kia) là con mèo.  |  Đây là con mèo
+1.00  Phải (Không phải). Cây cam có 8 (10) quả.  |  Phải, cây cam có 8 quả
+0.75  Có (Không). Tớ biết (không biết) vẽ.  |  Có, tự biết vẽ
+0.50  Có (Không). Tớ thích (không thích) múa.  |  Có, tự thích mua
+1.00  Phải (Không phải). Cái bàn này cao (thấp).  |  Phải, cái bàn này cao
+1.00  Có (Không). Tôi biết (không biết) đọc.  |  Có, tôi biết đọc
+1.00  Có (Không). Tôi thích (không thích) chạy.  |  Có, tôi thích chạy
+1.00  Nam thích mặc màu gì?  |  Nam thích mặc màu gì?
+1.00  Mai thích mặc váy màu cam, đội mũ màu vàng.  |  Mai thích mặc váy màu cam, đội mũ màu vàng.
+1.00  Bạn Liên hơi gầy (ốm).  |  Bạn Liên hơi gầy
+0.83  Nghỉ hè, Nga ở nhà bà.  |  Nghỉ hè, Nga ở nhà ba
+0.00  bút (viết)  |  Buồn
+0.00  ƯƠNG  |  Uông
+0.00  ÔNG  |  Ơng
+1.00  CHIÊNG  |  Chiêng
+0.00  ĂNG  |  Ăn
+0.00  ANG  |  Ăn
+0.00  GƯƠNG  |  Ruông

@@ -9,6 +9,7 @@ const AM_AI = {"Kore|Bạn thích leo núi chứ?":"../../am-ai/670722ea91e6.mp3
 "Kore|Bạn thích đi chùa chứ?":"../../am-ai/e8683b82b6b8.mp3",
 "Kore|Bạn thích đi bảo tàng chứ?":"../../am-ai/638d09b8f3d6.mp3",
 "Kore|Bà của Nga đã già.":"../../am-ai/ba8f32ff92d3.mp3",
+"Kore|Nghỉ hè, Nga ở nhà bà.":"../../am-ai/cba8b0c76169.mp3",
 "Kore|Nhà bà có gà, có cả nghé.":"../../am-ai/3677dc6e08d9.mp3",
 "Kore|Ổ gà be bé.":"../../am-ai/e3606957285c.mp3",
 "Kore|Nhà của nghé nho nhỏ.":"../../am-ai/319ced22edfa.mp3",
