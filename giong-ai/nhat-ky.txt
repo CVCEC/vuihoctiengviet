@@ -1,32 +1,6 @@
-1.00  Phải (Không phải). Đây là quả táo (cam).  |  Phải, đây là quả táo
-1.00  Đây (Kia) là con gì?  |  Đây là con gì?
-1.00  Đây (Kia) là con mèo.  |  Đây là con mèo
-1.00  Phải (Không phải). Cây cam có 8 (10) quả.  |  Phải, cây cam có 8 quả
-0.75  Có (Không). Tớ biết (không biết) vẽ.  |  Có, tự biết vẽ
-0.50  Có (Không). Tớ thích (không thích) múa.  |  Có, tự thích mua
-1.00  Phải (Không phải). Cái bàn này cao (thấp).  |  Phải, cái bàn này cao
-1.00  Có (Không). Tôi biết (không biết) đọc.  |  Có, tôi biết đọc
-1.00  Có (Không). Tôi thích (không thích) chạy.  |  Có, tôi thích chạy
-1.00  Nam thích mặc màu gì?  |  Nam thích mặc màu gì?
-1.00  Mai thích mặc váy màu cam, đội mũ màu vàng.  |  Mai thích mặc váy màu cam, đội mũ màu vàng.
-1.00  Bạn Liên hơi gầy (ốm).  |  Bạn Liên hơi gầy
-0.83  Nghỉ hè, Nga ở nhà bà.  |  Nghỉ hè, Nga ở nhà ba
-0.00  bút (viết)  |  Buồn
-0.00  ƯƠNG  |  Uông
-0.00  ÔNG  |  Ơng
-1.00  CHIÊNG  |  Chiêng
-0.00  ĂNG  |  Ăn
-0.00  ANG  |  Ăn
-0.00  GƯƠNG  |  Ruông
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 5 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.00  IÊNG  |  Yêng
-0.00  NÀNG  |  năng
-Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.00  TRẮNG  |  
-0.00  HẠC  |  Ha
-0.00  SÔNG  |  Xong!
-Lô 5 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 20 câu có 11 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 10 câu có 8 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 2 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+Lô 2 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.00  ICH  |  Ê
