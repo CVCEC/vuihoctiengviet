@@ -4,3 +4,4 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 Lô 2 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
 Lô 2 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
 0.00  ICH  |  Ê
+0.00  TRANH  |  Chiên!

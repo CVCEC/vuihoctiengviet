@@ -31,6 +31,7 @@ const AM_AI = {"Kore|Em đừng mở cửa sổ!":"../../am-ai/4e21e31859e4.mp3"
 "Kore|sách":"../../am-ai/e6e43364f9c9.mp3",
 "Kore|kênh":"../../am-ai/b2ff0e55f82f.mp3",
 "Kore|chích":"../../am-ai/c2d9469bd4b0.mp3",
+"Kore|TRANH":"../../am-ai/1e3a05bf8a0d.mp3",
 "Kore|ICH":"../../am-ai/063717094bef.mp3",
 "Kore|quả chanh":"../../am-ai/ad827ab34970.mp3",
 "Kore|quyển sách":"../../am-ai/66ca2e166850.mp3",
