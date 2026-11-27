@@ -2,6 +2,6 @@
 
 - Lần chạy gần nhất: 2026-11-27 09:34 UTC
 - Mô hình: gemini-3.1-flash-tts-preview · giọng miền Bắc
-- Đã có tiếng: **909 / 1382** câu (lần này thêm 2, dùng 7 lượt gọi)
-- Câu Whisper nghe hơi khác chữ (cần nghe kỹ): 171
+- Đã có tiếng: **912 / 1382** câu (lần này thêm 5, dùng 8 lượt gọi)
+- Câu Whisper nghe hơi khác chữ (cần nghe kỹ): 174
 - Câu bỏ qua theo yêu cầu: 0 · câu lỗi: 0
