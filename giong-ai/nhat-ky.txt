@@ -11,3 +11,6 @@ Lô 2 câu – Gemini không trả tiếng: không có tiếng trả về: {"can
 Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
 0.00  ACH  |  Ây
 0.00  SÁCH  |  Chạy
+1.00  KÍNH  |  Kính
+0.75  KHÔNG GIẪM LÊN CỎ  |  không dẫm lên cỏ
+1.00  ANH  |  Anh
