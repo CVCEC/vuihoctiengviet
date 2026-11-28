@@ -4,3 +4,6 @@ Lô 10 câu có 5 câu lệch nhiều – có thể cắt sai, chia đôi để 
 Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
 0.00  ÊCH  |  Ai...
 0.50  CẤM BƠI  |  Cẩm Bơi
+0.50  CẤM LỬA  |  Cẩm lửa
+0.67  CẤM VẬT NUÔI  |  Cẩm, vật, nuôi
+0.00  INH  |  Êng
