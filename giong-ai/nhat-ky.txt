@@ -7,3 +7,8 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.50  CẤM LỬA  |  Cẩm lửa
 0.67  CẤM VẬT NUÔI  |  Cẩm, vật, nuôi
 0.00  INH  |  Êng
+0.00  KỊCH  |  Kính
+1.00  KÊNH  |  Kênh
+0.86  b) – Anh (Chị) của bạn đá cầu giỏi không? (Em trả lời: Không)  |  Anh của bạn đã cầu giỏi không?
+1.00  c) – Anh (Chị) của bạn nhảy dây giỏi không? (Em trả lời: Có)  |  Anh của bạn nhảy dây giỏi không?
+0.00  CHUỐI  |  Chú ơi!
