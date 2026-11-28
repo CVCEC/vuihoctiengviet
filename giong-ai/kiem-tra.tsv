@@ -63,6 +63,7 @@ ma	nghe	diem
 10e5ecb4f7ee	Bà ấy có phải là thợ may không?	1.0
 111453874d81	Đây là em họ của em	1.0
 111c252c0cde	Tôi thích đội mũ màu vàng.	1.0
+115559669f95	Hấp Hấp	1.0
 11805554308d	cây dừa có 6 quả.	1.0
 121451a5e433	xe đạp ở trước cửa hàng	1.0
 1241f28c8133	Em đang trồng cây, anh tưới nước giúp em được không?	1.0
@@ -106,6 +107,7 @@ ma	nghe	diem
 195fe00f9b93	Bây giờ là 2 giờ	1.0
 1a00922ca687	Anh của bạn nhảy dây giỏi không?	1.0
 1a2d7205a1f4	Con chó ở đâu?	1.0
+1a309b654cbf	5. Bạn ấy đang làm gì?	1.0
 1a3979c3389c	trong phòng bếp có bàn ăn, phải không?	1.0
 1a4cf35afe6a	Không, ngày mai trời khô	1.0
 1a4e9f5ea180	Mấy giờ bạn ăn tối?	1.0
@@ -119,6 +121,7 @@ ma	nghe	diem
 1cce1357ae18	Dạ	0.0
 1cee31c997a7	Bạn đã đi Đà Lạt chưa?	1.0
 1cfb5dd57cb1	Sáng sáng, xe rác lặng lẽ đi làm.	1.0
+1cfec49446c6	Bố mẹ ơi, bố mẹ cho con đi chơi với bạn nhé!	1.0
 1d0e604766b8	4. Em khuyên bạn vào nhà vệ sinh rửa tay	1.0
 1d8c973650d4	Cô ấy có phải là học sinh không?	1.0
 1e3a05bf8a0d	Chiên!	0.0
@@ -151,6 +154,7 @@ ma	nghe	diem
 26e30a93a5c6	Công viên	1.0
 27579af1c4eb	Em Linh thế nào?	1.0
 28498cfb2a6b	Đông Đông	0.0
+29ba1fab41bc	Bạn ấy đang học bài	1.0
 2a44ce4f9d61	Bác ấy làm việc ở đâu?	1.0
 2a46ef90e3fa	Bao giờ bạn đi xem phim?	1.0
 2a59d9c59244	Nghe	0.0
@@ -178,10 +182,13 @@ ma	nghe	diem
 2f7411243322	Metro và tàu hỏa Tàu nào mới hơn?	0.82
 2f95b582bfec	Hình này là hình tam giác.	1.0
 2f9988c92997	Không phải, đây là cây chuối	1.0
+2fcc420c7a82	Buổi tối, bố của Nam thường đọc sách, ít khi đi xem hát, không bao giờ đi bơi	1.0
 2fce15aa8840	Bạn đi công viên bao giờ?	1.0
 308eb3faf0cf	Em chào chị.	1.0
 30c148b57fff	Con mũi	0.5
+30d6804e90b4	Thỏ mẹ ngạc nhiên, sao con nhổ nhiều thế?	1.0
 30d9c0309eb5	Con thỏ có mấy chân?	1.0
+30dbdf9dd198	Bạn ấy đang vẽ	1.0
 30ea32df679a	tớ ít khi đi du lịch tớ đi bơi, học võ, học đàn	1.0
 31040db369cf	Vũng Tàu đẹp chứ!	1.0
 3117c8f7a386	các con vật tìm chỗ tránh mưa.	1.0
@@ -190,6 +197,7 @@ ma	nghe	diem
 31da18a06940	Cái, vầy	0.5
 3328111f0633	Phòng bếp ở đâu?	1.0
 335090cf7ab2	Đồng muối	1.0
+335639192b1d	Bạn hãy đi chậm hơn	1.0
 3390b0303d9a	cái đèn ở trên cái bàn.	1.0
 33a54c5a2349	Có bao nhiêu hình tam giác?	1.0
 34c2558e3251	Còn cho mèo ăn giúp mẹ được không?	0.88
@@ -213,12 +221,14 @@ ma	nghe	diem
 3a6b1ac4821f	Súp lơ	1.0
 3acbdd11c509	Mấy giờ bạn ăn chưa?	0.8
 3ad8a055345d	Ngày mai trời có ẩm không?	0.83
+3af7bcd3fab4	Bạn đừng đi chậm quá!	1.0
 3af980eda2b9	Dũng đang quét giọn	0.75
 3b479fd31d83	Còn túi cây giúp bố được không?	0.71
 3b633efd9694	Bạn Nam đánh dấu tranh này, em nói thế nào?	1.0
 3b87cf0f26d3	Trong phòng khách có một bộ bàn ghế, một cái TV và một bức tranh	0.9
 3ba6d2521bed	Hôm nay trời thế nào?	1.0
 3cb2a0c4414a	Đây là quả chuối, phải không?	1.0
+3d89c75d5dd1	súng	1.0
 3dfec22cae7e	Bà nói thế nào?	1.0
 3e0710179a16	dòng, suối	1.0
 3e1905e73c74	Đây là em tôi	1.0

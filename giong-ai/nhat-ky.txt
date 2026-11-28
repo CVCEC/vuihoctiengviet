@@ -43,3 +43,15 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  4. Bạn ấy đang làm gì?  |  4. Bạn ấy đang làm gì?
 0.86  Buổi tối, Nam thường học bài / ít khi vẽ / không bao giờ đá bóng.  |  Bủi túi Nam thường học bài Ít khi vẽ Không bao giờ đá bóng
 1.00  d) Em muốn bố mẹ cho đi chơi với bạn.  |  Em muốn bố mẹ cho đi chơi với bạn.
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 20 câu có đoạn cắt hỏng (súng: đoạn quá ngắn) – chia đôi để đọc lại
+1.00  Hấp! Hấp!  |  Hấp Hấp
+1.00  5. Bạn ấy đang làm gì?  |  5. Bạn ấy đang làm gì?
+1.00  Bố mẹ ơi, bố mẹ cho con đi chơi với bạn nhé!  |  Bố mẹ ơi, bố mẹ cho con đi chơi với bạn nhé!
+1.00  Bạn ấy đang học bài.  |  Bạn ấy đang học bài
+1.00  Buổi tối, bố của Nam thường đọc sách / ít khi đi xem hát / không bao giờ đi bơi.  |  Buổi tối, bố của Nam thường đọc sách, ít khi đi xem hát, không bao giờ đi bơi
+1.00  Thỏ mẹ ngạc nhiên: “Sao con nhổ nhiều thế?”.  |  Thỏ mẹ ngạc nhiên, sao con nhổ nhiều thế?
+1.00  Bạn ấy đang vẽ.  |  Bạn ấy đang vẽ
+1.00  Bạn hãy đi chậm hơn!  |  Bạn hãy đi chậm hơn
+1.00  Bạn đừng đi chậm quá!  |  Bạn đừng đi chậm quá!
+1.00  súng  |  súng
