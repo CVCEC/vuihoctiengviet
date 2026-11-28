@@ -12,3 +12,13 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.86  b) – Anh (Chị) của bạn đá cầu giỏi không? (Em trả lời: Không)  |  Anh của bạn đã cầu giỏi không?
 1.00  c) – Anh (Chị) của bạn nhảy dây giỏi không? (Em trả lời: Có)  |  Anh của bạn nhảy dây giỏi không?
 0.00  CHUỐI  |  Chú ơi!
+1.00  b) – Cậu có hay đi bơi không? (Em trả lời: Không)  |  Cậu có hay đi bơi không?
+0.80  Không. Anh (Chị) tớ bơi chậm.  |  Không, anh tử bơi chậm
+0.86  Không. Anh (Chị) tớ đá cầu không giỏi.  |  Không, anh tớ đã cầu không giỏi
+0.00  CHƠI  |  Joey
+1.00  c) – Cậu có hay vẽ không? (Em trả lời: Có)  |  Cậu có hay vẽ không?
+1.00  a) – Anh (Chị) của bạn hát hay không? (Em trả lời: Có)  |  Anh của bạn hát hay không?
+1.00  VOI  |  voi
+0.80  Có. Anh (Chị) tớ hát hay.  |  Có Anh tử hát hay
+0.00  BƯỞI  |  Bươi
+1.00  d) – Anh (Chị) của bạn bơi nhanh không? (Em trả lời: Không)  |  Anh của bạn bơi nhanh không?
