@@ -22,3 +22,24 @@ Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.80  Có. Anh (Chị) tớ hát hay.  |  Có Anh tử hát hay
 0.00  BƯỞI  |  Bươi
 1.00  d) – Anh (Chị) của bạn bơi nhanh không? (Em trả lời: Không)  |  Anh của bạn bơi nhanh không?
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  d) – Cậu có hay hát không? (Em trả lời: Không)  |  Cậu có hay hát không?
+0.00  DÂY  |  Zoi
+0.00  ƯƠI  |  Ui!
+0.00  UÔI  |  Ơi
+1.00  a) – Cậu có hay đi xe không? (Em trả lời: Có)  |  Cậu có hay đi xe không?
+0.00  TAI  |  Tái
+0.83  Có. Anh (Chị) tớ nhảy dây giỏi.  |  Có, anh tới nhảy dây giỏi.
+0.83  Không. Tớ ít khi đi bơi.  |  Không Tựu ít khi đi bơi
+1.00  Chim trả lời:  |  Chim trả lời.
+0.00  MÁY  |  Mày?
+0.00  chui  |  Tui
+0.50  cười tươi  |  Cười tôi!
+1.00  Này bạn chim ơi!  |  Này bạn chim ơi!
+0.80  Có. Tớ hay đi xe.  |  có, tử hay đi xe
+1.00  Hai bạn cùng đi chơi.  |  Hai bạn cùng đi chơi!
+0.75  Chim bay trên trời  |  Chính bay trên trời
+1.00  Có. Bạn ấy học giỏi.  |  Có, bạn ấy học giỏi
+1.00  4. Bạn ấy đang làm gì?  |  4. Bạn ấy đang làm gì?
+0.86  Buổi tối, Nam thường học bài / ít khi vẽ / không bao giờ đá bóng.  |  Bủi túi Nam thường học bài Ít khi vẽ Không bao giờ đá bóng
+1.00  d) Em muốn bố mẹ cho đi chơi với bạn.  |  Em muốn bố mẹ cho đi chơi với bạn.

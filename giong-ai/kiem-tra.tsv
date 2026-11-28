@@ -6,6 +6,7 @@ ma	nghe	diem
 00c335d4c04c	Tàu thủy hay thuyền nặng hơn	1.0
 00d5551bc6e4	cây na, cổ, mỷ, quả	0.6
 013423fa7f4a	Phải, cây dừa này cao	1.0
+016beaf96d5d	Có, bạn ấy học giỏi	1.0
 01eefa5cc8cb	Đây là bác tôi	1.0
 02b85836afb0	Có, quyền vở màu trắng to	0.83
 02bdf6388f53	trong phòng làm việc có tủ quần áo, phải không?	1.0
@@ -19,6 +20,7 @@ ma	nghe	diem
 046d8fbbd72b	Ai hiền nhất	1.0
 04b5a3167914	Anh của bạn đã cầu giỏi không?	0.86
 04d48c270a06	xuống đây mà chơi	1.0
+04d692fd9aaa	4. Bạn ấy đang làm gì?	1.0
 052d2ebd54d6	Đây là con mèo	1.0
 0542025ef7c8	Con mẹ bạn	0.67
 0580ebb42211	dòng sông.	1.0
@@ -37,6 +39,7 @@ ma	nghe	diem
 087759336691	Bạn thích mặc quần mù gì?	0.83
 08825b311251	Được ạ, con cho mèo ăn được	1.0
 08f53767f25d	Bạn ấy đang làm gì?	1.0
+0960a209e710	Bủi túi Nam thường học bài Ít khi vẽ Không bao giờ đá bóng	0.86
 09a980ce8e55	Qua ớt	0.5
 09f95cb5d0ae	Thì mà sáng súng, đường phú đã hết sắc.	0.56
 0a74a26df9f7	Hình vuông mưu zi	0.5
@@ -51,6 +54,7 @@ ma	nghe	diem
 0e963c388110	Đây là gì của em?	0.8
 0ea0f0e919e3	Qua	0.0
 0ed775683f90	Mẹ đưa bé qua nhà bà.	1.0
+0f3744c90e62	Em muốn bố mẹ cho đi chơi với bạn.	1.0
 0f402eb38217	Có bao nhiêu hình tròn?	1.0
 0fe4e46add9a	Chị gái em rất chăm chỉ	1.0
 0ff478a35225	Hôm nay là ngày 19.	1.0
@@ -555,6 +559,7 @@ ma	nghe	diem
 900af6357661	Ở nhà, bạn dạy lúc mấy giờ?	0.86
 909d4d34c4f6	Bây giờ là 7 giờ 15 phút	1.0
 909ef4bbf0b4	Cả nhà sẽ đi ô tô vì quê vũ ở xa	1.0
+9174b7e91ff4	Cậu có hay hát không?	1.0
 91d95579461c	Chị đang rửa bát. Em lau bát giúp chị được không?	1.0
 91f072319d2b	Còn lau bát đĩa giúp mẹ được không?	0.88
 921885226e9b	Đây là con mèo	1.0
@@ -614,6 +619,7 @@ ma	nghe	diem
 a02edbdc6563	Bạn đã được múa sạp bao giờ chưa?	1.0
 a0a09b5a6a88	Gê	0.0
 a0fdef0ab71d	Chú ấy làm việc ở công trường.	1.0
+a15d17558333	Zoi	0.0
 a1ab80df92a5	Không lo, chim ơi!	1.0
 a1c0b5ada72f	Hôm nay là thứ tư	1.0
 a1ccce8ce4e3	có, tự thích không, tự không thích	0.71
@@ -663,6 +669,7 @@ aba2583b49de	Mẹ chỉ cho bé Giữa hồ có tháp dùa	0.89
 abcaba06f514	Trong phòng khách có một bộ sofa, một cái TV và một bức tranh	0.8
 ac5f31fd34e8	có một hình chữ nhật.	1.0
 ad56fe578c69	Con cua có mấy chân?	1.0
+ad78ae4794ee	Ui!	0.0
 ad827ab34970	Qua chanh	0.5
 ade282c7c765	Phải, cái bàn này cao	1.0
 adf5a734912f	Không phải! Đây là quả dừa!	1.0
@@ -711,6 +718,7 @@ ba1781acf544	5. Không hải hoa	0.75
 ba8f32ff92d3	Bà của Nga đã già	1.0
 baa960971b55	Ta cùng đi chơi	1.0
 bae80f9e149d	Hình tròn màu gì?	1.0
+bb0303992a6c	Ơi	0.0
 bb0fce610d09	Hình chữ nhật màu gì?	1.0
 bb2628c8c627	Cô ấy có phải là cảnh sát không?	1.0
 bb59cc29096e	3. Giờ nghỉ, em rủ bạn lên tầng 2.	1.0
@@ -773,6 +781,7 @@ cdf96d9a1966	Chị ấy làm việc ở đâu?	1.0
 ce7f4814310f	Có, tôi biết vẽ	1.0
 cea7462a5902	Nón là	0.5
 ced600a26cc2	gửi thư	1.0
+cef0994de107	Cậu có hay đi xe không?	1.0
 cf09f5bc5ad9	Đây là em họ của Nam.	1.0
 cfa914a080fe	Bạn đi vũng tàu vào mùa đông à?	1.0
 cfb2bb04d640	Ngã ở nhà bà	0.0
@@ -793,6 +802,7 @@ d2ffb15c4ca4	Mai thích mặc váy màu cam, đội mũ màu vàng.	1.0
 d346de20174c	Kia là con mèo	1.0
 d36fb94e7781	Bé nô đùa	1.0
 d37e70a5e614	Vượt lên	1.0
+d3c3b3371f85	Tái	0.0
 d3ef61ed89a2	Cậu có thích mua không?	0.8
 d4de7cb6ec9a	Lọ hoa ở đâu?	1.0
 d52628c9e3d9	Không phải, đây là quả táo	1.0
@@ -815,6 +825,7 @@ d90262cff195	Đúng, cô ấy là cảnh sát	1.0
 d919f7a23e78	Bây giờ là 6 giờ	1.0
 d9d9fee9767a	hầu, gõ, gã, to	0.25
 da82d0d294f5	Bạn thích quảng khăn màu gì?	0.83
+da8e13f36180	Có, anh tới nhảy dây giỏi.	0.83
 dac0f241439a	Các chú ấy có phải là thợ xây không?	1.0
 dbc05c21f45c	trong phòng làm việc có một cái bàn, một cái máy tính và một cái ghế.	1.0
 dc89c27b76f4	Hôm nay trời mát 22 độ	1.0
@@ -846,6 +857,7 @@ e3606957285c	U Gà Bé Bé	0.5
 e3ee71509855	Em nói thế nào?	1.0
 e45f5cb4ac04	Tớ rửa mặt lúc 6 giờ 15 phút.	1.0
 e56560f2c869	xe điện, xe tét, canh nhanh Bẩn quá!	0.62
+e56a6a19824b	Không Tựu ít khi đi bơi	0.83
 e59f9136042a	2. Không trêu con vật	1.0
 e60e4b921d42	Bạn có thích chạy không?	1.0
 e612ccdb63a8	Tôi thích mặc quần màu tím	1.0
@@ -863,6 +875,7 @@ e808a156639b	Còn bố mẹ bạn thích làm gì?	1.0
 e854c6c2b81c	Sáu giờ, Yến giúp mẹ sắp bắt đũa	0.88
 e8683b82b6b8	Bạn thích đi chùa chứ?	1.0
 e88060b61be2	Có hai hình tam giác	1.0
+e92c1a734ce9	Chim trả lời.	1.0
 e93f2841ded0	Xong!	0.0
 e94decee94cf	sẩm chấp	0.0
 e9abe025a7f4	Bạn hùng thế nào?	1.0
@@ -880,8 +893,10 @@ ed9375b56b6f	Tớ ăn trưa lúc 11 giờ 30 phút.	1.0
 edaa2f4d1232	dòng kênh	1.0
 edb9b6b0d8a0	Cô My, rất hiền	1.0
 edecd070ebf1	Của sầu bông hoa	0.5
+eebcb907da76	Mày?	0.0
 eeedae5985a4	Có, tôi thích chạy	1.0
 eef4909b7291	Tớ đi ngủ lúc 9 giờ.	1.0
+eefd3c146a66	Tui	0.0
 ef25eeb0c377	Bũ nổi thế nào?	0.5
 ef3a860e1ba0	Bạn Mai đánh dấu tranh này, em nói thế nào?	1.0
 ef72781f7644	Cô ấy là thợ may.	1.0
@@ -889,6 +904,7 @@ ef8df959a24c	Tôi biết đọc	1.0
 f02c1395dc7c	Phải, mẹ đang rửa rau Không phải, mẹ đang nấu cơm	1.0
 f0429362a5d3	Con gấu đang đọc sách	1.0
 f083de3e185c	Không, trong phòng khách không có tủ lạnh	1.0
+f0e5beebf35c	Cười tôi!	0.5
 f12c0eec3df7	Bút chỉ màu vàng có dai không?	0.71
 f12e3ae644eb	bà đưa bé Lân đi nhà trẻ.	1.0
 f17842b7815c	Hôm nay trời nắng	1.0
@@ -914,6 +930,7 @@ f7b76665d39f	Chú hê	0.5
 f7d9e6073052	Bây giờ ở Tokyo bao nhiêu độ?	1.0
 f86ee2b517b5	Con chó ở dưới bàn	1.0
 f904960fd34a	Mẹ tử rất hiền	0.75
+f950af692288	Này bạn chim ơi!	1.0
 f981aea15dfe	Ân ngoại	0.5
 fa1711320325	Cầm	0.0
 fa19e9e9f7d1	Còn mấy hình tam giác	0.8
@@ -928,10 +945,13 @@ fcaa14e2034f	Có mấy hình tròn	1.0
 fcc6a1eeef11	Ngày mai có gió nhẹ không?	1.0
 fccac4f843d0	Không! Các chú ấy không phải là thợ xây.	1.0
 fd2627992d0e	trong phòng khách có TV phải không?	0.67
+fd263d9ad629	có, tử hay đi xe	0.8
 fd455edd04e6	Các chú ấy làm nghề gì?	1.0
+fd6dc0b67556	Hai bạn cùng đi chơi!	1.0
 fdab71ce808a	Nó đùa.	0.5
 fdc76dd1435c	Mẹ cho bé ra bờ hồ	1.0
 fe05a23a7c3f	Nha!	0.0
+fe3a7a6ee9b2	Chính bay trên trời	0.75
 ff20a20a0c85	Mai thích mặc phẩy màu hồng hoặc màu điểm	0.67
 ff347a5ee3ef	Phải. Đây là cây mít.	1.0
 ff7404c4f161	Một đêm, mưa to, đường phố ngập xác	0.88
