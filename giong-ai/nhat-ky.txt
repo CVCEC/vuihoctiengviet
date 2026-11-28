@@ -65,3 +65,5 @@ Lô 20 câu có đoạn cắt hỏng (súng: đoạn quá ngắn) – chia đôi
 1.00  a) Bạn đọc quá nhỏ.  |  Bạn đọc quá nhỏ
 1.00  Bạn ấy vẽ có đẹp không? (Em trả lời: Có)  |  Bạn ấy vẽ có đẹp không?
 1.00  Bạn ấy đang đá bóng.  |  Bạn ấy đang đá bóng
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 20 câu có đoạn cắt hỏng (bác: đoạn quá ngắn) – chia đôi để đọc lại
