@@ -55,3 +55,13 @@ Lô 20 câu có đoạn cắt hỏng (súng: đoạn quá ngắn) – chia đôi
 1.00  Bạn hãy đi chậm hơn!  |  Bạn hãy đi chậm hơn
 1.00  Bạn đừng đi chậm quá!  |  Bạn đừng đi chậm quá!
 1.00  súng  |  súng
+1.00  Bạn ấy hát có hay không? (Em trả lời: Có)  |  Bạn ấy hát có hay không?
+0.00  sao  |  Chào!
+1.00  Bạn ấy đang bơi.  |  Bạn ấy đang bơi
+1.00  Mẹ sai thỏ nâu ra vườn rau nhổ cà rốt.  |  Mẹ sai thỏ nâu ra vườn rau nhổ cà rốt.
+0.00  kính  |  Kỳng!
+1.00  Buổi tối, Liên làm gì?  |  Buổi tối, Liên làm gì?
+1.00  c) Em muốn cô giáo nhắc lại một từ.  |  Em muốn cô giáo nhắc lại một từ
+1.00  a) Bạn đọc quá nhỏ.  |  Bạn đọc quá nhỏ
+1.00  Bạn ấy vẽ có đẹp không? (Em trả lời: Có)  |  Bạn ấy vẽ có đẹp không?
+1.00  Bạn ấy đang đá bóng.  |  Bạn ấy đang đá bóng
